@@ -86,7 +86,7 @@ font-family: "Lucida Grande";
   z-index:2;
   font-family: MyCustomFont, "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
  font-size: medium;
- text-align: center;
+ 
  
 }
 
@@ -608,12 +608,25 @@ a {
 
 }
 #way2 img:hover {
-  width:105%;
+  width:102%;
   z-index:9 !important;
+  box-shadow: 7px 7px 7px rgba(68,68,68,0.6);
 }
 #way2 .col-md-4 {
   padding:0;
 }
+#way2 .atitle {
+border-bottom: 1px solid #555;
+    
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+        color: #fff;
+}
+
 #way3 {
   margin:0 25px 0 0;
   padding-bottom: 120px;

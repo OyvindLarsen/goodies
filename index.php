@@ -176,11 +176,19 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="container">
 <div class="row">
 
+<div class="col-md-3">
+<div class="atitle">
+  <h1>Webhotell</h1>
+  <br>
+</div>
+  <p>Goodies tilbyr en svært rimelig og innholdsrik webhotell tjeneste for våre kunder.</p>
 
+</div>
+<div class="col-md-9">
 <div class="col-md-4"><img src="img/1.svg"></div>
 <div class="col-md-4"><img src="img/2.svg"></div>  
 <div class="col-md-4"><img src="img/20.svg"></div>
-
+</div>
 <br>
 
 <br><br><br><br>
