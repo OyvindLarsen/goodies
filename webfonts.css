@@ -1,0 +1,8 @@
+@font-face {
+   font-family: Beirut;
+ src: url("Beirut.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+   font-family: "Lucida Grande";
+ src: url("LucidaGrande.ttf") /* TTF file for CSS3 browsers */
+}

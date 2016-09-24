@@ -19,6 +19,7 @@ $output="";
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes|Meddon|League+Script|Monsieur+La+Doulaise|Miss+Fajardose' rel='stylesheet' type='text/css'>
+
     <link rel="shortcut icon" href="">
 
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -50,8 +51,8 @@ $output="";
         </div>
           <ul id="scene">
             <li class="layer" data-depth="0.20"><div class="backgroundh"><img src="HeaderBurgerJoin.svg"></div>
-            <li class="layer" data-depth="0.30"><div class="logo1"><img src="LogoHvitUtenBakgrunn.svg"></div></li>
-            <li class="layer" data-depth="0.30"><a class="link nedover" href="" id="scroll"><i class="ilink fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li class="layer" data-depth="0.60"><div class="logo1"><img src="LogoHvitUtenBakgrunn.svg"></div></li>
+            <li class="layer" data-depth="0.90"><a class="link nedover" href="" id="scroll"><i class="ilink fa fa-angle-down" aria-hidden="true"></i></a></li>
             
           </ul>
             
@@ -174,18 +175,14 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="products" id ="way2" >
 <div class="container">
 <div class="row">
-<div class="col-md-12">
-<h1>Webhotell</h1>
-Har du en virksomhet som ønsker å tilby sine varer og tjenester via en egen dedikert app? Eller har du kanskje en idé om en app som du ønsker hjelp til å utvikle?
 
-Goodies vil kunne bistå deg helt i fra idéfasen til ferdig produkt. 
-Om du trenger bistand til å få produsert en prototype eller MVP (Minimum Viable Product) for å kunne vise til potensielle investorer, innovasjon norge eller andre - eller om du ønsker å få utviklet hele konseptet så fort som mulig og få det ut i App Store så vil vi kunne bistå deg på ethvert steg i prosessen.
 
-Alt i fra navnevalg, til valg av funksjoner, utvikling av app og planlegging av roadmap for videreutvikling, distribusjon og markedsføring er punkter hvor vi vil ønsker å bistå deg for å hjelpe deg best mulig på vei mot et vellykket sluttprodukt.
+<div class="col-md-4"><img src="h1gb.svg"></div>
+<div class="col-md-4"><img src="h2gb.svg"></div>  
+<div class="col-md-4"><img src="h20gb.svg"></div>
 
-Ved bruk av de nyeste designmetoder og verktøy vil vi sørge for at app'en din skiller seg ut med en særpreget, intuitiv og elegant utforming.
+<br>
 
-For å holde kostnader til et minimum vil vi hjelpe til med å velge ut de åpen kildekode biblioteker som kan være relevante for prosjektet, dette vil medføre at vi i mange tilfeller vil kunne kutte utviklingstid og dermed kostnader betraktelig samtidig som vi sørger for at koden som implementeres er stabil og sikker.
 <br><br><br><br>
 </div></div></div>
 
