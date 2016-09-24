@@ -593,7 +593,7 @@ a {
 #way2 {
   margin:0 0 0 25px;
   padding-bottom: 120px;
-  height:900px;
+  
   padding-top: 120px;
   background-color: #446CB3;
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
@@ -601,11 +601,15 @@ a {
 
 }
 #way2 img {
-  position:absolute;
+  position:relative;
   width:100%;
   z-index:8;
+
   
 
+}
+#opacity {
+  opacity:0;
 }
 #way2 img:hover {
   width:102%;
@@ -615,15 +619,17 @@ a {
 #way2 .col-md-4 {
   padding:0;
 }
+
+
 #way2 .atitle {
-border-bottom: 1px solid #555;
+border-bottom: 1px solid white;
     
-    line-height: 24px;
+    line-height: 0;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+    margin-bottom: 35px;
+    
         color: #fff;
 }
 
