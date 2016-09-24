@@ -198,16 +198,22 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="products" id ="way3">
 <div class="container">
 <div class="row">
-<div class="col-md-12">
+<div class="col-md-3">
+<div class="atitle">
 <h1>Drift</h1>
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec augue a nibh tempus fermentum in et felis. Nullam molestie arcu et congue bibendum. Sed rutrum commodo mi, eu ullamcorper urna consectetur at. In faucibus justo ut diam aliquam, sit amet bibendum lorem congue. In sit amet interdum tellus, quis hendrerit nunc. Etiam ullamcorper laoreet erat, non vestibulum leo iaculis eget. Morbi vitae dolor nibh. Sed urna sapien, lacinia vel ornare eget, auctor vitae lectus. Fusce congue risus a justo imperdiet fringilla. Morbi sed lorem neque. Vestibulum ac sapien eu nisi porttitor blandit.
 
-Cras vitae ultrices diam, sit amet posuere eros. Proin eu interdum tellus. Duis eu mollis nibh. Vestibulum elit est, efficitur et lacus eu, egestas maximus lorem. Suspendisse rutrum, dolor a interdum lacinia, sem neque tristique risus, ut tempor odio libero quis mi. Fusce lobortis tincidunt purus at consectetur. Aliquam commodo neque non libero tempus laoreet. Nullam eleifend ac nisi non rutrum. In porta velit ex, in varius leo mattis at. Vivamus pellentesque lacinia mattis. Sed rutrum porta consectetur. Curabitur viverra mauris sed interdum semper. Sed auctor, urna sed ultrices molestie, justo massa varius nisl, vitae ultrices est arcu mattis metus. Duis ac finibus arcu, vestibulum scelerisque urna.
+</div>
+</div>
+  
+</div>
+<div class="row">
+<div class="col-md-4"><img src="img/drift/Oppdateringer.svg"></div>
+<div class="col-md-4"><img src="img/drift/Overvåking.svg"></div>  
+<div class="col-md-4"><img src="img/drift/Patching.svg"></div>
+</div>
+</div>
+</div>
 
-In hac habitasse platea dictumst. Donec eu libero vel mi varius laoreet eu eu risus. Curabitur aliquam aliquet nisi, imperdiet suscipit diam faucibus eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec elit neque, tincidunt et ipsum id, varius porta eros. Proin a mi a dolor accumsan lacinia quis id erat. Duis lacinia placerat dui vitae faucibus. Aenean ut nisl non ipsum consectetur consectetur. Cras auctor, dolor sit amet malesuada mollis, orci lacus rhoncus velit, nec rhoncus felis arcu eget mauris. Quisque mollis a sem nec tempor. Donec efficitur quam eget convallis consectetur. Proin id magna rhoncus, fringilla nibh sed, malesuada ex. Praesent convallis arcu in magna posuere maximus. Sed ornare gravida ante, tempus aliquet turpis vestibulum et. Fusce fringilla porta sem, et tristique neque varius eu.
-
-Ut quam ipsum, fermentum in aliquet eu, aliquam efficitur tellus. Suspendisse volutpat, nulla ut vulputate tincidunt, ante risus bibendum justo, mollis posuere erat odio nec leo. Etiam id tellus nec ligula egestas fringilla. Praesent ac pretium erat. Aenean eu erat nibh. Aliquam erat volutpat. Donec tincidunt quam nisl. Sed vehicula venenatis nibh nec auctor. Ut eu pellentesque metus, in suscipit risus. Mauris placerat, ex vel venenatis fermentum, elit sem ultricies purus, a congue mi mauris vel arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-</div></div></div></div>
 <div class="products" id ="way4">
 <div class="container">
 <div class="row">
