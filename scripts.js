@@ -63,7 +63,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb').children('.checkbox').toggleClass('checked');
       $('#way').animate({ backgroundColor: "white", }, 1000 );
       $('#way').animate({ backgroundColor: "#94ad90", }, 1000 );
-      $('#opacity').animate({ opacity: 1, }, 2000 );
+      $('#opacity').animate({ opacity: 1, }, 2500 );
 
 		}
 	})

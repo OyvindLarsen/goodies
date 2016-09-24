@@ -604,6 +604,7 @@ a {
   position:relative;
   width:100%;
   z-index:8;
+  margin-bottom: 5%;
 
   
 
@@ -615,6 +616,7 @@ a {
   width:102%;
   z-index:9 !important;
   box-shadow: 7px 7px 7px rgba(68,68,68,0.6);
+  margin-bottom: 0;
 }
 #way2 .col-md-4 {
   padding:0;
