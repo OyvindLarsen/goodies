@@ -177,9 +177,9 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="row">
 
 
-<div class="col-md-4"><img src="h1gb.svg"></div>
-<div class="col-md-4"><img src="h2gb.svg"></div>  
-<div class="col-md-4"><img src="h20gb.svg"></div>
+<div class="col-md-4"><img src="img/1.svg"></div>
+<div class="col-md-4"><img src="img/2.svg"></div>  
+<div class="col-md-4"><img src="img/20.svg"></div>
 
 <br>
 
