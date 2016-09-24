@@ -51,9 +51,10 @@ $output="";
           <ul id="scene">
             <li class="layer" data-depth="0.20"><div class="backgroundh"><img src="HeaderBurgerJoin.svg"></div>
             <li class="layer" data-depth="0.30"><div class="logo1"><img src="LogoHvitUtenBakgrunn.svg"></div></li>
+            <li class="layer" data-depth="0.30"><a class="link nedover" href="" id="scroll"><i class="ilink fa fa-angle-down" aria-hidden="true"></i></a></li>
             
           </ul>
-
+            
      </article>
   </div>   
    
@@ -103,7 +104,7 @@ font-weight="normal" letter-spacing="1.4690789">
             </div>
             <div class="field-wrap" id="wayWeb2">
               <div class="checkbox"></div>
-              <p>Hosting
+              <p>Webhotell
                 </p>
               <div class=verticaLine></div>
             </div>
@@ -127,7 +128,7 @@ font-weight="normal" letter-spacing="1.4690789">
             </div>
             <div class="field-wrap" id="wayWeb6">
               <div class="checkbox"></div>
-              <p>
+              <p>Prisliste
                 </p>
               
             </div>
@@ -169,23 +170,12 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 
 
 
-IDE:
--en god nettside øker eksponeringen til firmaet, og bidrar tl å øke omsetningen.
--Nettsiden er en billig lav risiko investering som du tjener penger på sikt.
-
-FUNKSJONER:
--Responsivt design
--Søkemotor optimalisert
--Nettbutikker
--CMS system
-
--Interaktive nettsider (endringer basert på tid på døgn eller andre faktorer)
 </div></div></div></div>
 <div class="products" id ="way2" >
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>App</h1>
+<h1>Webhotell</h1>
 Har du en virksomhet som ønsker å tilby sine varer og tjenester via en egen dedikert app? Eller har du kanskje en idé om en app som du ønsker hjelp til å utvikle?
 
 Goodies vil kunne bistå deg helt i fra idéfasen til ferdig produkt. 
@@ -204,7 +194,7 @@ For å holde kostnader til et minimum vil vi hjelpe til med å velge ut de åpen
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Hosting</h1>
+<h1>Drift</h1>
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec augue a nibh tempus fermentum in et felis. Nullam molestie arcu et congue bibendum. Sed rutrum commodo mi, eu ullamcorper urna consectetur at. In faucibus justo ut diam aliquam, sit amet bibendum lorem congue. In sit amet interdum tellus, quis hendrerit nunc. Etiam ullamcorper laoreet erat, non vestibulum leo iaculis eget. Morbi vitae dolor nibh. Sed urna sapien, lacinia vel ornare eget, auctor vitae lectus. Fusce congue risus a justo imperdiet fringilla. Morbi sed lorem neque. Vestibulum ac sapien eu nisi porttitor blandit.
 
 Cras vitae ultrices diam, sit amet posuere eros. Proin eu interdum tellus. Duis eu mollis nibh. Vestibulum elit est, efficitur et lacus eu, egestas maximus lorem. Suspendisse rutrum, dolor a interdum lacinia, sem neque tristique risus, ut tempor odio libero quis mi. Fusce lobortis tincidunt purus at consectetur. Aliquam commodo neque non libero tempus laoreet. Nullam eleifend ac nisi non rutrum. In porta velit ex, in varius leo mattis at. Vivamus pellentesque lacinia mattis. Sed rutrum porta consectetur. Curabitur viverra mauris sed interdum semper. Sed auctor, urna sed ultrices molestie, justo massa varius nisl, vitae ultrices est arcu mattis metus. Duis ac finibus arcu, vestibulum scelerisque urna.
@@ -217,7 +207,7 @@ Ut quam ipsum, fermentum in aliquet eu, aliquam efficitur tellus. Suspendisse vo
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Drift</h1>
+<h1>Markedsføring</h1>
 Nunc in justo eu libero dignissim facilisis eu at nisl. Aliquam nec turpis sed mauris dignissim sollicitudin eget id nibh. Vestibulum in neque nec ex pulvinar efficitur. Mauris viverra ullamcorper egestas. Sed ut lectus pharetra, tempus sapien at, euismod nibh. Ut porttitor enim eu dolor malesuada sagittis. Sed et auctor lorem. Donec nec mauris eu nibh tincidunt rutrum et quis est.
 
 Etiam eu enim ut nibh gravida vulputate. Curabitur rutrum, augue nec gravida iaculis, nibh magna pulvinar ex, et pharetra nulla nunc a quam. Nunc quam leo, ornare et tortor at, rutrum facilisis felis. In nisi massa, lacinia quis mi ac, ultricies pretium felis. Aenean blandit mauris justo, et ultrices neque vehicula non. Vestibulum sagittis orci gravida, tempus nibh sed, dapibus odio. In vitae rhoncus velit. Vivamus et nibh eu massa ultrices efficitur. Nunc vel auctor ipsum, non tincidunt ipsum. Cras dui urna, pretium et ipsum ut, elementum scelerisque ante. Quisque blandit orci quis cursus placerat. Suspendisse condimentum gravida sapien, nec sodales erat lacinia vel. Cras sed eleifend elit. Proin tristique neque tortor, at condimentum dui molestie eu.
@@ -230,29 +220,27 @@ Phasellus vel erat nec nulla congue volutpat. Maecenas fermentum malesuada trist
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Markedsføring</h1>
-Donec leo lorem, eleifend eget efficitur quis, condimentum non mauris. Vivamus suscipit neque ex, id pretium nisl sagittis efficitur. Phasellus condimentum nulla eu interdum vestibulum. Praesent ultrices mauris et ex dapibus, quis bibendum est porta. Ut nisi erat, bibendum ac nibh congue, aliquet suscipit est. Sed fermentum posuere lacus ac dignissim. Suspendisse potenti. Fusce mattis condimentum convallis. Proin at pretium est. Integer mollis velit eu velit pellentesque volutpat. Phasellus id lacinia purus. Quisque aliquet vel massa pulvinar fringilla. Suspendisse cursus placerat tellus, ut venenatis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur bibendum hendrerit dolor a tempor. Etiam ac dapibus felis.
+<h1>Om oss</h1>
+Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser.
 
-Vivamus condimentum dolor sem, vitae suscipit eros luctus sit amet. Suspendisse potenti. Nam ut scelerisque urna. Nunc eu orci facilisis, pulvinar dolor sit amet, porttitor elit. Cras consectetur vulputate ipsum in commodo. Cras sed viverra velit. Etiam odio lorem, efficitur a blandit a, feugiat ut eros. Ut vitae eros lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis mollis porttitor sapien sed viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur felis justo, consectetur a elementum et, rhoncus et ligula. Pellentesque eleifend urna tellus, et fringilla eros euismod in. Aliquam erat volutpat. Nulla facilisi. Mauris quis orci sit amet ligula venenatis condimentum quis eu felis.
+Per i dag er vi kun to ansatte, men vi har tilknytting til et stort nettverk av frilansere innen fotografi, video, grafiskdesign, nettdesign og utvikling som vi vil benytte oss av for å kunne levere oppdrag raskt, og med en profesjonell utforming.
 
-Cras malesuada non ex vitae scelerisque. Suspendisse tincidunt lacus vitae augue dignissim dictum. Phasellus non lorem posuere, semper ante at, tempor dui. Cras augue quam, interdum sit amet pellentesque eu, aliquet sed sem. In sed iaculis nisi. Integer vehicula bibendum dui sed convallis. Mauris faucibus volutpat augue, vitae pulvinar libero sodales sit amet. Quisque sit amet aliquet felis, non varius nulla. Etiam consectetur magna vitae purus posuere, eu convallis eros rutrum. Maecenas tincidunt enim vitae justo hendrerit, ultricies congue mauris porta. Integer a tempus eros. Aliquam ex lacus, posuere et semper sed, tincidunt in nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed cursus vulputate urna sit amet molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Vi mener i tillegg at det å være små gjør oss til en fleksibel tjenesteleverandør, og kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en dag eller to, så vel som større oppdrag som går over flere uker og måneder. Ved å benytte erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det på noen måte påvirker kvaliteten i våre leveranser. I og med at vi er en fersk aktør på markedet så er det ikke noe som er viktigere for oss enn at enhver kunde er 100% fornøyd med våre leveranser og vi vil strekke oss 'det lille ekstra' for å sørge for at man sitter igjen med en følelse av å ha fått mer enn hva man har betalt for ved å benytte seg av våre tjenester.
 
-Aliquam mauris dolor, venenatis vitae nisi id, mollis rutrum dolor. Nam ullamcorper enim purus, mollis volutpat lectus pulvinar vel. Quisque eu quam ac diam euismod dictum. Praesent euismod, nulla ut congue molestie, risus purus ornare justo, eu blandit nibh quam vel quam. In interdum ante magna, sed interdum sem laoreet sit amet. Proin gravida nibh turpis. Aenean dictum dolor quis ornare scelerisque. Maecenas accumsan sit amet eros ut maximus. Suspendisse mattis pellentesque est sit amet eleifend.
-
-Curabitur pretium risus et facilisis faucibus. Proin orci tellus, laoreet ut pellentesque et, dignissim eget lorem. Ut suscipit sapien in odio blandit bibendum. Vestibulum auctor massa ex, eget tincidunt enim molestie at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pharetra elit a nisl blandit, non imperdiet lacus maximus. Aliquam id neque sed risus volutpat maximus. Morbi ullamcorper dui nec eros sagittis, a semper urna interdum. Fusce vulputate et odio quis consequat. Quisque ac condimentum tellus.
+I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotell, søkemotoroptimalisering og digitial markedsføring. Dette er fordi vi vet at noe av det mest avgjørende for våre kunder er at deres nettsider eller app'er når ut til flest mulig mennesker, og at tjenestene de leverer - enten via app eller web - til enhver tid er tilgjengelige.<br><br>
 </div></div></div></div>
 <div class="products" id ="way6">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Wordpresskurs</h1>
-Praesent dui est, ultricies at sapien at, fermentum sodales massa. Suspendisse sed feugiat magna, sed viverra tortor. Nam viverra est dolor, in dignissim nisi faucibus hendrerit. Nam volutpat tortor a magna ornare interdum. Suspendisse tortor dolor, pellentesque quis interdum et, dictum a mauris. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac cursus justo, sed maximus justo. Nullam sodales, odio a egestas ultricies, est purus lacinia ipsum, non luctus nunc quam vel tellus. Nam et ullamcorper tortor, ut tempus justo. Ut et eros accumsan, eleifend leo id, pulvinar odio. Ut non quam ipsum. Quisque vel nulla quis libero elementum maximus quis et nibh.
+<h1>Prisliste</h1>
+Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser.
 
-Nullam mi urna, feugiat sed mattis quis, venenatis sed augue. Sed fringilla euismod massa, sit amet gravida leo eleifend ut. Morbi tincidunt leo id nisi fermentum vulputate. Nullam vel elementum tortor, at ultrices ex. Donec arcu quam, hendrerit a ullamcorper at, pulvinar ac risus. Donec elementum pulvinar urna, in mattis mauris semper et. Nam at felis quis lorem pharetra molestie at vitae eros. Duis at odio neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi molestie dolor eu erat blandit laoreet. Integer tortor lectus, dapibus vitae pellentesque eu, consequat non urna.
+Per i dag er vi kun to ansatte, men vi har tilknytting til et stort nettverk av frilansere innen fotografi, video, grafiskdesign, nettdesign og utvikling som vi vil benytte oss av for å kunne levere oppdrag raskt, og med en profesjonell utforming.
 
-Ut id vestibulum arcu. Sed interdum malesuada consectetur. Proin placerat, orci ut fringilla rutrum, elit diam commodo ipsum, vel euismod orci odio sed metus. Curabitur eu sem sit amet ipsum dignissim volutpat. Nullam dapibus mollis tellus ac tristique. Duis in magna consectetur, tempor purus eget, vestibulum enim. Nulla vestibulum velit vitae faucibus lobortis. Donec id nibh rutrum, commodo turpis vitae, fermentum mi. Morbi nec viverra lacus. In hac habitasse platea dictumst.
+Vi mener i tillegg at det å være små gjør oss til en fleksibel tjenesteleverandør, og kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en dag eller to, så vel som større oppdrag som går over flere uker og måneder. Ved å benytte erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det på noen måte påvirker kvaliteten i våre leveranser. I og med at vi er en fersk aktør på markedet så er det ikke noe som er viktigere for oss enn at enhver kunde er 100% fornøyd med våre leveranser og vi vil strekke oss 'det lille ekstra' for å sørge for at man sitter igjen med en følelse av å ha fått mer enn hva man har betalt for ved å benytte seg av våre tjenester.
 
-Fusce dolor felis, rhoncus et rutrum id, vehicula sit amet justo. Vivamus euismod a est et faucibus. Cras varius dolor sit amet nibh porttitor mollis. Integer luctus justo sed augue scelerisque, et sollicitudin urna fermentum. Sed eget cursus arcu. Donec malesuada imperdiet nisi nec hendrerit. Sed rhoncus enim ac dolor mattis, eget porttitor dui ullamcorper. Nulla gravida erat vitae lorem euismod, sed tincidunt lectus mattis. Phasellus ligula ante, ornare quis gravida eget, aliquet id nibh. Nullam gravida libero ligula, ac dictum velit blandit a. Cras pharetra sagittis nibh, nec sagittis sapien blandit sed. Donec lobortis eu nulla id rhoncus. Curabitur dapibus mi enim, vitae hendrerit ipsum sollicitudin in.<br><br>
+I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotell, søkemotoroptimalisering og digitial markedsføring. Dette er fordi vi vet at noe av det mest avgjørende for våre kunder er at deres nettsider eller app'er når ut til flest mulig mennesker, og at tjenestene de leverer - enten via app eller web - til enhver tid er tilgjengelige.<br><br>
 </div>
     </div>
     </div>
@@ -266,21 +254,7 @@ Fusce dolor felis, rhoncus et rutrum id, vehicula sit amet justo. Vivamus euismo
   
   <div id="contact" data-type="background" data-speed="0.9" class="pages">
            <article> 
-           <div class="omOss">
-<div class="container">
-
-<h1>Om oss</h1>
-Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser.
-
-Per i dag er vi kun to ansatte, men vi har tilknytting til et stort nettverk av frilansere innen fotografi, video, grafiskdesign, nettdesign og utvikling som vi vil benytte oss av for å kunne levere oppdrag raskt, og med en profesjonell utforming.
-
-Vi mener i tillegg at det å være små gjør oss til en fleksibel tjenesteleverandør, og kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en dag eller to, så vel som større oppdrag som går over flere uker og måneder. Ved å benytte erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det på noen måte påvirker kvaliteten i våre leveranser. I og med at vi er en fersk aktør på markedet så er det ikke noe som er viktigere for oss enn at enhver kunde er 100% fornøyd med våre leveranser og vi vil strekke oss 'det lille ekstra' for å sørge for at man sitter igjen med en følelse av å ha fått mer enn hva man har betalt for ved å benytte seg av våre tjenester.
-
-I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotell, søkemotoroptimalisering og digitial markedsføring. Dette er fordi vi vet at noe av det mest avgjørende for våre kunder er at deres nettsider eller app'er når ut til flest mulig mennesker, og at tjenestene de leverer - enten via app eller web - til enhver tid er tilgjengelige.<br><br>
-
-</div>
-    
-    </div>
+ 
     </article>
   </div>
 
