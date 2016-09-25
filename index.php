@@ -69,10 +69,8 @@ $output="";
               <div class="cog2" data-type="test2" data-speed="0.2" onclick="myFunction2()">
                   <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
               </div> 
-              <br>
-              <div class="cog2" data-type="test2" data-speed="0.2" onclick="myFunction3()">
-                  <div class="vertical" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-              </div> 
+              
+              
               
               <div class="sidebar-wrapper">
               
@@ -160,22 +158,65 @@ font-weight="normal" letter-spacing="1.4690789">
         <div class="container">
         <div class="row">
         <div class="col-md-12" >
-        <h1>Webside</h1>
-      Førsteintrykk teller. Og en webside er ofte det første intrykket en kunde får av din virksomhet.
-Allerede her er det viktig å formidle de verdiene bedriften  har.
-
-Kvaliteten på designet blir, i kundenes øyne, en direkte refleksjon, av bedriften selv.
-
-Det sies at 1 år tilsvarer 4 internett år (sier hvem? Huffington post). Det er så raskt utviklingen går framover.
-
-Et eldre design er ofte synonymt med en dårlig brukeropplevelse, eller det bidrar til å skape inntrykk av en virksomhet som henger etter utviklingen.
-
-En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsker å signalisere.
+        <div class="row test1">
+        <div class="col-md-3">
+        <div class="atitle">
+          <h1>Webside</h1>
+          <br>
+        </div>
+        </div>
+  
+</div>
+ <div class="row">
+<div id="hmm no-padding">
+  <div class="col-md-4"><img src="img/web/1P.svg"></div>
+  <div class="col-md-4"><img src="img/web/1P+.svg"></div>
+  <div class="col-md-4"><img src="img/web/GS.svg"></div>
+</div>
+</div>
 
 
 
 
 </div></div></div></div>
+<nav class="layer">
+<div class="holder">
+      <table width="100%">
+        <tr>
+          <td>instilling1</td>
+          <td>
+            <div>
+              <input type="checkbox" />
+                <span></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>instilling2</td>
+          <td>
+            <div>
+              <input type="checkbox" />
+                <span></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>instilling3</td>
+          <td>
+            <div>
+              <input type="checkbox" checked="" />
+                <span></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Save Settings" >
+          </td>
+        </tr>
+      </table>
+    </div>
+</nav>
 <div class="products" id ="way2" >
 <div class="container">
 <div class="row test1">
@@ -196,7 +237,9 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <br>
 
 <br><br><br><br>
-</div></div></div>
+</div>
+</div>
+</div>
 
 </div>
 <div class="products" id ="way3">
