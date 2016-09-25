@@ -185,9 +185,9 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 </div>
 <div class="row">
 <div id="opacity">
-<div class="col-md-4"><div id="buy"><img src="img/1.svg"></div></div>
-<div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
-<div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
+  <div class="col-md-4"><div id="buy"><img src="img/1.svg"></div></div>
+  <div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
+  <div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
 </div>
 <br>
 
@@ -197,19 +197,41 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 </div>
 <div class="products" id ="way3">
 <div class="container">
+
 <div class="row">
-<div class="col-md-3">
-<div class="atitle">
-<h1>Drift</h1>
+<div class="col-md-5 flex-md-middle">
+<div class="matchHeight">
+  
+  <div class="font">
+  <div class="row">
+  <div class="col-md-6">
+  <div class="atitle">
+
+  <h1>Drift</h1>
+  </div></div></div>
+  <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
+  <p>Våre driftsløsninger sparer deg for tid, sørger for at nettsiden inneholder de nyeste patchene, og sikrer deg mot angrep</p>
+  </div>
 
 </div>
 </div>
-  
+<div class="col-md-1"></div>
+<div class="col-md-6">
+<div class="matchHeight">
+  <div class="row">
+  <div class="col-md-6 no-padding"><img src="img/drift/Oppdateringer.svg"></div>
+  <div class="col-md-6 no-padding"><img src="img/drift/Overvåking.svg"></div>
+  </div>
+  <div class="row">
+  <div class="col-md-6 no-padding"><img src="img/drift/Patching.svg"></div>
+  <div class="col-md-6 no-padding"><img src="img/drift/SSL.svg"></div>
+  </div>
+  <div class="row">
+  <div class="col-md-6 no-padding"><img src="img/drift/MSSQL.svg"></div>
+  <div class="col-md-6 no-padding"><img src="img/drift/Backup.svg"></div>
+  </div>
 </div>
-<div class="row">
-<div class="col-md-4"><img src="img/drift/Oppdateringer.svg"></div>
-<div class="col-md-4"><img src="img/drift/Overvåking.svg"></div>  
-<div class="col-md-4"><img src="img/drift/Patching.svg"></div>
+</div>
 </div>
 </div>
 </div>
@@ -219,6 +241,7 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="row">
 <div class="col-md-12">
 <h1>Markedsføring</h1>
+
 Nunc in justo eu libero dignissim facilisis eu at nisl. Aliquam nec turpis sed mauris dignissim sollicitudin eget id nibh. Vestibulum in neque nec ex pulvinar efficitur. Mauris viverra ullamcorper egestas. Sed ut lectus pharetra, tempus sapien at, euismod nibh. Ut porttitor enim eu dolor malesuada sagittis. Sed et auctor lorem. Donec nec mauris eu nibh tincidunt rutrum et quis est.
 
 Etiam eu enim ut nibh gravida vulputate. Curabitur rutrum, augue nec gravida iaculis, nibh magna pulvinar ex, et pharetra nulla nunc a quam. Nunc quam leo, ornare et tortor at, rutrum facilisis felis. In nisi massa, lacinia quis mi ac, ultricies pretium felis. Aenean blandit mauris justo, et ultrices neque vehicula non. Vestibulum sagittis orci gravida, tempus nibh sed, dapibus odio. In vitae rhoncus velit. Vivamus et nibh eu massa ultrices efficitur. Nunc vel auctor ipsum, non tincidunt ipsum. Cras dui urna, pretium et ipsum ut, elementum scelerisque ante. Quisque blandit orci quis cursus placerat. Suspendisse condimentum gravida sapien, nec sodales erat lacinia vel. Cras sed eleifend elit. Proin tristique neque tortor, at condimentum dui molestie eu.
@@ -315,6 +338,7 @@ I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjeneste
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous">
   </script>
   <script type="text/javascript" src="instafeed.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js">
