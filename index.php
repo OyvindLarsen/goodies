@@ -69,6 +69,10 @@ $output="";
               <div class="cog2" data-type="test2" data-speed="0.2" onclick="myFunction2()">
                   <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
               </div> 
+              <br>
+              <div class="cog2" data-type="test2" data-speed="0.2" onclick="myFunction3()">
+                  <div class="vertical" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              </div> 
               
               <div class="sidebar-wrapper">
               
@@ -202,7 +206,7 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="col-md-5 flex-md-middle">
 <div class="matchHeight">
   
-  <div class="font">
+  <div class="font" id="fading-in">
   <div class="row">
   <div class="col-md-6">
   <div class="atitle">
@@ -218,6 +222,7 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 <div class="col-md-1"></div>
 <div class="col-md-6">
 <div class="matchHeight">
+<div id="fading-in2">
   <div class="row">
   <div class="col-md-6 no-padding"><img src="img/drift/Oppdateringer.svg"></div>
   <div class="col-md-6 no-padding"><img src="img/drift/Overvåking.svg"></div>
@@ -229,6 +234,7 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
   <div class="row">
   <div class="col-md-6 no-padding"><img src="img/drift/MSSQL.svg"></div>
   <div class="col-md-6 no-padding"><img src="img/drift/Backup.svg"></div>
+  </div>
   </div>
 </div>
 </div>

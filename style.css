@@ -166,18 +166,7 @@ top:81%;
 }
 
 
-.square {
-  position:absolute;
-  top:30%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-	display:block;
-  width:30%;
-  min-width: 300px;
-  display:none;
-}
+
 
 #scene {
   width: 100%;
@@ -329,6 +318,11 @@ font-size: 1em;
 font-weight: 100;
 letter-spacing: 1px;
 line-height:1;
+}
+
+#fading-in {
+  left:-250px;
+  opacity:0;
 }
 
 .matchHeight {
@@ -661,13 +655,7 @@ a {
   margin:0;
 }
 
-#way3 img {
-  position:relative;
-  width:100%;
-  z-index:8;
-  margin-bottom: 0;
 
-}
 
 .atitle {
 border-bottom: 1px solid white;
@@ -686,6 +674,20 @@ color: #fff;
   -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
+}
+
+#way3 img {
+  position:relative;
+  
+  width:100%;
+  z-index:8;
+  margin-bottom: 0;
+
+}
+#fading-in2 {
+  position: relative;
+  opacity:0;
+  right:-150px;
 }
 #way4 {
   margin:0 0 0 25px;

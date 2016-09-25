@@ -76,6 +76,8 @@ $bgobj.css({ top: coords });
 			$('#wayWeb2').children('.checkbox').toggleClass('checked');
 			$('#way2').animate({ backgroundColor: "white", }, 1000 );
 			$('#way2').animate({ backgroundColor: "#446CB3", }, 1000 );
+      $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
+      $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
 		}
 	})
 	var waypoint4 = new Waypoint({
