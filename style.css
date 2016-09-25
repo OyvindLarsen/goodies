@@ -19,6 +19,11 @@ font-family: "Lucida Grande";
  src: url("LucidaGrande.ttf") /* TTF file for CSS3 browsers */
 }
 
+@font-face {
+font-family: "avenir";
+ src: url("Avenir-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
 
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
 .navbar .nav > li.current-menu-item > a, 
@@ -324,6 +329,10 @@ line-height:1;
   opacity:0;
 }
 
+#fading-in3 {
+  opacity:0;
+}
+
 .matchHeight {
   display: table; 
   
@@ -612,7 +621,7 @@ a {
 #way {
   margin:0 25px 0 0;
   padding-bottom: 120px;
-  background-color: #6C7A89;
+  background-color: grey;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 
@@ -622,23 +631,26 @@ a {
   padding-bottom: 120px;
   
   padding-top: 120px;
-  background-color: #446CB3;
+  background-color: grey;
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+  transform-origin: right center !important;
+  transition: transform 2s;
+  transform: perspective(700px) scale(1) translateX(0) rotateY(0deg);
 
 }
-#way2:hover {
-  /*transform: perspective(700px) scale(0.9) translateX(0%) rotateY(-6deg);*/
-  transform-origin: right center;
-  transition: transform .9s;
+.tilt {
+  transform: perspective(700px) scale(1) translateX(0) rotateY(-10deg) !important;
+  
+  transition: transform 2s !important;
+}
+#meny2 {
+display:block;
+position:absolute;
+bottom:10%;
 }
 
-.layer {
-  display: flex;
-  transition: transform .9s;
-  transform: perspective(700px) scale(1) translateX(0) rotateY(0);
-  transform-style: preserve-3d;
-}
+
 
 
 #way2 img {
@@ -693,7 +705,7 @@ color: #fff;
   margin:0 25px 0 0;
   padding-bottom: 120px;
   padding-top: 120px;
-  background-color: #049372;
+  background-color: grey;
   -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
@@ -716,16 +728,17 @@ color: #fff;
   margin:0 0 0 25px;
   padding-bottom: 120px;
   padding-top: 120px;
-  background-color: #F4D03F;
+  background-color: grey;
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+  font-family:"avenir",sans-serif;
 
 }
 #way5 {
   margin:0 25px 0 0;
   padding-bottom: 120px;
   padding-top: 120px; 
-  background-color: #E87E04;
+  background-color: grey;
   -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
@@ -734,7 +747,7 @@ color: #fff;
   margin:0 0 0 25px;
   padding-bottom: 120px;
   padding-top: 120px;
-  background-color: #C0392B;
+  background-color: grey;
 -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
 

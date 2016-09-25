@@ -34,8 +34,9 @@ $bgobj.css({ top: coords });
 */
 
 
-	function notify(text) {
-    var $input ='<div class="alert alert-success" role="alert">'+text+'</div>';
+	function notify(text, category) {
+    var $category=category;
+    var $input ='<div class="alert alert-'+$category+'" role="alert">'+text+'</div>';
     var $notification = $('<li />').html($input).css({
       left: 320
     })
@@ -55,7 +56,15 @@ $bgobj.css({ top: coords });
   }
 
 	
- 
+ $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 100) {
+               $('#fading-in3').animate({ opacity: 1, }, 2500 ); 
+            } 
+        });
+    });
 
 
 	var waypoint2 = new Waypoint({
@@ -63,7 +72,6 @@ $bgobj.css({ top: coords });
 		handler: function() {
 			$('#wayWeb').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb').children('.checkbox').toggleClass('checked');
-      $('#way').animate({ backgroundColor: "white", }, 1000 );
       $('#way').animate({ backgroundColor: "#94ad90", }, 1000 );
       $('#opacity').animate({ opacity: 1, }, 2500 );
 
@@ -74,7 +82,6 @@ $bgobj.css({ top: coords });
 		handler: function() {
 			$('#wayWeb2').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb2').children('.checkbox').toggleClass('checked');
-			$('#way2').animate({ backgroundColor: "white", }, 1000 );
 			$('#way2').animate({ backgroundColor: "#446CB3", }, 1000 );
       $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
       $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
@@ -85,8 +92,7 @@ $bgobj.css({ top: coords });
 		handler: function() {
 			$('#wayWeb3').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb3').children('.checkbox').toggleClass('checked');
-			$('#way3').animate({ backgroundColor: "white", }, 1000 );
-      $('#way3').animate({ backgroundColor: "#049372", }, 1000 );
+			$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
 		}
 	})
 	var waypoint5 = new Waypoint({
@@ -94,9 +100,8 @@ $bgobj.css({ top: coords });
 		handler: function() {
       $('#wayWeb4').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb4').children('.checkbox').toggleClass('checked');
-      $('#way4').animate({ backgroundColor: "white", }, 1000 );
       $('#way4').animate({ backgroundColor: "#F4D03F", }, 1000 );
-			notify('<a href="#" class="alert-link">this important alert message</a>.');
+			notify('Drifts seksjonen', 'info');
 		}
 	})
 	var waypoint6 = new Waypoint({
@@ -104,7 +109,6 @@ $bgobj.css({ top: coords });
 		handler: function() {
 			$('#wayWeb5').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb5').children('.checkbox').toggleClass('checked');
-			$('#way5').animate({ backgroundColor: "white", }, 1000 );
 			$('#way5').animate({ backgroundColor: "#E87E04", }, 1000 );
 		}
 	})
@@ -113,8 +117,7 @@ $bgobj.css({ top: coords });
 		handler: function() {
 			$('#wayWeb6').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb6').children('.checkbox').toggleClass('checked');
-			$('#way6').animate({ backgroundColor: "white", }, 1000 );
-      $('#way6').animate({ backgroundColor: "#C0392B", }, 1000 );
+		  $('#way6').animate({ backgroundColor: "#C0392B", }, 1000 );
 		}
 	})
 
@@ -170,7 +173,13 @@ $("#wayWeb6").click(function() {
 });
 
 $("#buy").click(function() {
-    notify('Added to cart'); 
+    notify('Added to cart','danger'); 
+    return false;
+});
+
+$("#meny2").click(function() {
+    $("#way2").toggleClass( "tilt" );
+
     return false;
 });
 

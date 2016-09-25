@@ -168,7 +168,7 @@ font-weight="normal" letter-spacing="1.4690789">
   
 </div>
  <div class="row">
-<div id="hmm no-padding">
+<div id="fading-in3">
   <div class="col-md-4"><img src="img/web/1P.svg"></div>
   <div class="col-md-4"><img src="img/web/1P+.svg"></div>
   <div class="col-md-4"><img src="img/web/GS.svg"></div>
@@ -234,14 +234,15 @@ font-weight="normal" letter-spacing="1.4690789">
   <div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
   <div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
 </div>
-<br>
-
-<br><br><br><br>
-</div>
-</div>
-</div>
+<br><br>
+<div id="meny2">Klikk her</div>
 
 </div>
+</div>
+</div>
+
+</div>
+
 <div class="products" id ="way3">
 <div class="container">
 
