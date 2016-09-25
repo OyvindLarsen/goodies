@@ -33,8 +33,10 @@ $bgobj.css({ top: coords });
 
 */
 
+
 	function notify(text) {
-    var $notification = $('<li />').text(text).css({
+    var $input ='<div class="alert alert-success" role="alert">'+text+'</div>';
+    var $notification = $('<li />').html($input).css({
       left: 320
     })
     $notifications = $('.notifications')
@@ -92,7 +94,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb4').children('.checkbox').toggleClass('checked');
       $('#way4').animate({ backgroundColor: "white", }, 1000 );
       $('#way4').animate({ backgroundColor: "#F4D03F", }, 1000 );
-			notify('Basic waypoint triggered');
+			notify('<a href="#" class="alert-link">this important alert message</a>.');
 		}
 	})
 	var waypoint6 = new Waypoint({
@@ -119,7 +121,7 @@ $bgobj.css({ top: coords });
   handler: function(direction) {
     
     $('.kommunikasjon').toggleClass('test');
-    $('')
+    
     notify('Bottom of element hit bottom of viewport')
   },
   offset: 'bottom-in-view'
@@ -165,6 +167,10 @@ $("#wayWeb6").click(function() {
     return false;
 });
 
+$("#buy").click(function() {
+    notify('Added to cart'); 
+    return false;
+});
 
 /*$('.field-wrap').click(function(){
 	$(this).children('.checkbox').toggleClass('checked');

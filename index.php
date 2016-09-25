@@ -185,9 +185,9 @@ En nettside burde være dynamisk. Og til enhver tid sende det budskapet du ønsk
 </div>
 <div class="row">
 <div id="opacity">
-<div class="col-md-4"><img src="img/1.svg"></div>
-<div class="col-md-4"><img src="img/2.svg"></div>  
-<div class="col-md-4"><img src="img/20.svg"></div>
+<div class="col-md-4"><div id="buy"><img src="img/1.svg"></div></div>
+<div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
+<div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
 </div>
 <br>
 

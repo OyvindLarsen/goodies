@@ -531,8 +531,9 @@ padding:0;
   padding: 0;
   margin: 0; 
 }
+
  .notifications li {
-    background: #2ecc71;
+    /*background: #2ecc71;
     color: white;
     max-width: 320px;
     display: block;
@@ -540,6 +541,8 @@ padding:0;
     padding: 6px 10px;
     border-radius: 5px;
     border-top: 1px solid rgba(255, 255, 255, 0.3); 
+    */
+    list-style-type: none;
 }
 .notifications li:first-child {
   border-top: 0; 
