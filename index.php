@@ -151,10 +151,49 @@ font-weight="normal" letter-spacing="1.4690789">
 
         <div id="page-content-wrapper" class="slide">
         <div class="page-content">
-        
+        <div class="products" id= "wa">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 matchHeight"><div class="filter"><img src="img/stats.jpg"></div></div>
+                <div class="col-md-6 matchHeight">
+                <div class="font">
+                  <h1>En god nettside skal sikre inntekt og være en investering med god avkastning.</h1>
+                  <p>Dette er en av målsetningene til Goodies. Vi når dette målet via godt utformede websider og målrettede markedsføringskampanjer i et stabilt miljø.
+                  Våre kjerneområder er <strong>Websider</strong>, <strong>Hosting</strong>, <strong>Drift</strong> og <strong>Markedsføring</strong>.</p>
+                  </div>
+                </div>
+              </div>
+              <br><br><br>
+              <div class="row">
+                <div class="col-md-6 matchHeight">
+                <div class="font">
+                  <h1>En nettside burde være levende.</h1>
+                  <p>Og til enhver tid sende det budskapet du ønsker å signalisere.</p>
+                  <p>Våre modulbaserte webløsninger sørger for at nettsiden din blir en levende representasjon som vokser organisk sammen med deg eller ditt firma  .</p>
+                  </div>
+                </div>
+                <div class="col-md-6 matchHeight"><div class="filter"><img src="img/growth.jpg" style="width:500px;"></div></div>
+              </div>
+              <br><br><br>
+              <div class="row">
+                <div class="col-md-6 matchHeight"><div class="filter"><img src="img/Kode.jpg" style="width:550px;"></div></div>
+                <div class="col-md-6 matchHeight">
+                <div class="font">
+                  <h1>Skreddersøm</h1>
+                  <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <div class="row">
+                <div class="col-md-12 font"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
+              </div>
+            </div>
+        </div>
          
+
         
-        <div class="products" id= "way">
+        <div class="products way" id= "way">
         <div class="container">
         <div class="row">
         <div class="col-md-12" >
@@ -217,7 +256,7 @@ font-weight="normal" letter-spacing="1.4690789">
       </table>
     </div>
 </nav>
-<div class="products" id ="way2" >
+<div class="products way" id ="way2" >
 <div class="container">
 <div class="row test1">
 <div class="col-md-3">
@@ -243,7 +282,7 @@ font-weight="normal" letter-spacing="1.4690789">
 
 </div>
 
-<div class="products" id ="way3">
+<div class="products way" id ="way3">
 <div class="container">
 
 <div class="row">
@@ -286,7 +325,7 @@ font-weight="normal" letter-spacing="1.4690789">
 </div>
 </div>
 
-<div class="products" id ="way4">
+<div class="products way" id ="way4">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
@@ -300,7 +339,7 @@ Pellentesque augue magna, molestie vel mi et, vulputate pharetra est. Suspendiss
 
 Phasellus vel erat nec nulla congue volutpat. Maecenas fermentum malesuada tristique. Fusce placerat ac nunc et imperdiet. Vestibulum venenatis nibh in tellus tincidunt, sit amet pellentesque est lacinia. Vestibulum fringilla varius libero et faucibus. Vestibulum venenatis, nisi quis pharetra lobortis, enim nibh efficitur felis, at faucibus magna lectus ut eros. Proin vitae placerat est, eu luctus lectus. Mauris vel velit a elit tincidunt facilisis. Suspendisse ac risus velit. Vestibulum sollicitudin libero euismod urna porttitor euismod. Integer eget mauris vel arcu ultrices dapibus. Nulla dignissim ipsum vitae magna imperdiet, at sollicitudin quam pulvinar. Mauris sodales vel nisl eget dictum. In vitae ultrices neque.
 </div></div></div></div>
-<div class="products" id ="way5">
+<div class="products way" id ="way5">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
@@ -313,7 +352,7 @@ Vi mener i tillegg at det å være små gjør oss til en fleksibel tjenestelever
 
 I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotell, søkemotoroptimalisering og digitial markedsføring. Dette er fordi vi vet at noe av det mest avgjørende for våre kunder er at deres nettsider eller app'er når ut til flest mulig mennesker, og at tjenestene de leverer - enten via app eller web - til enhver tid er tilgjengelige.<br><br>
 </div></div></div></div>
-<div class="products" id ="way6">
+<div class="products way" id ="way6">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
