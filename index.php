@@ -176,13 +176,17 @@ font-weight="normal" letter-spacing="1.4690789">
               </div>
               <br><br><br>
               <div class="row">
-                <div class="col-md-6 matchHeight"><div class="filter"><img src="img/Kode.jpg" style="width:550px;"></div></div>
-                <div class="col-md-6 matchHeight">
-                <div class="font">
-                  <h1>Skreddersøm</h1>
-                  <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
+                      <div id="circle-shape-example">
+                    <img src="img/Kode.jpg" class="curve">
+                    
+                    <h1>Skreddersøm</h1>
+
+                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
+
                   </div>
-                </div>
+                                 
+               
+              
               </div>
               <br><br>
               <div class="row">

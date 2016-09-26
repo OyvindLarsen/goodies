@@ -618,8 +618,6 @@ a {
   background-color: #94ad90;
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 96%);
-
-
 }
   .filter {
     width:500px;
@@ -630,7 +628,15 @@ a {
 
     border-radius: 50%;
 }
-  
+  .circle .curve{
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  }
 
 
 #way {
@@ -728,7 +734,6 @@ color: #fff;
 
 #way3 img {
   position:relative;
-  
   width:100%;
   z-index:8;
   margin-bottom: 0;
@@ -739,6 +744,7 @@ color: #fff;
   opacity:0;
   right:-50px;
 }
+
 #way4 {
   margin:0 0 0 25px;
   padding-bottom: 120px;
@@ -746,7 +752,7 @@ color: #fff;
   background-color: #F4D03F;
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
-  font-family:"avenir",sans-serif;
+  
 
 }
 #way5 {
@@ -872,5 +878,23 @@ input[type=submit] {
   font-size:16px;
   text-align: center;
   padding: 12px 20px 14px;
+}
+
+#circle-shape-example { 
+  color:white;
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  c
 }
 
