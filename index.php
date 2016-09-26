@@ -402,7 +402,7 @@ I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjeneste
   <div class="frame">
   <div class="ftitle"><h2>Twitter</h2></div>
   <div class="float">
-  <a class="float" href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"> "Jeg håper vi kan leve litt mer skamfritt og litt mindre skamløst snart."
+  <a class="float" href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"> 
   </i></a>
  </div>
               
