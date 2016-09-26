@@ -55,29 +55,17 @@ font-family: "MyCustomFont";
 
 
 #home { 
-  background-color:#9b9b9b;
-  background-attachment:scroll;
-  background position:left top;
-  background-size:cover;
+  background-color:#94ad90;
+  position:relative;
   width:100%;
-  height:100%;
+  height:0px;
   margin: 0 auto; 
-  z-index:5;
-  position: relative;
-  overflow:hidden;
+  z-index:3;
+  
    
 }
  
-#home article { 
-  height: 100%; 
-  position: absolute; 
-  width: 100%; 
-  font-family: 'Great Vibes', cursive;
-  font-size:10em;
-  color:white;
-  overflow:hidden;
 
-}
  
 
 
@@ -175,8 +163,9 @@ top:81%;
 
 #scene {
   width: 100%;
-  height: 100%;
-  overflow:hidden;
+  height: 380px;
+  padding:0;
+  
 }
 
 .layer {
@@ -209,13 +198,22 @@ top:81%;
 }
 
 .logo1 img {
-  top:50px;
-  z-index:1;
-  position: relative;
+  top:25px;
+  z-index:20;
+  position: absolute;
   left: 37.5%;
   margin: 0 auto;
   width: 25%;
   min-width: 280px;
+}
+
+#logo1 {
+  width: 100%;
+  min-width: 280px;
+  display:block;
+  position: fixed;
+  z-index: 20;
+  
 }
 
 /* Chrome, Safari, Opera */
@@ -616,8 +614,8 @@ a {
   margin:0 0 0 0;
   padding-bottom: 120px;
   background-color: #94ad90;
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 96%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 96%);
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
 }
   .filter {
     width:500px;
@@ -895,6 +893,10 @@ input[type=submit] {
   border-radius: 50%;
   -webkit-shape-outside:circle();
   shape-outside:circle();
-  c
+  
+}
+
+#way10 {
+  margin-top: 500px;
 }
 

@@ -14,7 +14,7 @@ $bgobj.css({ backgroundPosition: coords });
 });
 });
 
-/*
+
 $(document).ready(function(){
 
 var $window = $(window); //You forgot this line in the above example
@@ -31,7 +31,7 @@ $bgobj.css({ top: coords });
 });
 });
 
-*/
+
 
 
 	function notify(text, category, delay) {
@@ -67,6 +67,46 @@ $bgobj.css({ top: coords });
         });
     });
 
+  var waypoint15 = new Waypoint({
+    element: document.getElementById('wa1'),
+    handler: function() {
+      $('#way10').animate({ opacity: 1, }, 1000 );
+      $('#way11').animate({ opacity: 1, }, 1000 );
+      $('#way12').animate({ opacity: 1, }, 1000 );
+      
+      }, offset: -1
+  })
+
+
+  var waypoint10 = new Waypoint({
+    element: document.getElementById('way10'),
+    handler: function() {
+      $('#way10').animate({ opacity: 0, }, 500 );
+      }, offset: 400
+  })
+   var waypoint11 = new Waypoint({
+    element: document.getElementById('way11'),
+    handler: function() {
+      $('#way11').animate({ opacity: 0, }, 500 );
+      }, offset: 400
+  })
+    var waypoint12 = new Waypoint({
+    element: document.getElementById('way12'),
+    handler: function() {
+      $('#way12').animate({ opacity: 0, }, 500 );
+      }, offset: 400
+  })
+
+     var waypoint13 = new Waypoint({
+    element: document.getElementById('way13'),
+    handler: function() {
+      var $window = $(window);
+
+        $('#logo1').followTo($window.scrollTop());
+        
+        
+      }, offset: 450
+  })
 
 	var waypoint2 = new Waypoint({
 		element: document.getElementById('way'),
@@ -296,29 +336,7 @@ $scene.parallax('enable');
 
 
 
-   function testResults() {
-            
-            if(navigator.geolocation) {
-                //Get the current position
-                navigator.geolocation.getCurrentPosition(function(position) {
-                    latitude = position.coords.latitude;
-                    longitude = position.coords.longitude;
-                    $.ajax({
-                      type: "POST",
-                      url: "check-location.php",
-                      data: {lat: latitude, long: longitude }
-                    }).done(function( msg ) {
-                      $( ".description" ).append( msg );
-                    });
-
-               });
-            } else {
-                alert("Sorry... your browser does not support the HTML5 GeoLocation API");
-            }
-            
-            }
-         
-        testResults();
+   
 
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -329,3 +347,27 @@ $scene.parallax('enable');
   ga('send', 'pageview');
 
   $('.matchHeight').matchHeight();
+
+
+
+$.fn.followTo = function (pos) {
+    var $this = this,
+        $window = $(window);
+
+    $window.scroll(function (e) {
+        if ($window.scrollTop() > pos) {
+            $this.css({
+                position: 'absolute',
+                top: pos,
+                width: '100%',
+            });
+        } else {
+            $this.css({
+                position: 'fixed',
+                top: 0,
+            });
+        }
+    });
+};
+
+

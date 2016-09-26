@@ -42,19 +42,9 @@ $output="";
   
   
    
-  <div id="home" data-type="background" data-speed="0.9" class="pages">     
+  <div id="home" data-type="test2" data-speed="0" class="pages">     
       <article>
-       <div class="weather">
-        <div class="description">
-                      
-         </div>
-        </div>
-          <ul id="scene">
-            <li class="layer" data-depth="0.20"><div class="backgroundh"><img src="HeaderBurgerJoin.svg"></div>
-            <li class="layer" data-depth="0.60"><div class="logo1"><img src="LogoHvitUtenBakgrunn.svg"></div></li>
-            <li class="layer" data-depth="0.90"><a class="link nedover" href="" id="scroll"><i class="ilink fa fa-angle-down" aria-hidden="true"></i></a></li>
-            
-          </ul>
+     <div id="wa1"></div>
             
      </article>
   </div>   
@@ -66,7 +56,7 @@ $output="";
               
               <div class="fixedbackground slide" >
               <div id="nothing"></div>
-              <div class="cog2" data-type="test2" data-speed="0.2" onclick="myFunction2()">
+              <div class="cog2" >
                   <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
               </div> 
               
@@ -152,45 +142,59 @@ font-weight="normal" letter-spacing="1.4690789">
         <div id="page-content-wrapper" class="slide">
         <div class="page-content">
         <div class="products" id= "wa">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 matchHeight"><div class="filter"><img src="img/stats.jpg"></div></div>
-                <div class="col-md-6 matchHeight">
-                <div class="font">
-                  <h1>En god nettside skal sikre inntekt og være en investering med god avkastning.</h1>
-                  <p>Dette er en av målsetningene til Goodies. Vi når dette målet via godt utformede websider og målrettede markedsføringskampanjer i et stabilt miljø.
-                  Våre kjerneområder er <strong>Websider</strong>, <strong>Hosting</strong>, <strong>Drift</strong> og <strong>Markedsføring</strong>.</p>
-                  </div>
-                </div>
+            
+              <div id="logo1">
+              <ul id="scene" >
+            
+            <li class="layer" data-depth="0.60" ><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
+            
+            
+              </ul>
               </div>
+              <div class="container">
+              <div class="row" id="way10">
+                    <div id="circle-shape-example"  >
+                    <img src="img/Kode.jpg" class="curve" >
+                    <div class="para">
+                    <h1>Skreddersøm</h1>
+
+                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
+                  
+                  </div>
+                  </div>
+                                 
+               
+              
+              </div>
+
               <br><br><br>
-              <div class="row">
-                <div class="col-md-6 matchHeight">
+              <div class="row" id="way11">
+                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
                 <div class="font">
                   <h1>En nettside burde være levende.</h1>
                   <p>Og til enhver tid sende det budskapet du ønsker å signalisere.</p>
                   <p>Våre modulbaserte webløsninger sørger for at nettsiden din blir en levende representasjon som vokser organisk sammen med deg eller ditt firma  .</p>
                   </div>
                 </div>
-                <div class="col-md-6 matchHeight"><div class="filter"><img src="img/growth.jpg" style="width:500px;"></div></div>
+                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
+
+                <div class="filter"><img src="img/growth.jpg" style="width:500px;"></div></div>
               </div>
+
               <br><br><br>
-              <div class="row">
-                      <div id="circle-shape-example">
-                    <img src="img/Kode.jpg" class="curve">
-                    
-                    <h1>Skreddersøm</h1>
-
-                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
-
+               <div class="row" id="way12">
+                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0"><div class="filter"><img src="img/stats.jpg"></div></div>
+                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
+                <div class="font" >
+                  <h1>En god nettside skal sikre inntekt og være en investering med god avkastning.</h1>
+                  <p>Dette er en av målsetningene til Goodies. Vi når dette målet via godt utformede websider og målrettede markedsføringskampanjer i et stabilt miljø.
+                  Våre kjerneområder er <strong>Websider</strong>, <strong>Hosting</strong>, <strong>Drift</strong> og <strong>Markedsføring</strong>.</p>
                   </div>
-                                 
-               
-              
+                </div>
               </div>
               <br><br>
               <div class="row">
-                <div class="col-md-12 font"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
+                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
               </div>
             </div>
         </div>
