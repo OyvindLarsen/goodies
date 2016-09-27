@@ -218,9 +218,9 @@ font-weight="normal" letter-spacing="1.4690789">
 </div>
  <div class="row">
 <div id="fading-in3">
-  <div class="col-md-4"><img src="img/web/1P.svg"></div>
-  <div class="col-md-4"><img src="img/web/1P+.svg"></div>
-  <div class="col-md-4"><img src="img/web/GS.svg"></div>
+  <div class="col-md-4" id="fading-in31"><img src="img/web/1P.svg"></div>
+  <div class="col-md-4" id="fading-in32"><img src="img/web/1P+.svg"></div>
+  <div class="col-md-4" id="fading-in33"><img src="img/web/GS.svg"></div>
 </div>
 </div>
 

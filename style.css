@@ -353,6 +353,16 @@ line-height:1;
   opacity:0;
 }
 
+#fading-in31 {
+  left:100px;
+}
+#fading-in32 {
+  top:-50px;
+}
+#fading-in33 {
+  right:100px;
+}
+
 .matchHeight {
   display: table; 
   

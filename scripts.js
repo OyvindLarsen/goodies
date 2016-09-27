@@ -118,6 +118,9 @@ $bgobj.css({ top: coords });
      
       
       $('#fading-in3').animate({ opacity: 1, },{ duration: 2500,  queue: false });
+      $('#fading-in31').animate({ left: 0, },{ duration: 2500,  queue: false });
+      $('#fading-in32').animate({ top: 0, },{ duration: 2500,  queue: false });
+      $('#fading-in33').animate({ right: 0,},{ duration: 2500,  queue: false });
 
     }, offset: '50%'
   })
