@@ -56,7 +56,7 @@ $output="";
               
               <div class="fixedbackground slide" >
               <div id="nothing"></div>
-              <div class="cog2" >
+              <div class="cog2"  onclick="myFunction2()">
                   <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
               </div> 
               
@@ -150,7 +150,9 @@ font-weight="normal" letter-spacing="1.4690789">
             
             
               </ul>
+              <div class="gradient"></div>
               </div>
+
               <div class="container">
               <div class="row" id="way10">
                     <div id="circle-shape-example"  >
@@ -194,7 +196,7 @@ font-weight="normal" letter-spacing="1.4690789">
               </div>
               <br><br>
               <div class="row">
-                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
+                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div><br><br>
               </div>
             </div>
         </div>

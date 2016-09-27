@@ -81,19 +81,19 @@ $bgobj.css({ top: coords });
   var waypoint10 = new Waypoint({
     element: document.getElementById('way10'),
     handler: function() {
-      $('#way10').animate({ opacity: 0, }, 500 );
+     // $('#way10').animate({ opacity: 0, }, 500 );
       }, offset: 400
   })
    var waypoint11 = new Waypoint({
     element: document.getElementById('way11'),
     handler: function() {
-      $('#way11').animate({ opacity: 0, }, 500 );
+    //  $('#way11').animate({ opacity: 0, }, 500 );
       }, offset: 400
   })
     var waypoint12 = new Waypoint({
     element: document.getElementById('way12'),
     handler: function() {
-      $('#way12').animate({ opacity: 0, }, 500 );
+     // $('#way12').animate({ opacity: 0, }, 500 );
       }, offset: 400
   })
 
@@ -105,7 +105,7 @@ $bgobj.css({ top: coords });
         $('#logo1').followTo($window.scrollTop());
         
         
-      }, offset: 450
+      }, offset: 350
   })
 
 	var waypoint2 = new Waypoint({
