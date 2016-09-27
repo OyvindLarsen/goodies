@@ -57,15 +57,6 @@ $bgobj.css({ top: coords });
   }
 
 	
- $(function () {
-        $(window).scroll(function () {
-
-                 // set distance user needs to scroll before we start fadeIn
-            if ($(this).scrollTop() > 100) {
-               $('#fading-in3').animate({ opacity: 1, }, 2500 ); 
-            } 
-        });
-    });
 
   var waypoint15 = new Waypoint({
     element: document.getElementById('wa1'),
@@ -120,6 +111,19 @@ $bgobj.css({ top: coords });
       notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Webside</strong>', 'info', '2000');
 		}
 	})
+
+   var waypoint21 = new Waypoint({
+    element: document.getElementById('way'),
+    handler: function() {
+     
+      
+      $('#fading-in3').animate({ opacity: 1, },{ duration: 2500,  queue: false });
+
+    }, offset: '50%'
+  })
+
+
+
 	var waypoint3 = new Waypoint({
 		element: document.getElementById('way2'),
 		handler: function() {
@@ -131,6 +135,14 @@ $bgobj.css({ top: coords });
       notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Webhotell</strong>', 'info', '2000');
 		}
 	})
+
+  var waypoint31 = new Waypoint({
+    element: document.getElementById('way2'),
+    handler: function() {
+      $('#opacity').animate({ opacity: 1, }, 2500 );
+    }, offset: '50%'
+  })
+
 	var waypoint4 = new Waypoint({
 		element: document.getElementById('way3'),
 		handler: function() {
