@@ -156,7 +156,7 @@ font-weight="normal" letter-spacing="1.4690789">
               <div class="container">
               <div class="row" id="way10">
                     <div id="circle-shape-example"  >
-                    <img src="img/Kode.jpg" class="curve" >
+                    <img src="img/Kode.jpg" class="curve" id="wa111" >
                     <div class="para">
                     <h1>Skreddersøm</h1>
 

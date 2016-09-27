@@ -635,7 +635,7 @@ a {
 #wa {
   margin:0 0 0 0;
   
-  padding-top: 300px;
+  
   background-color: rgb(148,173,144);
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
@@ -912,7 +912,7 @@ input[type=submit] {
   width: 33%; height: auto;
   min-width: 150px;
   float: left;
-  margin-right:2rem; 
+  margin-right:20rem; 
   border-radius: 50%;
   -webkit-shape-outside:circle();
   shape-outside:circle();
@@ -920,6 +920,19 @@ input[type=submit] {
 }
 
 #way10 {
-  margin-top: 500px;
+  margin-top: 400px;
+  opacity:0;
 }
+
+#way11 {
+position:relative;
+left: -100px;
+opacity: 0;
+  }
+
+#way12 {
+position:relative;
+left: 100px;
+opacity: 0;
+  }
 
