@@ -194,7 +194,7 @@ font-weight="normal" letter-spacing="1.4690789">
                   </div>
                 </div>
               </div>
-              <br><br>
+              <br><br><br><br><br>
               <div class="row">
                 <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div><br><br>
               </div>
