@@ -316,7 +316,7 @@ function WidthChange(mq) {
 
  
 
-
+/*
 
 $('#scene').parallax({
   calibrateX: true,
@@ -336,7 +336,7 @@ $('#scene').parallax({
 var $scene = $('#scene').parallax();
 $scene.parallax('enable');
 
-
+*/
 
    
 
