@@ -74,7 +74,7 @@ $bgobj.css({ top: coords });
     handler: function() {
      $('#way10').animate({ opacity: 1, },{ duration: 2500,  queue: false });
      $('#wa111').animate({ marginRight: "2rem", },{ duration: 2500,  queue: false });
-     
+     $('#wa111').css('webkitFilter','blur(0px)');
       }, offset: 'bottom-in-view'
   })
    var waypoint11 = new Waypoint({

@@ -301,13 +301,13 @@ font-weight="normal" letter-spacing="1.4690789">
   
   <div class="font" id="fading-in">
   <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-7">
   <div class="atitle">
 
   <h1>Drift</h1>
   </div></div></div>
   <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
-  <p>Våre driftsløsninger sparer deg for tid, sørger for at nettsiden inneholder de nyeste patchene, og sikrer deg mot angrep</p>
+  <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma, drive nettbutikk,</p>
   </div>
 
 </div>
