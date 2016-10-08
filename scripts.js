@@ -74,7 +74,7 @@ $bgobj.css({ top: coords });
     handler: function() {
      $('#way10').animate({ opacity: 1, },{ duration: 2500,  queue: false });
      $('#wa111').animate({ marginRight: "2rem", },{ duration: 2500,  queue: false });
-     $('#wa111').css('webkitFilter','blur(0px)');
+    
       }, offset: 'bottom-in-view'
   })
    var waypoint11 = new Waypoint({
@@ -96,9 +96,10 @@ $bgobj.css({ top: coords });
       var $window = $(window);
 
         $('#logo1').followTo($window.scrollTop());
+        //$('.gradient').css('opacity', '0');
         
         
-      }, offset: 350
+      }, offset: 400
   })
 
 	var waypoint2 = new Waypoint({
@@ -376,7 +377,7 @@ $.fn.followTo = function (pos) {
             $this.css({
                 position: 'absolute',
                 top: pos,
-                width: '100%',
+                
             });
         } else {
             $this.css({

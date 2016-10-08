@@ -265,6 +265,35 @@ color: #fff;
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
 }
 
+#logo1 {
+  top:0;
+  width: 100%;
+  height: 300px;
+    background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
+/* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
+/* For Opera 11.1 to 12.0 */
+  background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
+/* For Firefox 3.6 to 15 */
+  background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
+/* Standard syntax */
+  display:block;
+  position: fixed;
+  z-index: 20;
+  
+}
+
+.logo1 img {
+  top:25px;
+  z-index:20;
+  position: absolute;
+  left: 37.5%;
+  margin: 0 auto;
+  width: 25%;
+  min-width: 280px;
+}
+
+
 #scene {
   width: 100%;
   height: 300px;
@@ -272,6 +301,9 @@ color: #fff;
   margin:0;
   
 }
+
+
+
 
 .layer {
   position: absolute;
@@ -292,33 +324,7 @@ color: #fff;
 
 
 
-.logo1 img {
-  top:25px;
-  z-index:20;
-  position: absolute;
-  left: 37.5%;
-  margin: 0 auto;
-  width: 25%;
-  min-width: 280px;
-}
 
-#logo1 {
-  top:0;
-  width: 100%;
-  height: 300px;
-    background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
-/* For Safari 5.1 to 6.0 */
-  background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
-/* For Opera 11.1 to 12.0 */
-  background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
-/* For Firefox 3.6 to 15 */
-  background: -webkit-linear-gradient(rgba(148,173,144,1),rgba(148,173,144,1) 70%,rgba(148,173,144,0.9));
-/* Standard syntax */
-  display:block;
-  position: fixed;
-  z-index: 20;
-  
-}
 .gradient {
   width: 100%;
   height: 300px;
@@ -333,6 +339,12 @@ color: #fff;
 /* Standard syntax */
 
 }
+
+#way10 {
+  margin-top: 300px;
+  opacity:0;
+}
+
   .filter {
     width:500px;
     background-color:#94ad90;
@@ -371,10 +383,6 @@ color: #fff;
   
 }
 
-#way10 {
-  margin-top: 400px;
-  opacity:0;
-}
 
 #way11 {
 position:relative;
@@ -388,14 +396,7 @@ left: 100px;
 opacity: 0;
   }
 
-#wa111 {
-  
-  -webkit-filter: blur(7px);
- /* and the rest of it */
-  transition: 4.5s;
-  -webkit-transition:4.5s;
-  -moz-transition:4.5s;
-}
+
 
 
 
@@ -406,7 +407,7 @@ opacity: 0;
   padding-bottom: 120px;
      background-image: url("img/bakgrunner/BakgrunnTurkisRutete.svg");
   background-repeat: no-repeat;
-  background-size:auto 100%;
+  background-size:auto 110%;
 -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
