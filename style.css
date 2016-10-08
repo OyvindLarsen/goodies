@@ -284,13 +284,14 @@ color: #fff;
 }
 
 .logo1 img {
-  top:25px;
+  top:150px;
+  left:50%;
+  position:absolute;
   z-index:20;
-  position: absolute;
-  left: 37.5%;
-  margin: 0 auto;
+  transform: translate(-50%, -50%);
   width: 25%;
   min-width: 280px;
+
 }
 
 
@@ -778,14 +779,16 @@ a {
 
 
 @media (min-width: 770px) {
+    
+
+
     .fixedbackground {
         position: fixed;
         z-index:4;
         top:0%;
         display:block;
         font-size: 1.5em;
-        
-        
+           
         color:white;
 
     }
@@ -878,15 +881,8 @@ a {
 
 }
 @media only screen and (max-width: 770px) {
-     .nedover { 
-      bottom: 1%;
-     }
-     .nedover:hover { 
-      bottom: 0%;
-     }
-     .square {
-      top:5%;
-     }
+    
+     
      .navbar {
       display: block;
 
@@ -939,19 +935,20 @@ a {
       left:14px;
     
     }
-        .logo h3 {
-      position: relative;
+     .logo h3 {
+     position: relative;
       top:-60px;
       left:80px;
       font-size: 0.2em;
       }
 
     .products{
-    width:100%;
+    width:95%;
     padding-top:230px;
     z-index:3;
-    overflow:auto;
+    overflow:hidden;
     }
+
     #page-content-wrapper {
       width: 100%;
       padding-left:0px;
