@@ -108,7 +108,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb').children('.checkbox').toggleClass('checked');
       //$('#way').animate({ backgroundColor: "#94ad90", }, 1000 );
       $('#opacity').animate({ opacity: 1, }, 2500 );
-      notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Webside</strong>', 'info', '2000');
+      
 		}
 	})
 
@@ -135,7 +135,7 @@ $bgobj.css({ top: coords });
 			//$('#way2').animate({ backgroundColor: "#446CB3", }, 1000 );
       $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
       $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
-      notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Webhotell</strong>', 'info', '2000');
+      
 		}
 	})
 
@@ -152,7 +152,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb3').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb3').children('.checkbox').toggleClass('checked');
 			//$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
-      notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Drift</strong>', 'info', '2000');
+      
 		}
 	})
 	var waypoint5 = new Waypoint({
@@ -161,7 +161,7 @@ $bgobj.css({ top: coords });
       $('#wayWeb4').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb4').children('.checkbox').toggleClass('checked');
       //$('#way4').animate({ backgroundColor: "#F4D03F", }, 1000 );
-			notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Markedsføring</strong>', 'info', '2000');
+			
 		}
 	})
 	var waypoint6 = new Waypoint({
@@ -170,7 +170,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb5').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb5').children('.checkbox').toggleClass('checked');
 			//$('#way5').animate({ backgroundColor: "#E87E04", }, 1000 );
-      notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;" aria-hidden="true"></i><strong> Om oss</strong>', 'info', '2000');
+     
 		}
 	})
 	var waypoint7 = new Waypoint({
@@ -179,7 +179,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb6').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb6').children('.checkbox').toggleClass('checked');
 		  //$('#way6').animate({ backgroundColor: "#C0392B", }, 1000 );
-      notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;"  aria-hidden="true"></i><strong> Prisliste</strong>', 'info', '2000');
+      
 		}
 	})
 
@@ -189,7 +189,7 @@ $bgobj.css({ top: coords });
     
     $('.kommunikasjon').toggleClass('test');
     
-    notify('Bottom of element hit bottom of viewport', 'info', '200')
+    
   },
   offset: 'bottom-in-view'
 })

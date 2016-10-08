@@ -404,7 +404,9 @@ opacity: 0;
   #way {
   margin:0 25px 0 0;
   padding-bottom: 120px;
-  background-color: #9b9b9b;
+     background-image: url("img/bakgrunner/BakgrunnTurkisRutete.svg");
+  background-repeat: no-repeat;
+  background-size:auto 100%;
 -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
@@ -434,7 +436,10 @@ opacity: 0;
   padding-bottom: 120px;
   
   padding-top: 120px;
-  background-color: #446CB3;
+    background-image: url("img/bakgrunner/BakgrunnBlaaRutete.svg");
+  background-repeat: no-repeat;
+  background-size:auto 100%;
+
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   transform-origin: right center !important;
@@ -587,7 +592,7 @@ input[type=submit] {
   padding-top: 120px;
   background-image: url("img/BakgrunnMattebok.svg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:auto 100%;
 
   -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
