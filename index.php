@@ -292,7 +292,7 @@ font-weight="normal" letter-spacing="1.4690789">
 </div>
 </div>
 
-</div>
+
 
 <div class="products way" id ="way3">
 <div class="container">
