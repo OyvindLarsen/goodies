@@ -307,7 +307,9 @@ font-weight="normal" letter-spacing="1.4690789">
   <div class="atitle">
 
   <h1>Drift</h1>
-  </div></div></div>
+  </div>
+  </div>
+  </div>
   <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
   <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma, drive nettbutikk,</p>
   </div>
@@ -341,16 +343,28 @@ font-weight="normal" letter-spacing="1.4690789">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Markedsføring</h1>
+  <div class="font" id="fading-i">
+  <div class="row">
+  <div class="col-md-4">
+  <div class="atitle">
 
-Nunc in justo eu libero dignissim facilisis eu at nisl. Aliquam nec turpis sed mauris dignissim sollicitudin eget id nibh. Vestibulum in neque nec ex pulvinar efficitur. Mauris viverra ullamcorper egestas. Sed ut lectus pharetra, tempus sapien at, euismod nibh. Ut porttitor enim eu dolor malesuada sagittis. Sed et auctor lorem. Donec nec mauris eu nibh tincidunt rutrum et quis est.
-
-Etiam eu enim ut nibh gravida vulputate. Curabitur rutrum, augue nec gravida iaculis, nibh magna pulvinar ex, et pharetra nulla nunc a quam. Nunc quam leo, ornare et tortor at, rutrum facilisis felis. In nisi massa, lacinia quis mi ac, ultricies pretium felis. Aenean blandit mauris justo, et ultrices neque vehicula non. Vestibulum sagittis orci gravida, tempus nibh sed, dapibus odio. In vitae rhoncus velit. Vivamus et nibh eu massa ultrices efficitur. Nunc vel auctor ipsum, non tincidunt ipsum. Cras dui urna, pretium et ipsum ut, elementum scelerisque ante. Quisque blandit orci quis cursus placerat. Suspendisse condimentum gravida sapien, nec sodales erat lacinia vel. Cras sed eleifend elit. Proin tristique neque tortor, at condimentum dui molestie eu.
-
-Pellentesque augue magna, molestie vel mi et, vulputate pharetra est. Suspendisse eros turpis, aliquam in commodo vitae, fringilla ac tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam interdum sapien quis tortor vulputate, a vulputate nibh sollicitudin. Nulla tincidunt tristique risus at tempor. Duis eu velit sollicitudin, tincidunt velit id, interdum libero. Vestibulum rutrum fermentum nunc ut laoreet. Phasellus eu magna pulvinar, porta nulla quis, feugiat ipsum. Aliquam non sem enim. Nulla eros leo, iaculis iaculis neque vestibulum, rutrum placerat libero. Vivamus in dignissim ligula, eget ullamcorper lorem. Ut in venenatis sapien. In in tincidunt lacus, at vulputate velit. Mauris ut risus id velit consequat sodales.
-
-Phasellus vel erat nec nulla congue volutpat. Maecenas fermentum malesuada tristique. Fusce placerat ac nunc et imperdiet. Vestibulum venenatis nibh in tellus tincidunt, sit amet pellentesque est lacinia. Vestibulum fringilla varius libero et faucibus. Vestibulum venenatis, nisi quis pharetra lobortis, enim nibh efficitur felis, at faucibus magna lectus ut eros. Proin vitae placerat est, eu luctus lectus. Mauris vel velit a elit tincidunt facilisis. Suspendisse ac risus velit. Vestibulum sollicitudin libero euismod urna porttitor euismod. Integer eget mauris vel arcu ultrices dapibus. Nulla dignissim ipsum vitae magna imperdiet, at sollicitudin quam pulvinar. Mauris sodales vel nisl eget dictum. In vitae ultrices neque.
-</div></div></div></div>
+  <h1>Markedsføring</h1>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-6">
+  <h3>Ekspander omfanget av din merkevare.</h3>
+  <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p><p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
+  </div>
+  <div class="col-md-6"></div>
+  
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="products way" id ="way5">
 <div class="container">
 <div class="row">
