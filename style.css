@@ -449,7 +449,7 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
   padding-top: 120px;
     background-image: url("img/bakgrunner/BakgrunnBlaaRutete.svg");
   background-repeat: no-repeat;
-  background-size:auto 100%;
+  background-size:100% auto;
 
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
