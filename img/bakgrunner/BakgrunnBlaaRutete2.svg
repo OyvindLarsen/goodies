@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="3134" viewBox="0 0 320 3134" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient id="c" cy="12.391%" r="13.157%" fx="50%" fy="12.391%">
+      <stop stop-color="#FFFFFF" stop-opacity=".5" offset="0%"/>
+      <stop stop-color="#000000" stop-opacity=".5" offset="100%"/>
+    </radialGradient>
+    <rect id="b" width="320" height="3134"/>
+    <pattern id="d" width="9.081" height="9.081" x="-9.081" y="-9.081" patternUnits="userSpaceOnUse">
+      <use xlink:href="#a" transform="scale(.18919)"/>
+    </pattern>
+    <image id="a" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAALNJREFUaAXtmEEKwzAMBOP+yf9/gB/V0uMexZBtA5ObwJLiGQuM1977fQ2+c84aLL/urv+a/Mw/rnUDv7aiAQ1AAh4hCBCnawAjhAUeb2B0r/nCuvtuM63/eANuAM4gTtcARggLaAACxOkawAhhAQ1AgDh9Te8evgth5lnAGUge/UgDfebZUQPJox9poM88O2ogefQj34X6zLOjM5A8+pEG+syzowaSRz/SQJ95dtRA8uhHHxtJG5lrDDU9AAAAAElFTkSuQmCC"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#2B98F0" xlink:href="#b"/>
+    <use fill="url(#c)" xlink:href="#b"/>
+    <use fill="url(#d)" fill-opacity=".04" xlink:href="#b"/>
+  </g>
+</svg>
