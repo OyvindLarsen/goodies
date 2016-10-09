@@ -43,6 +43,17 @@
   
 }
 
+  .nedover { 
+      bottom: 1%;
+     }
+     .nedover:hover { 
+      bottom: 0%;
+     }
+
+     .square {
+      top:5%;
+     }
+
 .link {
   color:white;
 
@@ -98,4 +109,164 @@
 
 
 notify('<i class="fa fa-info-circle" style="font-size:1.5em; vertical-align: middle;"  aria-hidden="true"></i><strong> Prisliste</strong>', 'info', '2000');
+
+ <h3></h3>
+    <p></p>
+    <p></p>
+
+    </div>
+
+
+    <nav class="layer">
+<div class="holder">
+      <table width="100%">
+        <tr>
+          <td>instilling1</td>
+          <td>
+            <div>
+              <input type="checkbox" />
+                <span></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>instilling2</td>
+          <td>
+            <div>
+              <input type="checkbox" />
+                <span></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>instilling3</td>
+          <td>
+            <div>
+              <input type="checkbox" checked="" />
+                <span></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Save Settings" >
+          </td>
+        </tr>
+      </table>
+    </div>
+</nav>
+.tilt {
+  transform: perspective(700px) scale(1) translateX(0) rotateY(-10deg) !important;
+  
+  transition: transform 1s !important;
+}
+#meny2 {
+display:block;
+position:absolute;
+bottom:10%;
+}
+.holder{
+  position: relative;
+  left:-600px;
+  top:250px;
+  background: #fff;
+  border-radius:5px;  
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1); 
+  margin:100px auto;
+  padding:30px 20px 20px;
+  width:400px;
+}
+
+td{
+  border-bottom:1px solid #f6f6f6;
+  padding:5px 10px;
+}
+
+td:nth-child(2){
+  text-align: right;
+  width: 40px;
+}
+
+tr:last-child td{
+  border:none;
+  padding:30px 10px 10px;
+  text-align: center;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+  height: 30px;
+  margin:4px 0 0;
+  position: absolute;
+  opacity: 0;
+  width: 30px;
+  z-index: 2;
+}
+
+input[type=checkbox] + span {
+  background: #e74c3c;
+  border-radius: 50%;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+  display: inline-block;
+  height: 30px;
+  margin:4px 0 0;
+  position:relative;
+  width: 30px;
+  transition: all .2s ease;
+}
+
+input[type=checkbox] + span::before, input[type=checkbox] + span::after{
+  background:#fff;
+  content:'';
+  display:block;
+  position:absolute;
+  width:4px;
+  transition: all .2s ease;
+}
+
+input[type=checkbox] + span::before{
+  height:16px;
+  left:13px;
+  top:7px;
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+input[type=checkbox] + span::after{
+  height:16px;
+  right:13px;
+  top:7px;
+  -webkit-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+
+input[type=checkbox]:checked + span {
+  background:#2ecc71;         
+}
+
+input[type=checkbox]:checked + span::before{
+  height: 9px;
+  left: 9px;
+  top: 13px;
+  -webkit-transform:rotate(-47deg);
+  transform:rotate(-47deg);
+}
+
+input[type=checkbox]:checked + span::after{
+  height: 15px;
+  right: 11px;
+  top: 8px;
+}
+
+input[type=submit] {
+  background-color: #2ecc71;
+  border: 0;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size:16px;
+  text-align: center;
+  padding: 12px 20px 14px;
+}
 

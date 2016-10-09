@@ -206,30 +206,39 @@ font-weight="normal" letter-spacing="1.4690789">
 
         
         <div class="products way" id= "way">
-        <div class="container">
-        <div class="row">
-        <div class="col-md-12" >
-        <div class="row test1">
-        <div class="col-md-3">
-        <div class="atitle">
-          <h1>Webside</h1>
+        <div class="container-fluid">
+        
+         <div class="row padding-top padding-bottom">
+        <div id="fading-in3">
+          <div class="col-md-1" id=""></div>
+          <div class="col-md-4" id="">
+            <div class="font" >
+
+    <div class="atitle">
+      
+          <h1>Nettsider</h1>
           <br>
+      </div>
+
+        <h3>Pakkeløsninger tilpasset ethvert behov</h3>
+        <p>Vi tilbyr en hel rekke skreddersydde og egenproduserte nettsideløsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Ønsker du å lansere en blogg med stilren og funksjonell utforming? Trenger du å opprette en ny nettbutikk for din virksomhet eller oppgradere din eksisterende for å øke trafikk og omsetning?</p>
+        <p>Vi har pakkeløsninger som vil tilfredsstille de aller fleste behov, men vi tar også gjerne i mot spesalbestillinger for å skreddersy våre leveranser i henhold til dine ønsker.</p>
+          </div>
         </div>
-        </div>
-  
+  <div class="padding-top">
+  <div class="col-md-2" id="fading-in31"><img src="img/web/1P.svg"></div>
+  <div class="col-md-2" id="fading-in32"><img src="img/web/1P+.svg"></div>
+  <div class="col-md-2" id="fading-in33"><img src="img/web/GS.svg"></div>
+  </div>
+  <div class="col-md-1" id=""></div>
+
 </div>
- <div class="row">
-<div id="fading-in3">
-  <div class="col-md-4" id="fading-in31"><img src="img/web/1P.svg"></div>
-  <div class="col-md-4" id="fading-in32"><img src="img/web/1P+.svg"></div>
-  <div class="col-md-4" id="fading-in33"><img src="img/web/GS.svg"></div>
-</div>
 </div>
 
 
 
-
-</div></div></div></div>
+</div>
+</div>
 <nav class="layer">
 <div class="holder">
       <table width="100%">
@@ -270,7 +279,7 @@ font-weight="normal" letter-spacing="1.4690789">
 </nav>
 <div class="products way" id ="way2" >
 <div class="container">
-<div class="row test1">
+<div class="row">
 <div class="col-md-3">
 <div class="atitle">
   <h1>Webhotell</h1>
@@ -355,7 +364,7 @@ font-weight="normal" letter-spacing="1.4690789">
   <div class="row">
   <div class="col-md-6">
   <h3>Ekspander omfanget av din merkevare.</h3>
-  <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p><p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
+  <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
   </div>
   <div class="col-md-6"></div>
   
