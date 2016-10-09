@@ -165,10 +165,11 @@ font-weight="normal" letter-spacing="1.4690789">
         <h1>Kode &#38 design</h1>
         </div>
         </div>  
-        <div class="row" id="way10">
+        <div class="row" id="way10" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-              <img src="img/Kode.jpg" class="curve" id="wa111" >
+              <img src="img/Kode.jpg" style="width:400px" class="curve" id="wa111" >
               <div class="para">
+
               <h1>Skreddersøm</h1>
 
              <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
@@ -181,7 +182,7 @@ font-weight="normal" letter-spacing="1.4690789">
         </div>
 
         
-        <div class="row padding-top padding-bottom" id="way11">
+        <div class="row padding-bottom" id="way11">
           <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
           <div class="font">
             <h1>Responsive nettsider</h1>
@@ -191,7 +192,7 @@ font-weight="normal" letter-spacing="1.4690789">
           </div>
           <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
 
-          <div class="filter"><img src="img/grafikk/Responsiv.png" style="width:500px;"></div></div>
+          <div class="filter"><img src="img/grafikk/Responsiv.png" style="width:400px;"></div></div>
         </div>
 
        

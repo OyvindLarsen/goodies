@@ -409,8 +409,7 @@ font-weight: 100;
 
   .filter {
     width:500px;
-    background-color:
-#404040;
+    background-color:#404040;
   }
 
   .filter img {
@@ -433,7 +432,12 @@ font-weight: 100;
   margin: 2rem; 
 }
 #circle-shape-example p { 
-  line-height: 1.8; 
+  line-height: 1.8;
+   font-size: 1em;
+color: #FFFFFF ;
+letter-spacing: 3px;
+
+font-weight: 100;
 }
 #circle-shape-example .curve { 
   width: 33%; height: auto;
@@ -456,7 +460,7 @@ opacity: 0;
 #way12 {
 position:relative;
 left: 100px;
-padding-bottom: 150px;
+padding-bottom: 400px;
 opacity: 0;
   }
 
