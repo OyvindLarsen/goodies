@@ -473,7 +473,9 @@ opacity: 0;
   #way {
   margin:0 25px 0 0;
   
-background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(0,0,0,0.50) 100%);
+background-image: url("img/bakgrunner/BakgrunnLillaRutete.svg");
+background-repeat: no-repeat;
+ background-size:100% auto;
 -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
@@ -503,7 +505,7 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
   padding-bottom: 120px;
   
   padding-top: 120px;
-    background-image: url("img/bakgrunner/BakgrunnBlaaRutete2.svg");
+  background-image: url("img/bakgrunner/BakgrunnBlaaRutete2.svg");
   background-repeat: no-repeat;
   background-size:100% auto;
 
@@ -555,8 +557,9 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
   padding-bottom: 120px;
   padding-top: 120px;
   background: #4CD964 ;
-  background: #4CD964 radial-gradient(64% 70% at 50% 120%, rgba(255,255,255,0.50) 50%, rgba(0,0,0,0.50) 100%);
-  
+  background-image: url("img/bakgrunner/BakgrunnGrønnRutete.svg");
+background-repeat: no-repeat;
+ background-size:100% auto;
 
   -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
@@ -591,7 +594,10 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
   padding-top: 120px;
   padding-bottom:20px;
 
-  background: #FF2D55 radial-gradient(81% 179% at 76% 85%, rgba(255,255,255,0.25) 2%, rgba(246,246,246,0.25) 5%, rgba(0,0,0,0.5) 100%);
+  background-image: url("img/bakgrunner/BakgrunnRødRutete.svg");
+background-repeat: no-repeat;
+ background-size:100% auto;
+
   
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
