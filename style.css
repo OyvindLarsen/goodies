@@ -249,9 +249,7 @@ font-weight: 100;
 
 }
 
-#opacity {
-  opacity:0;
-}
+
 
 .way img:hover {
   width:102% !important;
@@ -447,7 +445,7 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
   padding-bottom: 120px;
   
   padding-top: 120px;
-    background-image: url("img/bakgrunner/BakgrunnBlaaRutete.svg");
+    background-image: url("img/bakgrunner/BakgrunnBlaaRutete2.svg");
   background-repeat: no-repeat;
   background-size:100% auto;
 
@@ -477,6 +475,18 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
 .no-padding {
   padding:0;
   margin:0;
+}
+
+#opacity {
+  position: relative;
+  opacity:0;
+  left:80px;
+}
+
+#opacity2 {
+  position: relative;
+  opacity:0;
+  left:-80px;
 }
 
 
@@ -519,14 +529,44 @@ background:  #9B2FAE radial-gradient(64% 150%, rgba(255,255,255,0.50) 50%, rgba(
 /*############### Markedsføring ###############*/
 #way4 {
   margin:0 0 0 25px;
-  padding-bottom: 120px;
+  
   padding-top: 120px;
+  padding-bottom:20px;
 
   background: #FF2D55 radial-gradient(81% 179% at 76% 85%, rgba(255,255,255,0.25) 2%, rgba(246,246,246,0.25) 5%, rgba(0,0,0,0.5) 100%);
   
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+  overflow:hidden;
   
+
+}
+.graf {
+  position: absolute;
+  top:15%;
+  left:0%;
+
+}
+
+.graf img {
+  width:100%;
+  
+
+}
+
+
+.rakett {
+  position:absolute;
+  top:0;
+  left:90%;
+  
+
+}
+.rakett2 {
+  
+  position:absolute;
+  
+  left:60%;
 
 }
 /*############### Om oss ###############*/

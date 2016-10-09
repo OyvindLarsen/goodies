@@ -235,13 +235,15 @@ font-weight="normal" letter-spacing="1.4690789">
           <div class="row padding-top padding-bottom">
             <div class="col-md-12">
               <div class="font" >
-                <div class="atitle">
-                  <h1>Webhotell</h1><br>
+                <div id="opacity2">
+                  <div class="atitle">
+                    <h1>Webhotell</h1><br>
+                  </div>
+                  <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift. </h3>
+                  <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
+                  <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
+                  <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
                 </div>
-                <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift. </h3>
-                <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
-                <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
               </div>
             </div>
           </div>
@@ -264,18 +266,18 @@ font-weight="normal" letter-spacing="1.4690789">
 <div class="col-md-5 flex-md-middle">
 <div class="matchHeight">
   
-  <div class="font" id="fading-in">
-  <div class="row">
-  <div class="col-md-7">
-  <div class="atitle">
+<div class="font" id="fading-in">
+<div class="row">
+<div class="col-md-7">
+<div class="atitle">
 
-  <h1>Drift</h1>
-  </div>
-  </div>
-  </div>
-  <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
-  <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma, drive nettbutikk,</p>
-  </div>
+<h1>Drift</h1>
+</div>
+</div>
+</div>
+<h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
+<p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma, drive nettbutikk,</p>
+</div>
 
 </div>
 </div>
@@ -283,51 +285,65 @@ font-weight="normal" letter-spacing="1.4690789">
 <div class="col-md-6">
 <div class="matchHeight">
 <div id="fading-in2">
-  <div class="row">
-  <div class="col-md-6 no-padding"><img src="img/drift/Oppdateringer.svg"></div>
-  <div class="col-md-6 no-padding"><img src="img/drift/Overvåking.svg"></div>
-  </div>
-  <div class="row">
-  <div class="col-md-6 no-padding"><img src="img/drift/Patching.svg"></div>
-  <div class="col-md-6 no-padding"><img src="img/drift/SSL.svg"></div>
-  </div>
-  <div class="row">
-  <div class="col-md-6 no-padding"><img src="img/drift/MSSQL.svg"></div>
-  <div class="col-md-6 no-padding"><img src="img/drift/Backup.svg"></div>
-  </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="products way" id ="way4">
-<div class="container">
 <div class="row">
-<div class="col-md-12">
-  <div class="font" id="fading-i">
-  <div class="row">
-  <div class="col-md-4">
-  <div class="atitle">
+<div class="col-md-6 no-padding"><img src="img/drift/Oppdateringer.svg"></div>
+<div class="col-md-6 no-padding"><img src="img/drift/Overvåking.svg"></div>
+</div>
+<div class="row">
+<div class="col-md-6 no-padding"><img src="img/drift/Patching.svg"></div>
+<div class="col-md-6 no-padding"><img src="img/drift/SSL.svg"></div>
+</div>
+<div class="row">
+<div class="col-md-6 no-padding"><img src="img/drift/MSSQL.svg"></div>
+<div class="col-md-6 no-padding"><img src="img/drift/Backup.svg"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-  <h1>Markedsføring</h1>
+<div class="products" id ="way4">
+  <div class="container">
+    <div class="row padding-top padding-bottom">
+      <div class="col-md-12">
+        <div class="font" id="fading-i">
+          <div class="row">
+          <div class="graf"><img src="img/grafikk/SocialGraf.svg"></div>
+            <div class="col-md-4">
+              <div class="atitle">
+                <h1>Markedsføring</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row padding-bottom">
+            <div class="col-md-7 matchHeight padding-bottom">
+              <h3>Ekspander omfanget av din merkevare.</h3>
+              <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
+            </div>
+            <div class="col-md-5 matchHeight">
+                <div class="rakett" data-type="test2" data-speed="1.2"><img src="img/grafikk/Rakett.svg"></div>
+                
+            </div>
+          </div>
+          <div class="row padding-top">
+            <div class="col-md-12"><div class="rakett2"><img src="img/grafikk/Røyk.svg"></div></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
   </div>
-  </div>
-  </div>
-  <div class="row">
-  <div class="col-md-6">
-  <h3>Ekspander omfanget av din merkevare.</h3>
-  <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
-  </div>
-  <div class="col-md-6"></div>
   
-  </div>
 </div>
-</div>
-</div>
-</div>
-</div>
+
+
+
+
+
 <div class="products way" id ="way5">
 <div class="container">
 <div class="row">

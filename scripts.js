@@ -21,11 +21,16 @@ var $window = $(window); //You forgot this line in the above example
 
 $('div[data-type="test2"]').each(function(){
 var $bgobj = $(this); // assigning the object
-$(window).scroll(function() {
-var yPos = ($window.scrollTop()*$bgobj.data('speed'));
+var offset = $('#way4').offset();
 
-var coords = yPos + 'px';
-// Move the background
+$(window).scroll(function() {
+
+var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed')));
+
+  var coords = yPos + 'px';
+
+
+console.log(coords);
 $bgobj.css({ top: coords });
 });
 });
@@ -108,7 +113,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb').children('.checkbox').toggleClass('checked');
       //$('#way').animate({ backgroundColor: "#94ad90", }, 1000 );
-      $('#opacity').animate({ opacity: 1, }, 2500 );
+      
       
 		}
 	})
@@ -134,8 +139,7 @@ $bgobj.css({ top: coords });
 			$('#wayWeb2').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb2').children('.checkbox').toggleClass('checked');
 			//$('#way2').animate({ backgroundColor: "#446CB3", }, 1000 );
-      $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
-      $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
+      
       
 		}
 	})
@@ -143,7 +147,10 @@ $bgobj.css({ top: coords });
   var waypoint31 = new Waypoint({
     element: document.getElementById('way2'),
     handler: function() {
-      $('#opacity').animate({ opacity: 1, }, 2500 );
+      $('#opacity').animate({ opacity: 1, },{ duration: 2500,  queue: false });
+      $('#opacity').animate({ left: 0, },{ duration: 2500,  queue: false });
+      $('#opacity2').animate({ opacity: 1, },{ duration: 2500,  queue: false });
+      $('#opacity2').animate({ left: 0, },{ duration: 2500,  queue: false });
     }, offset: '50%'
   })
 
@@ -153,9 +160,18 @@ $bgobj.css({ top: coords });
 			$('#wayWeb3').children('.verticaLine').toggleClass('checked');
 			$('#wayWeb3').children('.checkbox').toggleClass('checked');
 			//$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
-      
-		}
+    }
 	})
+  var waypoint4 = new Waypoint({
+    element: document.getElementById('way3'),
+    handler: function() {
+      $('#wayWeb3').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb3').children('.checkbox').toggleClass('checked');
+      //$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
+      $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
+      $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
+    }, offset: '50%'
+  })
 	var waypoint5 = new Waypoint({
 		element: document.getElementById('way4'),
 		handler: function() {
