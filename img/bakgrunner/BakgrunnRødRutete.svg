@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="3134" viewBox="0 0 320 3134" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <radialGradient id="c" cy="12.391%" r="13.157%" fx="50%" fy="12.391%">
+    <radialGradient id="c" cx="22.71%" cy="33.37%" r="61.605%" fx="22.71%" fy="33.37%">
       <stop stop-color="#FFFFFF" stop-opacity=".5" offset="0%"/>
       <stop stop-color="#000000" stop-opacity=".5" offset="100%"/>
     </radialGradient>
