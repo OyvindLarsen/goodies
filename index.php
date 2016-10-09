@@ -196,8 +196,7 @@ font-weight="normal" letter-spacing="1.4690789">
               </div>
               <br><br><br><br><br>
               <div class="row">
-                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div><br><br><br><br>
-<br><br>
+                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div><br><br><br><br><br><br>
 
               </div>
             </div>
@@ -205,101 +204,56 @@ font-weight="normal" letter-spacing="1.4690789">
          
 
         
-        <div class="products way" id= "way">
-        <div class="container-fluid">
-        
-         <div class="row padding-top padding-bottom">
-        <div id="fading-in3">
-          <div class="col-md-1" id=""></div>
-          <div class="col-md-4" id="">
-            <div class="font" >
-
-    <div class="atitle">
-      
-          <h1>Nettsider</h1>
-          <br>
+      <div class="products way" id= "way">
+        <div class="container">   
+         <div id="fading-in3">
+          <div class="row padding-top padding-bottom">
+            <div class="col-md-12" id="">
+              <div class="font" >
+                <div class="atitle">
+                  <h1>Nettsider</h1><br>
+                </div>
+                <h3>Pakkeløsninger tilpasset ethvert behov</h3>
+                <p>Vi tilbyr en hel rekke skreddersydde og egenproduserte nettsideløsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Ønsker du å lansere en blogg med stilren og funksjonell utforming? Trenger du å opprette en ny nettbutikk for din virksomhet eller oppgradere din eksisterende for å øke trafikk og omsetning?</p>
+                <p>Vi har pakkeløsninger som vil tilfredsstille de aller fleste behov, men vi tar også gjerne i mot spesalbestillinger for å skreddersy våre leveranser i henhold til dine ønsker.</p>
+              </div>
+            </div>
+           </div>
+          <div class="row padding-bottom">
+            <div class="padding-top">
+              <div class="col-md-4" id="fading-in31"><img src="img/web/1P.svg"></div>
+              <div class="col-md-4" id="fading-in32"><img src="img/web/1P+.svg"></div>
+              <div class="col-md-4" id="fading-in33"><img src="img/web/GS.svg"></div>
+            </div>
+          </div>
+         </div>
+        </div>
       </div>
-
-        <h3>Pakkeløsninger tilpasset ethvert behov</h3>
-        <p>Vi tilbyr en hel rekke skreddersydde og egenproduserte nettsideløsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Ønsker du å lansere en blogg med stilren og funksjonell utforming? Trenger du å opprette en ny nettbutikk for din virksomhet eller oppgradere din eksisterende for å øke trafikk og omsetning?</p>
-        <p>Vi har pakkeløsninger som vil tilfredsstille de aller fleste behov, men vi tar også gjerne i mot spesalbestillinger for å skreddersy våre leveranser i henhold til dine ønsker.</p>
+        
+      <div class="products way" id ="way2" >
+        <div class="container">
+          <div class="row padding-top padding-bottom">
+            <div class="col-md-12">
+              <div class="font" >
+                <div class="atitle">
+                  <h1>Webhotell</h1><br>
+                </div>
+                <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift. </h3>
+                <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
+                <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
+                <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row padding-bottom">
+            <div id="opacity">
+              <div class="col-md-4"><div id="buy"><img src="img/1.svg"></div></div>
+              <div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
+              <div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
+            </div>
           </div>
         </div>
-  <div class="padding-top">
-  <div class="col-md-2" id="fading-in31"><img src="img/web/1P.svg"></div>
-  <div class="col-md-2" id="fading-in32"><img src="img/web/1P+.svg"></div>
-  <div class="col-md-2" id="fading-in33"><img src="img/web/GS.svg"></div>
-  </div>
-  <div class="col-md-1" id=""></div>
-
-</div>
-</div>
-
-
-
-</div>
-</div>
-<nav class="layer">
-<div class="holder">
-      <table width="100%">
-        <tr>
-          <td>instilling1</td>
-          <td>
-            <div>
-              <input type="checkbox" />
-                <span></span>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>instilling2</td>
-          <td>
-            <div>
-              <input type="checkbox" />
-                <span></span>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>instilling3</td>
-          <td>
-            <div>
-              <input type="checkbox" checked="" />
-                <span></span>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <input type="submit" value="Save Settings" >
-          </td>
-        </tr>
-      </table>
-    </div>
-</nav>
-<div class="products way" id ="way2" >
-<div class="container">
-<div class="row">
-<div class="col-md-3">
-<div class="atitle">
-  <h1>Webhotell</h1>
-  <br>
-</div>
-</div>
-  
-</div>
-<div class="row">
-<div id="opacity">
-  <div class="col-md-4"><div id="buy"><img src="img/1.svg"></div></div>
-  <div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
-  <div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
-</div>
-<br><br>
-<div id="meny2">Klikk her</div>
-
-</div>
-</div>
-</div>
+      </div>
 
 
 

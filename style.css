@@ -196,15 +196,22 @@ padding:0;
     display: table-cell; 
 
 }
+.atitle {
+border-bottom: 2px solid #FEE94E;
+line-height: 0;
+letter-spacing: 1px;
+margin-bottom: 35px;
+color: #fff;
+}
 
 .font h1 {
-font-size: 48px;
+font-size: 2em;
 }
 
 .font h3 {
 line-height: 1;
 font-weight: 100;
-font-size: 48px;
+font-size: 2em;
 color: #FFFFFF ;
 letter-spacing: 3.73px;
 margin-bottom:25px;
@@ -213,7 +220,7 @@ margin-bottom:25px;
 
 
 .font p {
-  font-size: 24px;
+  font-size: 1em;
 color: #FFFFFF ;
 letter-spacing: 3px;
 line-height: 35px;
@@ -254,14 +261,7 @@ font-weight: 100;
 }
 
 
-.atitle {
-border-bottom: 2px solid #FEE94E;
-line-height: 0;
-text-transform: uppercase;
-letter-spacing: 1px;
-margin-bottom: 35px;
-color: #fff;
-}
+
 
  /*############### Forside ###############*/
 
