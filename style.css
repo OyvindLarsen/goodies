@@ -638,7 +638,11 @@ background-repeat: no-repeat;
   margin:0 25px 0 0;
   padding-bottom: 120px;
   padding-top: 120px; 
-  background-color: #E87E04;
+
+  background-image: url("img/bakgrunner/BakgrunnLysBlaaRutete.svg");
+background-repeat: no-repeat;
+ background-size:100% auto;
+
   -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
