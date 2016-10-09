@@ -42,14 +42,29 @@ $output="";
   
   
    
-  <div id="home" data-type="test2" data-speed="0" class="pages">     
+ 
+    <div id="home" data-type="" data-speed="0" class="pages">     
       <article>
-     <div id="wa1"></div>
+     
+               <div id="logo1">
+              <ul id="scene" >
             
+            
+            <li class="layer" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0.7" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
+            <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/BakerstArk.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0.2" data-depth="0.50"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0.5" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0" data-depth="0.7"><div class="rakett3"><img src="img/grafikk/paralax/Rakett.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="-1" data-depth="0.80"><div class="front"><img src="img/grafikk/paralax/FrontArk.svg"></div></li>
+                      
+                      
+            
+              </ul>
      </article>
   </div>   
    
-  
   
   <div id="about" data-type="background" data-speed="1" class="pages">
          <article>
@@ -142,66 +157,62 @@ font-weight="normal" letter-spacing="1.4690789">
         <div id="page-content-wrapper" class="slide">
         <div class="page-content">
         <div class="products" id= "wa">
-            
-              <div id="logo1">
-              <ul id="scene" >
-            
-            <li class="layer" data-depth="0.60" ><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
-            
-            
-              </ul>
-              <div class="gradient"></div>
-              </div>
-
-              <div class="container">
-              <div class="row" id="way10">
-                    <div id="circle-shape-example"  >
-                    <img src="img/Kode.jpg" class="curve" id="wa111" >
-                    <div class="para">
-                    <h1>Skreddersøm</h1>
-
-                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
-                  
-                  </div>
-                  </div>
-                                 
-               
-              
-              </div>
-
-              <br><br><br>
-              <div class="row" id="way11">
-                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
-                <div class="font">
-                  <h1>En nettside burde være levende.</h1>
-                  <p>Og til enhver tid sende det budskapet du ønsker å signalisere.</p>
-                  <p>Våre modulbaserte webløsninger sørger for at nettsiden din blir en levende representasjon som vokser organisk sammen med deg eller ditt firma  .</p>
-                  </div>
-                </div>
-                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
-
-                <div class="filter"><img src="img/growth.jpg" style="width:500px;"></div></div>
-              </div>
-
-              <br><br><br>
-               <div class="row" id="way12">
-                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0"><div class="filter"><img src="img/stats.jpg"></div></div>
-                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
-                <div class="font" >
-                  <h1>En god nettside skal sikre inntekt og være en investering med god avkastning.</h1>
-                  <p>Dette er en av målsetningene til Goodies. Vi når dette målet via godt utformede websider og målrettede markedsføringskampanjer i et stabilt miljø.
-                  Våre kjerneområder er <strong>Websider</strong>, <strong>Hosting</strong>, <strong>Drift</strong> og <strong>Markedsføring</strong>.</p>
-                  </div>
-                </div>
-              </div>
-              <br><br><br><br><br>
-              <div class="row">
-                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div><br><br><br><br><br><br>
-
-              </div>
-            </div>
+       
+             
+        <div class="container">
+        <div class="font center" id="wa1">
+        <div class="atitle">
+        <h1>Kode &#38 design</h1>
         </div>
+        </div>  
+        <div class="row" id="way10">
+              <div id="circle-shape-example"  >
+              <img src="img/Kode.jpg" class="curve" id="wa111" >
+              <div class="para">
+              <h1>Skreddersøm</h1>
+
+             <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
+            
+            </div>
+            </div>
+                           
          
+        
+        </div>
+
+        
+        <div class="row padding-top padding-bottom" id="way11">
+          <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
+          <div class="font">
+            <h1>Responsive nettsider</h1>
+            <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
+            <p>Goodies vektlegger å utvikle funksjonelle og responsive nettsider som tilpasser seg størrelsen på skjermen.</p>
+            </div>
+          </div>
+          <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
+
+          <div class="filter"><img src="img/grafikk/Responsiv.png" style="width:500px;"></div></div>
+        </div>
+
+       
+         <div class="row padding-top padding-bottom" id="way12">
+          <div class="col-md-6 matchHeight" data-type="test2" data-speed="0"><div class="filter"><img src="img/grafikk/VektorGrafikk.png" style="width:400px"></div></div>
+          <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
+          <div class="font" >
+            <h1>Vektor grafikk for sylskarpe og dynamiske bilder</h1>
+            <p>Vi skaper mesteparten av vår grafikk til websider og app’er i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
+            <p>Derfor vil grafikken vi skaper holde seg like sylskarp uavhengig av hvor stor skjerm den vises på.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row padding-top padding-bottom">
+          <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
+
+        </div>
+      </div>
+  </div>
+   
 
         
       <div class="products way" id= "way">

@@ -1,15 +1,16 @@
+
 $(document).ready(function(){
 
 var $window = $(window); //You forgot this line in the above example
 
-$('div[data-type="background"]').each(function(){
+$('li[data-type="background"]').each(function(){
 var $bgobj = $(this); // assigning the object
 $(window).scroll(function() {
 var yPos = ($window.scrollTop()*$bgobj.data('speed'));
 // Put together our final background position
-var coords = 'left '+ yPos + 'px';
-// Move the background
-$bgobj.css({ backgroundPosition: coords });
+var coords = yPos + 'px';
+console.log(coords);
+$bgobj.css({ top: coords });
 });
 });
 });
@@ -25,12 +26,12 @@ var offset = $('#way4').offset();
 
 $(window).scroll(function() {
 
-var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed')));
+var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed'))+200);
 
   var coords = yPos + 'px';
 
 
-console.log(coords);
+
 $bgobj.css({ top: coords });
 });
 });
@@ -100,7 +101,7 @@ $bgobj.css({ top: coords });
     handler: function() {
       var $window = $(window);
 
-        $('#logo1').followTo($window.scrollTop());
+       // $('#logo1').followTo($window.scrollTop());
         //$('.gradient').css('opacity', '0');
         
         
@@ -348,7 +349,7 @@ function WidthChange(mq) {
 
  
 
-/*
+
 
 $('#scene').parallax({
   calibrateX: true,
@@ -368,7 +369,7 @@ $('#scene').parallax({
 var $scene = $('#scene').parallax();
 $scene.parallax('enable');
 
-*/
+
 
    
 
@@ -381,8 +382,7 @@ $scene.parallax('enable');
   ga('send', 'pageview');
 
   $('.matchHeight').matchHeight();
-
-
+/*
 
 $.fn.followTo = function (pos) {
     var $this = this,
@@ -404,4 +404,4 @@ $.fn.followTo = function (pos) {
     });
 };
 
-
+*/
