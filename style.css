@@ -333,8 +333,17 @@ padding:0;
     color:white;
     position: relative;
     vertical-align: middle;
-    display: table-cell; 
+    
 
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.table1 {
+  display: table-cell!important; 
 }
 .atitle {
 border-bottom: 2px solid #FEE94E;
@@ -741,9 +750,6 @@ background-repeat: no-repeat;
 }
 
 
-#footer .font {
-
-}
 
 
 #footer h2 {
