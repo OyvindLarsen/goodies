@@ -372,16 +372,20 @@ I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjeneste
 <div class="products way" id ="way6">
 <div class="container">
 <div class="row">
-<div class="col-md-12">
+<div class="col-md-12 font">
+
+<div class="atitle">
+
 <h1>Om oss</h1>
-Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser.
-
-Per i dag er vi kun to ansatte, men vi har tilknytting til et stort nettverk av frilansere innen fotografi, video, grafiskdesign, nettdesign og utvikling som vi vil benytte oss av for å kunne levere oppdrag raskt, og med en profesjonell utforming.
-
-Vi mener i tillegg at det å være små gjør oss til en fleksibel tjenesteleverandør, og kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en dag eller to, så vel som større oppdrag som går over flere uker og måneder. Ved å benytte erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det på noen måte påvirker kvaliteten i våre leveranser. I og med at vi er en fersk aktør på markedet så er det ikke noe som er viktigere for oss enn at enhver kunde er 100% fornøyd med våre leveranser og vi vil strekke oss 'det lille ekstra' for å sørge for at man sitter igjen med en følelse av å ha fått mer enn hva man har betalt for ved å benytte seg av våre tjenester.
-
-I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotell, søkemotoroptimalisering og digitial markedsføring. Dette er fordi vi vet at noe av det mest avgjørende for våre kunder er at deres nettsider eller app'er når ut til flest mulig mennesker, og at tjenestene de leverer - enten via app eller web - til enhver tid er tilgjengelige.<br><br>
 </div>
+
+<p>Goodies er et firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til lavest mulig pris.</p>
+
+<p>Vi er et lite og nyopprettet firma, og det gjør vi til vår styrke ved å tilby gunstige priser og et høyt nivå av fleksibilitet. Kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en uke, eller to, - så vel som større oppdrag som går over flere uker og måneder.</p>
+
+<p>Ved å benytte vårt kontaktnett av erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det på noen måte påvirker kvaliteten i våre leveranser. Kundetilfredshet er avgjørende for oss og vi vil strekke oss 'det lille ekstra' for å sørge for at man sitter igjen med en følelse av å ha fått mer enn hva man har betalt for ved å benytte seg av våre tjenester.</p>
+
+<p>I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotellstjenester, søkemotoroptimalisering og digitial markedsføring.</p>
     </div>
     </div>
     </div>
