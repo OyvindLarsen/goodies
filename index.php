@@ -52,8 +52,8 @@ $output="";
             
             <li class="layer" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
             <li class="layer" data-type="background" data-speed="0.7" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
-            <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/BakerstArk.svg"></div></li>
-            <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0.1" data-depth="0.15"><div class="bakerst"><img src="img/grafikk/paralax/BakerstArk.svg"></div></li>
+            <li class="layer" data-type="background" data-speed="0.2" data-depth="0.20"><div class="opera"><img src="img/grafikk/paralax/Operabygget.svg"></div></li>
             <li class="layer" data-type="background" data-speed="0.2" data-depth="0.50"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
             <li class="layer" data-type="background" data-speed="0.5" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
             <li class="layer" data-type="background" data-speed="0" data-depth="0.7"><div class="rakett3"><img src="img/grafikk/paralax/Rakett.svg"></div></li>
@@ -360,7 +360,7 @@ font-weight="normal" letter-spacing="1.4690789">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Om oss</h1>
+<h1>App-prototyper</h1>
 Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser.
 
 Per i dag er vi kun to ansatte, men vi har tilknytting til et stort nettverk av frilansere innen fotografi, video, grafiskdesign, nettdesign og utvikling som vi vil benytte oss av for å kunne levere oppdrag raskt, og med en profesjonell utforming.
@@ -373,7 +373,7 @@ I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjeneste
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h1>Prisliste</h1>
+<h1>Om oss</h1>
 Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser.
 
 Per i dag er vi kun to ansatte, men vi har tilknytting til et stort nettverk av frilansere innen fotografi, video, grafiskdesign, nettdesign og utvikling som vi vil benytte oss av for å kunne levere oppdrag raskt, og med en profesjonell utforming.
