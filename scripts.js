@@ -64,15 +64,6 @@ $bgobj.css({ top: coords });
 
 	
 
-  var waypoint15 = new Waypoint({
-    element: document.getElementById('wa1'),
-    handler: function() {
-     // $('#way10').animate({ opacity: 1, }, 1000 );
-     // $('#way11').animate({ opacity: 1, }, 1000 );
-     // $('#way12').animate({ opacity: 1, }, 1000 );
-      
-      }, offset: -1
-  })
 
 
   var waypoint10 = new Waypoint({
@@ -179,7 +170,7 @@ $bgobj.css({ top: coords });
 			
 		}
 	})
-	var waypoint6 = new Waypoint({
+	/*var waypoint6 = new Waypoint({
 		element: document.getElementById('way5'),
 		handler: function() {
 			$('#wayWeb5').children('.verticaLine').toggleClass('checked');
@@ -187,7 +178,7 @@ $bgobj.css({ top: coords });
 			//$('#way5').animate({ backgroundColor: "#E87E04", }, 1000 );
      
 		}
-	})
+	})*/
 	var waypoint7 = new Waypoint({
 		element: document.getElementById('way6'),
 		handler: function() {
