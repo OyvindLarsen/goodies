@@ -136,7 +136,7 @@ font-weight="normal" letter-spacing="1.4690789">
             </div>
             <div class="field-wrap" id="wayWeb6">
               <div class="checkbox"></div>
-              <p>Prisliste
+              <p>App
                 </p>
               
             </div>

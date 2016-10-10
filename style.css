@@ -242,8 +242,30 @@ padding:0;
   position:absolute;
   left:10%;
   top:45%;
-  width: 25%;
   min-width: 280px;
+  animation-name: example;
+  animation-duration: 6s;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  
+}
+
+.rakett3 img {
+ animation-name: example2;
+  animation-duration: 6s;
+  opacity: 0;
+  animation-direction: reverse;
+  
+}
+
+@keyframes example {
+    0%   { left:25%; top:25%;}
+    100% { left:10%; top:45%;}
+}
+
+@keyframes example2 {
+    0%   {opacity:1; width:1%; }
+    100% {opacity:0; width:25%; }
 }
 
 .layer {
