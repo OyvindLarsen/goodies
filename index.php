@@ -331,7 +331,7 @@ font-weight="normal" letter-spacing="1.4690789">
                 <h3>Ekspander omfanget av din merkevare.</h3>
                 <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
               </div>
-              <div class="col-md-5 matchHeight">
+              <div class="col-md-5 matchHeight padding-bottom">
                 <div class="rakett" data-type="test2" data-speed="1.2"><img src="img/grafikk/Rakett.svg"></div>
               </div>
             </div>

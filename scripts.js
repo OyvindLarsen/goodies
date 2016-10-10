@@ -26,7 +26,7 @@ var offset = $('#way4').offset();
 
 $(window).scroll(function() {
 
-var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed'))+200);
+var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed'))+275);
 
   var coords = yPos + 'px';
 
