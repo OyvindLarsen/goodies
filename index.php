@@ -130,13 +130,13 @@ font-weight="normal" letter-spacing="1.4690789">
             </div>
             <div class="field-wrap" id="wayWeb5">
               <div class="checkbox"></div>
-              <p>Om oss
+              <p>App-prototyper
                 </p>
               <div class=verticaLine></div>
             </div>
             <div class="field-wrap" id="wayWeb6">
               <div class="checkbox"></div>
-              <p>App
+              <p>Om oss
                 </p>
               
             </div>
@@ -400,36 +400,62 @@ I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjeneste
 
   <div id="footer" data-type="background" data-speed="0.9" class="pages">
   <article>
-  <div class="container">   
-    <div class="col-sm-4">
-      <div class="frame">
-        <div class="ftitle"><h2>Instagram</h2></div>
-        <div class="float">
-          <a id="nopadding" href="https://www.instagram.com/goodiesdesign/"><i class="fa fa-instagram green" aria-hidden="true"></i></a>
-          <img src="Instareplica.png" alt="Smiley face" height="60%" width="60%">
-       </div>
+  <div class="container"> 
+
+
+      <div class="col-sm-5">
+  <div class="frame font">
+  <div class="atitle"><h2>Om oss</h2></div>
+  <p>Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser. </p>
+
+  </div>
+  </div>
+
+  
+    
+
+
+  
+ 
+
+         
+  
+  <div class="col-sm-3">
+  <div class="frame font">
+  <div class="atitle"><h2>Kontakt</h2></div>
+   <p><a href="tel:22225555"><i class="fa fa-phone-square green" aria-hidden="true"> 22225555</i></a></p>
+   <p><a href="mailto:post@goodies.no"><i class="fa fa-envelope-o green" aria-hidden="true"> post@goodies.no</i></a></p>
+   
+  </div></div>
+
+      <div class="col-sm-2">
+  <div class="frame font">
+  <div class="atitle"><h2>Åpningstider</h2></div>
+  <p>Vi er tilgjengelige på mail hele uken fra 09-17.</p>
+   
+   </div>
+  </div>
+
+    <div class="col-sm-2">
+      <div class="frame font">
+        <div class="atitle"><h2>Social</h2></div>
+        
+          <p><a href="https://www.instagram.com/goodiesdesign/"><i class="fa fa-instagram green" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"> </i></a>
+          <a href="https://www.facebook.com/Goodies-810071142462032/?ref=bookmarks"><i class="fa fa-facebook-square green" aria-hidden="true"></i></a></p>
+       
       </div>
     </div>
+  
 
-  <div class="col-sm-4">
-  <div class="frame">
-  <div class="ftitle"><h2>Twitter</h2></div>
-  <div class="float">
-  <a class="float" href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"> 
-  </i></a>
- </div>
-              
-  </div></div>
-  <div class="col-sm-4">
-  <div class="frame">
-  <div class="ftitle"><h2>Kontakt</h2></div>
-   <a href="tel:22225555"><i class="fa fa-phone-square green" aria-hidden="true"> 22225555</i></a>
-   <a href="mailto:post@goodies.no"><i class="fa fa-envelope-o green" aria-hidden="true"> post@goodies.no</i></a>
-   <a href="https://www.facebook.com/Goodies-810071142462032/?ref=bookmarks"><i class="fa fa-facebook-square green" aria-hidden="true"> /goodies-design</i></a>
-  </div></div>
+  </div>
   </div>
   </article>  
   </div>
+  </article>  
+  </div>
+
+
               
              
   

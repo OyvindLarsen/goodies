@@ -166,9 +166,6 @@ $bgobj.css({ top: coords });
   var waypoint4 = new Waypoint({
     element: document.getElementById('way3'),
     handler: function() {
-      $('#wayWeb3').children('.verticaLine').toggleClass('checked');
-      $('#wayWeb3').children('.checkbox').toggleClass('checked');
-      //$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
       $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
       $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
     }, offset: '50%'
