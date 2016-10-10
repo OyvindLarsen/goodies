@@ -681,12 +681,17 @@ background-repeat: no-repeat;
 
 
 #way6 {
-  margin:0 0 0 25px;
+  margin:0 25px 0 0;
   padding-bottom: 120px;
   padding-top: 120px;
   background-color: #404040;
+  
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+
+/*
 -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);*/
 
 
 }
