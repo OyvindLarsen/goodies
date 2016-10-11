@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="695" viewBox="0 0 348 695">
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="457" viewBox="0 0 244 457">
   <g fill="none" fill-rule="evenodd">
-    <rect width="348" height="298.553" y="352.242" fill="#EEEEEE" rx="2.4"/>
-    <rect width="348" height="234.387" y="118.872" fill="#566E77" rx="2.4"/>
-    <g transform="translate(0 536.726)">
-      <rect width="348" height="105.664" y="8.405" fill="#A56CBE"/>
-      <text fill="#FEFEFE" font-family="Beirut" font-size="116.4" font-weight="bold" letter-spacing="-5.157">
-        <tspan x="93.262" y="89">2500</tspan>
+    <rect width="243.267" height="209.359" y="247.009" fill="#EEEEEE" rx="1.678"/>
+    <rect width="243.267" height="164.363" y="83.359" fill="#566E77" rx="1.678"/>
+    <g transform="translate(0 376.377)">
+      <rect width="243.267" height="74.097" y="5.894" fill="#A56CBE"/>
+      <text fill="#FEFEFE" font-family="Beirut" font-size="81.369" font-weight="bold" letter-spacing="-3.605">
+        <tspan x="65.194" y="62">2500</tspan>
       </text>
     </g>
-    <text fill="#3C4345" font-family="Avenir-Light, Avenir" font-size="18" font-weight="300">
-      <tspan x="74.469" y="378.219">• Rask og rimelig løsning</tspan> <tspan x="44.796" y="410.419">• Perfekt side for konsepter eller </tspan> <tspan x="97.995" y="435.419">nyetablerte firmaer</tspan> <tspan x="80.301" y="467.619">• Kan utvides med flere </tspan> <tspan x="136.488" y="492.619">seksjoner</tspan>
+    <text fill="#3C4345" font-family="Avenir-Light, Avenir" font-size="12.583" font-weight="300">
+      <tspan x="52.057" y="265.602">• Rask og rimelig løsning</tspan> <tspan x="31.314" y="288.635">• Perfekt side for konsepter eller </tspan> <tspan x="68.503" y="306.635">nyetablerte firmaer</tspan> <tspan x="56.134" y="329.668">• Kan utvides med flere </tspan> <tspan x="95.411" y="347.668">seksjoner</tspan>
     </text>
-    <text font-family="Avenir-Light, Avenir" font-size="44.848" font-weight="300">
-      <tspan x="66.387" y="271.938" fill="#FFFFFF">One Pager</tspan> <tspan x="95.844" y="332.938" fill="#A56CBE" font-size="20.993">Stilren &amp; Elegant</tspan> <tspan x="112.575" y="361.938" fill="#A56CBE" font-size="20.993">Landingsside</tspan>
+    <text font-family="Avenir-Light, Avenir" font-size="31.351" font-weight="300">
+      <tspan x="46.407" y="190.139" fill="#FFFFFF">One Pager</tspan> <tspan x="66.999" y="232.139" fill="#A56CBE" font-size="14.675">Stilren &amp; Elegant</tspan> <tspan x="78.695" y="252.139" fill="#A56CBE" font-size="14.675">Landingsside</tspan>
     </text>
-    <ellipse cx="174" cy="114.069" fill="#A56CBE" rx="114" ry="114.069"/>
-    <text fill="#FFFFFF" font-family="AvenirNext-Regular, Avenir Next" font-size="123.62" letter-spacing="-5.477">
-      <tspan x="102" y="158.821">1P</tspan>
+    <ellipse cx="121.634" cy="79.991" fill="#A56CBE" rx="79.691" ry="79.991"/>
+    <text fill="#FFFFFF" font-family="AvenirNext-Regular, Avenir Next" font-size="86.416" letter-spacing="-3.828">
+      <tspan x="71.302" y="110.418">1P</tspan>
     </text>
   </g>
 </svg>

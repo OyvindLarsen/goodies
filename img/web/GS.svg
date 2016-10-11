@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="695" viewBox="0 0 348 695">
-  <g fill="none" fill-rule="evenodd">
-    <rect width="348" height="298.982" y="351.814" fill="#EEEEEE" rx="2.4"/>
-    <rect width="348" height="234.387" y="118.872" fill="#334659" rx="2.4"/>
-    <text fill="#3C4345" font-family="Avenir-Light, Avenir" font-size="18" font-weight="300">
-      <tspan x="76.249" y="397.431">• Åpner for stor grad av </tspan> <tspan x="131.815" y="422.431">tilpasning</tspan> <tspan x="59.41" y="453.364">• Øk din omsetning med en </tspan> <tspan x="59.149" y="478.364">trygg og pålitelig nettbutikk</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="457" viewBox="0 0 244 457">
+  <g fill="none" fill-rule="evenodd" transform="translate(.496 .104)">
+    <rect width="243.267" height="209.66" y="246.708" fill="#EEEEEE" rx="1.678"/>
+    <rect width="243.267" height="164.363" y="83.359" fill="#334659" rx="1.678"/>
+    <text fill="#3C4345" font-family="Avenir-Light, Avenir" font-size="12.583" font-weight="300">
+      <tspan x="53.302" y="279.074">• Åpner for stor grad av </tspan> <tspan x="92.145" y="297.074">tilpasning</tspan> <tspan x="41.53" y="319.222">• Øk din omsetning med en </tspan> <tspan x="41.348" y="337.222">trygg og pålitelig nettbutikk</tspan>
     </text>
-    <text font-family="Avenir-Light, Avenir" font-size="46.481" font-weight="300">
-      <tspan x="57.774" y="271.737" fill="#FFFFFF">GoodShop</tspan> <tspan x="83.636" y="334.737" fill="#823CA1" font-size="21.757">Nettbutikk &amp; CMS </tspan> <tspan x="152.77" y="364.737" fill="#823CA1" font-size="21.757">i ett</tspan>
+    <text font-family="Avenir-Light, Avenir" font-size="32.492" font-weight="300">
+      <tspan x="40.387" y="190.297" fill="#FFFFFF">GoodShop</tspan> <tspan x="58.465" y="234.297" fill="#823CA1" font-size="15.209">Nettbutikk &amp; CMS </tspan> <tspan x="106.793" y="255.297" fill="#823CA1" font-size="15.209">i ett</tspan>
     </text>
-    <text fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="123.62" letter-spacing="-5.477">
-      <tspan x="84" y="167.23">GS</tspan>
+    <text fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="86.416" letter-spacing="-3.828">
+      <tspan x="58.72" y="116.522">GS</tspan>
     </text>
-    <ellipse cx="174" cy="114.069" fill="#823BA1" rx="114" ry="114.069"/>
-    <text fill="#FFFFFF" font-family="AvenirNext-Regular, Avenir Next" font-size="123.62" letter-spacing="-5.477">
-      <tspan x="85.2" y="158.821">GS</tspan>
+    <ellipse cx="121.634" cy="79.991" fill="#823BA1" rx="79.691" ry="79.991"/>
+    <text fill="#D8D8D8" font-family="AvenirNext-Regular, Avenir Next" font-size="86.416" letter-spacing="-3.828">
+      <tspan x="59.558" y="110.418">GS</tspan>
     </text>
-    <g transform="translate(0 536.726)">
-      <rect width="348" height="105.664" y="8.405" fill="#823CA1"/>
-      <text fill="#FEFEFE" font-family="Beirut" font-size="116.4" font-weight="bold" letter-spacing="-5.157">
-        <tspan x="74.84" y="89">15 500</tspan>
+    <g transform="translate(0 376.377)">
+      <rect width="243.267" height="74.097" y="5.894" fill="#823CA1"/>
+      <text fill="#FEFEFE" font-family="Beirut" font-size="81.369" font-weight="bold" letter-spacing="-3.605">
+        <tspan x="52.316" y="62">15 500</tspan>
       </text>
     </g>
   </g>

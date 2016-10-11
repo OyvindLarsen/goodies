@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="696" viewBox="0 0 348 696">
-  <g fill="none" fill-rule="evenodd">
-    <rect width="348" height="298.283" y="352.513" fill="#EEEEEE" rx="2.4"/>
-    <rect width="348" height="234.387" y="118.872" fill="#586D77" rx="2.4"/>
-    <text font-family="Avenir-Light, Avenir" font-size="44.848" font-weight="300">
-      <tspan x="44.572" y="291.15" fill="#FFFFFF">One Pager +</tspan> <tspan x="62.318" y="352.15" fill="#53186D" font-size="20.993">Landingsside med CMS</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="457" viewBox="0 0 244 457">
+  <g fill="none" fill-rule="evenodd" transform="translate(.248)">
+    <rect width="243.267" height="209.17" y="247.198" fill="#EEEEEE" rx="1.678"/>
+    <rect width="243.267" height="164.363" y="83.359" fill="#586D77" rx="1.678"/>
+    <text font-family="Avenir-Light, Avenir" font-size="31.351" font-weight="300">
+      <tspan x="31.158" y="203.612" fill="#FFFFFF">One Pager +</tspan> <tspan x="43.563" y="245.612" fill="#53186D" font-size="14.675">Landingsside med CMS</tspan>
     </text>
-    <text fill="#3C4345" font-family="Avenir-Light, Avenir" font-size="18" font-weight="300">
-      <tspan x="71.805" y="395.029">• Perfekt for virksomheter</tspan> <tspan x="73.623" y="427.229">• Inkluderer seksjoner for </tspan> <tspan x="59.619" y="452.229">portefølje, kontaktskjema og </tspan> <tspan x="98.337" y="477.229">produktbeskrivelse</tspan> <tspan x="49.251" y="509.429">• Et CMS system som åpner for </tspan> <tspan x="97.14" y="534.429">enorme muligheter</tspan>
+    <text fill="#3C4345" font-family="Avenir-Light, Avenir" font-size="12.583" font-weight="300">
+      <tspan x="50.195" y="277.39">• Perfekt for virksomheter</tspan> <tspan x="51.466" y="300.423">• Inkluderer seksjoner for </tspan> <tspan x="41.676" y="318.423">portefølje, kontaktskjema og </tspan> <tspan x="68.742" y="336.423">produktbeskrivelse</tspan> <tspan x="34.429" y="359.457">• Et CMS system som åpner for </tspan> <tspan x="67.905" y="377.457">enorme muligheter</tspan>
     </text>
-    <ellipse cx="173.4" cy="114.67" fill="#53186D" rx="114.6" ry="114.67"/>
-    <text fill="#FFFFFF" font-family="AvenirNext-Regular, Avenir Next" font-size="123.62" letter-spacing="-5.477">
-      <tspan x="73.2" y="156.42">1P+</tspan>
+    <ellipse cx="121.214" cy="80.412" fill="#53186D" rx="80.11" ry="80.412"/>
+    <text fill="#FFFFFF" font-family="AvenirNext-Regular, Avenir Next" font-size="86.416" letter-spacing="-3.828">
+      <tspan x="51.17" y="108.734">1P+</tspan>
     </text>
-    <g transform="translate(0 536.726)">
-      <rect width="348" height="105.664" y="8.405" fill="#53186D"/>
-      <text fill="#FEFEFE" font-family="Beirut" font-size="116.4" font-weight="bold" letter-spacing="-5.157">
-        <tspan x="82.967" y="89">11 500</tspan>
+    <g transform="translate(0 376.377)">
+      <rect width="243.267" height="74.097" y="5.894" fill="#53186D"/>
+      <text fill="#FEFEFE" font-family="Beirut" font-size="81.369" font-weight="bold" letter-spacing="-3.605">
+        <tspan x="57.998" y="62">11 500</tspan>
       </text>
     </g>
   </g>
