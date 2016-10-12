@@ -340,12 +340,13 @@ function WidthChange(mq) {
       e.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
       //p.animate({ "padding-left": "0px" }, { duration: 400, queue: false } );
       
+      $('#fixed').animate({ "margin-left": "280px" }, { duration: 400, queue: false } );
       });
     } else {
       $(function () {
       m.show()
       e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
-      
+      $('#fixed').animate({ "margin-left": "0px" }, { duration: 400, queue: false } );
      // p.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
       });
     }
