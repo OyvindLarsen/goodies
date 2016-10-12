@@ -66,7 +66,7 @@ $output="";
     <article>
       <div id="fixed">
       <div class="alert alert-info alert-dismissible fade in" role="alert" style="opacity:0.9;">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <button id="sand" type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
       <div class="font" style="color:inherit;">
