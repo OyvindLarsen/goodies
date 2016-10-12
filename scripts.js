@@ -297,7 +297,14 @@ function WidthChange(mq) {
     // hide .navbar first
     $(".navbar").hide();
 
-    // fade in .navbar
+    $('#fixed').css( "top", "0" );
+    $('#fixed').css( "width", "100%");
+    $('#fixed').css( "paddingTop", "50px" );
+                $("#fade-out").hide();
+                $("#fade-out1").hide();
+                $("#fade-out2").hide();
+                $("#fade-in2").show();
+                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under bygging!');
     $(function () {
         $(window).scroll(function () {
 
