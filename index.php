@@ -71,7 +71,7 @@ $output="";
       </button>
       <div class="font" style="color:inherit;">
       <h1 class="alert-heading" id="changetext"><i class="fa fa-info" aria-hidden="true" "></i> Heisann!</h1>
-      <p style="color:inherit;" id="fade-out"><strong>Hvordan fant du veien hit?</strong>Det er hyggelig at du stikker innom altså, men bare så du vet det så er goodies.no fortsatt under konstruksjon.</p>
+      <p style="color:inherit;" id="fade-out"><strong>Hvordan fant du veien hit?</strong> Det er hyggelig at du stikker innom altså, men bare så du vet det så er goodies.no fortsatt under konstruksjon.</p>
       <p style="color:inherit;" id="fade-out1">  Det meste av informasjonen om våre produkter og tjenester er riktig så ta gjerne en titt. Men vi jobber fortsatt med koden <i class="fa fa-file-code-o" aria-hidden="true" style="font-size:1.2em;"></i> og presentasjonen <i class="fa fa-cubes aria-hidden="true" style="font-size:1.2em;"></i>.</p>
       <p style="color:inherit;">Så da er du advart, nettsidene kan både se litt rare ut og oppføre seg litt merkelig, men vi er på saken ;)</p>
       <p style="color:inherit;" id="fade-in2">Har du noen spørsmål, ta gjerne kontakt <a href="mailto:post@goodies.no" class="alert-link">post@goodies.no</a></p>
