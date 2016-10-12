@@ -45,14 +45,13 @@ $output="";
 
   <div id="home" data-type="" data-speed="0" class="pages">     
     <article>
-    
+
       <div id="logo1">
         <ul id="scene" >
           <li class="layer" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.7" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
-          
           <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/BakerstArk.svg"></div></li>
-            <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.2" data-depth="0.50"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.5" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0" data-depth="0.7"><div class="rakett3"><img src="img/grafikk/paralax/Rakett.svg"></div></li>
@@ -65,6 +64,23 @@ $output="";
 
   <div id="about" data-type="background" data-speed="1" class="pages">
     <article>
+      <div class="container fixed">
+      <div class="alert alert-info alert-dismissible fade in" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="font" style="color:inherit;">
+      <h1 class="alert-heading"><i class="fa fa-info" aria-hidden="true" "></i> Heisann!</h1>
+      <p style="color:inherit;"><strong>Hvordan fant du fram hit?</strong> Siden er fortsatt under bygging.</p>
+      <p style="color:inherit;">  Det meste av informasjonen om våre produkter og tjenester er riktig så ta gjerne en titt. Men vi jobber fortsatt med koden <i class="fa fa-file-code-o" aria-hidden="true" style="font-size:1.2em;"></i> og presentasjonen <i class="fa fa-cubes aria-hidden="true" style="font-size:1.2em;"></i>.</p>
+      <p style="color:inherit;">Det er derfor noen ting kanskje ser litt rare ut.</p>
+
+      <p style="color:inherit;">Vi er derimot operative og igang, så om du ønsker mer informasjon om noen av produktene våre er bare å sende ivei en mail <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:1.2em;"></i> til <a href="mailto:post@goodies.no" class="alert-link">post@goodies.no</a></p>
+      
+
+      </div>
+    </div>
+    </div>
       <div class="fixedbackground slide" >
         <div id="nothing"></div>
         <div class="cog2"  onclick="myFunction2()">
