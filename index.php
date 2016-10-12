@@ -71,11 +71,11 @@ $output="";
       </button>
       <div class="font" style="color:inherit;">
       <h1 class="alert-heading" id="changetext"><i class="fa fa-info" aria-hidden="true" "></i> Heisann!</h1>
-      <p style="color:inherit;" id="fade-out"><strong>Hvordan fant du fram hit?</strong> Siden er fortsatt under bygging.</p>
+      <p style="color:inherit;" id="fade-out"><strong>Hvordan fant du fram hit?</strong> Siden er fortsatt under oppbygging.</p>
       <p style="color:inherit;" id="fade-out1">  Det meste av informasjonen om våre produkter og tjenester er riktig så ta gjerne en titt. Men vi jobber fortsatt med koden <i class="fa fa-file-code-o" aria-hidden="true" style="font-size:1.2em;"></i> og presentasjonen <i class="fa fa-cubes aria-hidden="true" style="font-size:1.2em;"></i>.</p>
       <p style="color:inherit;">Det er derfor noen ting kanskje ser litt rare ut nå.</p>
       <p style="color:inherit;" id="fade-in2">Har du noen spørsmål, ta gjerne kontakt <a href="mailto:post@goodies.no" class="alert-link">post@goodies.no</a></p>
-      <p style="color:inherit;" id="fade-out2">Vi er derimot operative og tar imot kunder, så om du ønsker mer informasjon om noen av produktene våre er bare å sende ivei en mail <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:1.2em;"></i> til <a href="mailto:post@goodies.no" class="alert-link">post@goodies.no</a></p>
+      <p style="color:inherit;" id="fade-out2">Vi er derimot operative og tar imot kunder, så om du ønsker mer informasjon om noen av produktene våre er bare å sende en mail <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:1.2em;"></i> til <a href="mailto:post@goodies.no" class="alert-link">post@goodies.no</a></p>
       
 
       </div>
