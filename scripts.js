@@ -15,6 +15,24 @@ $bgobj.css({ top: coords });
 });
 });
 
+$(document).ready(function(){
+ $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 300) {
+                $('#fixed').animate({ top: 0, width:'100%',}, 2500 );
+                $("#fade-out").fadeOut(2500);
+                $("#fade-out1").fadeOut(2500);
+                $("#fade-out2").fadeOut(2500);
+                $("#fade-in2").fadeIn(2500);
+                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under bygging!');
+            } else {
+                
+            }
+        });
+    });
+ });
 
 $(document).ready(function(){
 

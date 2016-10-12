@@ -24,14 +24,17 @@ font-family: "MyCustomFont";
  src: url("Avenir-Light.ttf") /* TTF file for CSS3 browsers */
 }
 /*############### Advarsel ###############*/
-.fixed {
+#fixed {
   position:fixed;
   z-index:40;
   top:50%;
   left:50%;
+  width:50%;
   transform: translate(-50%, 0);
 }
-
+#fade-in2{
+  display:none;
+}
 
 /*############### Mobilmeny ###############*/
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
