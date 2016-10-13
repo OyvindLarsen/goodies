@@ -216,7 +216,7 @@ $output="";
                         </div>
                       </div>
                       <h3>Pakkeløsninger tilpasset ethvert behov</h3>
-                      <p>Vi tilbyr en hel rekke skreddersydde og egenproduserte nettsideløsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Ønsker du å lansere en blogg med stilren og funksjonell utforming? Trenger du å opprette en ny nettbutikk for din virksomhet eller oppgradere din eksisterende for å øke trafikk og omsetning?</p>
+                      <p>Vi tilbyr en hel rekke skreddersydde og egenproduserte nettsideløsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
                       <p>Vi har pakkeløsninger som vil tilfredsstille de aller fleste behov, men vi tar også gjerne i mot spesalbestillinger for å skreddersy våre leveranser i henhold til dine ønsker.</p>
                     </div>
                   </div>
