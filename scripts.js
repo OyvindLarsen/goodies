@@ -26,7 +26,7 @@ $(document).ready(function(){
                 $("#fade-out1").fadeOut(2500);
                 $("#fade-out2").fadeOut(2500);
                 $("#fade-in2").fadeIn(2500);
-                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under bygging!');
+                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under konstruksjon!');
             } else {
                 
             }
