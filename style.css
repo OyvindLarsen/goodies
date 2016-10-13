@@ -307,7 +307,6 @@ padding:0;
 #logo1 {
   top:0%;
   width: 100%;
-  
   display:block;
   
   z-index: 20;
@@ -923,6 +922,23 @@ a {
 
 }
 @media only screen and (max-width: 770px) {
+        .logo1 {
+      position:absolute;
+      
+      margin:0 auto;
+      width: 280px;
+    }
+
+    .logo1 img {
+      width: 280px;
+
+    }
+    #fixed {
+      position:fixed;
+      z-index:40;
+      width:100%;
+      
+    }
     
      
      .navbar {
