@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1140" height="2933" viewBox="0 0 1140 2933">
   <defs>
-    <linearGradient id="a" x1="46.261%" x2="46.261%" y1="8.524%" y2="27.967%">
+    <linearGradient id="a" x1="46.261%" x2="46.261%" y1="4.737%" y2="37.887%">
       <stop stop-color="#3C3891" offset="0%"/>
-      <stop stop-color="#53A0FE" offset="100%"/>
-      <stop stop-color="#B4ED50" offset="100%"/>
+      <stop stop-color="#489AFD" offset="100%"/>
+      <stop stop-color="#507AED" offset="100%"/>
     </linearGradient>
   </defs>
   <g fill="none" fill-rule="evenodd">
