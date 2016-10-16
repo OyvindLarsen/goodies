@@ -304,7 +304,7 @@ function WidthChange(mq) {
                 $("#fade-out1").hide();
                 $("#fade-out2").hide();
                 $("#fade-in2").show();
-                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under bygging!');
+                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under konstruksjon!');
     $(function () {
         $(window).scroll(function () {
 
