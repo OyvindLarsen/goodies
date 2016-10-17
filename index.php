@@ -178,7 +178,7 @@ $output="";
             <div class="row" id="way11" data-type="test2" data-speed="0">
               <div id="circle-shape-example">
               <img src="img/grafikk/Responsiv.png" style="width:400px" class="curve1" id="wa112" >
-                 <div class="para">
+                 <div class="para" id="way1112">
                   <h1>Responsive nettsider</h1>
                   <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
                   <p>Goodies vektlegger å utvikle funksjonelle og responsive nettsider som tilpasser seg størrelsen på skjermen.</p>

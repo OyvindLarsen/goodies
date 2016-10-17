@@ -87,7 +87,7 @@ $bgobj.css({ top: coords });
   var waypoint10 = new Waypoint({
     element: document.getElementById('way10'),
     handler: function() {
-     $('#way10').animate({ opacity: 1, },{ duration: 1000,  queue: false });
+     $('#way10').animate({ opacity: 1, },{ duration: 2000,  queue: false });
      $('#wa111').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
     
       }, offset: '80%'
@@ -95,14 +95,14 @@ $bgobj.css({ top: coords });
    var waypoint11 = new Waypoint({
     element: document.getElementById('way11'),
     handler: function() {
-      $('#way11').animate({ opacity: 1,  }, 1000 );
-      $('#wa112').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
+      $('#way11').animate({ opacity: 1,  }, 2000 );
+     $('#way1112').animate({ marginLeft: "2rem", },{ duration: 1000,  queue: false });
       }, offset: '80%'
   })
     var waypoint12 = new Waypoint({
     element: document.getElementById('way12'),
     handler: function() {
-     $('#way12').animate({ opacity: 1,  }, 1000 );
+     $('#way12').animate({ opacity: 1,  }, 2000 );
      $('#wa113').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
       }, offset: '80%'
   })
