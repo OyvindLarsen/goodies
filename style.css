@@ -187,12 +187,14 @@ padding:0;
 
 .opera {
   position: absolute;
-  left:30%;
-  top:55%;
+  left:50%;
+  bottom:5%;
+
 
 }
 .opera img {
-  width: 200%;
+  width: 150%;
+  transform: translate(-50%, 0);
 }
 .bakerst {
   display:block;
@@ -347,13 +349,13 @@ color: #fff;
 }
 
 .font h1 {
-font-size: 2em;
+font-size: 1.5em;
 }
 
 .font h3 {
 line-height: 1;
 font-weight: 100;
-font-size: 2em;
+font-size: 1.6em;
 color: #FFFFFF ;
 letter-spacing: 3.73px;
 margin-bottom:25px;
@@ -362,7 +364,7 @@ margin-bottom:25px;
 
 
 .font p {
-  font-size: 1em;
+  font-size: 0.7em;
 color: #FFFFFF ;
 letter-spacing: 3px;
 line-height: 35px;
@@ -815,15 +817,21 @@ a {
  
 }
   .logo1 {
-  position:absolute;
+  position:relative;
   width:100%;
   left:50%;
   top:15%;
   
 }
   .logo1 img {
+<<<<<<< HEAD
     width:28%;
+=======
+
+    width:30%;
+>>>>>>> origin/master
     min-width: 280px;
+    max-width: 500px;
     transform: translate(-50%, 0);
   }
   #fixed {

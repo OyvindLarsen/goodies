@@ -312,7 +312,7 @@ $output="";
                 </div>
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Ekspander omfanget av din merkevare.</h3>
+                    <h3>Ta din merkevare til nye høyder.</h3>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
                   </div>
                   <div class="col-md-5 matchHeight padding-bottom">
