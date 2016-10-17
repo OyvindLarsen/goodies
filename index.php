@@ -175,32 +175,32 @@ $output="";
                 </div>
               </div>
             </div>
-            <div class="row padding-bottom" id="way11">
-              <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
-                <div class="font table1">
+            <div class="row" id="way11" data-type="test2" data-speed="0">
+              <div id="circle-shape-example">
+              <img src="img/grafikk/Responsiv.png" style="width:400px" class="curve1" id="wa112" >
+                 <div class="para">
                   <h1>Responsive nettsider</h1>
                   <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
                   <p>Goodies vektlegger å utvikle funksjonelle og responsive nettsider som tilpasser seg størrelsen på skjermen.</p>
                 </div>
               </div>
-              <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
-                <div class="filter"><img src="img/grafikk/Responsiv.png" style="width:400px;"></div></div>
-              </div>
-              <div class="row padding-top padding-bottom" id="way12">
-                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0"><div class="filter"><img src="img/grafikk/VektorGrafikk.png" style="width:400px"></div></div>
-                <div class="col-md-6 matchHeight" data-type="test2" data-speed="0">
-                  <div class="font table1" >
-                    <h1>Vektor grafikk for sylskarpe og dynamiske bilder</h1>
-                    <p>Vi skaper mesteparten av vår grafikk til websider og app’er i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
-                    <p>Derfor vil grafikken vi skaper holde seg like sylskarp uavhengig av hvor stor skjerm den vises på.</p>
-                  </div>
+            </div>
+            <div class="row" id="way12" data-type="test2" data-speed="0">
+              <div id="circle-shape-example"  >
+                <img src="img/grafikk/VektorGrafikk.png" style="width:400px" class="curve" id="wa113" >
+                <div class="para">
+                  <h1>Vektor grafikk for sylskarpe og dynamiske bilder</h1>
+                  <p>Vi skaper mesteparten av vår grafikk til websider og app’er i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
+                  <p>Derfor vil grafikken vi skaper holde seg like sylskarp uavhengig av hvor stor skjerm den vises på.</p>
                 </div>
               </div>
-              <div class="row padding-top padding-bottom">
+            </div>
+                <div class="row padding-top padding-bottom">
                 <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
               </div>
             </div>
           </div>
+
 
           <div class="products way" id= "way">
             <div class="container">   

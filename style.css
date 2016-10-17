@@ -458,15 +458,7 @@ font-weight: 100;
 
     border-radius: 50%;
 }
-  .circle .curve{
-  width: 33%; height: auto;
-  min-width: 150px;
-  float: left;
-  margin-right:2rem; 
-  border-radius: 50%;
-  -webkit-shape-outside:circle();
-  shape-outside:circle();
-  }
+
 
   
 #circle-shape-example { 
@@ -489,11 +481,25 @@ font-weight: 100;
   border-radius: 50%;
   -webkit-shape-outside:circle();
   shape-outside:circle();
+
+  
+}
+
+#circle-shape-example .curve1 { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: right;
+  margin-right:20rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+ 
   
 }
 
 
-#way11 {
+
+/*#way11 {
 position:relative;
 left: -100px;
 opacity: 0;
@@ -506,7 +512,7 @@ padding-bottom: 400px;
 opacity: 0;
   }
 
-
+*/
 
 
 

@@ -95,13 +95,15 @@ $bgobj.css({ top: coords });
    var waypoint11 = new Waypoint({
     element: document.getElementById('way11'),
     handler: function() {
-      $('#way11').animate({ opacity: 1, left: 0, }, 1000 );
+      $('#way11').animate({ opacity: 1,  }, 1000 );
+      $('#wa112').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
       }, offset: '80%'
   })
     var waypoint12 = new Waypoint({
     element: document.getElementById('way12'),
     handler: function() {
-     $('#way12').animate({ opacity: 1, left: 0, }, 1000 );
+     $('#way12').animate({ opacity: 1,  }, 1000 );
+     $('#wa113').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
       }, offset: '80%'
   })
 
