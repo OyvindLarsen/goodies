@@ -240,7 +240,7 @@ padding:0;
   
   left:50%;
   top:15%;
-  width: 25%;
+  width: 10%;
   min-width: 280px;
 }
 
@@ -299,8 +299,7 @@ padding:0;
 #wa {
   margin:0 0 0 0;
   background-color: #404040;
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
+  
   overflow: hidden;
 }
 
@@ -514,13 +513,12 @@ opacity: 0;
    /*############### Webside ###############*/
 
   #way {
-  margin:0 25px 0 0;
+
   
 background-image: url("img/bakgrunner/BakgrunnLillaRutete.svg");
 background-repeat: no-repeat;
  background-size:100% auto;
--webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+
 
 }
 
@@ -544,7 +542,7 @@ background-repeat: no-repeat;
 
 /*############### Hosting ###############*/
 #way2 {
-  margin:0 0 0 25px;
+  
   padding-bottom: 120px;
   
   padding-top: 120px;
@@ -552,8 +550,7 @@ background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size:100% auto;
 
-  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+
   transform-origin: right center !important;
   transition: transform 1s;
   transform: perspective(700px) scale(1) translateX(0) rotateY(0deg);
@@ -596,7 +593,7 @@ background-repeat: no-repeat;
 /*############### Drift ###############*/
 
 #way3 {
-  margin:0 25px 0 0;
+  
   padding-bottom: 120px;
   padding-top: 120px;
   background: #4CD964 ;
@@ -604,9 +601,7 @@ background-repeat: no-repeat;
 background-repeat: no-repeat;
  background-size:100% auto;
 
-  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-
+ 
 }
 
 #way3 img {
@@ -632,7 +627,7 @@ background-repeat: no-repeat;
 
 /*############### Markedsføring ###############*/
 #way4 {
-  margin:0 0 0 25px;
+  
   
   padding-top: 120px;
   padding-bottom:20px;
@@ -642,8 +637,7 @@ background-repeat: no-repeat;
  background-size:100% auto;
 
   
-  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+ 
   overflow:hidden;
   
 
@@ -678,7 +672,7 @@ background-repeat: no-repeat;
 }
 /*############### Om oss ###############*/
 #way5 {
-  margin:0 25px 0 0;
+ 
   padding-bottom: 120px;
   padding-top: 120px; 
 
@@ -686,20 +680,16 @@ background-repeat: no-repeat;
 background-repeat: no-repeat;
  background-size:100% auto;
 
-  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-
+ 
 }
 
 
 #way6 {
-  margin:0 25px 0 0;
+ 
   padding-bottom: 120px;
   padding-top: 120px;
   background-color: #404040;
   
-  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
 
 /*
 -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
@@ -820,8 +810,63 @@ a {
 
 
 @media (min-width: 770px) {
-    
+      #wa {
+  margin:0 0 0 0;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
+  
+}
+      #way {
+        margin:0 25px 0 0;
+  
+-webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 
+}
+
+#way2 {
+
+margin:0 0 0 25px;
+  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+
+
+}
+
+#way3 {
+  margin:0 25px 0 0;
+ 
+
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+
+}
+
+#way4 {
+  margin:0 0 0 25px;
+  
+ 
+  
+  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+ 
+  
+
+}
+
+#way6 {
+  margin:0 25px 0 0;
+  
+  
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+
+/*
+-webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);*/
+
+
+}
 
     .fixedbackground {
         position: fixed;

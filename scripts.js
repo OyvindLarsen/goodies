@@ -21,11 +21,11 @@ $(document).ready(function(){
 
                  // set distance user needs to scroll before we start fadeIn
             if ($(this).scrollTop() > 300) {
-                $('#fixed').animate({ top: 0, width:'100%',}, 2500 );
-                $("#fade-out").fadeOut(2500);
-                $("#fade-out1").fadeOut(2500);
-                $("#fade-out2").fadeOut(2500);
-                $("#fade-in2").fadeIn(2500);
+                $('#fixed').animate({ top: 0, width:'100%',}, 500 );
+                $("#fade-out").fadeOut(500);
+                $("#fade-out1").fadeOut(500);
+                $("#fade-out2").fadeOut(500);
+                $("#fade-in2").fadeIn(500);
                 $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under konstruksjon!');
             } else {
                 
@@ -87,21 +87,21 @@ $bgobj.css({ top: coords });
   var waypoint10 = new Waypoint({
     element: document.getElementById('way10'),
     handler: function() {
-     $('#way10').animate({ opacity: 1, },{ duration: 2500,  queue: false });
-     $('#wa111').animate({ marginRight: "2rem", },{ duration: 2500,  queue: false });
+     $('#way10').animate({ opacity: 1, },{ duration: 500,  queue: false });
+     $('#wa111').animate({ marginRight: "2rem", },{ duration: 500,  queue: false });
     
       }, offset: 'bottom-in-view'
   })
    var waypoint11 = new Waypoint({
     element: document.getElementById('way11'),
     handler: function() {
-      $('#way11').animate({ opacity: 1, left: 0, }, 2500 );
+      $('#way11').animate({ opacity: 1, left: 0, }, 500 );
       }, offset: 'bottom-in-view'
   })
     var waypoint12 = new Waypoint({
     element: document.getElementById('way12'),
     handler: function() {
-     $('#way12').animate({ opacity: 1, left: 0, }, 2500 );
+     $('#way12').animate({ opacity: 1, left: 0, }, 500 );
       }, offset: 'bottom-in-view'
   })
 
@@ -133,10 +133,10 @@ $bgobj.css({ top: coords });
     handler: function() {
      
       
-      $('#fading-in3').animate({ opacity: 1, },{ duration: 2500,  queue: false });
-      $('#fading-in31').animate({ left: 0, },{ duration: 2500,  queue: false });
-      $('#fading-in32').animate({ top: 0, },{ duration: 2500,  queue: false });
-      $('#fading-in33').animate({ right: 0,},{ duration: 2500,  queue: false });
+      $('#fading-in3').animate({ opacity: 1, },{ duration: 500,  queue: false });
+      $('#fading-in31').animate({ left: 0, },{ duration: 500,  queue: false });
+      $('#fading-in32').animate({ top: 0, },{ duration: 500,  queue: false });
+      $('#fading-in33').animate({ right: 0,},{ duration: 500,  queue: false });
 
     }, offset: '50%'
   })
@@ -157,10 +157,10 @@ $bgobj.css({ top: coords });
   var waypoint31 = new Waypoint({
     element: document.getElementById('way2'),
     handler: function() {
-      $('#opacity').animate({ opacity: 1, },{ duration: 2500,  queue: false });
-      $('#opacity').animate({ left: 0, },{ duration: 2500,  queue: false });
-      $('#opacity2').animate({ opacity: 1, },{ duration: 2500,  queue: false });
-      $('#opacity2').animate({ left: 0, },{ duration: 2500,  queue: false });
+      $('#opacity').animate({ opacity: 1, },{ duration: 500,  queue: false });
+      $('#opacity').animate({ left: 0, },{ duration: 500,  queue: false });
+      $('#opacity2').animate({ opacity: 1, },{ duration: 500,  queue: false });
+      $('#opacity2').animate({ left: 0, },{ duration: 500,  queue: false });
     }, offset: '50%'
   })
 
@@ -175,8 +175,8 @@ $bgobj.css({ top: coords });
   var waypoint4 = new Waypoint({
     element: document.getElementById('way3'),
     handler: function() {
-      $('#fading-in').animate({ opacity: 1, left: 0, }, 2500 );
-      $('#fading-in2').animate({ opacity: 1, right: 0, }, 2500 );
+      $('#fading-in').animate({ opacity: 1, left: 0, }, 500 );
+      $('#fading-in2').animate({ opacity: 1, right: 0, }, 500 );
     }, offset: '50%'
   })
 	var waypoint5 = new Waypoint({
