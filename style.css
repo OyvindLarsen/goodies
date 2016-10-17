@@ -24,14 +24,7 @@ font-family: "MyCustomFont";
  src: url("Avenir-Light.ttf") /* TTF file for CSS3 browsers */
 }
 /*############### Advarsel ###############*/
-#fixed {
-  position:fixed;
-  z-index:40;
-  top:50%;
-  left:50%;
-  width:50%;
-  transform: translate(-50%, 0);
-}
+
 #fade-in2{
   display:none;
 }
@@ -183,7 +176,7 @@ padding:0;
 }
 
 .backgroundh img{
-  width: 105%; 
+  width: 100%; 
 }
 
 .mane {
@@ -205,7 +198,7 @@ padding:0;
   display:block;
   top:75%;
   position: absolute; 
-  width: 105%;
+  width: 100%;
 }
 .bakerst img {
   
@@ -217,7 +210,7 @@ padding:0;
   display:block;
   top:80%;
   position: absolute; 
-  width: 105%;
+  width: 100%;
 }
 .midt img {
   
@@ -235,20 +228,9 @@ padding:0;
   width: 100%;
   
 }
-.logo1 {
-  position:absolute;
-  
-  left:50%;
-  top:15%;
-  width: 10%;
-  min-width: 280px;
-}
-
-.logo1 img {
-    transform: translate(-50%, 0);
 
 
-}
+
 
 .rakett3 {
   position:absolute;
@@ -824,6 +806,30 @@ a {
 
 
 @media (min-width: 770px) {
+  #fixed {
+  position:fixed;
+  z-index:40;
+  top:50%;
+  left:50%;
+  width:50%;
+ 
+}
+  .logo1 {
+  position:absolute;
+  width:100%;
+  left:50%;
+  top:15%;
+  
+}
+  .logo1 img {
+    width:30%;
+    min-width: 280px;
+    transform: translate(-50%, 0);
+  }
+  #fixed {
+     transform: translate(-50%, 0);
+  }
+ 
       #wa {
   margin:0 0 0 0;
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
@@ -981,14 +987,16 @@ margin:0 0 0 25px;
 
 }
 @media only screen and (max-width: 770px) {
-      .logo1 {
-      position:absolute;
+    .logo1 {
+      position:relative;
       margin:0 auto;
-      width: 250px;
+      padding:0 auto;
+      top:50px;
+      width: 280px;
     }
 
     .logo1 img {
-      width: 250px;
+      width: 280px;
 
     }
     #fixed {
