@@ -152,7 +152,7 @@ $output="";
           <a href="https://www.instagram.com/goodiesdesign/"><i class="fa fa-instagram green" aria-hidden="true"></i></a>
           <a href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"></i></a>
           <a href="mailto:post@goodies.no"><i class="fa fa-envelope-o green" aria-hidden="true"></i></a>
-          <a href="tel:22225555"><i class="fa fa-phone-square green" aria-hidden="true"></i></a>
+          <a href="tel:45479920"><i class="fa fa-phone-square green" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
