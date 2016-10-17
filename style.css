@@ -824,12 +824,9 @@ a {
   
 }
   .logo1 img {
-<<<<<<< HEAD
-    width:28%;
-=======
 
-    width:30%;
->>>>>>> origin/master
+    width:28%;
+
     min-width: 280px;
     max-width: 500px;
     transform: translate(-50%, 0);
