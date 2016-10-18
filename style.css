@@ -656,8 +656,8 @@ background-repeat: no-repeat;
 
 .rakett {
   position:absolute;
-  top:0;
-  left:90%;
+  bottom: 0;
+  left:100%;
   
 
 }

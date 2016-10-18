@@ -44,13 +44,14 @@ var offset = $('#way4').offset();
 
 $(window).scroll(function() {
 
-var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed'))+275);
-
-  var coords = yPos + 'px';
+var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed')));
 
 
+var coords = yPos + 'px';
 
-$bgobj.css({ top: coords });
+console.log(coords)
+
+$bgobj.css({ bottom: coords });
 });
 });
 });
