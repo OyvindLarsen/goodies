@@ -135,13 +135,7 @@ $output="";
             </p>
             <div class=verticaLine></div>
           </div>
-          <div class="field-wrap" id="wayWeb5">
-            <div class="checkbox"></div>
-            <p>App-prototyper
-            </p>
-            <div class=verticaLine></div>
-          </div>
-          <div class="field-wrap" id="wayWeb6">
+           <div class="field-wrap" id="wayWeb6">
             <div class="checkbox"></div>
             <p>Om oss
             </p>
@@ -250,13 +244,7 @@ $output="";
                     </div>
                   </div>
                 </div>
-                <div class="row padding-bottom">
-                  <div id="opacity">
-                    <div class="col-md-4"><div id="buy"><img src="img/1.svg"></div></div>
-                    <div class="col-md-4"><div id="buy"><img src="img/2.svg"></div></div>
-                    <div class="col-md-4"><div id="buy"><img src="img/20.svg"></div></div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
