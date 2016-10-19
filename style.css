@@ -302,15 +302,19 @@ padding:0;
 
 
 #about { 
- background:white;
+
   margin: 0 auto; 
   width: 100%;
+    background-image: url("img/bakgrunner/BakgrunnLillaRutete.svg");
 
+  background-repeat: no-repeat;
+  background-size:100% auto;
   font-size:2em;
   color:black;
   z-index:2;
   font-family: "MyCustomFont", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
  font-size: medium;
+ overflow-x: hidden;
  
  
 }
@@ -320,7 +324,7 @@ padding:0;
 .products{
   font-size: 1.5em;
   padding-top: 50px;
-  overflow: hidden;
+  
 }
 
 .font {
@@ -394,7 +398,7 @@ font-weight: 100;
 
 }
 
-
+/*
 
 .way img:hover {
   width:102% !important;
@@ -403,7 +407,7 @@ font-weight: 100;
   margin-bottom: 0;
 }
 
-
+*/
 
 
  /*############### Forside ###############*/
@@ -513,10 +517,6 @@ padding-bottom: 150px;
 
   #way {
 
-  
-background-image: url("img/bakgrunner/BakgrunnLillaRutete.svg");
-background-repeat: no-repeat;
- background-size:100% auto;
 
 
 }
@@ -545,10 +545,8 @@ background-repeat: no-repeat;
   padding-bottom: 120px;
   
   padding-top: 120px;
-  background-image: url("img/bakgrunner/BakgrunnBlaaRutete2.svg");
-  background-repeat: no-repeat;
-  background-size:100% auto;
 
+z-index: 1;
 
   transform-origin: right center !important;
   transition: transform 1s;
@@ -597,10 +595,8 @@ background-repeat: no-repeat;
   
   padding-bottom: 120px;
   padding-top: 120px;
-  background: #4CD964 ;
-  background-image: url("img/bakgrunner/BakgrunnGrønnRutete.svg");
-background-repeat: no-repeat;
- background-size:100% auto;
+ 
+ 
  z-index: 1;
  position: relative;
  
@@ -651,7 +647,7 @@ background-repeat: no-repeat;
 #cog2 {
   top:45%;
   left:-25%;
-  z-index: 2;
+  z-index: 4;
    font-size:35em;
    color:grey;
 }
@@ -715,13 +711,9 @@ background-repeat: no-repeat;
 /*############### Markedsføring ###############*/
 #way4 {
   
-  
+  z-index: 1;
   padding-top: 120px;
   padding-bottom:20px;
-
-  background-image: url("img/bakgrunner/BakgrunnRødRutete.svg");
-background-repeat: no-repeat;
- background-size:100% auto;
 
   
  
@@ -765,11 +757,6 @@ background-repeat: no-repeat;
   padding-bottom: 120px;
   padding-top: 120px; 
 
-  background-image: url("img/bakgrunner/BakgrunnLysBlaaRutete.svg");
-background-repeat: no-repeat;
- background-size:100% auto;
-
- 
 }
 
 
