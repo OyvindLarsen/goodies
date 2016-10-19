@@ -265,19 +265,6 @@ $output="";
             <div class="container">
               <div class="row">
                 <div class="col-md-6 vcenter">
-                  <div class="font" id="fading-in">
-                    <div class="row">
-                      <div class="col-md-8">
-                        <div class="atitle">
-                          <h1>Drift</h1>
-                        </div>
-                      </div>
-                    </div>
-                    <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
-                    <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma, drive nettbutikk,</p>
-                  </div>
-                </div>
-                <div class="col-md-5 vcenter">
                   <div id="fading-in2">
                     <div class="row">
                       <div class="col-md-6 no-padding"><img src="img/drift/Oppdateringer.svg"></div>
@@ -293,10 +280,28 @@ $output="";
                     </div>
                   </div>
                 </div>
+
+                <div class="col-md-5 vcenter">
+                  <div class="font" id="fading-in">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="atitle">
+                          <h1>Drift</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
+                    <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma, drive nettbutikk,</p>
+                  </div>
+                </div>
+                
               </div>
             
             </div>
-              <i class="fa fa-cog slow-spin fa-3x fa-fw" aria-hidden="true"></i>
+              <i class="fa fa-cog slow-spin fa-3x fa-fw" aria-hidden="true" id="cog"></i>
+              <span class="sr-only">Saving. Hang tight!</span>
+
+              <i class="fa fa-cog slow-spin fa-3x fa-fw" aria-hidden="true" id="cog2"></i>
               <span class="sr-only">Saving. Hang tight!</span>
           </div>
 
@@ -413,6 +418,8 @@ $output="";
 </script>
 <script type="text/javascript" src="instafeed.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+
+<script src="jquery.keyframes.js"></script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js">

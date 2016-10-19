@@ -49,12 +49,65 @@ var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed')));
 
 var coords = yPos + 'px';
 
-console.log(coords)
-
 $bgobj.css({ bottom: coords });
 });
 });
 });
+
+
+
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function(){ 
+   var st = window.pageYOffset || document.documentElement.scrollTop; 
+   $("#cog").css("-animation-play-state", "running");
+  $("#cog2").css("-animation-play-state", "running");
+    var obj = $("#cog")
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        $("#cog").css("-animation-play-state", "paused");
+        $("#cog2").css("-animation-play-state", "paused");
+       // var rotate = getRotationDegrees(obj);
+                
+    }, 250));
+
+   if (st > lastScrollTop){
+        $('#cog')
+         .addClass('spin-clockwise')
+         .removeClass('spin-counter-clockwise');
+         $('#cog2')
+         .addClass('spin-counter-clockwise')
+         .removeClass('spin-clockwise');
+       } else {
+        $('#cog')
+         .addClass('spin-counter-clockwise')
+         .removeClass('spin-clockwise');
+         $('#cog2')
+          .addClass('spin-clockwise')
+         .removeClass('spin-counter-clockwise');
+   }
+
+   lastScrollTop = st;
+}, false);
+
+function getRotationDegrees(obj) {
+    var matrix = obj.css("-webkit-transform") ||
+    obj.css("-moz-transform")    ||
+    obj.css("-ms-transform")     ||
+    obj.css("-o-transform")      ||
+    obj.css("transform");
+    if(matrix !== 'none') {
+        var values = matrix.split('(')[1].split(')')[0].split(',');
+        var a = values[0];
+        var b = values[1];
+        var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+    } else { var angle = 0; }
+
+    if(angle < 0) angle +=360;
+    console.log(angle);
+    return angle;
+
+}
 
 
 
@@ -178,8 +231,8 @@ $bgobj.css({ bottom: coords });
   var waypoint4 = new Waypoint({
     element: document.getElementById('way3'),
     handler: function() {
-      $('#fading-in').animate({ opacity: 1, left: 0, }, 1000 );
-      $('#fading-in2').animate({ opacity: 1, right: 0, }, 1000 );
+      $('#fading-in').animate({ opacity: 1, right: 0, }, 1000 );
+      $('#fading-in2').animate({ opacity: 1, left: 0, }, 1000 );
     }, offset: '100%'
   })
 	var waypoint5 = new Waypoint({

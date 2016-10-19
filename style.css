@@ -591,6 +591,8 @@ background-repeat: no-repeat;
 
 /*############### Drift ###############*/
 
+
+
 #way3 {
   
   padding-bottom: 120px;
@@ -604,6 +606,11 @@ background-repeat: no-repeat;
  
 }
 
+#way3 .font {
+  z-index:3;
+
+}
+
 #way3 img {
   position:relative;
   width:100%;
@@ -614,29 +621,94 @@ background-repeat: no-repeat;
 #fading-in2 {
   position: relative;
   opacity:0;
-  right:-50px;
+  left:-50px;
 }
 
 #fading-in {
-  left:-50px;
+  right:-50px;
   opacity:0;
 }
 
 .fa-cog {
-  color:grey;
+  
   position: absolute;
-  top:-80%;
-  right:-45%;
-  z-index: 2;
-  font-size:60em;
   opacity:0.4;
+  
+ 
+  
 
 
 }
 
+#cog{
+   top:-80%;
+  right:-45%;
+  z-index: 2;
+   font-size:60em;
+   color:grey;
+}
+
+#cog2 {
+  top:45%;
+  left:-25%;
+  z-index: 2;
+   font-size:35em;
+   color:grey;
+}
+
+}
+
 .slow-spin {
-  -webkit-animation: fa-spin 8s infinite linear;
-  animation: fa-spin 8s infinite linear;
+  
+}
+#cog {
+  animation-play-state: paused;
+   -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.spin-clockwise {
+
+
+-webkit-animation: spin 10s infinite linear;
+  animation: spin 10s infinite linear;
+
+
+}
+
+.spin-fill-mode {
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.spin-counter-clockwise {
+  -webkit-animation: spin-counter 7s infinite linear;
+  animation: spin-counter 7s infinite linear;
+
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes spin-counter {
+  from {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 
@@ -657,6 +729,8 @@ background-repeat: no-repeat;
   
 
 }
+
+
 .graf {
   position: absolute;
   top:15%;
@@ -854,54 +928,38 @@ a {
  
       #wa {
   margin:0 0 0 0;
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 98%);
+
   
 }
       #way {
-        margin:0 25px 0 0;
+       
   
--webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+
 
 }
 
 #way2 {
 
-margin:0 0 0 25px;
-  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
 
 
 }
 
 #way3 {
-  margin:0 25px 0 0;
- 
 
-  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+ 
 
 }
 
 #way4 {
-  margin:0 0 0 25px;
+
   
  
-  
-  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
- 
-  
 
 }
 
 #way6 {
-  margin:0 25px 0 0;
+
   
-  
-  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
 
 /*
 -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
