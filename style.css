@@ -350,6 +350,7 @@ color: #fff;
 
 .font h1 {
 font-size: 1.5em;
+
 }
 
 .font h3 {
@@ -598,7 +599,8 @@ background-repeat: no-repeat;
   background-image: url("img/bakgrunner/BakgrunnGrønnRutete.svg");
 background-repeat: no-repeat;
  background-size:100% auto;
-
+ z-index: 1;
+ position: relative;
  
 }
 
@@ -620,7 +622,22 @@ background-repeat: no-repeat;
   opacity:0;
 }
 
+.fa-cog {
+  color:grey;
+  position: absolute;
+  top:-80%;
+  right:-45%;
+  z-index: 2;
+  font-size:60em;
+  opacity:0.4;
 
+
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 8s infinite linear;
+  animation: fa-spin 8s infinite linear;
+}
 
 
 /*############### Markedsføring ###############*/

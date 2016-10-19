@@ -55,7 +55,7 @@ $output="";
           <li class="layer" data-type="background" data-speed="-0.2" data-depth="0.55"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.5" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0" data-depth="0.7"><div class="rakett3"><img src="img/grafikk/paralax/Rakett.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="-1" data-depth="0.80"><div class="front"><img src="img/grafikk/paralax/FrontArk.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.80"><div class="front"><img src="img/grafikk/paralax/FrontArk.svg"></div></li>
         </ul>
       </div>
     </article>
@@ -223,9 +223,7 @@ $output="";
                 </div>
                 <div class="row padding-bottom">
                   <div class="padding-top">
-                    <div class="col-md-4" id="fading-in31"><img src="img/web/1P.svg"></div>
-                    <div class="col-md-4" id="fading-in32"><img src="img/web/1P+.svg"></div>
-                    <div class="col-md-4" id="fading-in33"><img src="img/web/GS.svg"></div>
+                
                   </div>
                 </div>
               </div>
@@ -296,7 +294,10 @@ $output="";
                   </div>
                 </div>
               </div>
+            
             </div>
+              <i class="fa fa-cog slow-spin fa-3x fa-fw" aria-hidden="true"></i>
+              <span class="sr-only">Saving. Hang tight!</span>
           </div>
 
           <div class="products" id ="way4">
