@@ -305,7 +305,14 @@ padding:0;
 
   margin: 0 auto; 
   width: 100%;
-    background-image: url("img/bakgrunner/BakgrunnLillaRutete.svg");
+    background: rgba(77,23,87,1);
+background: -moz-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,23,87,1)), color-stop(20%, rgba(77,23,87,1)), color-stop(30%, rgba(53,105,148,1)), color-stop(45%, rgba(53,105,148,1)), color-stop(55%, rgba(37,105,50,1)), color-stop(70%, rgba(37,105,50,1)), color-stop(80%, rgba(140,35,54,1)), color-stop(100%, rgba(140,35,54,1)));
+background: -webkit-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
+background: -o-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
+background: -ms-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
+background: linear-gradient(to bottom, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d1757', endColorstr='#8c2336', GradientType=0 );
 
   background-repeat: no-repeat;
   background-size:100% auto;
