@@ -283,7 +283,6 @@ padding:0;
 #wa {
   margin:0 0 0 0;
   background-color: #404040;
-  
   overflow: hidden;
 }
 
@@ -305,17 +304,14 @@ padding:0;
 
   margin: 0 auto; 
   width: 100%;
-    background: rgba(77,23,87,1);
-background: -moz-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,23,87,1)), color-stop(20%, rgba(77,23,87,1)), color-stop(30%, rgba(53,105,148,1)), color-stop(45%, rgba(53,105,148,1)), color-stop(55%, rgba(37,105,50,1)), color-stop(70%, rgba(37,105,50,1)), color-stop(80%, rgba(140,35,54,1)), color-stop(100%, rgba(140,35,54,1)));
-background: -webkit-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
-background: -o-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
-background: -ms-linear-gradient(top, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
-background: linear-gradient(to bottom, rgba(77,23,87,1) 0%, rgba(77,23,87,1) 20%, rgba(53,105,148,1) 30%, rgba(53,105,148,1) 45%, rgba(37,105,50,1) 55%, rgba(37,105,50,1) 70%, rgba(140,35,54,1) 80%, rgba(140,35,54,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d1757', endColorstr='#8c2336', GradientType=0 );
 
-  background-repeat: no-repeat;
-  background-size:100% auto;
+background: rgba(64,64,64,1);
+background: -moz-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(64,64,64,1)), color-stop(30%, rgba(64,64,64,1)), color-stop(35%, rgba(169,119,194,1)), color-stop(42%, rgba(169,119,194,1)), color-stop(51%, rgba(112,109,204,1)), color-stop(58%, rgba(112,109,204,1)), color-stop(63%, rgba(106,148,181,1)), color-stop(71%, rgba(106,148,181,1)), color-stop(80%, rgba(104,194,118,1)), color-stop(87%, rgba(104,194,118,1)), color-stop(92%, rgba(64,64,64,1)), color-stop(100%, rgba(64,64,64,1)));
+background: -webkit-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
+background: -o-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
+background: -ms-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
+background: linear-gradient(to bottom, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%); background-size:100% auto;
   font-size:2em;
   color:black;
   z-index:2;
@@ -548,7 +544,8 @@ padding-bottom: 150px;
 
 /*############### Hosting ###############*/
 #way2 {
-  
+ 
+
   padding-bottom: 120px;
   
   padding-top: 120px;
@@ -599,7 +596,8 @@ z-index: 1;
 
 
 #way3 {
-  
+
+
   padding-bottom: 120px;
   padding-top: 120px;
  
@@ -717,7 +715,8 @@ z-index: 1;
 
 /*############### Markedsføring ###############*/
 #way4 {
-  
+
+
   z-index: 1;
   padding-top: 120px;
   padding-bottom:20px;
@@ -760,15 +759,17 @@ z-index: 1;
 }
 /*############### Om oss ###############*/
 #way5 {
- 
+
+
   padding-bottom: 120px;
   padding-top: 120px; 
-
+  background-color: #404040;
 }
 
 
 #way6 {
- 
+
+
   padding-bottom: 120px;
   padding-top: 120px;
   background-color: #404040;
@@ -795,11 +796,12 @@ z-index: 1;
 }*/
 
 
-
+/*############### Kontaktskjema ###############*/
 #contact { 
-  background: white 50% 0 repeat fixed; 
+  background: #404040 50% 0 repeat fixed; 
   /*min-height: 1000px; 
   height: 1000px; */
+  padding: 50px;
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -807,6 +809,53 @@ z-index: 1;
   margin:0;
   z-index:5;
 }
+
+
+
+
+#contact .container {
+  background-color: #404040;
+  border-radius: 5px;
+}
+
+
+.flp {padding: 0 50px;}
+/*Let's place the label over the input*/
+.flp fieldset {position: relative; margin-bottom: 30px;}
+
+.flp input, .flp label{
+  width: 400px; display: block;
+  font: inherit; font-size: 16px; line-height: 24px;
+  /*fixed height for FF line height issue. 
+  height = 24(lineheight) + 10*2(padding) + 2(border)*/
+  height: 46px;
+  border: 1px solid #999;
+}
+.flp input, .flp textarea {padding: 10px; outline: none; border-radius: 3px; background-color: #404040;}
+.flp label {
+  position: absolute; left: 0; top: 0;
+  /*left/right padding will be 2px less, adjusted by padding on .ch*/
+  padding: 10px 8px;
+  border-color: transparent; color: white;
+  cursor: text;
+}
+
+/*label styles*/
+.ch {
+  display: block; float: left;
+  position: relative; /*for upward animation*/
+  background: #404040; 
+}
+.ch:first-child {padding-left: 2px;}
+.ch:last-child {padding-right: 2px;}
+
+/*active input label*/
+.focussed {
+  /*when any input is already focussed clicking on it(label) again won't do anything*/
+  pointer-events: none;
+}
+
+
  
 /*############### Footer ###############*/
 

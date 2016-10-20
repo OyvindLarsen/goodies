@@ -478,3 +478,94 @@ $.fn.followTo = function (pos) {
 };
 
 */
+$("form").submit(function (e) {
+      
+      
+                       
+          var errorMessage = "";
+          var fieldsMissing = "";
+        
+          if ($("#email").val() == "") {
+            
+            fieldsMissing += "Email<br>";
+            
+          }
+          if ($("#subject").val() == "") {
+            
+            fieldsMissing += "Subject<br>";
+            
+          }
+          if ($("#content").val() == "") {
+            
+            fieldsMissing += "Question<br>";
+            
+          }
+          if (fieldsMissing != "") {
+            
+            errorMessage += "<p><strong>The following field(s) are missing:</strong></p>" + fieldsMissing;
+            
+          }
+        
+          if (errorMessage != "") {
+            
+            $("#error").html('<div class="alert alert-danger alert-dismissible fade in" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="errorMessage">' + errorMessage + '<p></div>');
+            return false;
+            
+          } else {
+            return true;
+            
+            
+            
+            
+          }
+          
+          
+      });
+
+
+//breakdown the labels into single character spans
+$(".flp label").each(function(){
+  var sop = '<span class="ch">'; //span opening
+  var scl = '</span>'; //span closing
+  //split the label into single letters and inject span tags around them
+  $(this).html(sop + $(this).html().split("").join(scl+sop) + scl);
+  //to prevent space-only spans from collapsing
+  $(".ch:contains(' ')").html("&nbsp;");
+})
+
+var d;
+//animation time
+$(".flp input").focus(function(){
+  //calculate movement for .ch = half of input height
+  var tm = $(this).outerHeight()/2 *-1 + "px";
+  console.log(tm);
+  //label = next sibling of input
+  //to prevent multiple animation trigger by mistake we will use .stop() before animating any character and clear any animation queued by .delay()
+  $(this).next().addClass("focussed").children().stop(true).each(function(i){
+    d = i*50;//delay
+    $(this).delay(d).animate({top: tm}, 200, 'easeOutBack');
+  })
+})
+
+$(".flp textarea").focus(function(){
+  //calculate movement for .ch = half of input height
+  var tm = $(this).outerHeight()/2 *-.5 + "px";
+  console.log(tm);
+  //label = next sibling of input
+  //to prevent multiple animation trigger by mistake we will use .stop() before animating any character and clear any animation queued by .delay()
+  $(this).next().addClass("focussed").children().stop(true).each(function(i){
+    d = i*50;//delay
+    $(this).delay(d).animate({top: tm}, 200, 'easeOutBack');
+  })
+})
+
+$(".flp input, .flp textarea").blur(function(){
+  //animate the label down if content of the input is empty
+  if($(this).val() == "")
+  {
+    $(this).next().removeClass("focussed").children().stop(true).each(function(i){
+      d = i*50;
+      $(this).delay(d).animate({top: 0}, 500, 'easeInOutBack');
+    })
+  }
+})

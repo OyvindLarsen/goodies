@@ -1,6 +1,56 @@
 <?php
 $output="";
-
+$error = "";
+  $errorMessage = "";
+  $outputMessage = "";
+  if ($_POST) {
+    
+    
+    
+    if (!$_POST["email"]) {
+      
+      $error .= "Email<br>";
+      
+    }
+    if (!$_POST["subject"]) {
+      
+      $error .= "Subject<br>";
+      
+    }
+    if (!$_POST["content"]) {
+      
+      $error .= "Content<br>";
+      
+    }
+    if ($error != "") {
+      
+      $errorMessage = '<p><strong>The following field(s) are missing:</strong></p>'. $error;
+      
+    }
+    if ($errorMessage != "") {
+    
+      $outputMessage ='<div class="alert alert-danger alert-dismissible fade in" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="errorMessage">'. $errorMessage .'<p></div>';
+      
+    } else {
+    
+      $to = "geoelars@hotmail.com";
+      $subject = $_POST['subject'];
+      $txt = $_POST['content'];
+      $headers = "From: ".$_POST['email'];
+      
+      if(mail($to,$subject,$txt,$headers)) {
+      
+        $outputMessage ='<div class="alert alert-success alert-dismissible fade in" id="success" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="successMessage"><strong>Sent!</strong> We\'ll get back to you ASAP!<p></div>';
+      } else {
+        
+        $outputMessage = '<div class="alert alert-danger alert-dismissible fade in" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="errorMessage"><strong>There was an error.</strong> Please try again<p></div>';
+        
+        
+        
+      }
+    }
+    
+  }
 
 ?>
 
@@ -350,6 +400,44 @@ $output="";
 
   <div id="contact" data-type="background" data-speed="0.9" class="pages">
     <article> 
+          <div class="container font padding-top">
+          <div class="row">
+                <div class="col-md-12 font">
+       <div class="row">
+       <div class="col-md-4">
+       <div class="atitle">
+       <h1>Ta kontakt</h1>
+        </div>
+  
+  </div>
+  </div>
+      <div id="error"><? echo $outputMessage; ?></div>   
+     <form method="post" class="flp">
+
+      <fieldset class="form-group">
+      <input type="email" id="email" name="email" class="form-control">
+      <label for="email">Epostadresse</label>
+      <small class="text-muted">Vi deler ingen epostadresser.</small>
+      </fieldset>
+
+      <fieldset class="form-group">
+      
+      <input type="text" id="subject" name="subject" class="form-control">
+      <label for="subject">Emne</label>
+      </fieldset>
+      
+      <fieldset class="form-group">
+      <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
+      <label for="content">Hva lurer du på?</label>
+      </fieldset>
+
+      <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
+    </form>
+   
+   
+   </div>
+    </div>
+              </div>
 
     </article>
   </div>
