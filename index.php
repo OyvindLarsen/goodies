@@ -467,9 +467,8 @@ $error = "";
 
                     <p>En pent designet prototype som virker på Android og iPhone telefoner vil ta dager å utvikle. Dette kan gi deg store fordeler når konseptet skal presenteres videre.</p>
 
-                    <p>Vi tilbyr design av app prototyping som en tjeneste slik dine ideer vil presenteres på en realistisk måte samtidig som du unngår å investere i utviklingen før du har innhentet støtte i fra eksterne investorer.</p>
 
-                    <p>Ta kontakt for mer informasjon om denne tjenesten og våre priser.</p>
+                    <p>Ta kontakt for mer informasjon om denne hvordan vi kan lage protyper av dine ideer, og våre priser knyttet til dette.</p>
 
                   </div>
                   
