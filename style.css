@@ -554,8 +554,22 @@ padding-bottom: 150px;
 
 }
 
+#way2 .font {
+  z-index: 3;
+
+}
 
 
+.sus {
+  position: absolute;
+  width:40%;
+  z-index: 1;
+  opacity: 0.2;
+  min-width: 200px;
+  transform: translate(50%, 0);
+  margin: 0 auto;
+
+}
 
 .box5 {
   position: relative;

@@ -276,6 +276,7 @@ $error = "";
 
           <div class="products way" id ="way2" >
             <div class="container">
+            <div class="sus"><img src="img/grafikk/sustainable.svg"></div>
               <div class="font">
                
                   <div class="row">
@@ -407,6 +408,7 @@ $error = "";
 
              <div class="products" id ="way6">
             <div class="container">
+
               <div class="font" id="fading-i">
                 <div class="row padding-top">
                   
