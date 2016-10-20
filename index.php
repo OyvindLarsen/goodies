@@ -277,7 +277,7 @@ $error = "";
           <div class="products way" id ="way2" >
             <div class="container">
               <div class="font">
-                <div id="opacity2">
+               
                   <div class="row">
                     <div class="col-md-4" style="padding-left:15px;">
                       <div class="atitle">
@@ -286,64 +286,63 @@ $error = "";
                     </div>
                   </div>
                   <div class="row padding-bottom">
-                    <div class="col-md-6 vcenter">
+                    <div class="col-md-6 vcenter" id="opacity">
                       <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h3>
                       
                       <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                       <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
                       <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
                     </div>
-                    <div class="col-md-5 vcenter">
-                      
-                      <h1><span id="lines" style="font-size: 2em;">0</span> Trær plantet</h1>
-                      <div class="row">
-                        <div class="col-md-1 no-padding" ></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"></div>
+                    <div class="col-md-5 vcenter" id="opacity2">
+                      <div class="box5">
+                        <h3 style="color:black"> <span id="lines" style="font-size: 2em; color:black">0</span>Trær plantet</h3>
+                        <div class="row">
+                          <div class="col-md-1 no-padding" ></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"></div>
+                        </div>
+                         <div class="row">
+                          <div class="col-md-1 no-padding" ></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"></div>
+                        </div>
+                         <div class="row">
+                          <div class="col-md-1 no-padding" ></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"></div>
+                        </div>
                       </div>
-                       <div class="row">
-                        <div class="col-md-1 no-padding" ></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"></div>
-                      </div>
-                       <div class="row">
-                        <div class="col-md-1 no-padding" ></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
-                        <div class="col-md-1 no-padding"></div>
-                      </div>
-             
-
                     </div>
 
                   </div>
-                </div>
+                
                 
               </div>
             </div>

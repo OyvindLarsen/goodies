@@ -217,6 +217,7 @@ function getRotationDegrees(obj) {
       $('#opacity').animate({ left: 0, },{ duration: 1000,  queue: false });
       $('#opacity2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
       $('#opacity2').animate({ left: 0, },{ duration: 1000,  queue: false });
+      
     }, offset: '100%'
   })
 
