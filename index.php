@@ -212,7 +212,7 @@ $error = "";
             </div>  
             <div class="row" id="way10" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-                <img src="img/Kode.jpg" style="width:400px" class="curve" id="wa111" >
+                <img src="img/Kode.jpg"  class="curve" id="wa111" >
                 <div class="para">
                   <h1>Skreddersøm</h1>
                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
@@ -221,7 +221,7 @@ $error = "";
             </div>
             <div class="row" id="way11" data-type="test2" data-speed="0">
               <div id="circle-shape-example">
-              <img src="img/grafikk/Responsiv.png" style="width:400px" class="curve1" id="wa112" >
+              <img src="img/grafikk/Responsiv.png"  class="curve1" id="wa112" >
                  <div class="para" id="way1112">
                   <h1>Responsive nettsider</h1>
                   <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
@@ -231,7 +231,7 @@ $error = "";
             </div>
             <div class="row" id="way12" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-                <img src="img/grafikk/VektorGrafikk.png" style="width:400px" class="curve" id="wa113" >
+                <img src="img/grafikk/VektorGrafikk.png"  class="curve" id="wa113" >
                 <div class="para">
                   <h1>Vektor grafikk for sylskarpe og dynamiske bilder</h1>
                   <p>Vi skaper mesteparten av vår grafikk til websider og app’er i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>

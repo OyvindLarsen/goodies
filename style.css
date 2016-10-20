@@ -525,6 +525,8 @@ padding-bottom: 150px;
 .sus {
   position: absolute;
   width:40%;
+  left:-13%;
+  top:-23%;
   z-index: 1;
   opacity: 0.2;
   min-width: 200px;
@@ -1142,8 +1144,11 @@ a {
 
 }
 @media only screen and (max-width: 770px) {
+    .para p {
+      width:100%!important;
+    }
     .para {
-      width:75%!important;
+      width:100%!important;
     }
     .logo1 {
       position:relative;
@@ -1239,6 +1244,32 @@ a {
     margin-top:10px;
     font-size: 1.5em; 
   }
+  #circle-shape-example .curve { 
+  width: 80%; height: auto;
+  left:10%;
+  min-width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+
+}
+#circle-shape-example .curve1 { 
+  width: 80%; height: auto;
+  left:10%;
+  min-width: 150px;
+  margin: 0 auto;
+  
+    -webkit-shape-outside:circle();
+  shape-outside:circle();
+ 
+  
+}
+
+#way1112 {
+  margin-left:0!important;
+}
 
 }
 
