@@ -1131,11 +1131,10 @@ a {
 }
 
 #circle-shape-example .curve1 { 
-  width: 33%; height: auto;
+  width: 35%; height: auto;
   min-width: 150px;
   float: right;
-  border-radius: 50%;
-  -webkit-shape-outside:circle();
+    -webkit-shape-outside:circle();
   shape-outside:circle();
  
   
