@@ -225,6 +225,7 @@ function getRotationDegrees(obj) {
     element: document.getElementById('way2'),
     handler: function() {
       pictures();
+      numbers();
       this.destroy();
     }, offset: '100%'
   })
@@ -580,7 +581,7 @@ $(".flp input, .flp textarea").blur(function(){
 })
 
 
-
+  function numbers() {
 $('#lines').animateNumber(
   {
     number: 300,
@@ -600,7 +601,7 @@ $('#lines').animateNumber(
   1800
 );
 
-
+}
   function pictures() {
     var e = $(".fixedbackground");
     var x=0;

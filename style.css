@@ -1136,6 +1136,7 @@ a {
   width: 35%; height: auto;
   min-width: 150px;
   float: right;
+  margin: 2rem;
     -webkit-shape-outside:circle();
   shape-outside:circle();
  
