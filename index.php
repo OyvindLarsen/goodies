@@ -412,8 +412,8 @@ $error = "";
                 </div>
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+                    <h3>Få kunder og investorer på din side uten å risikere høye utviklingskostnader</h3>
+                    <p> Dersom du brenner inne med en god idé til en mobil applikasjon, som du ønsker å få synliggjort fortest mulig slik at den kan presenteres for investorer eller samarbeidspartnere så vil vi kunne hjelpe deg å komme godt i gang ved å få bygget en prototype som vil se ut og oppføre seg som en mobilapplikasjon.</p><p> En pent designet prototype som kan distribueres til alle Android og iPhone telefoner vil ta dager, og ikke uker og måneder, å utvikle - slik tilfellet ofte er med utvikling av fullverdige applikasjoner. </p><p> Vi tilbyr design av app prototyping som en tjeneste slik at konsepter og ideer kan presenteres på en realistisk måte samtidig som man unngår risikoen ved å investere mye penger i utvikling før man har undersøkt interessen for en idé, enten blant investorer eller i kundesegmentet</p>
 
                   </div>
                   
@@ -438,8 +438,8 @@ $error = "";
                 </div>
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+                    <h3>Bli det naturlige førstevalget.</h3>
+                     <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
 
                   </div>
                   
