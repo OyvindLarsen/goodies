@@ -301,3 +301,65 @@ input[type=submit] {
                   <div class="row padding-bottom">
                  
                 </div>
+
+                App
+                Prototyping
+                Søkemotoroptimalisering
+
+
+                <div class="row">
+                          <div class="col-md-1 no-padding" ></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"></div>
+                        </div>
+                         <div class="row">
+                          <div class="col-md-1 no-padding" ></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"></div>
+                        </div>
+                         <div class="row">
+                          <div class="col-md-1 no-padding" ></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"><img src="img/grafikk/Plante.svg"></div>
+                          <div class="col-md-1 no-padding"></div>
+                        </div>
+
+                        var degreesArray = [32.49, 17.81, 12.63, 8.40]
+    new_degrees = function() {
+      
+      if (i < 4) {
+        var d = degreesArray[i];
+        //setTimeout(new_degrees, 100);
+        i++;
+        console.log(d);
+        
+      } else {
+        i = 0
+
+      }

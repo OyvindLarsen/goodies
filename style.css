@@ -538,7 +538,7 @@ padding-bottom: 150px;
 .box5 {
   position: relative;
   display:block;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,242,243,1);
   padding: 20px;
   border-radius: 5px;
   -webkit-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
@@ -755,7 +755,20 @@ padding-bottom: 150px;
 
 /*############### SEO ###############*/
 
-
+body {
+  background: #333;
+}
+/*Centering the gauge*/
+#canvas {
+  display: block;
+  width: 300px;
+  margin: 100px auto;
+}
+/*Custom font for numbers*/
+@font-face {
+  font-family: "sans-serif";
+  
+}
 
 
 /*############### Om oss ###############*/
