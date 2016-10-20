@@ -203,9 +203,9 @@ $error = "";
 
     <div id="page-content-wrapper" class="slide">
       <div class="page-content">
-        <div class="products" id= "wa">
+        <div class="products font" id= "wa">
           <div class="container">
-            <div class="font table1 center" id="wa1">
+            <div class="table1 center" id="wa1">
               <div class="atitle">
                 <h1>Kode &#38 design</h1>
               </div>
@@ -393,11 +393,11 @@ $error = "";
               </div>
             </div>
           </div>
-          <div class="products way" id ="way6">
+          <div class="products way font" id ="way6">
             <div class="container">
           <div class="row padding-bottom">
             <div class="col-md-12" id="">
-              <div class="row padding-top padding-bottom">
+              <div class="row">
                 <div class="col-md-4" style="padding-left:25px;">
                   <div class="atitle">
                     <h1>Ta kontakt</h1>

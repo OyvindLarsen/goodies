@@ -371,12 +371,18 @@ margin-bottom:25px;
 }
 
 
-.font p {
-  font-size: 0.7em;
+.font p, .flp input, .flp textarea, .flp label {
+font-size: 0.7em;
 color: #FFFFFF ;
 letter-spacing: 3px;
 line-height: 35px;
 font-weight: 100;
+}
+
+.text-muted {
+  font-family: "MyCustomFont", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+  font-size: 0.5em;
+  letter-spacing: 2px;
 }
 
 .padding-top{
@@ -454,17 +460,10 @@ font-weight: 100;
 
   
 #circle-shape-example { 
-  color:white;
+ 
   margin: 2rem; 
 }
-#circle-shape-example p { 
-  line-height: 1.8;
-   font-size: 1em;
-color: #FFFFFF ;
-letter-spacing: 3px;
 
-font-weight: 100;
-}
 #circle-shape-example .curve { 
   width: 33%; height: auto;
   min-width: 150px;
