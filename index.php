@@ -533,7 +533,7 @@ $error = "";
               <div class="row">
                 <div class="col-md-4" style="padding-left:25px;">
                   <div class="atitle">
-                    <h1>Ta kontakt</h1>
+                    <h1>Kontaktskjema</h1>
                   </div>
                 </div>
               </div>
@@ -541,7 +541,7 @@ $error = "";
               <form method="post" class="flp">
                 <fieldset class="form-group">
                   <input type="email" id="email" name="email" class="form-control">
-                  <label for="email">Epostadresse</label>
+                  <label for="email">E-post adresse</label>
                   <small class="text-muted">Vi deler ingen epostadresser.</small>
                 </fieldset>
 
@@ -594,7 +594,7 @@ $error = "";
       <div class="col-md-2">
         <div class="frame font">
           <div class="atitle"><h2>Åpningstider</h2></div>
-          <p>Vi er tilgjengelige på telefon mandag til fredag fra 09-17 og 24/7 på e-post.</p>
+          <p>Vi er tilgjengelige på telefon man - fre fra 09-17 og 24/7 på e-post.</p>
         </div>
       </div>
 
