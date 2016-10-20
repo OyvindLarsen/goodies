@@ -430,14 +430,14 @@ $error = "";
                  
                   <div class="col-md-4">
                     <div class="atitle">
-                      <h1>App</h1>
+                      <h1>App utvikling</h1>
                     </div>
                   </div>
                 </div>
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+                    <h3>Vi elsker å leke med digitale byggeklosser.</h3>
+                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
 
                   </div>
                  
@@ -461,7 +461,7 @@ $error = "";
                 </div>
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Få kunder og investorer på din side</h3>
+                    <h3>Få kunder og investorer på din side.</h3>
 
                     <p>Om du har en spennende idé til en mobilapplikasjon så er det  viktig å starte produksjon så fort som mulig. Men å legge mye penger i et utviklingsløp uten investorer på laget medfører høy risiko.</p>
 
