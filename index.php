@@ -461,15 +461,15 @@ $error = "";
                 </div>
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Få kunder og investorer på din side med lavest mulig investering</h3>
+                    <h3>Få kunder og investorer på din side</h3>
 
-                    <p>Om du har en spennende idé til en mobilapplikasjon så er det ofte viktig å starte produksjon så fort som mulig. Samtidig medfører det en del risiko å legge mye penger i et utviklingsprosjekt før man har investorer med på laget.</p>
+                    <p>Om du har en spennende idé til en mobilapplikasjon så er det  viktig å starte produksjon så fort som mulig. Men å legge mye penger i et utviklingsløp uten investorer på laget medfører høy risiko.</p>
 
-                    <p>En pent designet prototype som kan distribueres til alle Android og iPhone telefoner vil ta dager, og ikke uker og måneder, å utvikle - slik tilfellet ofte er med utvikling av fullverdige applikasjoner. </p>
+                    <p>En pent designet prototype som virker på Android og iPhone telefoner vil ta dager å utvikle. Dette kan gi deg store fordeler når konseptet skal presenteres videre.</p>
 
-                    <p>Vi tilbyr design av app prototyping som en tjeneste slik at konsepter og ideer kan presenteres på en realistisk måte samtidig som man unngår å investere i utvikling før man har undersøkt interessen for en idé, enten blant investorer eller i det planlagte kundesegmentet.</p>
+                    <p>Vi tilbyr design av app prototyping som en tjeneste slik dine ideer vil presenteres på en realistisk måte samtidig som du unngår å investere i utviklingen før du har innhentet støtte i fra eksterne investorer.</p>
 
-                    <p>Ta kontakt for mer informasjon om denne tjenesten og våre priser</p>
+                    <p>Ta kontakt for mer informasjon om denne tjenesten og våre priser.</p>
 
                   </div>
                   
