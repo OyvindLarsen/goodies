@@ -217,7 +217,7 @@ function getRotationDegrees(obj) {
       $('#opacity').animate({ left: 0, },{ duration: 1000,  queue: false });
       $('#opacity2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
       $('#opacity2').animate({ left: 0, },{ duration: 1000,  queue: false });
-      
+      pictures();
     }, offset: '100%'
   })
 
@@ -591,3 +591,52 @@ $('#lines').animateNumber(
   },
   1800
 );
+
+
+  function pictures() {
+    var e = $(".fixedbackground");
+    var x=0;
+    var planteArray = new Array();
+    var number = 300/10;//$("#lines")
+      for (i = 0; i < 3 ; i++) { 
+        $("#startpic").append( '<div class="row" id="hmmm'+i+'">');
+          for (y = 0; y < 12 ; y++) {
+              $("#hmmm"+i).append( '<div class="col-md-1 no-padding usynlig" id="plantefade'+x+'"><img src="img/grafikk/Plante.svg"></div>');
+              planteArray.push(x);
+              console.log(planteArray[x])
+            x++;
+            if (x > number)  {
+              var z = 0;
+              shuffle(planteArray);
+              var display = function() {
+                  e = $("#plantefade"+planteArray[z++]);
+                  e.animate({ opacity: 1 }, 3000 );
+                  if (i < 31) {
+                      setTimeout(display, 100);
+                  }
+              };
+
+              display();
+             break;
+            }
+         }
+      }
+    
+     
+  
+ } 
+
+
+
+    
+
+    
+
+
+
+ function shuffle(a) {
+    for (let i = a.length; i; i--) {
+        let j = parseInt(Math.random() * i, 10);
+        [a[i - 1], a[j]] = [a[j], a[i - 1]];
+    }
+}

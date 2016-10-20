@@ -600,6 +600,9 @@ padding-bottom: 150px;
   left:-80px;
 }
 
+.usynlig {
+  opacity:0;
+}
 
 /*############### Drift ###############*/
 
