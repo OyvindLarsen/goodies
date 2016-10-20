@@ -570,4 +570,23 @@ $(".flp input, .flp textarea").blur(function(){
   }
 })
 
-$('#lines').animateNumber({ number: 165 });
+
+
+$('#lines').animateNumber(
+  {
+    number: 300,
+    
+
+    easing: 'easeInQuad', // require jquery.easing
+
+    // optional custom step function
+    // using here to keep '%' sign after number
+    numberStep: function(now, tween) {
+      var floored_number = Math.floor(now),
+          target = $(tween.elem);
+
+      target.text(floored_number);
+    }
+  },
+  1800
+);
