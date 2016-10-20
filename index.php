@@ -373,9 +373,86 @@ $error = "";
             </div>
           </div>
 
+
+             <div class="products" id ="way5">
+            <div class="container">
+              <div class="font" id="fading-i">
+                <div class="row padding-top">
+                 
+                  <div class="col-md-4">
+                    <div class="atitle">
+                      <h1>App</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="row padding-bottom">
+                  <div class="col-md-7 matchHeight padding-bottom">
+                    <h3>Ta din merkevare til nye høyder.</h3>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+
+                  </div>
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+             <div class="products" id ="way6">
+            <div class="container">
+              <div class="font" id="fading-i">
+                <div class="row padding-top">
+                  
+                  <div class="col-md-4">
+                    <div class="atitle">
+                      <h1>Prototyping</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="row padding-bottom">
+                  <div class="col-md-7 matchHeight padding-bottom">
+                    <h3>Ta din merkevare til nye høyder.</h3>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+
+                  </div>
+                  
+                </div>
+               
+                
+              </div>
+            </div>
+          </div>
+
+          
+             <div class="products" id ="way7">
+            <div class="container">
+              <div class="font" id="fading-i">
+                <div class="row padding-top">
+                 
+                  <div class="col-md-4">
+                    <div class="atitle">
+                      <h1>Søkemotoroptimalisering</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="row padding-bottom">
+                  <div class="col-md-7 matchHeight padding-bottom">
+                    <h3>Ta din merkevare til nye høyder.</h3>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+
+                  </div>
+                  
+                </div>
+               
+               
+              </div>
+            </div>
+          </div>
+
        
 
-          <div class="products way" id ="way5">
+          <div class="products way" id ="way8">
             <div class="container">
               <div class="row">
                 <div class="col-md-12 font">
@@ -395,7 +472,7 @@ $error = "";
               </div>
             </div>
           </div>
-          <div class="products way font" id ="way6">
+          <div class="products way font" id ="way9">
             <div class="container">
           <div class="row padding-bottom">
             <div class="col-md-12" id="">

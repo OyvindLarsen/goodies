@@ -356,7 +356,7 @@ color: #fff;
 }
 
 .font h1 {
-font-size: 1.5em;
+font-size: 2em;
 
 }
 
@@ -756,8 +756,18 @@ z-index: 1;
   left:60%;
 
 }
+
+/*############### App ###############*/
+
+/*############### Prototyping ###############*/
+
+/*############### SEO ###############*/
+
+
+
+
 /*############### Om oss ###############*/
-#way5 {
+#way8 {
 
 
   padding-bottom: 120px;
@@ -765,8 +775,9 @@ z-index: 1;
   background-color: #404040;
 }
 
+/*############### Kontaktskjema ###############*/
 
-#way6 {
+#way9 {
 
 
   padding-bottom: 120px;
@@ -774,47 +785,8 @@ z-index: 1;
   background-color: #404040;
   
 
-/*
--webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);*/
-
-
 }
 
-
-
-/*.fixedbackground {
-  
-  position:fixed;
-    z-index:4;
-    top:2%;
-    display:none;
-    font-size: 1.5em;
-
-
-}*/
-
-
-/*############### Kontaktskjema ###############*/
-/*#contact { 
-  background: #404040 50% 0 repeat fixed; 
-  /*min-height: 1000px; 
-  height: 1000px; 
-    margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  margin:0;
-  z-index:2;
-  font-size:1.5em;
-}
-
-#contact article {
-  width: 100%;
-}
-*/
-
-/*Let's place the label over the input*/
 .flp fieldset {position: relative; margin-bottom: 40px;}
 
 .flp input, .flp label{
@@ -848,6 +820,44 @@ z-index: 1;
   /*when any input is already focussed clicking on it(label) again won't do anything*/
   pointer-events: none;
 }
+
+
+
+
+
+
+/*.fixedbackground {
+  
+  position:fixed;
+    z-index:4;
+    top:2%;
+    display:none;
+    font-size: 1.5em;
+
+
+}*/
+
+
+
+/*#contact { 
+  background: #404040 50% 0 repeat fixed; 
+  /*min-height: 1000px; 
+  height: 1000px; 
+    margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  margin:0;
+  z-index:2;
+  font-size:1.5em;
+}
+
+#contact article {
+  width: 100%;
+}
+*/
+
+/*Let's place the label over the input*/
 
 
  
