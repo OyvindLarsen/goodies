@@ -663,12 +663,14 @@ window.onload = function(){
   var degrees = 0;
   var new_degrees = 0;
   var difference = 0;
-  var color = "lightgreen"; //green looks better to me
+  var color = "#CF8164"; //green looks better to me
   var bgcolor = "#222";
   var text;
+  var text2;
   var animation_loop, redraw_loop;
   var i = 0;
-  var degreesArray = [66, 37, 26, 18, 146, 189];
+  var degreesArray = [66, 37, 26, 146, 189];
+  var textArray = ["Første treff på google får", "Andre treff på google får", "Tredje treff på google får", "De første 4 får", "De ti første får"];
   
   function init()
   {
@@ -696,14 +698,17 @@ window.onload = function(){
     
     //Lets add the text
     ctx.fillStyle = color;
-    ctx.font = "50px bebas";
+    ctx.font = "24px Arial Black";
     text = Math.floor(degrees/360*100) + "%";
+    text2 = "av  all trafikken";
     //Lets center the text
     //deducting half of text width from position x
     text_width = ctx.measureText(text).width;
     //adding manual value to position y since the height of the text cannot
     //be measured easily. There are hacks but we will keep it manual for now.
     ctx.fillText(text, W/2 - text_width/2, H/2 + 15);
+    ctx.fillText(text2, 20, 350);
+    ctx.fillText(text3, 20, 50);
   }
   
   function draw()
@@ -711,10 +716,12 @@ window.onload = function(){
     //Cancel any movement animation if a new chart is requested
     if(typeof animation_loop != undefined) clearInterval(animation_loop);
     
-    if (i < 6) {
+    if (i < 5) {
         new_degrees = degreesArray[i];
+        text3 = textArray[i];
         i++;
-        console.log(i);
+        
+        
         
       } else {
         i = 0
