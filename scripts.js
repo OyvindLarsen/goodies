@@ -569,3 +569,5 @@ $(".flp input, .flp textarea").blur(function(){
     })
   }
 })
+
+$('#lines').animateNumber({ number: 165 });

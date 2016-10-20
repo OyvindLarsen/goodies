@@ -288,6 +288,7 @@ $error = "";
                   <div class="row padding-bottom">
                     <div class="col-md-12">
                       <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h3>
+                      <p>This plugin only <span id="lines">0</span> lines of code.</p>
                       <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                       <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
                       <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
@@ -492,8 +493,8 @@ $error = "";
 <script type="text/javascript" src="instafeed.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
 
-<script src="jquery.keyframes.js"></script>
 
+<script src="jquery.animateNumber.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js">
 </script>
