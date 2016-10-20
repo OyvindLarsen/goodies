@@ -33,8 +33,8 @@ $error = "";
       
     } else {
     
-      $to = "geoelars@hotmail.com";
-      $subject = $_POST['subject'];
+      $to = "post@goodies.no";
+      $subject = $_POST['kontaktskjema:' . 'subject'];
       $txt = $_POST['content'];
       $headers = "From: ".$_POST['email'];
       
