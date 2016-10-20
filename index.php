@@ -384,10 +384,11 @@ $error = "";
                       </div>
                     </div>
                   </div>
-                  <p>Goodies er et firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til lavest mulig pris.</p>
-                  <p>Vi er et lite og nyopprettet firma, og det gjør vi til vår styrke ved å tilby gunstige priser og et høyt nivå av fleksibilitet. Kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en uke, eller to, - så vel som større oppdrag som går over flere uker og måneder.</p>
-                  <p>Ved å benytte vårt kontaktnett av erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det på noen måte påvirker kvaliteten i våre leveranser. Kundetilfredshet er avgjørende for oss og vi vil strekke oss 'det lille ekstra' for å sørge for at man sitter igjen med en følelse av å ha fått mer enn hva man har betalt for ved å benytte seg av våre tjenester.</p>
-                  <p>I tillegg til å ha fokus på Web design og App utvikling så tilbyr vi tjenester som harmonerer med disse, som webhotellstjenester, søkemotoroptimalisering og digitial markedsføring.</p>
+                  <p>Goodies er et firma med hovedfokus på Web Design samt web- og mobilapplikasjonsutvikling. 
+                  Vårt mål er å levere kosteffektive, elegante og funksjonelle løsninger.</p>
+                  <p>Vi er et lite og nyopprettet firma, og det gjør vi til vår styrke ved å tilby et høyt nivå av fleksibilitet.
+                  Kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en uke, eller to, - så vel som større oppdrag som går over flere uker og måneder. </p>
+                  <p>Ved å benytte vårt kontaktnett av erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det påvirker kvaliteten i våre leveranser. Kundetilfredshet er avgjørende for oss og vi vil strekke oss langt for å sørge for at våre kunder sitter igjen med en følelse av å ha fått mer enn hva man har betalt for.</p>
                 </div>
               </div>
             </div>
