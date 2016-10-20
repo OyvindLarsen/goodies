@@ -217,7 +217,15 @@ function getRotationDegrees(obj) {
       $('#opacity').animate({ left: 0, },{ duration: 1000,  queue: false });
       $('#opacity2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
       $('#opacity2').animate({ left: 0, },{ duration: 1000,  queue: false });
+      
+    }, offset: '100%'
+  })
+
+ var waypoint32 = new Waypoint({
+    element: document.getElementById('way2'),
+    handler: function() {
       pictures();
+      this.destroy();
     }, offset: '100%'
   })
 
