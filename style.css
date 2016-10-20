@@ -801,27 +801,18 @@ z-index: 1;
   background: #404040 50% 0 repeat fixed; 
   /*min-height: 1000px; 
   height: 1000px; */
-  padding: 50px;
-  margin: 0 auto; 
+    margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
   margin:0;
   z-index:5;
+  font-size:1.5em;
 }
 
 
-
-
-#contact .container {
-  background-color: #404040;
-  border-radius: 5px;
-}
-
-
-.flp {padding: 0 50px;}
 /*Let's place the label over the input*/
-.flp fieldset {position: relative; margin-bottom: 30px;}
+.flp fieldset {position: relative; margin-bottom: 40px;}
 
 .flp input, .flp label{
   width: 400px; display: block;
@@ -831,7 +822,7 @@ z-index: 1;
   height: 46px;
   border: 1px solid #999;
 }
-.flp input, .flp textarea {padding: 10px; outline: none; border-radius: 3px; background-color: #404040;}
+.flp input, .flp textarea {padding: 20px; outline: none; border-radius: 3px; background-color: #404040;}
 .flp label {
   position: absolute; left: 0; top: 0;
   /*left/right padding will be 2px less, adjusted by padding on .ch*/

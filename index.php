@@ -400,45 +400,40 @@ $error = "";
 
   <div id="contact" data-type="background" data-speed="0.9" class="pages">
     <article> 
-          <div class="container font padding-top">
-          <div class="row">
-                <div class="col-md-12 font">
-       <div class="row">
-       <div class="col-md-4">
-       <div class="atitle">
-       <h1>Ta kontakt</h1>
-        </div>
-  
-  </div>
-  </div>
-      <div id="error"><? echo $outputMessage; ?></div>   
-     <form method="post" class="flp">
-
-      <fieldset class="form-group">
-      <input type="email" id="email" name="email" class="form-control">
-      <label for="email">Epostadresse</label>
-      <small class="text-muted">Vi deler ingen epostadresser.</small>
-      </fieldset>
-
-      <fieldset class="form-group">
-      
-      <input type="text" id="subject" name="subject" class="form-control">
-      <label for="subject">Emne</label>
-      </fieldset>
-      
-      <fieldset class="form-group">
-      <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
-      <label for="content">Hva lurer du på?</label>
-      </fieldset>
-
-      <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
-    </form>
-   
-   
-   </div>
-    </div>
+      <div class="container font padding-top padding-bottom">
+        <div class="row">
+          <div class="row padding-top padding-bottom">
+            <div class="col-md-12" id="">
+              <div class="row padding-top padding-bottom">
+                <div class="col-md-4" style="padding-left:25px;">
+                  <div class="atitle">
+                    <h1>Ta kontakt</h1>
+                  </div>
+                </div>
               </div>
+              <div id="error"><? echo $outputMessage; ?></div>   
+              <form method="post" class="flp">
+                <fieldset class="form-group">
+                  <input type="email" id="email" name="email" class="form-control">
+                  <label for="email">Epostadresse</label>
+                  <small class="text-muted">Vi deler ingen epostadresser.</small>
+                </fieldset>
 
+                <fieldset class="form-group">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject">Emne</label>
+                </fieldset>
+                
+                <fieldset class="form-group">
+                  <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
+                  <label for="content">Hva lurer du på?</label>
+                </fieldset>
+
+                <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+        </div>
+      </div>
     </article>
   </div>
 
