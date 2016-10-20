@@ -354,16 +354,16 @@ $error = "";
                 <div class="col-md-6 vcenter">
                   <div id="fading-in2">
                     <div class="row">
-                      <div class="col-md-6 no-padding"><img src="img/drift/Oppdateringer.svg"></div>
-                      <div class="col-md-6 no-padding"><img src="img/drift/Overvåking.svg"></div>
+                      <div class="col-md-6 no-padding"><img src="img/produkter/drift/Oppdateringer.svg"></div>
+                      <div class="col-md-6 no-padding"><img src="img/produkter/drift/Overvåking.svg"></div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6 no-padding"><img src="img/drift/Patching.svg"></div>
-                      <div class="col-md-6 no-padding"><img src="img/drift/SSL.svg"></div>
+                      <div class="col-md-6 no-padding"><img src="img/produkter/drift/Patching.svg"></div>
+                      <div class="col-md-6 no-padding"><img src="img/produkter/drift/SSL.svg"></div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6 no-padding"><img src="img/drift/MSSQL.svg"></div>
-                      <div class="col-md-6 no-padding"><img src="img/drift/Backup.svg"></div>
+                      <div class="col-md-6 no-padding"><img src="img/produkter/drift/MSSQL.svg"></div>
+                      <div class="col-md-6 no-padding"><img src="img/produkter/drift/Backup.svg"></div>
                     </div>
                   </div>
                 </div>
