@@ -373,7 +373,7 @@ $error = "";
 
        
 
-          <div class="products way" id ="way6">
+          <div class="products way" id ="way5">
             <div class="container">
               <div class="row">
                 <div class="col-md-12 font">
@@ -392,17 +392,9 @@ $error = "";
               </div>
             </div>
           </div>
-
-        </div>
-      </div>
-    </article>
-  </div>
-
-  <div id="contact" data-type="background" data-speed="0.9" class="pages">
-    <article> 
-      <div class="container font padding-top padding-bottom">
-        <div class="row">
-          <div class="row padding-top padding-bottom">
+          <div class="products way" id ="way6">
+            <div class="container">
+          <div class="row padding-bottom">
             <div class="col-md-12" id="">
               <div class="row padding-top padding-bottom">
                 <div class="col-md-4" style="padding-left:25px;">
@@ -434,6 +426,14 @@ $error = "";
             </div>
         </div>
       </div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div id="contact" data-type="background" data-speed="0.9" class="pages">
+    <article> 
+     
     </article>
   </div>
 

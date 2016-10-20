@@ -771,7 +771,7 @@ z-index: 1;
 
 
   padding-bottom: 120px;
-  padding-top: 120px;
+  
   background-color: #404040;
   
 
@@ -797,19 +797,23 @@ z-index: 1;
 
 
 /*############### Kontaktskjema ###############*/
-#contact { 
+/*#contact { 
   background: #404040 50% 0 repeat fixed; 
   /*min-height: 1000px; 
-  height: 1000px; */
+  height: 1000px; 
     margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
   margin:0;
-  z-index:5;
+  z-index:2;
   font-size:1.5em;
 }
 
+#contact article {
+  width: 100%;
+}
+*/
 
 /*Let's place the label over the input*/
 .flp fieldset {position: relative; margin-bottom: 40px;}
