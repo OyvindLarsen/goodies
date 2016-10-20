@@ -357,7 +357,8 @@ $error = "";
                 <div class="row padding-bottom">
                   <div class="col-md-7 matchHeight padding-bottom">
                     <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredtest mulig publikum.</p><p>Ta kontakt med oss på post@goodies.no for å få mer informasjon om hvordan vi kan hjelpe deg med å markedsføre din merkevare.</p>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+
                   </div>
                   <div class="col-md-5 matchHeight padding-bottom">
                     
