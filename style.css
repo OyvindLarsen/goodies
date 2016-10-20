@@ -447,45 +447,7 @@ font-weight: 100;
   opacity:0;
 }
 
-  .filter {
-    width:500px;
-    background-color:#404040;
-  }
 
-  .filter img {
-
-    border-radius: 50%;
-}
-
-
-  
-#circle-shape-example { 
- 
-  margin: 2rem; 
-}
-
-#circle-shape-example .curve { 
-  width: 33%; height: auto;
-  min-width: 150px;
-  float: left;
-  margin-right:10rem; 
-  border-radius: 50%;
-  -webkit-shape-outside:circle();
-  shape-outside:circle();
-
-  
-}
-
-#circle-shape-example .curve1 { 
-  width: 33%; height: auto;
-  min-width: 150px;
-  float: right;
-  border-radius: 50%;
-  -webkit-shape-outside:circle();
-  shape-outside:circle();
- 
-  
-}
 
 
 
@@ -1139,9 +1101,51 @@ a {
   margin-top:50px;
   font-size: 1.5em; 
 }
+  .filter {
+    width:500px;
+    background-color:#404040;
+  }
+
+  .filter img {
+
+    border-radius: 50%;
+}
+
+
+  
+#circle-shape-example { 
+ 
+  margin: 2rem; 
+}
+
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:10rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+
+  
+}
+
+#circle-shape-example .curve1 { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: right;
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+ 
+  
+}
 
 }
 @media only screen and (max-width: 770px) {
+    .para {
+      width:75%!important;
+    }
     .logo1 {
       position:relative;
       margin:0 auto;
