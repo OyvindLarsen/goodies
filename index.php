@@ -528,7 +528,7 @@ $error = "";
                     </div>
                      <canvas id="canvas" width="1000" height="300"></canvas>
                     <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-12">
                     <p style="text-align: center;">Av all gjennomklikking trafikk</p>
                     </div>
                   </div>
