@@ -306,12 +306,13 @@ padding:0;
   width: 100%;
 
 background: rgba(64,64,64,1);
-background: -moz-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(64,64,64,1)), color-stop(30%, rgba(64,64,64,1)), color-stop(35%, rgba(169,119,194,1)), color-stop(42%, rgba(169,119,194,1)), color-stop(51%, rgba(112,109,204,1)), color-stop(58%, rgba(112,109,204,1)), color-stop(63%, rgba(106,148,181,1)), color-stop(71%, rgba(106,148,181,1)), color-stop(80%, rgba(104,194,118,1)), color-stop(87%, rgba(104,194,118,1)), color-stop(92%, rgba(64,64,64,1)), color-stop(100%, rgba(64,64,64,1)));
-background: -webkit-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
-background: -o-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
-background: -ms-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%);
-background: linear-gradient(to bottom, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 30%, rgba(169,119,194,1) 35%, rgba(169,119,194,1) 42%, rgba(112,109,204,1) 51%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 87%, rgba(64,64,64,1) 92%, rgba(64,64,64,1) 100%); background-size:100% auto;
+background: -moz-linear-gradient(top, rgba(169,119,194,1) 0%, rgba(169,119,194,1) 27%, rgba(112,109,204,1) 36%, rgba(112,109,204,1) 48%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(169,119,194,1)), color-stop(27%, rgba(169,119,194,1)), color-stop(36%, rgba(112,109,204,1)), color-stop(48%, rgba(112,109,204,1)), color-stop(63%, rgba(106,148,181,1)), color-stop(71%, rgba(106,148,181,1)), color-stop(80%, rgba(104,194,118,1)), color-stop(100%, rgba(104,194,118,1)));
+background: -webkit-linear-gradient (top,  rgba(169,119,194,1) 0%, rgba(169,119,194,1) 27%, rgba(112,109,204,1) 36%, rgba(112,109,204,1) 58%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 100%);
+background: -o-linear-gradient(top, rgba(169,119,194,1) 0%, rgba(169,119,194,1) 27%, rgba(112,109,204,1) 36%, rgba(112,109,204,1) 48%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(169,119,194,1) 0%, rgba(169,119,194,1) 27%, rgba(112,109,204,1) 36%, rgba(112,109,204,1) 48%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 100%);
+background: linear-gradient(to bottom, rgba(169,119,194,1) 0%, rgba(169,119,194,1) 27%, rgba(112,109,204,1) 36%, rgba(112,109,204,1) 48%, rgba(106,148,181,1) 63%, rgba(106,148,181,1) 71%, rgba(104,194,118,1) 80%, rgba(104,194,118,1) 100%); 
+background-size:100% auto;
   font-size:2em;
   color:black;
   z-index:2;
@@ -755,22 +756,63 @@ padding-bottom: 150px;
 
 /*############### SEO ###############*/
 
-body {
-  background: #333;
+#fg {
+  position:relative;
+  z-index:2;
+  width: 800px;
+  left:-150px;
+  top:-300px;
+  -webkit-animation: myOrbit 6s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 6s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 6s linear infinite; /* Opera 12+ */
+            animation: myOrbit 6s linear infinite; /* Chrome, Firefox 16+, 
+
+                                                      IE 10+, Safari 5 */
 }
-/*Centering the gauge*/
+.images {
+  overflow:hidden;
+  display:block;
+  width: 395px;
+  height: 655px;
+
+}
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+    from { -moz-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+    from { -o-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+
+#sp {
+position: absolute;
+z-index:1;
+left: 15px;
+top:0;
+    width: 400px;
+}
+
+
+
 #canvas {
   display: block;
   width: 100%;
   height: auto;
   margin: 0 auto;
-}
-/*Custom font for numbers*/
-@font-face {
-  font-family: "Arial Black", sans-serif;
-
-  
-}
+} 
 
 .box8 {
   position: relative;

@@ -363,3 +363,9 @@ input[type=submit] {
         i = 0
 
       }
+
+       var new_degreesArray = [0, 0, 0];
+  var degreesArray = [66, 37, 189];
+  var textArray = ["Første treff på google får", "Andre treff på google får", "De ti første får"];
+  var widthArray = [W/6, W/2, W/6*5]
+  var x= 0;

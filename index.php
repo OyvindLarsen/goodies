@@ -450,11 +450,19 @@ $error = "";
                     </div>
                   </div>
                 </div>
-                <div class="row padding-bottom">
-                  <div class="col-md-5 padding-bottom">
+                <div class="row vcenter">
+                  <div class="col-md-6 padding-bottom">
                     <h3>Bli det naturlige førstevalget.</h3>
                      <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
 
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="col-md-5 padding-bottom vcenter">
+                  <div class="images">
+                    <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" >
+                    <img src="img/grafikk/SynsprovePlakat.png" id="sp">
+
+                  </div>
                   </div>
                   </div>
                   <div class="col-md-12 padding-bottom">
