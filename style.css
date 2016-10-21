@@ -189,11 +189,11 @@ padding:0;
   position: absolute;
   left:50%;
   bottom:5%;
-
-
 }
+
 .opera img {
   width: 150%;
+  min-width: 800px;
   transform: translate(-50%, 0);
 }
 .bakerst {
@@ -284,6 +284,8 @@ padding:0;
   margin:0 0 0 0;
   background-color: #404040;
   overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 
 #logo1 {
@@ -735,20 +737,7 @@ padding-bottom: 150px;
 }
 
 
-.rakett {
-  position:absolute;
-  bottom: 0;
-  left:100%;
-  
 
-}
-.rakett2 {
-  
-  position:absolute;
-  bottom:-40px;
-  left:60%;
-
-}
 
 /*############### App ###############*/
 
@@ -864,6 +853,15 @@ top:0;
 
 }
 
+#way9 .container {
+padding:50px;
+background-color: #455B8C;
+border-radius: 5px;
+-webkit-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+  -moz-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+  box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+}
+
 .flp fieldset {position: relative; margin-bottom: 40px;}
 
 .flp input, .flp label{
@@ -874,7 +872,7 @@ top:0;
   height: 46px;
   border: 1px solid #999;
 }
-.flp input, .flp textarea {padding: 20px; outline: none; border-radius: 3px; background-color: #404040;}
+.flp input, .flp textarea {padding: 20px; outline: none; border-radius: 3px; background-color: #455B8C;}
 .flp label {
   position: absolute; left: 0; top: 0;
   /*left/right padding will be 2px less, adjusted by padding on .ch*/
@@ -887,7 +885,7 @@ top:0;
 .ch {
   display: block; float: left;
   position: relative; /*for upward animation*/
-  background: #404040; 
+  background: #455B8C; 
 }
 .ch:first-child {padding-left: 2px;}
 .ch:last-child {padding-right: 2px;}
@@ -1075,11 +1073,25 @@ a {
 }
 
 #way4 {
+  }
+.rakett {
+  position:absolute;
+  bottom: 0;
+  left:90%;
+  
 
+}
+.rakett2 {
+  
+  position:absolute;
+  bottom:0px;
+  left:50%;
+
+}
   
  
 
-}
+
 
 #way6 {
 
@@ -1355,6 +1367,22 @@ a {
 
 #way1112 {
   margin-left:0!important;
+}
+
+.rakett {
+  position:absolute;
+  bottom: 0;
+  left:75%;
+  opacity:0.5;
+  
+
+}
+.rakett2 {
+  
+  position:absolute;
+  bottom:-40px;
+  left:60%;
+
 }
 
 }

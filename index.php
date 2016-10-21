@@ -240,7 +240,7 @@ $error = "";
               </div>
             </div>
                 <div class="row padding-top padding-bottom">
-                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
+                <div class="col-md-12 font padding-bottom" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
               </div>
             </div>
           </div>
@@ -277,16 +277,17 @@ $error = "";
           <div class="products" id ="way5">
             <div class="container">
               <div class="font" id="fading-i">
-                <div class="row padding-top">
+               
+                <div class="row padding-bottom">
+                  <div class="col-md-7 vcenter padding-bottom col-md-push-4">
+                     <div class="row padding-top">
                  
-                  <div class="col-md-4">
+                  <div class="col-md-7">
                     <div class="atitle">
                       <h1>App utvikling</h1>
                     </div>
                   </div>
                 </div>
-                <div class="row padding-bottom">
-                  <div class="col-md-7 vcenter padding-bottom col-md-push-4">
                     <h3>Vi elsker å leke med digitale byggeklosser.</h3>
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.</p>
 
@@ -302,21 +303,50 @@ $error = "";
               </div>
             </div>
           </div>
+          <div class="products" id ="way4">
+            <div class="container">
+              <div class="font" id="fading-i">
+                <div class="row padding-top">
+                  <div class="graf"><img src="img/grafikk/SocialGraf.svg"></div>
+                  <div class="col-md-4">
+                    <div class="atitle">
+                      <h1>Markedsføring</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="row padding-bottom">
+                  <div class="col-md-7 vcenter padding-bottom">
+                    <h3>Ta din merkevare til nye høyder.</h3>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
 
+                  </div>
+                  <div class="col-md-4 vcenter padding-bottom">
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12"><div class="rakett2" id="rakett2"><img src="img/grafikk/Røyk.svg"></div></div>
+                    <div class="rakett" id="rakett" data-type="test2" data-speed="-1.1"><img src="img/grafikk/Rakett.svg"></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
           <div class="products" id ="way6">
             <div class="container">
 
               <div class="font" id="fading-i">
-                <div class="row padding-top">
+                
+                <div class="row padding-bottom hey">
+                  <div class="col-md-7 vcenter padding-bottom col-md-push-4" >
+                    <div class="row padding-top">
                   
-                  <div class="col-md-4">
+                  <div class="col-md-7">
                     <div class="atitle">
                       <h1>Prototyping</h1>
                     </div>
                   </div>
                 </div>
-                <div class="row padding-bottom hey">
-                  <div class="col-md-7 vcenter padding-bottom " >
                     <h3>Få kunder og investorer på din side.</h3>
 
                     <p>Om du har en spennende idé til en mobilapplikasjon så er det  viktig å starte produksjon så fort som mulig. Men å legge mye penger i et utviklingsløp uten investorer på laget medfører høy risiko.</p>
@@ -327,7 +357,7 @@ $error = "";
                     <p>Ta kontakt for mer informasjon om denne hvordan vi kan lage protyper av dine ideer, og våre priser knyttet til dette.</p>
 
                   </div>
-                  <div class="col-md-4 vcenter padding-bottom">
+                  <div class="col-md-4 vcenter padding-bottom col-md-pull-7">
                     <div class="proimg">
                       <img src="img/grafikk/Prototype1.svg" id="cards" >
                       <img src="img/grafikk/Prototype2.svg" id="cards" >
@@ -344,34 +374,7 @@ $error = "";
               </div>
             </div>
           </div>
-               <div class="products" id ="way4">
-            <div class="container">
-              <div class="font" id="fading-i">
-                <div class="row padding-top">
-                  <div class="graf"><img src="img/grafikk/SocialGraf.svg"></div>
-                  <div class="col-md-4">
-                    <div class="atitle">
-                      <h1>Markedsføring</h1>
-                    </div>
-                  </div>
-                </div>
-                <div class="row padding-bottom">
-                  <div class="col-md-7 matchHeight padding-bottom">
-                    <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
-
-                  </div>
-                  <div class="col-md-5 matchHeight padding-bottom">
-                    
-                  </div>
-                </div>
-                <div class="row padding-top">
-                  <div class="col-md-12"><div class="rakett2" id="rakett2"><img src="img/grafikk/Røyk.svg"></div></div>
-                </div>
-                <div class="rakett" id="rakett" data-type="test2" data-speed="-1.1"><img src="img/grafikk/Rakett.svg"></div>
-              </div>
-            </div>
-          </div>
+        
 
 
           <div class="products way" id ="way2" >
@@ -407,7 +410,7 @@ $error = "";
             </div>
           </div>
 
-     
+
 
           <div class="products way" id ="way3">
             <div class="container">
@@ -476,14 +479,14 @@ $error = "";
                     </div>
                   </div>
                 </div>
-                <div class="row vcenter">
-                  <div class="col-md-6 padding-bottom col-md-push-6">
+                <div class="row">
+                  <div class="col-md-6 vcenter padding-bottom">
                     <h3>Bli det naturlige førstevalget.</h3>
                      <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
 
                   </div>
                   
-                  <div class="col-md-6 padding-bottom col-md-pull-6">
+                  <div class="col-md-5 vcenter padding-bottom">
                   <div class="images">
                     <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" >
                     <img src="img/grafikk/paralax/SynsprovePlakat.png" id="sp">
@@ -491,7 +494,8 @@ $error = "";
                   </div>
                   </div>
                   </div>
-                  <div class="col-md-12 padding-bottom">
+                  <div class="row">
+                  <div class="col-md-11 padding-bottom">
                    <div class="box8">
                    <div class="row">
                     <div class="col-md-4">
@@ -509,7 +513,7 @@ $error = "";
                     <div class="col-md-12">
                     <p style="text-align: center;">Av all gjennomklikking trafikk</p>
                     </div>
-                  
+                  </div>
                   </div>
                  </div>
                 
@@ -541,9 +545,10 @@ $error = "";
               </div>
             </div>
           </div>
+
           <div class="products way font" id ="way9">
             <div class="container">
-          <div class="row padding-bottom">
+          <div class="row">
             <div class="col-md-12" id="">
               <div class="row">
                 <div class="col-md-4" style="padding-left:25px;">
