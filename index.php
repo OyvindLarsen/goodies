@@ -451,19 +451,35 @@ $error = "";
                   </div>
                 </div>
                 <div class="row padding-bottom">
-                  <div class="col-md-5 vcenter padding-bottom">
+                  <div class="col-md-5 padding-bottom">
                     <h3>Bli det naturlige førstevalget.</h3>
                      <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
 
                   </div>
-                  
-                  <div class="col-md-6 vcenter padding-bottom">
+                  </div>
+                  <div class="col-md-12 padding-bottom">
                    <div class="box8">
-                     <canvas id="canvas" width="400" height="400">
+                   <div class="row">
+                    <div class="col-md-4">
+                    <p>Første treff på google får:</p>
+                    </div>
+                    <div class="col-md-4">
+                    <p>Andre treff på google får:</p>
+                    </div>
+                    <div class="col-md-4">
+                    <p>De ti første treffene på google får i gjennomsnitt:</p>
+                    </div>
+                    </div>
+                     <canvas id="canvas" width="1000" height="300"></canvas>
+                    <div class="row">
+                    <div class="col-md-12">
+                    <p style="text-align: center;">Av all gjennomklikking trafikk</p>
+                    </div>
+                  
                   </div>
                  </div>
-                </div>
-               
+                
+               </div>
                
               </div>
             </div>

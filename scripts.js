@@ -282,6 +282,17 @@ function getRotationDegrees(obj) {
     
   },
   offset: 'bottom-in-view'
+
+})
+  var waypoint100 = new Waypoint({
+  element: document.getElementById('way7'),
+  handler: function(direction) {
+    
+   canvas(); 
+   //notify('Added to cart','success','10000'); 
+    
+  },
+  offset: '100%'
 })
 
 
@@ -652,7 +663,7 @@ $('#lines').animateNumber(
     }
 }
 
-window.onload = function(){
+function canvas () {
   //canvas initialization
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
@@ -663,27 +674,34 @@ window.onload = function(){
   var degrees = 0;
   var new_degrees = 0;
   var difference = 0;
-  var color = "#CF8164"; //green looks better to me
+  var color = "lightgreen"; //green looks better to me
   var bgcolor = "#222";
   var text;
   var text2;
   var animation_loop, redraw_loop;
   var i = 0;
-  var degreesArray = [66, 37, 26, 146, 189];
-  var textArray = ["Første treff på google får", "Andre treff på google får", "Tredje treff på google får", "De første 4 får", "De ti første får"];
-  
+  var degreesArray = [66, 37, 189];
+  var textArray = ["Første treff på google får", "Andre treff på google får", "De ti første får"];
+  var widthArray = [W/6, W/2, W/6*5]
+  var x= 0;
+  var width =0;
+
   function init()
   {
+    text = Math.floor(degrees/360*100) + "%";
     //Clear the canvas everytime a chart is drawn
-    ctx.clearRect(0, 0, W, H);
-    
+    text_width = ctx.measureText(text).width;
+    ctx.clearRect(width - text_width/2-10, H/2-10, text_width + 100, 100);
+   
+
     //Background 360 degree arc
     ctx.beginPath();
     ctx.strokeStyle = bgcolor;
     ctx.lineWidth = 30;
-    ctx.arc(W/2, H/2, 100, 0, Math.PI*2, false); //you can see the arc now
+    ctx.arc(width, H/2, 100, 0, Math.PI*2, false); //you can see the arc now
     ctx.stroke();
     
+
     //gauge will be a simple arc
     //Angle in radians = angle in degrees * PI / 180
     var radians = degrees * Math.PI / 180;
@@ -692,40 +710,40 @@ window.onload = function(){
     ctx.lineWidth = 30;
     //The arc starts from the rightmost end. If we deduct 90 degrees from the angles
     //the arc will start from the topmost end
-    ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radians - 90*Math.PI/180, false); 
+    ctx.arc(width, H/2, 100, 0 - 90*Math.PI/180, radians - 90*Math.PI/180, false); 
     //you can see the arc now
     ctx.stroke();
     
     //Lets add the text
     ctx.fillStyle = color;
     ctx.font = "24px Arial Black";
-    text = Math.floor(degrees/360*100) + "%";
-    text2 = "av  all trafikken";
+    
+    text2 = "av all trafikken";
     //Lets center the text
     //deducting half of text width from position x
-    text_width = ctx.measureText(text).width;
+    
+    text_width2 = ctx.measureText(text2).width;
+    text_width3 = ctx.measureText(text3).width;
     //adding manual value to position y since the height of the text cannot
     //be measured easily. There are hacks but we will keep it manual for now.
-    ctx.fillText(text, W/2 - text_width/2, H/2 + 15);
-    ctx.fillText(text2, 20, 350);
-    ctx.fillText(text3, 20, 50);
+    ctx.fillText(text, width - text_width/2, H/2 + 15);
+    //ctx.fillText(text2, width - text_width2/2, 350);
+    //ctx.fillText(text3, width - text_width3/2, 50);
   }
   
   function draw()
   {
     //Cancel any movement animation if a new chart is requested
     if(typeof animation_loop != undefined) clearInterval(animation_loop);
-    
-    if (i < 5) {
+    degrees = 0;
+
+    if (i < 3) {
         new_degrees = degreesArray[i];
         text3 = textArray[i];
-        i++;
-        
-        
-        
+        width = widthArray[i];
+        i++;  
       } else {
         i = 0
-
       }
     //random degree from 0 to 360
     
@@ -752,9 +770,16 @@ window.onload = function(){
   }
   
   //Lets add some animation for fun
-  draw();
-  redraw_loop = setInterval(draw, 2000); //Draw a new chart every 2 seconds
+  //draw();
   
+  var z = 0;
+  var intervalID = setInterval(function () {
+
+  redraw_loop = draw();
+   if (++x === 3) {
+       window.clearInterval(intervalID);
+   }
+}, 1500);
   
   
   
