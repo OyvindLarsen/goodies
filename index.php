@@ -163,7 +163,25 @@ $error = "";
         <div class="wrapper">
           <div class="field-wrap" id="wayWeb">
             <div class="checkbox"></div>
-            <p>Webside
+            <p>Nettside
+            </p>
+            <div class=verticaLine></div>
+          </div>
+          <div class="field-wrap" id="wayWeb5">
+            <div class="checkbox"></div>
+            <p>Apputvikling
+            </p>
+            <div class=verticaLine></div>
+          </div>
+           <div class="field-wrap" id="wayWeb4">
+            <div class="checkbox"></div>
+            <p>Markedsføring
+            </p>
+            <div class=verticaLine></div>
+          </div>
+          <div class="field-wrap" id="wayWeb6">
+            <div class="checkbox"></div>
+            <p>Prototype
             </p>
             <div class=verticaLine></div>
           </div>
@@ -179,13 +197,13 @@ $error = "";
             </p>
             <div class=verticaLine></div>
           </div>
-          <div class="field-wrap" id="wayWeb4">
+           <div class="field-wrap" id="wayWeb7">
             <div class="checkbox"></div>
-            <p>Markedsføring
+            <p>SEO
             </p>
             <div class=verticaLine></div>
           </div>
-           <div class="field-wrap" id="wayWeb6">
+          <div class="field-wrap" id="wayWeb8">
             <div class="checkbox"></div>
             <p>Om oss
             </p>
@@ -267,7 +285,7 @@ $error = "";
                 </div>
                 <div class="row padding-bottom">
                   <div class="padding-top">
-                
+                    <div class="col-md-12" id=""><img id="image" src="img/grafikk/Blog.svg"></div>
                   </div>
                 </div>
               </div>
@@ -510,7 +528,7 @@ $error = "";
                     </div>
                      <canvas id="canvas" width="1000" height="300"></canvas>
                     <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-1">
                     <p style="text-align: center;">Av all gjennomklikking trafikk</p>
                     </div>
                   </div>

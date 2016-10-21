@@ -134,11 +134,78 @@ function getRotationDegrees(obj) {
     })
   }
 
-	
+  // Meny animasjoner
+  var waypoint = new Waypoint({
+    element: document.getElementById('way'),
+    handler: function() {
+      $('#wayWeb').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb').children('.checkbox').toggleClass('checked');
+      //$('#way').animate({ backgroundColor: "#94ad90", }, 1000 );
+       
 
+      
+    }, offset: '100px'
+  })
 
+ var waypoint = new Waypoint({
+    element: document.getElementById('way5'),
+    handler: function() {
+      $('#wayWeb5').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb5').children('.checkbox').toggleClass('checked');
+    
+      }, offset: '100px' 
+  })
+ 
+  var waypoint = new Waypoint({
+    element: document.getElementById('way7'),
+    handler: function() {
+    $('#wayWeb7').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb7').children('.checkbox').toggleClass('checked');
+    
+      }, offset: '100px'
+  })
+   var waypoint = new Waypoint({
+    element: document.getElementById('way8'),
+    handler: function() {
+      $('#wayWeb8').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb8').children('.checkbox').toggleClass('checked');
+    
+      }, offset: '100px'
+  })
 
-  var waypoint10 = new Waypoint({
+  var waypoint = new Waypoint({
+    element: document.getElementById('way2'),
+    handler: function() {
+      $('#wayWeb2').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb2').children('.checkbox').toggleClass('checked');
+      //$('#way2').animate({ backgroundColor: "#446CB3", }, 1000 );
+      
+      
+    }, offset: '100px'
+  })
+
+  var waypoint = new Waypoint({
+    element: document.getElementById('way3'),
+    handler: function() {
+      $('#wayWeb3').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb3').children('.checkbox').toggleClass('checked');
+      //$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
+    }, offset: '100px'
+  })
+
+    var waypoint = new Waypoint({
+    element: document.getElementById('way4'),
+    handler: function() {
+      $('#wayWeb4').children('.verticaLine').toggleClass('checked');
+      $('#wayWeb4').children('.checkbox').toggleClass('checked');
+      //$('#way4').animate({ backgroundColor: "#F4D03F", }, 1000 );
+      
+    }, offset: '100px'
+  })
+
+  //Nettside animasjoner
+
+  var waypoint = new Waypoint({
     element: document.getElementById('way10'),
     handler: function() {
      $('#way10').animate({ opacity: 1, },{ duration: 2000,  queue: false });
@@ -146,14 +213,14 @@ function getRotationDegrees(obj) {
     
       }, offset: '80%'
   })
-   var waypoint11 = new Waypoint({
+   var waypoint = new Waypoint({
     element: document.getElementById('way11'),
     handler: function() {
       $('#way11').animate({ opacity: 1,  }, 2000 );
      $('#way1112').animate({ marginLeft: "2rem", },{ duration: 1000,  queue: false });
       }, offset: '80%'
   })
-    var waypoint12 = new Waypoint({
+    var waypoint = new Waypoint({
     element: document.getElementById('way12'),
     handler: function() {
      $('#way12').animate({ opacity: 1,  }, 2000 );
@@ -161,7 +228,7 @@ function getRotationDegrees(obj) {
       }, offset: '80%'
   })
 
-     var waypoint13 = new Waypoint({
+     var waypoint = new Waypoint({
     element: document.getElementById('way13'),
     handler: function() {
       var $window = $(window);
@@ -173,18 +240,12 @@ function getRotationDegrees(obj) {
       }, offset: 400
   })
 
-	var waypoint2 = new Waypoint({
-		element: document.getElementById('way'),
-		handler: function() {
-			$('#wayWeb').children('.verticaLine').toggleClass('checked');
-			$('#wayWeb').children('.checkbox').toggleClass('checked');
-      //$('#way').animate({ backgroundColor: "#94ad90", }, 1000 );
-      
-      
-		}
-	})
 
-   var waypoint21 = new Waypoint({
+
+
+
+
+   var waypoint = new Waypoint({
     element: document.getElementById('way'),
     handler: function() {
      
@@ -199,18 +260,8 @@ function getRotationDegrees(obj) {
 
 
 
-	var waypoint3 = new Waypoint({
-		element: document.getElementById('way2'),
-		handler: function() {
-			$('#wayWeb2').children('.verticaLine').toggleClass('checked');
-			$('#wayWeb2').children('.checkbox').toggleClass('checked');
-			//$('#way2').animate({ backgroundColor: "#446CB3", }, 1000 );
-      
-      
-		}
-	})
 
-  var waypoint31 = new Waypoint({
+  var waypoint = new Waypoint({
     element: document.getElementById('way2'),
     handler: function() {
       $('#opacity').animate({ opacity: 1, },{ duration: 1000,  queue: false });
@@ -221,7 +272,7 @@ function getRotationDegrees(obj) {
     }, offset: '100%'
   })
 
- var waypoint32 = new Waypoint({
+ var waypoint = new Waypoint({
     element: document.getElementById('way2'),
     handler: function() {
       pictures();
@@ -230,30 +281,15 @@ function getRotationDegrees(obj) {
     }, offset: '100%'
   })
 
-	var waypoint4 = new Waypoint({
-		element: document.getElementById('way3'),
-		handler: function() {
-			$('#wayWeb3').children('.verticaLine').toggleClass('checked');
-			$('#wayWeb3').children('.checkbox').toggleClass('checked');
-			//$('#way3').animate({ backgroundColor: "#049372", }, 1000 );
-    }
-	})
-  var waypoint4 = new Waypoint({
+
+  var waypoint = new Waypoint({
     element: document.getElementById('way3'),
     handler: function() {
       $('#fading-in').animate({ opacity: 1, right: 0, }, 1000 );
       $('#fading-in2').animate({ opacity: 1, left: 0, }, 1000 );
     }, offset: '100%'
   })
-	var waypoint5 = new Waypoint({
-		element: document.getElementById('way4'),
-		handler: function() {
-      $('#wayWeb4').children('.verticaLine').toggleClass('checked');
-			$('#wayWeb4').children('.checkbox').toggleClass('checked');
-      //$('#way4').animate({ backgroundColor: "#F4D03F", }, 1000 );
-			
-		}
-	})
+
 	/*var waypoint6 = new Waypoint({
 		element: document.getElementById('way5'),
 		handler: function() {
@@ -263,7 +299,7 @@ function getRotationDegrees(obj) {
      
 		}
 	})*/
-	var waypoint7 = new Waypoint({
+	var waypoint = new Waypoint({
 		element: document.getElementById('way6'),
 		handler: function() {
 			$('#wayWeb6').children('.verticaLine').toggleClass('checked');
@@ -273,7 +309,7 @@ function getRotationDegrees(obj) {
 		}
 	})
 
-	var waypoint8 = new Waypoint({
+	var waypoint = new Waypoint({
   element: document.getElementById('footer'),
   handler: function(direction) {
     
@@ -284,7 +320,7 @@ function getRotationDegrees(obj) {
   offset: 'bottom-in-view'
 
 })
-  var waypoint100 = new Waypoint({
+  var waypoint = new Waypoint({
   element: document.getElementById('way7'),
   handler: function(direction) {
     
@@ -301,7 +337,7 @@ function getRotationDegrees(obj) {
 
 $("#scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#about").offset().top    }, 2000);
+        scrollTop: $("#about").offset().top  }, 2000);
     return false;
 });
 $("#wayWeb").click(function() {
@@ -312,7 +348,7 @@ $("#wayWeb").click(function() {
 });
 $("#wayWeb2").click(function() {
     $('html, body').animate({
-        scrollTop: $("#way2").offset().top    }, 2000);
+        scrollTop: $("#way2").offset().top   }, 2000);
     return false;
 });
 $("#wayWeb3").click(function() {
@@ -335,6 +371,19 @@ $("#wayWeb6").click(function() {
         scrollTop: $("#way6").offset().top    }, 2000);
     return false;
 });
+
+$("#wayWeb7").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#way7").offset().top    }, 2000);
+    return false;
+});
+
+$("#wayWeb8").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#way8").offset().top    }, 2000);
+    return false;
+});
+
 
 $("#buy").click(function() {
     notify('Added to cart','success','10000'); 
@@ -780,3 +829,4 @@ function canvas () {
   
   
 }
+
