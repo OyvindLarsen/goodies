@@ -289,6 +289,7 @@ function getRotationDegrees(obj) {
   handler: function(direction) {
     
    canvas(); 
+   this.destroy();
    //notify('Added to cart','success','10000'); 
     
   },
