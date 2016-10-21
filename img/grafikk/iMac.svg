@@ -73,10 +73,6 @@
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
       <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.0484547335 0" in="shadowInnerInner1"/>
     </filter>
-    <linearGradient id="w" x1="50%" x2="50%" y1="24.958%" y2="100%">
-      <stop stop-color="#FFFFFF" offset="0%"/>
-      <stop stop-color="#FFFFFF" stop-opacity=".147" offset="100%"/>
-    </linearGradient>
   </defs>
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(974 1913)">
@@ -102,16 +98,17 @@
     </mask>
     <use fill="#000000" xlink:href="#o"/>
     <g transform="translate(115 109)" mask="url(#p)">
-      <use fill="#050505" xlink:href="#q"/>
+      <use fill="#5AC8FA" fill-opacity="0" xlink:href="#q"/>
     </g>
-    <g transform="translate(1381 45)" mask="url(#p)">
-      <use fill="#141414" xlink:href="#r"/>
-      <use fill="black" filter="url(#s)" xlink:href="#r"/>
-      <g>
-        <use fill="url(#t)" xlink:href="#u"/>
-        <use fill="black" filter="url(#v)" xlink:href="#u"/>
+    <g mask="url(#p)">
+      <g transform="translate(1381 45)">
+        <use fill="#141414" xlink:href="#r"/>
+        <use fill="black" filter="url(#s)" xlink:href="#r"/>
+        <g>
+          <use fill="url(#t)" xlink:href="#u"/>
+          <use fill="black" filter="url(#v)" xlink:href="#u"/>
+        </g>
       </g>
     </g>
-    <polygon fill="url(#w)" points="1262 -293 3153 -293 3153 1992 2715.982 1992" opacity=".3" mask="url(#p)"/>
   </g>
 </svg>
