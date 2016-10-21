@@ -285,7 +285,7 @@ $error = "";
                 </div>
                 <div class="row padding-bottom">
                   <div class="padding-top">
-                    <div class="col-md-12" id=""><img id="image" src="img/grafikk/Blog.svg"></div>
+                    <div class="col-md-12" id=""><img id="image" src="img/grafikk/BlogNy.svg"></div>
                   </div>
                 </div>
               </div>
