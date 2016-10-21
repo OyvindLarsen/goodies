@@ -377,10 +377,10 @@ $error = "";
                   </div>
                   <div class="col-md-4 vcenter padding-bottom col-md-pull-7">
                     <div class="proimg">
-                      <img src="img/grafikk/Prototype1.svg" id="cards" >
-                      <img src="img/grafikk/Prototype2.svg" id="cards" >
-                      <img src="img/grafikk/Prototype3.svg" id="cards" >
-                      <img src="img/grafikk/Prototype4.svg" id="cards" >
+                      <img src="img/grafikk/prototype1.svg" id="cards" >
+                      <img src="img/grafikk/prototype2.svg" id="cards" >
+                      <img src="img/grafikk/prototype3.svg" id="cards" >
+                      <img src="img/grafikk/prototype4.svg" id="cards" >
 
 
                     </div>
