@@ -40,7 +40,7 @@ var $window = $(window); //You forgot this line in the above example
 
 $('div[data-type="test2"]').each(function(){
 var $bgobj = $(this); // assigning the object
-var offset = $('#way4').offset();
+var offset = $('#rakett2').offset();
 
 $(window).scroll(function() {
 
