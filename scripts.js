@@ -622,7 +622,7 @@ $('#lines').animateNumber(
       for (i = 0; i < 3 ; i++) { 
         $("#startpic").append( '<div class="row" id="hmmm'+i+'">');
           for (y = 0; y < 12 ; y++) {
-              $("#hmmm"+i).append( '<div class="col-md-1 no-padding usynlig" id="plantefade'+x+'"><img src="img/grafikk/Plante.svg"></div>');
+              $("#hmmm"+i).append( '<div class="col-xs-1 no-padding usynlig" id="plantefade'+x+'"><img src="img/grafikk/Plante.svg"></div>');
               planteArray.push(x);
               
             x++;
@@ -649,11 +649,6 @@ $('#lines').animateNumber(
   
  } 
 
-
-
-    
-
-    
 
 
 

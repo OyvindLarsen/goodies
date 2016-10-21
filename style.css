@@ -637,7 +637,7 @@ padding-bottom: 150px;
    top:-20%;
   right:-45%;
   z-index: 1!important;
-   font-size:60em;
+   font-size:60vw;
    color:grey;
 }
 
@@ -645,11 +645,11 @@ padding-bottom: 150px;
   top:45%;
   left:-25%;
   z-index: 1!important;
-   font-size:35em;
+   font-size:35vw;
    color:grey;
 }
 
-}
+
 
 .slow-spin {
   
@@ -752,7 +752,23 @@ padding-bottom: 150px;
 
 /*############### App ###############*/
 
+.appimg img {
+width:300px;
+}
+
 /*############### Prototyping ###############*/
+.hey {
+  z-index: 3;
+}
+
+#cards {
+  position:relative;
+  z-index:1;
+  width: 200px;
+  left:100px;
+  top:0px;
+  
+}
 
 /*############### SEO ###############*/
 
