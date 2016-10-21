@@ -34,7 +34,7 @@ $error = "";
     } else {
     
       $to = "post@goodies.no";
-      $subject = $_POST['kontaktskjema:' . 'subject'];
+      $subject = $_POST['subject'];
       $txt = $_POST['content'];
       $headers = "From: ".$_POST['email'];
       
