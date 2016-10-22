@@ -304,7 +304,7 @@ padding:0;
 
 
 #about { 
-
+  overflow: hidden;
   margin: 0 auto; 
   width: 100%;
 

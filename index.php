@@ -257,9 +257,9 @@ $error = "";
           <a href="https://www.facebook.com/Goodies-810071142462032/?ref=bookmarks"><i class="fa fa-facebook-square green" aria-hidden="true"></i></a>
           <a href="https://www.instagram.com/goodiesdesign/"><i class="fa fa-instagram green" aria-hidden="true"></i></a>
           <a href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"></i></a>
-          <a href="mailto:post@goodies.no"><i class="fa fa-envelope-o green" aria-hidden="true"></i></a>
+          <a href="mailto:post@goodies.no"><i class="fa fa-envelope green" aria-hidden="true"></i></a>
           <a href="tel:45479920"><i class="fa fa-phone-square green" aria-hidden="true"></i></a>
-          <a href="" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-pencil-square-o" style="font-size: 1.1em;" aria-hidden="true"></i></a>
+          <a href="" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-pencil-square green" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -609,9 +609,7 @@ $error = "";
             </div>
           </div>
 
-          <div class="products way font" id ="way9">
-            
-        </div>
+         
       </div>
     </article>
   </div>
