@@ -1063,7 +1063,7 @@ a {
 .rakett2 {
   
   position:absolute;
-  bottom:0px;
+  bottom:-30px;
   left:50%;
   z-index: 1!important;
 }
