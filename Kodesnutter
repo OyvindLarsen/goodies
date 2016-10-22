@@ -4,7 +4,7 @@
 <div class="cog2" data-type="test2" data-speed="0.2" onclick="myFunction3()">
                   <div class="vertical" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
               </div> 
-
+<button class="btn btn-primary font" style="background-color:#312F4C; border-style: none; color:#2ecc71;" data-toggle="modal" data-target=".bd-example-modal-lg">Ta kontakt</button>
 
               function testResults() {
             
@@ -369,3 +369,42 @@ input[type=submit] {
   var textArray = ["Første treff på google får", "Andre treff på google får", "De ti første får"];
   var widthArray = [W/6, W/2, W/6*5]
   var x= 0;
+ <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-md-12" id="">
+                      <div class="row">
+                        <div class="col-md-4" style="padding-left:25px;">
+                          <div class="atitle">
+                            <h1>Ta kontakt!</h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="error"><? echo $outputMessage; ?></div>   
+                      <form method="post" class="flp">
+                        <fieldset class="form-group">
+                          <input type="email" id="email" name="email" class="form-control">
+                          <label for="email">E-post adresse</label>
+                          <small class="text-muted">Vi deler ingen epostadresser.</small>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject">Emne</label>
+                        </fieldset>
+                        
+                        <fieldset class="form-group">
+                          <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
+                          <label for="content">Hva lurer du på?</label>
+                        </fieldset>
+
+                        <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
+                      </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

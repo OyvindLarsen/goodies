@@ -40,11 +40,11 @@ var $window = $(window); //You forgot this line in the above example
 
 $('div[data-type="test2"]').each(function(){
 var $bgobj = $(this); // assigning the object
-var offset = $('#rakett2').offset();
+var offset = $('#way4').offset();
 
 $(window).scroll(function() {
 
-var yPos = (((offset.top-$window.scrollTop())*$bgobj.data('speed')));
+var yPos = ((((offset.top-200)-$window.scrollTop())*$bgobj.data('speed')));
 
 
 var coords = yPos + 'px';
@@ -202,135 +202,18 @@ function getRotationDegrees(obj) {
       
     }, offset: '100px'
   })
+     var waypoint = new Waypoint({
+            element: document.getElementById('way6'),
+            handler: function() {
+              $('#wayWeb6').children('.verticaLine').toggleClass('checked');
+              $('#wayWeb6').children('.checkbox').toggleClass('checked');
+              //$('#way6').animate({ backgroundColor: "#C0392B", }, 1000 );
+              
+      }, offset: '100px'
+ })
 
   //Nettside animasjoner
 
-  var waypoint = new Waypoint({
-    element: document.getElementById('way10'),
-    handler: function() {
-     $('#way10').animate({ opacity: 1, },{ duration: 2000,  queue: false });
-     $('#wa111').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
-    
-      }, offset: '80%'
-  })
-   var waypoint = new Waypoint({
-    element: document.getElementById('way11'),
-    handler: function() {
-      $('#way11').animate({ opacity: 1,  }, 2000 );
-     $('#way1112').animate({ marginLeft: "2rem", },{ duration: 1000,  queue: false });
-      }, offset: '80%'
-  })
-    var waypoint = new Waypoint({
-    element: document.getElementById('way12'),
-    handler: function() {
-     $('#way12').animate({ opacity: 1,  }, 2000 );
-     $('#wa113').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
-      }, offset: '80%'
-  })
-
-     var waypoint = new Waypoint({
-    element: document.getElementById('way13'),
-    handler: function() {
-      var $window = $(window);
-
-       // $('#logo1').followTo($window.scrollTop());
-        //$('.gradient').css('opacity', '0');
-        
-        
-      }, offset: 400
-  })
-
-
-
-
-
-
-   var waypoint = new Waypoint({
-    element: document.getElementById('way'),
-    handler: function() {
-     
-      
-      $('#fading-in3').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-      $('#fading-in31').animate({ left: 0, },{ duration: 1000,  queue: false });
-      $('#fading-in32').animate({ top: 0, },{ duration: 1000,  queue: false });
-      $('#fading-in33').animate({ right: 0,},{ duration: 1000,  queue: false });
-
-    }, offset: '100%'
-  })
-
-
-
-
-  var waypoint = new Waypoint({
-    element: document.getElementById('way2'),
-    handler: function() {
-      $('#opacity').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-      $('#opacity').animate({ left: 0, },{ duration: 1000,  queue: false });
-      $('#opacity2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-      $('#opacity2').animate({ left: 0, },{ duration: 1000,  queue: false });
-      
-    }, offset: '100%'
-  })
-
- var waypoint = new Waypoint({
-    element: document.getElementById('way2'),
-    handler: function() {
-      pictures();
-      numbers();
-      this.destroy();
-    }, offset: '100%'
-  })
-
-
-  var waypoint = new Waypoint({
-    element: document.getElementById('way3'),
-    handler: function() {
-      $('#fading-in').animate({ opacity: 1, right: 0, }, 1000 );
-      $('#fading-in2').animate({ opacity: 1, left: 0, }, 1000 );
-    }, offset: '100%'
-  })
-
-	/*var waypoint6 = new Waypoint({
-		element: document.getElementById('way5'),
-		handler: function() {
-			$('#wayWeb5').children('.verticaLine').toggleClass('checked');
-			$('#wayWeb5').children('.checkbox').toggleClass('checked');
-			//$('#way5').animate({ backgroundColor: "#E87E04", }, 1000 );
-     
-		}
-	})*/
-	var waypoint = new Waypoint({
-		element: document.getElementById('way6'),
-		handler: function() {
-			$('#wayWeb6').children('.verticaLine').toggleClass('checked');
-			$('#wayWeb6').children('.checkbox').toggleClass('checked');
-		  //$('#way6').animate({ backgroundColor: "#C0392B", }, 1000 );
-      
-		}
-	})
-
-	var waypoint = new Waypoint({
-  element: document.getElementById('footer'),
-  handler: function(direction) {
-    
-    $('.kommunikasjon').toggleClass('test');
-    
-    
-  },
-  offset: 'bottom-in-view'
-
-})
-  var waypoint = new Waypoint({
-  element: document.getElementById('way7'),
-  handler: function(direction) {
-    
-   canvas(); 
-   this.destroy();
-   //notify('Added to cart','success','10000'); 
-    
-  },
-  offset: '100%'
-})
 
 
 
@@ -410,14 +293,104 @@ $("#meny2").click(function() {
 */
   if (matchMedia) {
   var mq = window.matchMedia("(min-width: 770px)");
+  var mq2 = window.matchMedia("(min-width: 544px)");
   mq.addListener(WidthChange);
   WidthChange(mq);
 }
 
 // media query change
 function WidthChange(mq) {
-  if (mq.matches) {
-    // window width is at least 500px
+  if (mq2.matches) {
+          var waypoint = new Waypoint({
+            element: document.getElementById('way10'),
+            handler: function() {
+             $('#way10').animate({ opacity: 1, },{ duration: 2000,  queue: false });
+             $('#wa111').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
+            
+              }, offset: '80%'
+          })
+           var waypoint = new Waypoint({
+            element: document.getElementById('way11'),
+            handler: function() {
+              $('#way11').animate({ opacity: 1,  }, 2000 );
+             $('#way1112').animate({ marginLeft: "2rem", },{ duration: 1000,  queue: false });
+              }, offset: '80%'
+          })
+           var waypoint = new Waypoint({
+            element: document.getElementById('way12'),
+            handler: function() {
+             $('#way12').animate({ opacity: 1,  }, 2000 );
+             $('#wa113').animate({ marginRight: "2rem", },{ duration: 1000,  queue: false });
+              }, offset: '80%'
+          })
+
+           var waypoint = new Waypoint({
+            element: document.getElementById('way'),
+            handler: function() {
+       
+              
+              $('#fading-in3').animate({ opacity: 1, },{ duration: 1000,  queue: false });
+              $('#fading-in31').animate({ left: 0, },{ duration: 1000,  queue: false });
+              $('#fading-in32').animate({ top: 0, },{ duration: 1000,  queue: false });
+              $('#fading-in33').animate({ right: 0,},{ duration: 1000,  queue: false });
+
+            }, offset: '100%'
+          })
+
+          var waypoint = new Waypoint({
+            element: document.getElementById('way2'),
+            handler: function() {
+              $('#opacity').animate({ opacity: 1, },{ duration: 1000,  queue: false });
+              $('#opacity').animate({ left: 0, },{ duration: 1000,  queue: false });
+              $('#opacity2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
+              $('#opacity2').animate({ left: 0, },{ duration: 1000,  queue: false });
+              
+            }, offset: '100%'
+          })
+
+         var waypoint = new Waypoint({
+            element: document.getElementById('way2'),
+            handler: function() {
+              pictures();
+              numbers();
+              this.destroy();
+            }, offset: '100%'
+          })
+
+
+          var waypoint = new Waypoint({
+            element: document.getElementById('way3'),
+            handler: function() {
+              $('#fading-in').animate({ opacity: 1, right: 0, }, 1000 );
+              $('#fading-in2').animate({ opacity: 1, left: 0, }, 1000 );
+            }, offset: '100%'
+          })
+
+    
+         
+
+          var waypoint = new Waypoint({
+          element: document.getElementById('footer'),
+          handler: function(direction) {
+            
+            $('.kommunikasjon').toggleClass('test');
+            
+            
+          },
+          offset: 'bottom-in-view'
+
+        })
+          var waypoint = new Waypoint({
+          element: document.getElementById('way7'),
+          handler: function(direction) {
+            
+           canvas(); 
+           this.destroy();
+           //notify('Added to cart','success','10000'); 
+            
+          },
+          offset: '100%'
+        })
   } else {
       $(document).ready(function(){
 
@@ -427,11 +400,13 @@ function WidthChange(mq) {
     $('#fixed').css( "top", "0" );
     $('#fixed').css( "width", "100%");
     $('#fixed').css( "paddingTop", "50px" );
-                $("#fade-out").hide();
-                $("#fade-out1").hide();
-                $("#fade-out2").hide();
-                $("#fade-in2").show();
-                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under konstruksjon!');
+    $("#fade-out").hide();
+    $("#fade-out1").hide();
+    $("#fade-out2").hide();
+    $("#fade-in2").show();
+    $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under konstruksjon!');
+
+
     $(function () {
         $(window).scroll(function () {
 

@@ -89,6 +89,46 @@ $error = "";
 
 
   </nav>
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12" id="">
+              <div class="row">
+                <div class="col-md-4" style="padding-left:25px;">
+                  <div class="atitle">
+                    <h1>Ta kontakt!</h1>
+                  </div>
+                </div>
+              </div>
+              <div id="error"><? echo $outputMessage; ?></div>   
+              <form method="post" class="flp">
+                <fieldset class="form-group">
+                  <input type="email" id="email" name="email" class="form-control">
+                  <label for="email">E-post adresse</label>
+                  <small class="text-muted">Vi deler ingen epostadresser.</small>
+                </fieldset>
+
+                <fieldset class="form-group">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject">Emne</label>
+                </fieldset>
+                
+                <fieldset class="form-group">
+                  <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
+                  <label for="content">Hva lurer du på?</label>
+                </fieldset>
+
+                <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
@@ -136,6 +176,10 @@ $error = "";
         <div class="cog2"  onclick="myFunction2()">
           <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div> 
+       <div class="contactbut"  data-toggle="modal" data-target=".bd-example-modal-lg" onclick="myFunction3()">
+          <div class="vertical" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div>
+      </div> 
+          
         <div class="sidebar-wrapper">
           <div  class="logo">
             <svg width="386px" height="210px" viewBox="0 0 386 210" version="1.1"
@@ -215,6 +259,7 @@ $error = "";
           <a href="https://twitter.com/goodiesdesign"><i class="fa fa-twitter-square green" aria-hidden="true"></i></a>
           <a href="mailto:post@goodies.no"><i class="fa fa-envelope-o green" aria-hidden="true"></i></a>
           <a href="tel:45479920"><i class="fa fa-phone-square green" aria-hidden="true"></i></a>
+          <a href="" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-pencil-square-o" style="font-size: 1.1em;" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -228,7 +273,7 @@ $error = "";
                 <h1>Kode &#38 design</h1>
               </div>
             </div>  
-            <div class="row" id="way10" data-type="test2" data-speed="0">
+            <div class="row forside" id="way10" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
                 <img src="img/Kode.jpg"  class="curve" id="wa111" >
                 <div class="para">
@@ -237,7 +282,7 @@ $error = "";
                 </div>
               </div>
             </div>
-            <div class="row" id="way11" data-type="test2" data-speed="0">
+            <div class="row forside" id="way11" data-type="test2" data-speed="0">
               <div id="circle-shape-example">
               <img src="img/grafikk/Responsiv.png"  class="curve1" id="wa112" >
                  <div class="para" id="way1112">
@@ -247,7 +292,7 @@ $error = "";
                 </div>
               </div>
             </div>
-            <div class="row" id="way12" data-type="test2" data-speed="0">
+            <div class="row forside" id="way12" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
                 <img src="img/grafikk/VektorGrafikk.png"  class="curve" id="wa113" >
                 <div class="para">
@@ -257,8 +302,8 @@ $error = "";
                 </div>
               </div>
             </div>
-                <div class="row padding-top padding-bottom">
-                <div class="col-md-12 font padding-bottom" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
+                <div class="row forside">
+                <div class="col-md-12 font" id="way13"><p style="text-align:center;">Nedenfor kan du lese mer om de ulike produktene vil tilbyr.</p></div>
               </div>
             </div>
           </div>
@@ -267,7 +312,7 @@ $error = "";
           <div class="products way" id= "way">
             <div class="container">   
               <div id="fading-in3">
-                <div class="row padding-top padding-bottom">
+                <div class="row">
                   <div class="col-md-12" id="">
                     <div class="font" >
                       <div class="row">
@@ -283,8 +328,8 @@ $error = "";
                     </div>
                   </div>
                 </div>
-                <div class="row padding-bottom">
-                  <div class="padding-top">
+                <div class="row">
+                  <div class=">
                     <div class="col-md-12" id=""><img id="image" src="img/grafikk/iMacBlog.png"></div>
                   </div>
                 </div>
@@ -296,9 +341,9 @@ $error = "";
             <div class="container">
               <div class="font" id="fading-i">
                
-                <div class="row padding-bottom">
-                  <div class="col-md-7 vcenter padding-bottom col-md-push-4">
-                     <div class="row padding-top">
+                <div class="row">
+                  <div class="col-md-7 vcenter col-md-push-4">
+                     <div class="row">
                  
                   <div class="col-md-7">
                     <div class="atitle">
@@ -310,7 +355,7 @@ $error = "";
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.</p>
 
                   </div>
-                   <div class="col-md-4 vcenter padding-bottom col-md-pull-7">
+                   <div class="col-md-4 vcenter col-md-pull-7">
                    <div class="appimg">
                      <img src="img/grafikk/iPhoneHvitMotHoyre.png">
                    </div>
@@ -324,7 +369,7 @@ $error = "";
           <div class="products" id ="way4">
             <div class="container">
               <div class="font" id="fading-i">
-                <div class="row padding-top">
+                <div class="row">
                   <div class="graf"><img src="img/grafikk/SocialGraf.svg"></div>
                   <div class="col-md-4">
                     <div class="atitle">
@@ -332,13 +377,13 @@ $error = "";
                     </div>
                   </div>
                 </div>
-                <div class="row padding-bottom">
-                  <div class="col-md-7 vcenter padding-bottom">
+                <div class="row">
+                  <div class="col-md-7 vcenter">
                     <h3>Ta din merkevare til nye høyder.</h3>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
 
                   </div>
-                  <div class="col-md-4 vcenter padding-bottom">
+                  <div class="col-md-4 vcenter">
                     
                   </div>
                 </div>
@@ -355,9 +400,9 @@ $error = "";
 
               <div class="font" id="fading-i">
                 
-                <div class="row padding-bottom hey">
-                  <div class="col-md-7 vcenter padding-bottom col-md-push-4" >
-                    <div class="row padding-top">
+                <div class="row hey">
+                  <div class="col-md-7 vcenter col-md-push-4" >
+                    <div class="row">
                   
                   <div class="col-md-7">
                     <div class="atitle">
@@ -375,7 +420,7 @@ $error = "";
                     <p>Ta kontakt for mer informasjon om denne hvordan vi kan lage protyper av dine ideer, og våre priser knyttet til dette.</p>
 
                   </div>
-                  <div class="col-md-4 vcenter padding-bottom col-md-pull-7">
+                  <div class="col-md-4 vcenter col-md-pull-7">
                     <div class="proimg">
                       <img src="img/grafikk/prototype1.svg" id="cards" >
                       <img src="img/grafikk/prototype2.svg" id="cards" >
@@ -397,17 +442,17 @@ $error = "";
 
           <div class="products way" id ="way2" >
             <div class="container">
-            <div class="sus"><img src="img/grafikk/sustainable.svg"></div>
+            <div class="sus"><img id="mob" src="img/grafikk/sustainable.svg"></div>
               <div class="font">
                
                   <div class="row">
                     <div class="col-md-4" style="padding-left:15px;">
                       <div class="atitle">
-                        <h1>Webhotell</h1>
+                        <h1>Webhotell </h1><div id="mob"><img src="img/grafikk/Plante.svg"></div>
                       </div>
                     </div>
                   </div>
-                  <div class="row padding-bottom">
+                  <div class="row">
                     <div class="col-md-6 vcenter" id="opacity">
                       <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h3>
                       
@@ -453,16 +498,16 @@ $error = "";
               <div class="col-md-6 vcenter col-md-pull-5">
                   <div id="fading-in2">
                     <div class="row">
-                      <div class="col-sm-6 no-padding"><img src="img/produkter/drift/Oppdateringer.svg"></div>
-                      <div class="col-sm-6 no-padding"><img src="img/produkter/drift/Overvåking.svg"></div>
+                      <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Oppdateringer.svg"></div>
+                      <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Overvåking.svg"></div>
                     </div>
                     <div class="row">
-                      <div class="col-sm-6 no-padding"><img src="img/produkter/drift/Patching.svg"></div>
-                      <div class="col-sm-6 no-padding"><img src="img/produkter/drift/SSL.svg"></div>
+                      <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Patching.svg"></div>
+                      <div class="col-xs-6 no-padding"><img src="img/produkter/drift/SSL.svg"></div>
                     </div>
                     <div class="row">
-                      <div class="col-sm-6 no-padding"><img src="img/produkter/drift/MSSQL.svg"></div>
-                      <div class="col-sm-6 no-padding"><img src="img/produkter/drift/Backup.svg"></div>
+                      <div class="col-xs-6 no-padding"><img src="img/produkter/drift/MSSQL.svg"></div>
+                      <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Backup.svg"></div>
                     </div>
                   </div>
                 </div>
@@ -489,7 +534,7 @@ $error = "";
              <div class="products" id ="way7">
             <div class="container">
               <div class="font" id="fading-i">
-                <div class="row padding-top">
+                <div class="row">
                  
                   <div class="col-md-4">
                     <div class="atitle">
@@ -498,13 +543,13 @@ $error = "";
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 vcenter padding-bottom">
+                  <div class="col-md-6 vcenter">
                     <h3>Bli det naturlige førstevalget.</h3>
                      <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
 
                   </div>
                   
-                  <div class="col-md-5 vcenter padding-bottom">
+                  <div class="col-md-5 vcenter">
                   <div class="images">
                     <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" >
                     <img src="img/grafikk/paralax/SynsprovePlakat.png" id="sp">
@@ -513,7 +558,7 @@ $error = "";
                   </div>
                   </div>
                   <div class="row">
-                  <div class="col-md-11 padding-bottom">
+                  <div class="col-md-11">
                    <div class="box8">
                    <div class="row">
                     <div class="col-md-4">
@@ -565,39 +610,7 @@ $error = "";
           </div>
 
           <div class="products way font" id ="way9">
-            <div class="container">
-          <div class="row">
-            <div class="col-md-12" id="">
-              <div class="row">
-                <div class="col-md-4" style="padding-left:25px;">
-                  <div class="atitle">
-                    <h1>Kontaktskjema</h1>
-                  </div>
-                </div>
-              </div>
-              <div id="error"><? echo $outputMessage; ?></div>   
-              <form method="post" class="flp">
-                <fieldset class="form-group">
-                  <input type="email" id="email" name="email" class="form-control">
-                  <label for="email">E-post adresse</label>
-                  <small class="text-muted">Vi deler ingen epostadresser.</small>
-                </fieldset>
-
-                <fieldset class="form-group">
-                  <input type="text" id="subject" name="subject" class="form-control">
-                  <label for="subject">Emne</label>
-                </fieldset>
-                
-                <fieldset class="form-group">
-                  <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
-                  <label for="content">Hva lurer du på?</label>
-                </fieldset>
-
-                <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
-              </form>
-            </div>
-        </div>
-      </div>
+            
         </div>
       </div>
     </article>

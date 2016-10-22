@@ -37,6 +37,7 @@ font-family: "MyCustomFont";
   font-family: "MyCustomFont", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   font-size:      2em;
   padding:        0px 20px;
+
   }  
 
 
@@ -329,8 +330,14 @@ background-size:100% auto;
 
 .products{
   font-size: 1.5em;
-  padding-top: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   
+}
+
+.forside {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .font {
@@ -388,15 +395,7 @@ font-weight: 100;
   letter-spacing: 2px;
 }
 
-.padding-top{
-  padding-top:75px;
 
-}
-
-.padding-bottom{
-  padding-bottom:75px;
-
-}
 
 .matchHeight {
   display: table; 
@@ -445,14 +444,6 @@ font-weight: 100;
 
 }
 
-#way10 {
-  margin-top: 100px;
-  opacity:0;
-}
-
-
-
-
 
 #way1112 {
 
@@ -461,18 +452,17 @@ margin-right:10rem;
   }
 #way10 {
 
-padding-bottom: 150px;
 opacity: 0;
   }
 
 #way11 {
 opacity: 0;
-padding-bottom: 150px;
+
 
   }
 #way12 {
 opacity: 0;
-padding-bottom: 150px;
+
 
   }
 
@@ -510,8 +500,6 @@ padding-bottom: 150px;
 #way2 {
  
 
-  padding-bottom: 120px;
-  padding-top: 120px;
   z-index: 10;
   transform-origin: right center !important;
   transition: transform 1s;
@@ -536,6 +524,10 @@ padding-bottom: 150px;
   transform: translate(50%, 0);
   margin: 0 auto;
 
+}
+
+#mob {
+  display:none;
 }
 
 .box5 {
@@ -591,12 +583,6 @@ padding-bottom: 150px;
 
 #way3 {
 
-
-  padding-bottom: 120px;
-  padding-top: 120px;
- 
- 
-
  position: relative;
  
 }
@@ -628,10 +614,6 @@ padding-bottom: 150px;
   
   position: absolute;
   opacity:0.4;
-  
- 
-  
-
 
 }
 
@@ -712,12 +694,7 @@ padding-bottom: 150px;
 
 
   z-index: 1;
-  padding-top: 120px;
-  padding-bottom:20px;
-
   
- 
-  overflow:hidden;
   
 
 }
@@ -740,6 +717,11 @@ padding-bottom: 150px;
 
 
 /*############### App ###############*/
+
+#way5 {
+  padding-bottom: 
+}
+
 
 .appimg img {
 width:300px;
@@ -823,6 +805,7 @@ top:0;
   position: relative;
   display:block;
   background-color: #404040;
+  margin-top: 75px;
   padding: 20px;
   border-radius: 5px;
   -webkit-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
@@ -836,8 +819,7 @@ top:0;
 #way8 {
 
 
-  padding-bottom: 120px;
-  padding-top: 120px; 
+  
   background-color: #404040;
 }
 
@@ -846,20 +828,21 @@ top:0;
 #way9 {
 
 
-  padding-bottom: 120px;
-  
+   
   background-color: #404040;
   
 
 }
+.modal-content {
+  background-color: #455B8C;
 
-#way9 .container {
-padding:50px;
-background-color: #455B8C;
-border-radius: 5px;
 -webkit-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
   -moz-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
   box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+}
+.modal .container {
+padding:50px;
+
 }
 
 .flp fieldset {position: relative; margin-bottom: 40px;}
@@ -1015,11 +998,6 @@ a {
 
 
 
-
-
-
-
-
 @media (min-width: 770px) {
   #fixed {
   position:fixed;
@@ -1074,12 +1052,12 @@ a {
 
 #way4 {
   }
-  
+
 .rakett {
   position:absolute;
   bottom: 0;
   left:90%;
-  
+  z-index: 1!important;
 
 }
 .rakett2 {
@@ -1087,7 +1065,7 @@ a {
   position:absolute;
   bottom:0px;
   left:50%;
-
+  z-index: 1!important;
 }
   
  
@@ -1154,6 +1132,20 @@ a {
         float:left;
         right:5px;
         top:180px;
+        width:40px;
+        height:50px;
+        z-index:50;
+        border-radius: 4px;
+        
+
+    }
+
+       .contactbut {
+        position:relative;
+        background: #312F4C;
+        float:left;
+        right:45px;
+        top:250px;
         width:40px;
         height:50px;
         z-index:50;
@@ -1265,12 +1257,16 @@ a {
       position:fixed;
       z-index:40;
       width:100%;
+      top:35px;
       
     }
     
      
      .navbar {
       display: block;
+      -webkit-box-shadow: 3px  3px 3px 0px rgba(0,0,0,0.7);
+      -moz-box-shadow: 3px  3px 3px 0px rgba(0,0,0,0.7);
+      box-shadow: 3px  3px 3px 0px rgba(0,0,0,0.7);
 
      }
      .navbar-brand {
@@ -1330,24 +1326,26 @@ a {
 */
     .products{
    
-    padding-top:230px;
+    padding-top:200px;
     z-index:3;
+    padding-left: 10px;
+    padding-right: 10px;
     
     }
 
     #page-content-wrapper {
       width: 100%;
-      padding-left:0px;
+      
     }
     .kommunikasjon {
     margin-top:10px;
     font-size: 1.5em; 
   }
   #circle-shape-example .curve { 
-  width: 80%; height: auto;
-  left:10%;
+  width: 100%; height: auto;
+  
   min-width: 150px;
-  margin: 0 auto;
+  
   border-radius: 50%;
 
   -webkit-shape-outside:circle();
@@ -1355,12 +1353,12 @@ a {
 
 }
 #circle-shape-example .curve1 { 
-  width: 80%; height: auto;
-  left:10%;
+  width: 100%; height: auto;
+  
   min-width: 150px;
   margin: 0 auto;
   
-    -webkit-shape-outside:circle();
+  -webkit-shape-outside:circle();
   shape-outside:circle();
  
   
@@ -1370,22 +1368,136 @@ a {
   margin-left:0!important;
 }
 
+
 .rakett {
-  position:absolute;
+  position: absolute;
   bottom: 0;
-  left:75%;
+  right:-120px;
   opacity:0.5;
   
 
 }
 .rakett2 {
-  
-  position:absolute;
   bottom:-40px;
   left:60%;
+  display: none;
+}
+
+.sus {
+
+  display:none;
+}
+
 
 }
 
+@media only screen and (max-width: 544px) {
+#opacity2 {
+  position: relative;
+  opacity:1;
+  left:0px;
+}
+
+#opacity {
+  position: relative;
+  opacity:1;
+  left:0px;
+}
+
+.usynlig {
+  opacity:0;
+}
+
+#fading-in2 {
+  position: relative;
+  opacity:1;
+  left:0px;
+}
+
+#fading-in {
+  right:0px;
+  opacity:1;
 }
 
 
+#fading-in3 {
+  opacity:1;
+}
+#way10 {
+  
+  opacity:1;
+}
+
+#way11 {
+opacity: 1;
+
+
+  }
+#way12 {
+opacity: 1;
+
+
+  }
+
+  .box5 {
+    display:none;
+  }
+  #mob {
+   display:block;
+
+  }
+
+  #mob img {
+    width:70px; 
+    position:relative; 
+    float:left;
+    padding-top: 20px;
+    
+  }
+
+  #cog{
+   top:0%;
+  right:-45%;
+
+}
+
+  #cog2 {
+    top:8%;
+    left:-20%;
+    
+    
+  }
+  .proimg {
+    display: block;
+    margin: 0 auto;
+
+  }
+  #cards {
+  position:relative;
+  z-index:1;
+  width: 200px;
+  width: 100%;
+  top:0px;
+  left:0;
+  }
+    .products{
+   
+    padding-top:50px;
+    padding-bottom:50px;
+    z-index:3;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+    .box8 {
+      display:none;
+    }
+    .flp input, .flp label{
+    width:100%;
+
+    }
+ 
+
+
+ 
+}
