@@ -1,4 +1,5 @@
 
+//parallax animasjon ala skyworks
 $(document).ready(function(){
 
 var $window = $(window); //You forgot this line in the above example
@@ -15,25 +16,29 @@ $bgobj.css({ top: coords });
 });
 });
 
-$(document).ready(function(){
- $(function () {
-        $(window).scroll(function () {
+//Parallax funskjon for bevegelse i skjermen
+$('#scene').parallax({
+  calibrateX: true,
+  calibrateY: true,
+  invertX: true,
+  invertY: true,
+  limitX: false,
+  limitY: 10,
+  scalarX: 2,
+  scalarY: 8,
+  frictionX: 0.2,
+  frictionY: 0.8,
+  originX: 0.0,
+  originY: 1.0
+});
 
-                 // set distance user needs to scroll before we start fadeIn
-            if ($(this).scrollTop() > 300) {
-                $('#fixed').animate({ top: 0, width:'100%',}, 1000 );
-                $("#fade-out").fadeOut(500);
-                $("#fade-out1").fadeOut(500);
-                $("#fade-out2").fadeOut(500);
-                $("#fade-in2").fadeIn(500);
-                $('#changetext').html('<i class="fa fa-info" aria-hidden="true" "></i> Siden er under konstruksjon!');
-            } else {
-                
-            }
-        });
-    });
- });
+var $scene = $('#scene').parallax();
+$scene.parallax('enable');
 
+
+
+
+// rakettanimasjon markedsføring
 $(document).ready(function(){
 
 var $window = $(window); //You forgot this line in the above example
@@ -46,7 +51,6 @@ $(window).scroll(function() {
 
 var yPos = ((((offset.top-200)-$window.scrollTop())*$bgobj.data('speed')));
 
-
 var coords = yPos + 'px';
 
 $bgobj.css({ bottom: coords });
@@ -55,7 +59,7 @@ $bgobj.css({ bottom: coords });
 });
 
 
-
+//Tannhjul scrollanimasjon
 var lastScrollTop = 0;
 
 window.addEventListener("scroll", function(){ 
@@ -91,7 +95,7 @@ window.addEventListener("scroll", function(){
 }, false);
 
 
-
+//beskjeder
 
 
 	function notify(text, category, delay) {
@@ -116,7 +120,54 @@ window.addEventListener("scroll", function(){
     })
   }
 
+
   // Meny animasjoner
+  //mobilmeny animasjon
+  
+
+//meny-slide animasjon
+    function myFunction2() {
+    var e = $(".slide");
+    var p = $("#page-content-wrapper");
+    var m = $("#nothing")
+
+    
+    if(m.is(':visible')) {
+      $(function () {
+      m.hide()
+      e.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
+      //p.animate({ "padding-left": "0px" }, { duration: 400, queue: false } );
+      
+      $('#fixed').animate({ "margin-left": "280px" }, { duration: 400, queue: false } );
+      $('#sand').animate({ "padding-right": "280px" }, { duration: 400, queue: false } );
+      });
+
+    } else {
+      $(function () {
+      m.show()
+      e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
+      $('#fixed').animate({ "margin-left": "0px" }, { duration: 400, queue: false } );
+      $('#sand').animate({ "padding-right": "0px" }, { duration: 400, queue: false } );
+     // p.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
+      });
+    }
+  }
+
+    function myFunction() {
+    var e = $(".fixedbackground");
+    if(e.is(':visible')) {
+      e.hide();
+    } else {
+      e.show();
+      $(".logo").hide()
+      
+
+    }
+  }
+
+  //Markertemeny merker
+
+
   var waypoint = new Waypoint({
     element: document.getElementById('nettside'),
     handler: function() {
@@ -196,7 +247,7 @@ window.addEventListener("scroll", function(){
       }, offset: '100px'
   })
 
-
+//Scroll klikke funksjon
 
 $("#scroll").click(function() {
     $('html, body').animate({
@@ -246,7 +297,7 @@ $("#wayWeb8").click(function() {
     return false;
 });
 
-
+//hvilke animasjoner som skal fyra av ift til skjermstørrelse
 if (matchMedia) {
 var mq = window.matchMedia("(min-width: 770px)");
 var mq2 = window.matchMedia("(min-width: 544px)");
@@ -257,7 +308,7 @@ WidthChange(mq);
 // media query change
 function WidthChange(mq) {
   if (mq2.matches) {
-        //KUN FULLBREDDE ANIMASJONER OVER 544px. Alt andre enheter enn telefoner.
+        //KUN FULLBREDDE ANIMASJONER OVER 770px. Alle andre enheter enn telefoner.
 
 
           //SKREDDERSØM
@@ -421,70 +472,11 @@ function WidthChange(mq) {
 
 }
 
-  
-  function myFunction() {
-    var e = $(".fixedbackground");
-    if(e.is(':visible')) {
-      e.hide();
-    } else {
-      e.show();
-      $(".logo").hide()
-      
-
-    }
-  }
-
-    function myFunction2() {
-    var e = $(".slide");
-    var p = $("#page-content-wrapper");
-    var m = $("#nothing")
-
-    
-    if(m.is(':visible')) {
-      $(function () {
-      m.hide()
-      e.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
-      //p.animate({ "padding-left": "0px" }, { duration: 400, queue: false } );
-      
-      $('#fixed').animate({ "margin-left": "280px" }, { duration: 400, queue: false } );
-      $('#sand').animate({ "padding-right": "280px" }, { duration: 400, queue: false } );
-      });
-
-    } else {
-      $(function () {
-      m.show()
-      e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
-      $('#fixed').animate({ "margin-left": "0px" }, { duration: 400, queue: false } );
-      $('#sand').animate({ "padding-right": "0px" }, { duration: 400, queue: false } );
-     // p.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
-      });
-    }
-  }
-
-
-
-$('#scene').parallax({
-  calibrateX: true,
-  calibrateY: true,
-  invertX: true,
-  invertY: true,
-  limitX: false,
-  limitY: 10,
-  scalarX: 2,
-  scalarY: 8,
-  frictionX: 0.2,
-  frictionY: 0.8,
-  originX: 0.0,
-  originY: 1.0
-});
-
-var $scene = $('#scene').parallax();
-$scene.parallax('enable');
 
 
 
    
-
+//google analytics
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -517,6 +509,8 @@ $.fn.followTo = function (pos) {
 };
 
 */
+
+// Kontaktskjema
 $("form").submit(function (e) {
       
       
@@ -609,7 +603,9 @@ $(".flp input, .flp textarea").blur(function(){
   }
 })
 
+//Seksjonsanimasjoner
 
+//trær plantet animasjon tall
   function numbers() {
 $('#lines').animateNumber(
   {
@@ -631,8 +627,8 @@ $('#lines').animateNumber(
 );
 
 }
+//trær plantet animasjon bilde
   function pictures() {
-    var e = $(".fixedbackground");
     var x=0;
     var planteArray = new Array();
     var number = 300/10;//$("#lines")
@@ -667,7 +663,7 @@ $('#lines').animateNumber(
  } 
 
 
-
+//Array shuffler
 
 function shuffle(a) {
     var j, x, i;
@@ -679,6 +675,7 @@ function shuffle(a) {
     }
 }
 
+//Canvas animasjon SEO
 function canvas () {
   //canvas initialization
   var canvas = document.getElementById("canvas");
