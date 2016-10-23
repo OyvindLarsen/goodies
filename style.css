@@ -1,5 +1,28 @@
+/* TOC
+  /*############### Body/fonter ###############*/
+  /*############### Forside ###############*/
+  /*############### Seksjoner ###############*/
+    /*############### Felles ###############*/
+    /*############### kode & design ###############*/
+    /*############### Nettside ###############*/
+    /*############### App ###############*/
+    /*############### Markedsføring ###############*/
+    /*############### Prototyping ###############*/
+    /*############### Webhotell ###############*/
+    /*############### Drift ###############*/
+    /*############### SEO ###############*/
+    /*############### Om oss ###############*/
+    /*############### Footer ###############*/
+    /*############### Notifications ###############*/
+  /*############### Media/responsivitet fullskjerm ###############*/
+  /*############### Media/responsivitet pad ###############*/
+  /*############### Media/responsivitet mobil ###############*/
+  /*############### Sidemeny ###############*/
+  /*############### Kontaktskjema ###############*/
+  /*############### Mobilmeny ###############*/
+  /*############### Notifications ###############*/
 
-	
+/*############### Body/fonter ###############*/
 body{margin:0;padding:0;width:100%;height:100%;}
 
 @font-face {
@@ -23,131 +46,15 @@ font-family: "Lucida Grande";
 font-family: "MyCustomFont";
  src: url("Avenir-Light.ttf") /* TTF file for CSS3 browsers */
 }
-/*############### Advarsel ###############*/
-
-#fade-in2{
-  display:none;
-}
-
-/*############### Mobilmeny ###############*/
-.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
-.navbar .nav > li.current-menu-item > a, 
-.navbar .nav > li.current-menu-ancestor > a {
-  display:        inline;
-  font-family: "MyCustomFont", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
-  font-size:      2em;
-  padding:        0px 20px;
-
-  }  
 
 
-.navbar {
-  padding: 7px;
-  
-}
-
-.navbar h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.6em;
- 
-
-}
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width */
-    
-}
-
-/*############### Sidemeny ###############*/
-
-.wrapper {
-  padding-top: 50px;
-
-}
-.logo {
-font-family: 'Great Vibes', cursive;
-font-size: 4em;
-margin:0;
-padding:0;
-
-}
 
 
-.field-wrap {
-    height: 50px;
-}
 
 
-.field-wrap:hover {
-  cursor: pointer;
-}
-.field-wrap:hover p {
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
-}
-.field-wrap:hover .checkbox {
-  border-color: #2ecc71;
-}
-.field-wrap:first-child {
-  border-top: 0;
-}
-.field-wrap p {
 
-  float: left;
-  margin-left: 10px;
-  line-height: 30px;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-.checkbox {
-  float: left;
-  width: 30px;
-  height: 30px;
-  border: 2px solid rgba(255, 255, 255, 0.25);
-  border-radius: 15px;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  position: relative;
-  cursor: pointer;
-}
-.checkbox:before {
-  content: "";
-  position: absolute;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  border-radius: 15px;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  background-color: #2ecc71;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-.checkbox.checked, .verticaline.checked {
-  border-color: #2ecc71;
-}
-.checkbox.checked:before {
-  width: 10px;
-  height: 10px;
-}
 
-.green {
-  cursor: pointer;
-}
-.green:hover {
-  color:#2ecc71;
-
-}
-
-/*############### Seksjoner ###############*/
-
-/*############### Home ###############*/
+/*############### Forside ###############*/
 #home { 
   
   position:relative;
@@ -281,13 +188,6 @@ padding:0;
     backface-visibility: hidden; }
  
 
-#wa {
-  margin:0 0 0 0;
-  background-color: #404040;
-  overflow: hidden;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-}
 
 #logo1 {
   top:0%;
@@ -300,8 +200,8 @@ padding:0;
 
 
 
- /*############### About ###############*/
-
+/*############### Seksjoner ###############*/
+/*############### Felles ###############*/
 
 #about { 
   overflow: hidden;
@@ -326,9 +226,26 @@ background-size:100% auto;
  
 }
 
+.hidden{
+  opacity:0;
+}
+.right {
+  left:50px;
+}
 
+.left {
+  left:-50px;
+}
 
-.products{
+.top {
+  top:-50px;
+}
+
+.bottom{
+  top:50px;
+}
+
+.products {
   font-size: 1.5em;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -354,9 +271,7 @@ background-size:100% auto;
     float: none;
 }
 
-.table1 {
-  display: table-cell!important; 
-}
+
 .atitle {
 border-bottom: 2px solid #FEE94E;
 line-height: 0;
@@ -397,11 +312,28 @@ font-weight: 100;
 
 
 
-.matchHeight {
-  display: table; 
+
+
+ /*############### kode & design ###############*/
+#kodedesign {
   
+  background-color: #404040;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
-#way img {
+
+.center {
+  text-align: center;
+}
+
+
+
+
+/*############### Nettside ###############*/
+
+
+#nettside img {
   position:relative;
   width:100%;
   z-index:8;
@@ -409,108 +341,47 @@ font-weight: 100;
 
 }
 
-/*
+/*############### App ###############*/
 
-.way img:hover {
-  width:102% !important;
-  z-index:9 !important;
-  box-shadow: 7px 7px 7px rgba(68,68,68,0.6);
-  margin-bottom: 0;
-}
-
-*/
-
-
- /*############### Forside ###############*/
-
-
-.center {
-  text-align: center;
+.appimg img {
+width:300px;
 }
 
 
-.gradient {
-  width: 100%;
-  height: 300px;
-  display:block;
-   background: -webkit-linear-gradient(rgba(148,173,144,0.9),rgba(148,173,144,0)25%);
-/* For Safari 5.1 to 6.0 */
-  background: -webkit-linear-gradient(rgba(148,173,144,0.9),rgba(148,173,144,0)25%);
-/* For Opera 11.1 to 12.0 */
-  background: -webkit-linear-gradient(rgba(148,173,144,0.9),rgba(148,173,144,0)25%);
-/* For Firefox 3.6 to 15 */
-  background: -webkit-linear-gradient(rgba(148,173,144,0.9),rgba(148,173,144,0)25%);
-/* Standard syntax */
+/*############### Markedsføring ###############*/
+
+
+
+.graf {
+  position: absolute;
+  top:15%;
+  left:0%;
 
 }
 
-
-#way1112 {
-
-margin-right:10rem;
-
-  }
-#way10 {
-
-opacity: 0;
-  }
-
-#way11 {
-opacity: 0;
-
-
-  }
-#way12 {
-opacity: 0;
-
-
-  }
-
-
-
-
-
-   /*############### Webside ###############*/
-
-  #way {
-
-
+.graf img {
+  width:100%;
+  
 
 }
 
-#fading-in3 {
-  opacity:0;
-}
-
-#fading-in31 {
-  left:100px;
-}
-#fading-in32 {
-  top:-50px;
-}
-#fading-in33 {
-  right:100px;
-}
-
-
-
-
-
-/*############### Hosting ###############*/
-#way2 {
- 
-
-  z-index: 10;
-  transform-origin: right center !important;
-  transition: transform 1s;
-  transform: perspective(700px) scale(1) translateX(0) rotateY(0deg);
-
-}
-
-#way2 .font {
+/*############### Prototyping ###############*/
+.hey {
   z-index: 3;
-
 }
+
+#cards {
+  position:relative;
+  z-index:1;
+  width: 200px;
+  top:0px;
+  
+}
+
+
+
+/*############### Webhotell ###############*/
+
 
 
 .sus {
@@ -545,14 +416,14 @@ opacity: 0;
 }
 
 
-#way2 img {
+#hotell img {
   position:relative;
   width:100%;
   z-index:8;
   margin-bottom: 5%;
 }
 
-#way2 .col-md-4 {
+#hotell .col-md-4 {
   padding:0;
 }
 
@@ -561,17 +432,6 @@ opacity: 0;
   margin:0;
 }
 
-#opacity2 {
-  position: relative;
-  opacity:0;
-  left:80px;
-}
-
-#opacity {
-  position: relative;
-  opacity:0;
-  left:-80px;
-}
 
 .usynlig {
   opacity:0;
@@ -581,33 +441,23 @@ opacity: 0;
 
 
 
-#way3 {
+#drift {
 
  position: relative;
  
 }
 
-#way3 .font {
+#drift .font {
   z-index:3;
 
 }
 
-#way3 img {
+#drift img {
   position:relative;
   width:100%;
   z-index:8;
   margin-bottom: 0;
 
-}
-#fading-in2 {
-  position: relative;
-  opacity:0;
-  left:-50px;
-}
-
-#fading-in {
-  right:-50px;
-  opacity:0;
 }
 
 .fa-cog {
@@ -689,57 +539,9 @@ opacity: 0;
 }
 
 
-/*############### Markedsføring ###############*/
-#way4 {
-
-
-  z-index: 1;
-  
-  
-
-}
-
-
-.graf {
-  position: absolute;
-  top:15%;
-  left:0%;
-
-}
-
-.graf img {
-  width:100%;
-  
-
-}
 
 
 
-
-/*############### App ###############*/
-
-#way5 {
-  padding-bottom: 
-}
-
-
-.appimg img {
-width:300px;
-}
-
-/*############### Prototyping ###############*/
-.hey {
-  z-index: 3;
-}
-
-#cards {
-  position:relative;
-  z-index:1;
-  width: 200px;
-  left:100px;
-  top:0px;
-  
-}
 
 /*############### SEO ###############*/
 
@@ -816,106 +618,11 @@ top:0;
 
 
 /*############### Om oss ###############*/
-#way8 {
 
+#omoss {
 
-  
   background-color: #404040;
 }
-
-/*############### Kontaktskjema ###############*/
-
-#way9 {
-
-
-   
-  background-color: #404040;
-  
-
-}
-.modal-content {
-  background-color: #455B8C;
-
--webkit-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
-  -moz-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
-  box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
-}
-.modal .container {
-padding:50px;
-
-}
-
-.flp fieldset {position: relative; margin-bottom: 40px;}
-
-.flp input, .flp label{
-  width: 400px; display: block;
-  font: inherit; font-size: 16px; line-height: 24px;
-  /*fixed height for FF line height issue. 
-  height = 24(lineheight) + 10*2(padding) + 2(border)*/
-  height: 46px;
-  border: 1px solid #999;
-}
-.flp input, .flp textarea {padding: 20px; outline: none; border-radius: 3px; background-color: #455B8C;}
-.flp label {
-  position: absolute; left: 0; top: 0;
-  /*left/right padding will be 2px less, adjusted by padding on .ch*/
-  padding: 10px 8px;
-  border-color: transparent; color: white;
-  cursor: text;
-}
-
-/*label styles*/
-.ch {
-  display: block; float: left;
-  position: relative; /*for upward animation*/
-  background: #455B8C; 
-}
-.ch:first-child {padding-left: 2px;}
-.ch:last-child {padding-right: 2px;}
-
-/*active input label*/
-.focussed {
-  /*when any input is already focussed clicking on it(label) again won't do anything*/
-  pointer-events: none;
-}
-
-
-
-
-
-
-/*.fixedbackground {
-  
-  position:fixed;
-    z-index:4;
-    top:2%;
-    display:none;
-    font-size: 1.5em;
-
-
-}*/
-
-
-
-/*#contact { 
-  background: #404040 50% 0 repeat fixed; 
-  /*min-height: 1000px; 
-  height: 1000px; 
-    margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  margin:0;
-  z-index:2;
-  font-size:1.5em;
-}
-
-#contact article {
-  width: 100%;
-}
-*/
-
-/*Let's place the label over the input*/
 
 
  
@@ -972,41 +679,11 @@ a {
 
 
 
-/*############### Notifications ###############*/
 
 
-
-.notifications {
-  position: fixed;
-  right: 0;
-  top: 240px;
-  z-index: 2;
-  padding: 0;
-  margin: 0; 
-}
-
- .notifications li {
-    
-    width: 180px;
-    list-style-type: none;
-
-}
-.notifications li:first-child {
-  border-top: 0; 
-}
-
-
-
+/*############### Media/responsivitet fullskjerm ###############*/
 
 @media (min-width: 770px) {
-  #fixed {
-  position:fixed;
-  z-index:40;
-  top:50%;
-  left:50%;
-  width:50%;
- 
-}
   .logo1 {
   position:relative;
   width:100%;
@@ -1022,36 +699,13 @@ a {
     max-width: 500px;
     transform: translate(-50%, 0);
   }
-  #fixed {
-     transform: translate(-50%, 0);
+
+ #speiletsirkel {
+
+margin-right:10rem;
+
   }
- 
-      #wa {
-  margin:0 0 0 0;
 
-  
-}
-      #way {
-       
-  
-
-
-}
-
-#way2 {
-
-
-
-}
-
-#way3 {
-
- 
-
-}
-
-#way4 {
-  }
 
 .rakett {
   position:absolute;
@@ -1072,16 +726,6 @@ a {
 
 
 
-#way6 {
-
-  
-
-/*
--webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);*/
-
-
-}
 
     .fixedbackground {
         position: fixed;
@@ -1234,6 +878,8 @@ a {
 }
 
 }
+/*############### Media/responsivitet pad ###############*/
+
 @media only screen and (max-width: 770px) {
     .para p {
       width:100%!important;
@@ -1364,7 +1010,7 @@ a {
   
 }
 
-#way1112 {
+#speiletsirkel {
   margin-left:0!important;
 }
 
@@ -1390,53 +1036,26 @@ a {
 
 
 }
-
+/*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
-#opacity2 {
-  position: relative;
-  opacity:1;
-  left:0px;
-}
-
-#opacity {
-  position: relative;
-  opacity:1;
-  left:0px;
-}
-
-.usynlig {
-  opacity:0;
-}
-
-#fading-in2 {
-  position: relative;
-  opacity:1;
-  left:0px;
-}
-
-#fading-in {
-  right:0px;
-  opacity:1;
-}
-
-
-#fading-in3 {
-  opacity:1;
-}
-#way10 {
-  
-  opacity:1;
-}
-
-#way11 {
-opacity: 1;
-
-
+  .hidden {
+    opacity: 1;
   }
-#way12 {
-opacity: 1;
 
+  .left {
+    left:0;
+  }
 
+  .right {
+    left:0;
+  }
+
+  .top {
+    top:0;
+  }
+
+  .bottom {
+    top:0;
   }
 
   .box5 {
@@ -1472,14 +1091,15 @@ opacity: 1;
     margin: 0 auto;
 
   }
-  #cards {
-  position:relative;
-  z-index:1;
-  width: 200px;
-  width: 100%;
-  top:0px;
-  left:0;
-  }
+    #cards {
+    position:relative;
+    z-index:1;
+    width: 200px;
+    width: 100%;
+    top:0px;
+    left:0;
+    }
+
     .products{
    
     padding-top:50px;
@@ -1496,8 +1116,197 @@ opacity: 1;
     width:100%;
 
     }
- 
 
-
- 
+    .images {
+      display:none;
+    }
+  
 }
+
+/*############### Sidemeny ###############*/
+
+.wrapper {
+  padding-top: 50px;
+
+}
+.logo {
+font-family: 'Great Vibes', cursive;
+font-size: 4em;
+margin:0;
+padding:0;
+
+}
+
+
+.field-wrap {
+    height: 50px;
+}
+
+
+.field-wrap:hover {
+  cursor: pointer;
+}
+.field-wrap:hover p {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+.field-wrap:hover .checkbox {
+  border-color: #2ecc71;
+}
+.field-wrap:first-child {
+  border-top: 0;
+}
+.field-wrap p {
+
+  float: left;
+  margin-left: 10px;
+  line-height: 30px;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+.checkbox {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox:before {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  border-radius: 15px;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  background-color: #2ecc71;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+.checkbox.checked, .verticaline.checked {
+  border-color: #2ecc71;
+}
+.checkbox.checked:before {
+  width: 10px;
+  height: 10px;
+}
+
+.green {
+  cursor: pointer;
+}
+.green:hover {
+  color:#2ecc71;
+
+}
+/*############### Kontaktskjema ###############*/
+
+
+.modal-content {
+  background-color: #455B8C;
+
+-webkit-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+  -moz-box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+  box-shadow: 10px 10px 21px 0px rgba(128,128,128,1);
+}
+.modal .container {
+padding:50px;
+
+}
+
+.flp fieldset {position: relative; margin-bottom: 40px;}
+
+.flp input, .flp label{
+  width: 400px; display: block;
+  font: inherit; font-size: 16px; line-height: 24px;
+  /*fixed height for FF line height issue. 
+  height = 24(lineheight) + 10*2(padding) + 2(border)*/
+  height: 46px;
+  border: 1px solid #999;
+}
+.flp input, .flp textarea {padding: 20px; outline: none; border-radius: 3px; background-color: #455B8C;}
+.flp label {
+  position: absolute; left: 0; top: 0;
+  /*left/right padding will be 2px less, adjusted by padding on .ch*/
+  padding: 10px 8px;
+  border-color: transparent; color: white;
+  cursor: text;
+}
+
+/*label styles*/
+.ch {
+  display: block; float: left;
+  position: relative; /*for upward animation*/
+  background: #455B8C; 
+}
+.ch:first-child {padding-left: 2px;}
+.ch:last-child {padding-right: 2px;}
+
+/*active input label*/
+.focussed {
+  /*when any input is already focussed clicking on it(label) again won't do anything*/
+  pointer-events: none;
+}
+
+/*############### Mobilmeny ###############*/
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+  display:        inline;
+  font-family: "MyCustomFont", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+  font-size:      2em;
+  padding:        0px 20px;
+
+  }  
+
+
+.navbar {
+  padding: 7px;
+  
+}
+
+.navbar h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.6em;
+ 
+
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    
+}
+
+/*############### Notifications ###############*/
+
+
+
+.notifications {
+  position: fixed;
+  right: 0;
+  top: 240px;
+  z-index: 2;
+  padding: 0;
+  margin: 0; 
+}
+
+ .notifications li {
+    
+    width: 180px;
+    list-style-type: none;
+
+}
+.notifications li:first-child {
+  border-top: 0; 
+}
+

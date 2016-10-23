@@ -428,3 +428,14 @@ input[type=submit] {
     </div>
 
     fjerne fixed kategori
+
+    $("#buy").click(function() {
+    notify('Added to cart','success','10000'); 
+    return false;
+});
+
+$("#meny2").click(function() {
+    $("#hotell").toggleClass( "tilt" );
+
+    return false;
+});
