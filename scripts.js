@@ -434,7 +434,7 @@ function WidthChange(mq) {
 
             }, offset: '80%'
           })
-
+           /*
            var waypoint = new Waypoint({
           element: document.getElementById('seo'),
           handler: function(direction) {
@@ -446,7 +446,7 @@ function WidthChange(mq) {
           },
           offset: '50%'
         })
-      
+      */
          
   } else {
     //Animasjonerkun til telefon
@@ -672,7 +672,7 @@ function shuffle(a) {
         a[j] = x;
     }
 }
-
+/*
 //Canvas animasjon SEO
 function canvas () {
   //canvas initialization
@@ -796,3 +796,4 @@ function canvas () {
   
 }
 
+*/

@@ -508,7 +508,7 @@ $error = "";
                   </div>
                 </div>
               </div>
-                <div class="row">
+                <div class="row display">
                   <div class="col-md-11">
                    <div class="box8">
                       <div class="row">
