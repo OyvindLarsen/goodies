@@ -745,7 +745,7 @@ function canvas () {
   function draw()
   {
     //Cancel any movement animation if a new chart is requested
-    if(typeof animation_loop != undefined) clearInterval(animation_loop);
+   // if(typeof animation_loop != undefined) clearInterval(animation_loop);
     degrees = 0;
 
     if (i < 3) {
