@@ -1,11 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="127" height="127" viewBox="0 0 127 127">
-  <g fill="none" fill-rule="evenodd" transform="translate(.157 .353)">
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="135" viewBox="0 0 135 135">
+  <defs>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+    </filter>
+    <filter id="b" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="1.292" in="SourceGraphic"/>
+    </filter>
+    <filter id="c" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+    </filter>
+    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="4" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4.157 4.353)">
     <g fill="#E4E8CF" fill-opacity=".35">
-      <ellipse cx="64.125" cy="64.109" rx="51.458" ry="51.445"/>
-      <ellipse cx="63.729" cy="63.713" rx="56.604" ry="56.59"/>
-      <ellipse cx="63.333" cy="63.317" rx="63.333" ry="63.317"/>
+      <ellipse cx="64.125" cy="64.109" filter="url(#a)" rx="51.458" ry="51.445"/>
+      <ellipse cx="63.729" cy="63.713" filter="url(#b)" rx="56.604" ry="56.59"/>
+      <ellipse cx="63.333" cy="63.317" filter="url(#c)" rx="63.333" ry="63.317"/>
     </g>
-    <ellipse cx="64.125" cy="63.317" fill="#EFF3D7" rx="47.5" ry="47.488"/>
+    <ellipse cx="64.125" cy="63.317" fill="#EFF3D7" filter="url(#d)" rx="47.5" ry="47.488"/>
     <g transform="translate(19.792 26.91)">
       <g transform="translate(39.583)">
         <ellipse cx="3.563" cy="3.562" fill="#E8EAD5" rx="3.563" ry="3.562"/>
@@ -16,8 +30,8 @@
         <ellipse cx="3.958" cy="3.957" fill="#DCDFC3" rx="3.079" ry="3.078"/>
       </g>
       <g transform="translate(25.333 2.374)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(13.458 16.62)">
         <ellipse cx="2.375" cy="2.374" fill="#E8EAD5" rx="2.375" ry="2.374"/>
@@ -25,23 +39,23 @@
       </g>
       <g transform="translate(8.708 27.701)">
         <ellipse cx="2.375" cy="2.374" fill="#E8EAD5" rx="2.375" ry="2.374"/>
-        <ellipse cx="2.375" cy="2.374" fill="#DCDFC3" rx="1.847" ry="1.847"/>
+        <circle cx="2.375" cy="2.374" r="1.847" fill="#DCDFC3"/>
       </g>
       <g transform="translate(19 34.825)">
         <ellipse cx="2.375" cy="2.374" fill="#E8EAD5" rx="2.375" ry="2.374"/>
-        <ellipse cx="2.375" cy="2.374" fill="#DCDFC3" rx="1.847" ry="1.847"/>
+        <circle cx="2.375" cy="2.374" r="1.847" fill="#DCDFC3"/>
       </g>
       <g transform="translate(24.542 41.156)">
         <ellipse cx="3.958" cy="3.957" fill="#E8EAD5" rx="3.958" ry="3.957"/>
         <ellipse cx="3.958" cy="3.957" fill="#DCDFC3" rx="3.079" ry="3.078"/>
       </g>
       <g transform="translate(40.375 54.611)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(28.5 65.692)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(70.458 34.033)">
         <ellipse cx="3.958" cy="3.957" fill="#E8EAD5" rx="3.958" ry="3.957"/>
@@ -49,11 +63,11 @@
       </g>
       <g transform="translate(68.083 14.246)">
         <ellipse cx="2.771" cy="2.77" fill="#E8EAD5" rx="2.771" ry="2.77"/>
-        <ellipse cx="2.771" cy="2.77" fill="#DCDFC3" rx="2.155" ry="2.155"/>
+        <circle cx="2.771" cy="2.77" r="2.155" fill="#DCDFC3"/>
       </g>
       <g transform="translate(54.625 23.744)">
         <ellipse cx="2.771" cy="2.77" fill="#E8EAD5" rx="2.771" ry="2.77"/>
-        <ellipse cx="2.771" cy="2.77" fill="#DCDFC3" rx="2.155" ry="2.155"/>
+        <circle cx="2.771" cy="2.77" r="2.155" fill="#DCDFC3"/>
       </g>
       <g transform="translate(65.708 61.734)">
         <ellipse cx="2.771" cy="2.77" fill="#E8EAD5" rx="2.771" ry="2.77"/>
@@ -61,51 +75,51 @@
       </g>
       <g transform="translate(45.125 72.024)">
         <ellipse cx="2.771" cy="2.77" fill="#E8EAD5" rx="2.771" ry="2.77"/>
-        <ellipse cx="2.771" cy="2.77" fill="#DCDFC3" rx="2.155" ry="2.155"/>
+        <circle cx="2.771" cy="2.77" r="2.155" fill="#DCDFC3"/>
       </g>
       <g transform="translate(54.625 52.237)">
         <ellipse cx="2.771" cy="2.77" fill="#E8EAD5" rx="2.771" ry="2.77"/>
-        <ellipse cx="2.771" cy="2.77" fill="#DCDFC3" rx="2.155" ry="2.155"/>
+        <circle cx="2.771" cy="2.77" r="2.155" fill="#DCDFC3"/>
       </g>
       <g transform="translate(48.292 38.782)">
         <ellipse cx="2.771" cy="2.77" fill="#E8EAD5" rx="2.771" ry="2.77"/>
-        <ellipse cx="2.771" cy="2.77" fill="#DCDFC3" rx="2.155" ry="2.155"/>
+        <circle cx="2.771" cy="2.77" r="2.155" fill="#DCDFC3"/>
       </g>
       <g transform="translate(5.542 54.611)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(1.583 44.322)">
         <ellipse cx=".792" cy=".791" fill="#E8EAD5" rx=".792" ry=".791"/>
-        <ellipse cx=".792" cy=".791" fill="#DCDFC3" rx=".616" ry=".616"/>
+        <circle cx=".792" cy=".791" r=".616" fill="#DCDFC3"/>
       </g>
       <g transform="translate(0 37.99)">
         <ellipse cx=".792" cy=".791" fill="#E8EAD5" rx=".792" ry=".791"/>
-        <ellipse cx=".792" cy=".791" fill="#DCDFC3" rx=".616" ry=".616"/>
+        <circle cx=".792" cy=".791" r=".616" fill="#DCDFC3"/>
       </g>
       <g transform="translate(12.667 68.066)">
         <ellipse cx=".792" cy=".791" fill="#E8EAD5" rx=".792" ry=".791"/>
-        <ellipse cx=".792" cy=".791" fill="#DCDFC3" rx=".616" ry=".616"/>
+        <circle cx=".792" cy=".791" r=".616" fill="#DCDFC3"/>
       </g>
       <g transform="translate(19 72.024)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(17.417 52.237)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(43.542 24.535)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(60.958 9.498)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
       <g transform="translate(60.958 9.498)">
-        <ellipse cx="1.583" cy="1.583" fill="#E8EAD5" rx="1.583" ry="1.583"/>
-        <ellipse cx="1.583" cy="1.583" fill="#DCDFC3" rx="1.231" ry="1.231"/>
+        <circle cx="1.583" cy="1.583" r="1.583" fill="#E8EAD5"/>
+        <circle cx="1.583" cy="1.583" r="1.231" fill="#DCDFC3"/>
       </g>
     </g>
   </g>
