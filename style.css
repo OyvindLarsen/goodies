@@ -1040,6 +1040,12 @@ margin-right:10rem;
 }
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
+  .forside {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+
   .hidden {
     opacity: 1;
   }
