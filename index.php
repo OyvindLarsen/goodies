@@ -145,13 +145,13 @@ $error = "";
 
       <div id="logo1">
         <ul id="scene" >
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
-          <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/BakerstArk.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.9" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.8" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
+          <li class="layer" data-type="background" data-speed="0.5" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/fjell.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.png"></div></li>
           <li class="layer" data-type="background" data-speed="-0.2" data-depth="0.55"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0.5" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0" data-depth="0.7"><div class="rakett3"><img src="img/grafikk/paralax/Rakett.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
+          
           <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.80"><div class="front"><img src="img/grafikk/paralax/FrontArk.svg"></div></li>
         </ul>
       </div>

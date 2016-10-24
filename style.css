@@ -96,18 +96,19 @@ font-family: "MyCustomFont";
 .opera {
   position: absolute;
   left:50%;
-  bottom:5%;
+  bottom:0%;
   width: 75%;
+  min-width: 800px;
 }
 
 .opera img {
   width: 100%;
-  min-width: 800px;
+  min-width: 1400px;
   transform: translate(-50%, 0);
 }
 .bakerst {
   display:block;
-  top:75%;
+  top:80%;
   position: absolute; 
   width: 105%;
 }
@@ -118,7 +119,7 @@ font-family: "MyCustomFont";
 }
 
 .midt {
-  display:block;
+ 
   top:80%;
   position: absolute; 
   width: 105%;
@@ -143,35 +144,9 @@ font-family: "MyCustomFont";
 
 
 
-.rakett3 {
-  position:absolute;
-  left:10%;
-  top:45%;
-  min-width: 280px;
-  animation-name: example;
-  animation-duration: 6s;
-  -webkit-animation-direction: reverse;
-  animation-direction: reverse;
-  
-}
 
-.rakett3 img {
- animation-name: example2;
-  animation-duration: 6s;
-  opacity: 0;
-  animation-direction: reverse;
-  
-}
 
-@keyframes example {
-    0%   { left:25%; top:25%;}
-    100% { left:10%; top:45%;}
-}
 
-@keyframes example2 {
-    0%   {opacity:1; width:1%; }
-    100% {opacity:0; width:25%; }
-}
 
 .layer {
   position: absolute;
@@ -772,7 +747,7 @@ margin-right:10rem;
       
     }
 
-  
+    
       .cog2 {
         position:relative;
         background: #312F4C;
@@ -837,7 +812,7 @@ margin-right:10rem;
     display:none !important;
   }
   .kommunikasjon {
-  margin-top:20px;
+  margin-top:10px;
   font-size: 1.5em; 
 }
   .filter {
@@ -941,7 +916,7 @@ margin-right:10rem;
     }
 
     .wrapper{
-      padding-top:20px;
+      padding-top:5px;
 
     }
     .sidebar-wrapper {
@@ -1143,7 +1118,7 @@ margin-right:10rem;
 /*############### Sidemeny ###############*/
 
 .wrapper {
-  padding-top: 20px;
+  padding-top: 10px;
 
 }
 .logo {
