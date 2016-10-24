@@ -89,6 +89,13 @@ $error = "";
 
 
   </nav>
+   <div id="loader-wrapper" class="loader-wrapper">
+       <div id="loader" class="loader"></div>
+       <div class="loader-section section-left"></div>
+       <div class="loader-section section-right"></div>
+  </div>
+
+
   <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -621,7 +628,7 @@ $error = "";
 </script>
 <script type="text/javascript" src="instafeed.min.js"></script>
 
-
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 
 <script src="jquery.animateNumber.js"></script>
 
