@@ -201,6 +201,8 @@ font-family: "MyCustomFont";
 
 
 
+
+
 /*############### Seksjoner ###############*/
 /*############### Felles ###############*/
 
@@ -686,7 +688,7 @@ a {
 
 @media (min-width: 770px) {
   .logo1 {
-  position:relative;
+  position:absolute;
   width:100%;
   left:50%;
   top:15%;
@@ -694,10 +696,9 @@ a {
 }
   .logo1 img {
 
-    width:28%;
-
+    width:25%;
     min-width: 280px;
-    max-width: 500px;
+    
     transform: translate(-50%, 0);
   }
 
@@ -898,7 +899,7 @@ margin-right:10rem;
     }
 
     .logo1 img {
-      width: 280px;
+      width: 250px;
 
     }
     #fixed {
