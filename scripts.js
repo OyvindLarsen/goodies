@@ -463,6 +463,9 @@ function WidthChange(mq) {
                 }
             });
       });
+
+      $("#change").html("SEO")
+
   }
 
 }

@@ -494,7 +494,7 @@ $error = "";
                   <div class="row">
                     <div class="col-md-8">
                       <div class="atitle">
-                        <h1>Søkemotoroptimalisering</h1>
+                        <h1 id="change">Søkemotoroptimalisering</h1>
                       </div>
                     </div>
                   </div>
