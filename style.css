@@ -84,7 +84,7 @@ font-family: "MyCustomFont";
 }
 
 .backgroundh img{
-  width: 100%; 
+  width: 105%; 
 }
 
 .mane {
@@ -97,10 +97,11 @@ font-family: "MyCustomFont";
   position: absolute;
   left:50%;
   bottom:5%;
+  width: 75%;
 }
 
 .opera img {
-  width: 150%;
+  width: 100%;
   min-width: 800px;
   transform: translate(-50%, 0);
 }
@@ -108,7 +109,7 @@ font-family: "MyCustomFont";
   display:block;
   top:75%;
   position: absolute; 
-  width: 100%;
+  width: 105%;
 }
 .bakerst img {
   
@@ -120,7 +121,7 @@ font-family: "MyCustomFont";
   display:block;
   top:80%;
   position: absolute; 
-  width: 100%;
+  width: 105%;
 }
 .midt img {
   
