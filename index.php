@@ -573,14 +573,14 @@ $error = "";
   <article>
     <div class="container"> 
 
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <div class="frame font">
           <div class="atitle"><h2>Om oss</h2></div>
           <p>Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser. </p>
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="frame font">
           <div class="atitle"><h2>Kontakt</h2></div>
           <p><a href="tel:45479920"><i class="fa fa-phone-square green" aria-hidden="true"> </i></a> 45479920</p>
@@ -589,14 +589,14 @@ $error = "";
         </div>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-lg-2">
         <div class="frame font">
           <div class="atitle"><h2>Åpningstider</h2></div>
           <p>Vi er tilgjengelige på telefon man - fre fra 09-17 og 24/7 på e-post.</p>
         </div>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-lg-2">
         <div class="frame font">
           <div class="atitle"><h2>Social</h2></div>
           <p><a href="https://www.instagram.com/goodiesdesign/"><i class="fa fa-instagram green" aria-hidden="true"></i></a>
