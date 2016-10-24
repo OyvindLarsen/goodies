@@ -166,25 +166,25 @@ $error = "";
           
         <div class="sidebar-wrapper">
           <div  class="logo">
-            <svg width="386px" height="210px" viewBox="0 0 386 210" version="1.1"
+             <svg width="254px" height="150px" viewBox="0 0 254 150" version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
               <desc>Created with Sketch.</desc>
               <defs>
-                <rect id="path-1" x="0" y="0" width="376.051948" height="210"></rect>
-                <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="376.051948" height="210" fill="white">
+                <rect id="path-1" x="0" y="0" width="253.051948" height="125"></rect>
+                <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="253.051948" height="125" fill="white">
                   <use xlink:href="#path-1"></use>
                 </mask>
               </defs>
               <text id="Goodies" stroke="none" fill="none" font-family="GreatVibes-Regular, Great Vibes" font-size="100"
               font-weight="normal" letter-spacing="0.0590274632">
-              <tspan x="5" y="130" fill="#FFFFFF">Goodies</tspan>
+              <tspan x="5" y="100" fill="#FFFFFF">Goodies</tspan>
               </text>
 
               <text id="Kode-&amp;-Design" stroke="none" fill="none"
               font-family="GreatVibes-Regular, Great Vibes" font-size="21"
               font-weight="normal" letter-spacing="1.4690789">
-              <tspan x="80" y="150" fill="#FFFFFF">Kode &amp; Design</tspan>
+              <tspan x="80" y="120" fill="#FFFFFF">Kode &amp; Design</tspan>
               </text>
             </svg>
         </div>

@@ -21,7 +21,7 @@
   /*############### Kontaktskjema ###############*/
   /*############### Mobilmeny ###############*/
   /*############### Notifications ###############*/
-
+  /*############### scrollbar ###############*/
 /*############### Body/fonter ###############*/
 body{margin:0;padding:0;width:100%;height:100%;}
 
@@ -766,7 +766,8 @@ margin-right:10rem;
       overflow-y: auto;
       z-index: 4;
       transition: all 0.4s ease 0s;
-      overflow:hidden;
+      overflow-x: hidden;
+      
     }
 
   
@@ -834,7 +835,7 @@ margin-right:10rem;
     display:none !important;
   }
   .kommunikasjon {
-  margin-top:50px;
+  margin-top:20px;
   font-size: 1.5em; 
 }
   .filter {
@@ -938,7 +939,7 @@ margin-right:10rem;
     }
 
     .wrapper{
-      padding-top:70px;
+      padding-top:20px;
 
     }
     .sidebar-wrapper {
@@ -946,13 +947,13 @@ margin-right:10rem;
       padding-left:10px;
       left: 280px;
       width: 280px;
-      background: #313131;
+      background: #312F4C;
       position: fixed;
       height: 100%;
       overflow-y: auto;
       z-index: 4;
       transition: all 0.4s ease 0s;
-      overflow:hidden;
+      
     }
 
      .verticaLine {
@@ -1126,7 +1127,7 @@ margin-right:10rem;
 /*############### Sidemeny ###############*/
 
 .wrapper {
-  padding-top: 50px;
+  padding-top: 20px;
 
 }
 .logo {
@@ -1308,5 +1309,21 @@ padding:50px;
 }
 .notifications li:first-child {
   border-top: 0; 
+}
+
+/*############### scrollbar ###############*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background-color:#455B8C; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 

@@ -138,16 +138,16 @@ window.addEventListener("scroll", function(){
       e.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
       //p.animate({ "padding-left": "0px" }, { duration: 400, queue: false } );
       
-      $('#fixed').animate({ "margin-left": "280px" }, { duration: 400, queue: false } );
-      $('#sand').animate({ "padding-right": "280px" }, { duration: 400, queue: false } );
+      
+   //   $('#sand').animate({ "padding-right": "280px" }, { duration: 400, queue: false } );
       });
 
     } else {
       $(function () {
       m.show()
       e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
-      $('#fixed').animate({ "margin-left": "0px" }, { duration: 400, queue: false } );
-      $('#sand').animate({ "padding-right": "0px" }, { duration: 400, queue: false } );
+      
+    //$('#sand').animate({ "padding-right": "0px" }, { duration: 400, queue: false } );
      // p.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
       });
     }
@@ -454,19 +454,14 @@ function WidthChange(mq) {
     //menyanimasjon
       $(document).ready(function(){
         // hide .navbar first
-        $(".navbar").hide();
-        $(function () {
+        $(".navbar").hide();    
             $(window).scroll(function () {
-
-                     // set distance user needs to scroll before we start fadeIn
                 if ($(this).scrollTop() > 100) {
                     $('.navbar').fadeIn();
                 } else {
                     $('.navbar').fadeOut();
                 }
             });
-        });
-
       });
   }
 
