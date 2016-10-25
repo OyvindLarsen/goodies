@@ -48,10 +48,8 @@ var $bgobj = $(this); // assigning the object
 var offset = $('#marked').offset();
 var top = offset.top-130;
 $(window).scroll(function() {
-
+//sjekke om det blir endring nå
 var yPos = ($window.scrollTop()-top)*$bgobj.data('speed');
-
-
 
 var coords = yPos + 'px';
 
