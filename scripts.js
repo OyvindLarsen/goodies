@@ -51,7 +51,7 @@ $(window).scroll(function() {
 
 var yPos = ($window.scrollTop()-top)*$bgobj.data('speed');
 
-console.log(top+' '+$window.scrollTop())
+
 
 var coords = yPos + 'px';
 
