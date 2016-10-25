@@ -801,3 +801,4 @@ function canvas () {
 $('body').imagesLoaded( function() {
   $('body').addClass('loaded');
 });
+

@@ -77,7 +77,7 @@ $error = "";
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example" data-offset="50">
+<body  data-spy="scroll" data-target="#navbar-example" data-offset="50">
 
   <nav class="navbar navbar-light bg-faded navbar-fixed-top navbar-right nav-down" id="navbar-example">
 
@@ -152,7 +152,7 @@ $error = "";
           <li class="layer" data-type="background" data-speed="-0.2" data-depth="0.55"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
           
-          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.80"><div class="front"><img src="img/grafikk/paralax/FrontArk.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.5" data-depth="0.80"><div class="front"><img src="img/grafikk/paralax/FrontArk.svg"></div></li>
         </ul>
       </div>
     </article>
@@ -373,7 +373,7 @@ $error = "";
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-7 vcenter hidden left" id="markedAni2">
+                  <div class="col-md-7 vcenter hidden left z-index" id="markedAni2">
                     <h3>Ta din merkevare til nye høyder.</h3>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
                   </div>
@@ -578,7 +578,7 @@ $error = "";
 
 <div id="footer" data-type="background" data-speed="0.9" class="pages">
   <article>
-    <div class="container"> 
+    <div class="container slide"> 
 
       <div class="col-lg-5">
         <div class="frame font">
@@ -631,6 +631,7 @@ $error = "";
 <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 
 <script src="jquery.animateNumber.js"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js">
 </script>
