@@ -49,7 +49,7 @@ var offset = $('#marked').offset();
 
 $(window).scroll(function() {
 
-var yPos = ((((offset.top-200)-$window.scrollTop())*$bgobj.data('speed')));
+var yPos = ((((offset.top)-$window.scrollTop())*$bgobj.data('speed')));
 
 var coords = yPos + 'px';
 
