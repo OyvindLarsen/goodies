@@ -153,6 +153,19 @@ window.addEventListener("scroll", function(){
     }
   }
 
+  function lukkMeny() {
+    var e = $(".slide");
+    var m = $("#nothing")
+     $(function () {
+      m.show()
+      e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
+      
+   
+      });
+  }
+
+
+
     function myFunction() {
     var e = $(".fixedbackground");
     if(e.is(':visible')) {

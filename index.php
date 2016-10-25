@@ -77,7 +77,7 @@ $error = "";
 
 </head>
 
-<body  data-spy="scroll" data-target="#navbar-example" data-offset="50">
+<body   data-spy="scroll" data-target="#navbar-example" data-offset="50">
 
   <nav class="navbar navbar-light bg-faded navbar-fixed-top navbar-right nav-down" id="navbar-example">
 
@@ -140,7 +140,7 @@ $error = "";
 
 
 
-  <div id="home" data-type="" data-speed="0" class="pages">     
+  <div id="home" onclick="lukkMeny()" data-type="" data-speed="0" class="pages">     
     <article>
 
       <div id="logo1">
@@ -167,7 +167,7 @@ $error = "";
         <div class="cog2"  onclick="myFunction2()">
           <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div> 
-       <div class="contactbut"  data-toggle="modal" data-target=".bd-example-modal-lg" onclick="myFunction3()">
+       <div class="contactbut"  data-toggle="modal" data-target=".bd-example-modal-lg">
           <div class="vertical" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div>
       </div> 
           
@@ -255,7 +255,7 @@ $error = "";
       </div>
     </div>
 
-    <div id="page-content-wrapper" class="slide">
+    <div id="page-content-wrapper" class="slide" onclick="lukkMeny()">
       <div class="page-content">
         <div class="products font" id= "kodedesign">
           <div class="container">
@@ -272,7 +272,7 @@ $error = "";
 
             <div class="row forside hidden" id="skredder" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-                <img src="img/Kode.jpg"  class="curve" id="skredderAni2" >
+                <img src="img/Kode.jpg"  class="curve" id="skredderAni2"  >
                 <div class="para">
                   <h1>Skreddersøm</h1>
                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
@@ -576,7 +576,7 @@ $error = "";
     </article>
   </div>
 
-<div id="footer" data-type="background" data-speed="0.9" class="pages">
+<div id="footer" data-type="background" data-speed="0.9" class="pages" onclick="lukkMeny()"> 
   <article>
     <div class="container slide"> 
 
