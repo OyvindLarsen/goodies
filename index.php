@@ -406,10 +406,10 @@ $error = "";
                   </div>
                   <div class="col-md-4 vcenter col-md-pull-7 hidden bottom" id="protoAni2" >
                     <div class="proimg">
-                      <img src="img/grafikk/prototype1.svg" id="cards" >
-                      <img src="img/grafikk/prototype2.svg" id="cards" >
-                      <img src="img/grafikk/prototype3.svg" id="cards" >
-                      <img src="img/grafikk/prototype4.svg" id="cards" >
+                      <img src="img/grafikk/prototype1.png" id="cards" >
+                      <img src="img/grafikk/prototype2.png" id="cards" >
+                      <img src="img/grafikk/prototype3.png" id="cards" >
+                      <img src="img/grafikk/prototype4.png" id="cards" >
                     </div>
                   </div>
                 </div>
