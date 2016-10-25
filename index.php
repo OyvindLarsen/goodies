@@ -337,7 +337,7 @@ $error = "";
             <div class="container">
               <div class="font">
                 <div class="row">
-                  <div class="col-md-7 vcenter col-md-push-4 hidden left" id="appAni">
+                  <div class="col-md-7 vcenter col-md-push-4 hidden bottom" id="appAni">
                      <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
@@ -348,7 +348,7 @@ $error = "";
                     <h3>Vi elsker å leke med digitale byggeklosser.</h3>
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.</p>
                   </div>
-                   <div class="col-md-4 vcenter col-md-pull-7 hidden right" id="appAni2">
+                   <div class="col-md-4 vcenter col-md-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
                      <img src="img/grafikk/iPhoneHvitMotHoyre.png">
                    </div>

@@ -358,9 +358,9 @@ function WidthChange(mq) {
        
               
               $('#appAni').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#appAni').animate({ left: 0, },{ duration: 1000,  queue: false });
+              $('#appAni').animate({ top: 0, },{ duration: 1000,  queue: false });
               $('#appAni2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#appAni2').animate({ left: 0,},{ duration: 1000,  queue: false });
+              $('#appAni2').animate({ top: 0,},{ duration: 1000,  queue: false });
 
             }, offset: '80%'
           })
@@ -643,7 +643,7 @@ $('#lines').animateNumber(
               i++;
               var display = function() {
                   e = $("#plantefade"+planteArray[z++]);
-                  e.animate({ opacity: 1 }, 3000 );
+                  e.animate({ opacity: 1 }, 700 );
                   if (z < 31) {
                       
                       setTimeout(display, 100);
