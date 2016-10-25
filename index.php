@@ -337,7 +337,7 @@ $error = "";
             <div class="container">
               <div class="font">
                 <div class="row">
-                  <div class="col-md-7 vcenter col-md-push-4 hidden bottom" id="appAni">
+                  <div class="col-lg-7 vcenter col-lg-push-4 hidden bottom" id="appAni">
                      <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
@@ -348,7 +348,7 @@ $error = "";
                     <h3>Vi elsker å leke med digitale byggeklosser.</h3>
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.</p>
                   </div>
-                   <div class="col-md-4 vcenter col-md-pull-7 hidden top" id="appAni2">
+                   <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
                      <img src="img/grafikk/iPhoneHvitMotHoyre.png">
                    </div>
@@ -373,11 +373,11 @@ $error = "";
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-7 vcenter hidden left z-index" id="markedAni2">
+                  <div class="col-lg-7 vcenter hidden left z-index" id="markedAni2">
                     <h3>Ta din merkevare til nye høyder.</h3>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
                   </div>
-                  <div class="col-md-4 vcenter"></div>
+                  <div class="col-lg-4 vcenter"></div>
                 </div>
                 <div class="row">
                   <div class="col-md-12"><div class="rakett2" id="rakett2"><img src="img/grafikk/Røyk.svg"></div></div>
@@ -391,7 +391,7 @@ $error = "";
             <div class="container">
               <div class="font" id="fading-i">
                 <div class="row hey">
-                  <div class="col-md-7 vcenter col-md-push-4 hidden top" id="protoAni">
+                  <div class="col-lg-7 vcenter col-lg-push-4 hidden top" id="protoAni">
                     <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
@@ -404,7 +404,7 @@ $error = "";
                     <p>En pent designet prototype som virker på Android og iPhone telefoner vil ta dager å utvikle. Dette kan gi deg store fordeler når konseptet skal presenteres videre.</p>
                     <p>Ta kontakt for mer informasjon om denne hvordan vi kan lage protyper av dine ideer, og våre priser knyttet til dette.</p>
                   </div>
-                  <div class="col-md-4 vcenter col-md-pull-7 hidden bottom" id="protoAni2" >
+                  <div class="col-lg-4 vcenter col-lg-pull-7 hidden bottom" id="protoAni2" >
                     <div class="proimg">
                       <img src="img/grafikk/prototype1.png" id="cards" >
                       <img src="img/grafikk/prototype2.png" id="cards" >
@@ -424,7 +424,7 @@ $error = "";
             <div class="sus"><img id="mob" src="img/grafikk/sustainable.svg"></div>
               <div class="font">
                 <div class="row">
-                  <div class="col-md-6 vcenter hidden left" id="hotellAni">
+                  <div class="col-lg-6 vcenter hidden left" id="hotellAni">
                     <div class="row">
                       <div class="col-md-8" style="padding-left:15px;">
                         <div class="atitle">
@@ -437,7 +437,7 @@ $error = "";
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
                     <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
                   </div>
-                  <div class="col-md-5 vcenter hidden right" id="hotellAni2">
+                  <div class="col-lg-5 vcenter hidden right" id="hotellAni2">
                     <div class="box5 display2" >
                       <h3 style="color:black"> <span id="lines" style="font-size: 2em; color:black">0</span>Trær plantet</h3>
                       <div id="startpic">
@@ -455,7 +455,7 @@ $error = "";
             <div class="container">
               <div class="row">
 
-                <div class="col-md-5 vcenter col-md-push-6 hidden bottom" id="driftAni">
+                <div class="col-lg-5 vcenter col-lg-push-6 hidden bottom" id="driftAni">
                   <div class="font">
                     <div class="row">
                       <div class="col-md-8">
@@ -468,7 +468,7 @@ $error = "";
                     <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma eller drive nettbutikk.</p>
                   </div>
                 </div>
-                <div class="col-md-6 vcenter col-md-pull-5 hidden top" id="driftAni2">
+                <div class="col-lg-6 vcenter col-lg-pull-5 hidden top" id="driftAni2">
                   <div class="row">
                     <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Oppdateringer.svg"></div>
                     <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Overvåking.svg"></div>
@@ -497,7 +497,7 @@ $error = "";
             <div class="font" id="fading-i">
 
               <div class="row">
-                <div class="col-md-6 vcenter hidden left" id="seoAni">
+                <div class="col-lg-6 vcenter hidden left" id="seoAni">
                   <div class="row">
                     <div class="col-md-8">
                       <div class="atitle">
@@ -508,7 +508,7 @@ $error = "";
                   <h3>Bli det naturlige førstevalget.</h3>
                    <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
                 </div>
-                <div class="col-md-5 vcenter hidden right" id="seoAni2">
+                <div class="col-lg-5 vcenter hidden right" id="seoAni2">
                   <div class="images">
                     <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" >
                     <img src="img/grafikk/paralax/SynsprovePlakat.png" id="sp">
@@ -580,14 +580,14 @@ $error = "";
   <article>
     <div class="container slide"> 
 
-      <div class="col-lg-5">
+      <div class="col-xl-5">
         <div class="frame font">
           <div class="atitle"><h2>Om oss</h2></div>
           <p>Goodies er et nyopprettet firma med hovedfokus på Web Design og App utvikling. Vi har som ambisjon å levere kosteffektive og elegante løsninger til fornuftige priser. </p>
         </div>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-xl-3">
         <div class="frame font">
           <div class="atitle"><h2>Kontakt</h2></div>
           <p><a href="tel:45479920"><i class="fa fa-phone-square green" aria-hidden="true"> </i></a> 45479920</p>
@@ -596,14 +596,14 @@ $error = "";
         </div>
       </div>
 
-      <div class="col-lg-2">
+      <div class="col-xl-2">
         <div class="frame font">
           <div class="atitle"><h2>Åpningstider</h2></div>
           <p>Vi er tilgjengelige på telefon man - fre fra 09-17 og 24/7 på e-post.</p>
         </div>
       </div>
 
-      <div class="col-lg-2">
+      <div class="col-xl-2">
         <div class="frame font">
           <div class="atitle"><h2>Social</h2></div>
           <p><a href="https://www.instagram.com/goodiesdesign/"><i class="fa fa-instagram green" aria-hidden="true"></i></a>
