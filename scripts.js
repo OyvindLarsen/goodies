@@ -646,7 +646,7 @@ $('#lines').animateNumber(
                   e.animate({ opacity: 1 }, 700 );
                   if (z < 31) {
                       
-                      setTimeout(display, 100);
+                      setTimeout(display, 50);
                   }
               };
 

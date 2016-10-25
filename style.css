@@ -1340,7 +1340,7 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
   ** box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset; **
 }
 ::-webkit-scrollbar-thumb {
-  background: url(/img/noise.png);
+  
   background-clip: content-box;
   ** box-shadow: 0 0 0 5px hsla(24, 20%, 50%,.4) inset; **
   min-height: 20px;
