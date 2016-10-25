@@ -401,15 +401,7 @@ function WidthChange(mq) {
               
             }, offset: '80%'
           })
-          //Planteanimasjon
-          var waypoint = new Waypoint({
-            element: document.getElementById('hotell'),
-            handler: function() {
-              pictures();
-              numbers();
-              this.destroy();
-            }, offset: '100%'
-          })
+          
           //DRIFT
            var waypoint = new Waypoint({
             element: document.getElementById('drift'),
@@ -552,6 +544,16 @@ $("form").submit(function (e) {
           
           
       });
+
+//Planteanimasjon
+          var waypoint = new Waypoint({
+            element: document.getElementById('hotell'),
+            handler: function() {
+              pictures();
+              numbers();
+              this.destroy();
+            }, offset: '100%'
+          })
 
 
 //breakdown the labels into single character spans

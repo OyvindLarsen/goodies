@@ -1023,7 +1023,9 @@ margin-right:10rem;
       padding-top: 50px;
       padding-bottom: 50px;
     }
-
+  .display2 {
+  display: none;
+}
 
   .hidden {
     opacity: 1;

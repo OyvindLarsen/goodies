@@ -147,7 +147,7 @@ $error = "";
         <ul id="scene" >
           <li class="layer" data-type="background" data-speed="0.9" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.8" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
-          <li class="layer" data-type="background" data-speed="0.5" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/fjell.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.5" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/Fjell.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Operabygget.png"></div></li>
           <li class="layer" data-type="background" data-speed="-0.2" data-depth="0.55"><div class="midt"><img src="img/grafikk/paralax/MidtArk.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
@@ -438,7 +438,7 @@ $error = "";
                     <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
                   </div>
                   <div class="col-md-5 vcenter hidden right" id="hotellAni2">
-                    <div class="box5" >
+                    <div class="box5 display2" >
                       <h3 style="color:black"> <span id="lines" style="font-size: 2em; color:black">0</span>Trær plantet</h3>
                       <div id="startpic">
                       </div>
