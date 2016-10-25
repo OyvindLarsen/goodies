@@ -381,7 +381,7 @@ $error = "";
                 </div>
                 <div class="row">
                   <div class="col-md-12"><div class="rakett2" id="rakett2"><img src="img/grafikk/Røyk.svg"></div></div>
-                    <div class="rakett" id="rakett" data-type="test2" data-speed="-1.1"><img src="img/grafikk/Rakett.svg"></div>
+                    <div class="rakett" id="rakett" data-type="test2" data-speed="1.1"><img src="img/grafikk/Rakett.svg"></div>
                 </div>
               </div>
             </div>

@@ -46,10 +46,10 @@ var $window = $(window); //You forgot this line in the above example
 $('div[data-type="test2"]').each(function(){
 var $bgobj = $(this); // assigning the object
 var offset = $('#marked').offset();
-var top = offset.top+130;
+var top = offset.top-130;
 $(window).scroll(function() {
 
-var yPos = (top-$window.scrollTop())*$bgobj.data('speed');
+var yPos = ($window.scrollTop()-top)*$bgobj.data('speed');
 
 console.log(top+' '+$window.scrollTop())
 
