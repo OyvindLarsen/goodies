@@ -312,11 +312,25 @@ font-weight: 100;
 /*############### Nettside ###############*/
 
 
-#nettside img {
+.image {
   position:relative;
   width:100%;
   z-index:2;
   margin-bottom: 5%;
+
+}
+
+.image img {
+  width: 100%;
+}
+
+.carouselle {
+  position: absolute;
+  top:4.5%;
+  left:4%;
+  height:63.1%;
+  width: 92%;
+   
 
 }
 
@@ -341,7 +355,6 @@ width:300px;
 .graf img {
   width:100%;
   
-
 }
 
 /*############### Prototyping ###############*/
