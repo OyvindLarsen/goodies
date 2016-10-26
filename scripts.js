@@ -1,5 +1,26 @@
 
-//parallax animasjon ala skyworks
+$('body').imagesLoaded( function() {
+  $('body').addClass('loaded');
+  var $window = $(window); //You forgot this line in the above example
+
+  $('div[data-type="test2"]').each(function(){
+  var $bgobj = $(this); // assigning the object
+  var offset = $('#marked').offset();
+  var top = offset.top-130;
+  $(window).scroll(function() {
+
+  var yPos = ($window.scrollTop()-top);
+
+  
+  var coords = yPos + 'px';
+
+  $bgobj.css({ bottom: coords });
+  });
+  });
+
+});
+
+//parallax Ycors
 $(document).ready(function(){
 
 var $window = $(window); //You forgot this line in the above example
@@ -44,10 +65,11 @@ $scene.parallax('enable');
 
 
 
-//Tannhjul scrollanimasjon
+//scrollanimasjoner tannhjul
 var lastScrollTop = 0;
 
 window.addEventListener("scroll", function(){ 
+   
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    $("#cog").css("-animation-play-state", "running");
   $("#cog2").css("-animation-play-state", "running");
@@ -121,19 +143,17 @@ window.addEventListener("scroll", function(){
       $(function () {
       m.hide()
       e.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
-      //p.animate({ "padding-left": "0px" }, { duration: 400, queue: false } );
-      
-      
-   //   $('#sand').animate({ "padding-right": "280px" }, { duration: 400, queue: false } );
+      $('.cog2').html('<div class="vertical" ><i class="fa fa-times" aria-hidden="true"></i></div>');
+
+
       });
 
     } else {
       $(function () {
       m.show()
       e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
-      
-    //$('#sand').animate({ "padding-right": "0px" }, { duration: 400, queue: false } );
-     // p.animate({ "padding-left": "280px" }, { duration: 400, queue: false } );
+      $('.cog2').html('<div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>');
+
       });
     }
   }
@@ -144,7 +164,7 @@ window.addEventListener("scroll", function(){
      $(function () {
       m.show()
       e.animate({ "padding-left": "0px" }, { duration: 400, queue: false });
-      
+      $('.cog2').html('<div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>');
    
       });
   }
@@ -608,8 +628,6 @@ $(".flp input, .flp textarea").blur(function(){
 $('#lines').animateNumber(
   {
     number: 300,
-    
-
     easing: 'easeInQuad', // require jquery.easing
 
     // optional custom step function
@@ -629,22 +647,24 @@ $('#lines').animateNumber(
   function pictures() {
     var x=0;
     var planteArray = new Array();
-    var number = 300/10;//$("#lines")
-      for (i = 0; i < 3 ; i++) { 
-        $("#startpic").append( '<div class="row" id="hmmm'+i+'">');
-          for (y = 0; y < 12 ; y++) {
+    var number = 29;//$("#lines")
+      for (i = 0; i < 4 ; i++) { 
+        $("#startpic").append( '<div class="row" id="hmmm'+i+'"><div class="col-xs-1 no-padding usynlig"></div>');
+          for (y = 0; y < 10 ; y++) {
               $("#hmmm"+i).append( '<div class="col-xs-1 no-padding usynlig" id="plantefade'+x+'"><img src="img/grafikk/Plante.svg"></div>');
               planteArray.push(x);
               
             x++;
             if (x > number)  {
+              
+              $("#startpic").append( '</div>');
               var z = 0;
               shuffle(planteArray);
               i++;
               var display = function() {
                   e = $("#plantefade"+planteArray[z++]);
                   e.animate({ opacity: 1 }, 700 );
-                  if (z < 31) {
+                  if (z < number+1) {
                       
                       setTimeout(display, 50);
                   }
@@ -653,7 +673,10 @@ $('#lines').animateNumber(
               display();
              break;
             }
-         }
+
+                     }
+
+        $("#startpic").append( '</div>');
       }
     
      
@@ -797,26 +820,4 @@ function canvas () {
 }
 
 */
-
-$('body').imagesLoaded( function() {
-  $('body').addClass('loaded');
-  var $window = $(window); //You forgot this line in the above example
-
-  $('div[data-type="test2"]').each(function(){
-  var $bgobj = $(this); // assigning the object
-  var offset = $('#marked').offset();
-  var top = offset.top-130;
-  $(window).scroll(function() {
-
-  var yPos = ($window.scrollTop()-top);
-
-  console.log(top+' '+$window.scrollTop()+' '+coords);
-
-  var coords = yPos + 'px';
-
-  $bgobj.css({ bottom: coords });
-  });
-  });
-
-});
 

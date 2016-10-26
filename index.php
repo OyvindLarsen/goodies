@@ -290,7 +290,7 @@ $error = "";
             </div>
             <div class="row forside hidden" id="vektor" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-                <img src="img/grafikk/VektorGrafikk.png"  class="curve" id="vektorAni2" >
+                <img src="img/grafikk/VektorGrafikk.png"  class="curve2" id="vektorAni2" >
                 <div class="para">
                   <h1>Vektor grafikk for sylskarpe og dynamiske bilder</h1>
                   <p>Vi skaper mesteparten av vår grafikk til websider og app’er i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
@@ -437,7 +437,8 @@ $error = "";
                   </div>
                   <div class="col-lg-5 vcenter hidden right" id="hotellAni2">
                     <div class="box5 display2" >
-                      <h3 style="color:black"> <span id="lines" style="font-size: 2em; color:black">0</span>Trær plantet</h3>
+
+                      <h3 style="color:black"> <span id="lines" style="padding-left: 25px; font-size: 2em; color:black">0</span></h3>
                       <div id="startpic">
                       </div>
                     </div>
