@@ -420,7 +420,6 @@ $error = "";
 
           <div class="products way" id ="hotell" >
             <div class="container">
-            <div class="sus"><img id="mob" src="img/grafikk/sustainable.svg"></div>
               <div class="font">
                 <div class="row">
                   <div class="col-lg-6 vcenter hidden left" id="hotellAni">

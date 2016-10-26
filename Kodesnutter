@@ -439,3 +439,21 @@ $("#meny2").click(function() {
 
     return false;
 });
+
+.sus {
+  position: absolute;
+  width:40%;
+  left:-13%;
+  top:-13%;
+  z-index: 1;
+  opacity: 0.2;
+  min-width: 200px;
+  transform: translate(50%, 0);
+  margin: 0 auto;
+
+}
+
+.sus {
+
+  display:none;
+}

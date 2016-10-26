@@ -39,24 +39,9 @@ $scene.parallax('enable');
 
 
 // rakettanimasjon markedsføring
-$(document).ready(function(){
 
-var $window = $(window); //You forgot this line in the above example
 
-$('div[data-type="test2"]').each(function(){
-var $bgobj = $(this); // assigning the object
-var offset = $('#marked').offset();
-var top = offset.top-130;
-$(window).scroll(function() {
-//sjekke om det blir endring nå
-var yPos = ($window.scrollTop()-top)*$bgobj.data('speed');
 
-var coords = yPos + 'px';
-
-$bgobj.css({ bottom: coords });
-});
-});
-});
 
 
 //Tannhjul scrollanimasjon
@@ -815,5 +800,23 @@ function canvas () {
 
 $('body').imagesLoaded( function() {
   $('body').addClass('loaded');
+  var $window = $(window); //You forgot this line in the above example
+
+  $('div[data-type="test2"]').each(function(){
+  var $bgobj = $(this); // assigning the object
+  var offset = $('#marked').offset();
+  var top = offset.top-130;
+  $(window).scroll(function() {
+
+  var yPos = ($window.scrollTop()-top);
+
+  console.log(top+' '+$window.scrollTop()+' '+coords);
+
+  var coords = yPos + 'px';
+
+  $bgobj.css({ bottom: coords });
+  });
+  });
+
 });
 
