@@ -145,7 +145,7 @@ $error = "";
       <div id="logo1">
         <ul id="scene" >
           <li class="layer" data-type="background" data-speed="0.7" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.10"><div class="mane"><img src="img/grafikk/paralax/Måne.svg" ></div></li>
+          
           <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/Fjell.svg"></div></li>
           <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Barcode.png"></div></li>
           <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
@@ -159,7 +159,7 @@ $error = "";
   <div id="about" data-type="background" data-speed="1" class="pages">
     <article>
     
-      <div class="fixedbackground slide" >
+      <div class="fixedbackground menu-slide" >
         <div id="nothing"></div>
         <div class="cog2"  onclick="myFunction2()">
           <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>

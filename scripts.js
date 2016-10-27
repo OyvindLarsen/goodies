@@ -36,7 +36,7 @@ $bgobj.css({ top: coords });
 });
 });
 });
-
+/*
 //Parallax funskjon for bevegelse i skjermen
 $('#scene').parallax({
   calibrateX: true,
@@ -44,19 +44,19 @@ $('#scene').parallax({
   invertX: true,
   invertY: true,
   limitX: false,
-  limitY: 10,
-  scalarX: 2,
-  scalarY: 8,
-  frictionX: 0.2,
-  frictionY: 0.8,
+  limitY: false,
+  scalarX: 5,
+  scalarY: 5,
+  frictionX: .5,
+  frictionY: .5,
   originX: 0.0,
-  originY: 1.0
+  originY: 0.0
 });
 
 var $scene = $('#scene').parallax();
 $scene.parallax('enable');
 
-
+*/
 
 
 // rakettanimasjon markedsføring
@@ -134,7 +134,7 @@ window.addEventListener("scroll", function(){
 
 //meny-slide animasjon
     function myFunction2() {
-    var e = $(".slide");
+    var e = $(".menu-slide");
     var p = $("#page-content-wrapper");
     var m = $("#nothing")
 
@@ -159,7 +159,7 @@ window.addEventListener("scroll", function(){
   }
 
   function lukkMeny() {
-    var e = $(".slide");
+    var e = $(".menu-slide");
     var m = $("#nothing")
      $(function () {
       m.show()

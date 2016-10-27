@@ -97,7 +97,7 @@ font-family: "MyCustomFont";
   position: absolute;
   left:50%;
   bottom:0%;
-  width: 75%;
+  width: 100%;
   min-width: 800px;
 }
 
