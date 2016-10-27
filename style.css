@@ -334,6 +334,10 @@ font-weight: 100;
 
 }
 
+.carousel {
+  width: 100%;
+}
+
 /*############### App ###############*/
 
 .appimg img {
@@ -1504,4 +1508,6 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
     .no-js #loader-wrapper {
         display: none;
     }
+
+    
  

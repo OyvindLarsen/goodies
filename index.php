@@ -254,7 +254,7 @@ $error = "";
       </div>
     </div>
 
-    <div id="page-content-wrapper" class="slide" onclick="lukkMeny()">
+    <div id="page-content-wrapper" class="menu-slide" onclick="lukkMeny()">
       <div class="page-content">
         <div class="products font" id= "kodedesign">
           <div class="container">
@@ -607,7 +607,7 @@ $error = "";
 
 <div id="footer" data-type="background" data-speed="0.9" class="pages" onclick="lukkMeny()"> 
   <article>
-    <div class="container slide"> 
+    <div class="container menu-slide"> 
 
       <div class="col-xl-5">
         <div class="frame font">
