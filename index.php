@@ -60,6 +60,8 @@ $error = "";
 <html lang="en">
 
 <head>
+<title>Goodies Kode og Design. Webdesign, app utvikling, webhotell, SEO og markedsføring</title>
+
   <!-- Required meta tags always come first -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -152,10 +154,10 @@ $error = "";
 
       <div id="logo1">
         <ul id="scene" >
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/Fjell.svg"></div></li>
-          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Barcode.png"></div></li>
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg"></div></li>
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg" alt="" title=""></div></li>
+          <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/Fjell.svg" alt="" title=""></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Barcode.png" alt="" title=""></div></li>
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg" alt="" title=""></div></li>
           
         </ul>
       </div>
@@ -276,7 +278,7 @@ $error = "";
 
             <div class="row forside hidden" id="skredder" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-                <img src="img/Kode.jpg"  class="curve" id="skredderAni2"  >
+                <img src="img/Kode.jpg" alt="Skreddersydd webdesign og app utvikling" title="Skreddersydd webdesign og app utvikling" class="curve" id="skredderAni2"  >
                 <div class="para">
                   <h1>Skreddersøm</h1>
                   <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
@@ -285,7 +287,7 @@ $error = "";
             </div>
             <div class="row forside hidden" id="respons" data-type="test2" data-speed="0">
               <div id="circle-shape-example">
-              <img src="img/grafikk/Responsiv.png"  class="curve1" id="speiletsirkel">
+              <img src="img/grafikk/Responsiv.png" alt="Responsive nettsider" title="Responsive nettsider" class="curve1" id="speiletsirkel">
                  <div class="para" id="responsAni2">
                   <h1>Responsive nettsider</h1>
                   <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
@@ -295,10 +297,10 @@ $error = "";
             </div>
             <div class="row forside hidden" id="vektor" data-type="test2" data-speed="0">
               <div id="circle-shape-example"  >
-                <img src="img/grafikk/VektorGrafikk.png"  class="curve2" id="vektorAni2" >
+                <img src="img/grafikk/VektorGrafikk.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" >
                 <div class="para">
-                  <h1>Vektor grafikk for sylskarpe og dynamiske bilder</h1>
-                  <p>Vi skaper mesteparten av vår grafikk til websider og app’er i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
+                  <h1>Vektor grafikk</h1>
+                  <p>Vi skaper mesteparten av  grafikken til våre web design og app utviklingsprosjekter i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
                   <p>Derfor vil grafikken vi skaper holde seg like sylskarp uavhengig av hvor stor skjerm den vises på.</p>
                 </div>
               </div>
@@ -318,20 +320,20 @@ $error = "";
                       <div class="row">
                         <div class="col-md-4" style="padding-left:15px;">
                           <div class="atitle">
-                            <h1>Nettsider</h1>
+                            <h1>Webdesign</h1>
                           </div>
                         </div>
                       </div>
                       <h3>Pakkeløsninger tilpasset ethvert behov</h3>
-                      <p>Vi tilbyr en hel rekke skreddersydde og egenproduserte nettsideløsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
-                      <p>Vi har pakkeløsninger som vil tilfredsstille de aller fleste behov, men vi tar også gjerne i mot spesialbestillinger for å skreddersy våre leveranser i henhold til dine ønsker.</p>
+                      <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
+                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.</p>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="">
                     <div class="col-md-12 hidden right image no-padding" id="nettAni2">
-                    <img  src="img/grafikk/iMacBlog.png">
+                    <img  src="img/grafikk/iMacBlog.png" alt="" title="">
                     <div class="carouselle">
                       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                           <ol class="carousel-indicators">
@@ -341,13 +343,13 @@ $error = "";
                           </ol>
                           <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                              <img src="img/grafikk/BlogNy.svg" alt="First slide">
+                              <img src="img/grafikk/BlogNy.svg" alt="Webdesign Blog">
                             </div>
                             <div class="carousel-item">
-                              <img src="img/grafikk/OnePager.svg" alt="Second slide">
+                              <img src="img/grafikk/OnePager.svg" alt="Webdesign Landingsside">
                             </div>
                             <div class="carousel-item">
-                              <img src="img/grafikk/BlogNy.svg" alt="Third slide">
+                              <img src="img/grafikk/BlogNy.svg" alt="Webdesign Nettbutikk">
                             </div>
                           </div>
                           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -384,7 +386,7 @@ $error = "";
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
-                     <img src="img/grafikk/iPhoneHvitMotHoyre.png">
+                     <img src="img/grafikk/iPhoneHvitMotHoyre.png" alt="" title="">
                    </div>
                    </div>
                  
@@ -399,7 +401,7 @@ $error = "";
             <div class="container">
               <div class="font" id="fading-i">
                 <div class="row">
-                  <div class="graf"><img src="img/grafikk/SocialGraf.svg"></div>
+                  <div class="graf"><img src="img/grafikk/SocialGraf.svg" alt="" title=""></div>
                   <div class="col-md-4 hidden left" id="markedAni">
                     <div class="atitle">
                       <h1>Markedsføring</h1>
@@ -414,8 +416,8 @@ $error = "";
                   <div class="col-lg-4 vcenter"></div>
                 </div>
                 <div class="row">
-                  <div class="col-md-12"><div class="rakett2" id="rakett2"><img src="img/grafikk/Røyk.svg"></div></div>
-                    <div class="rakett" id="rakett" data-type="test2" data-speed="1.1"><img src="img/grafikk/Rakett.svg"></div>
+                  <div class="col-md-12"><div class="rakett2" id="rakett2"><img src="img/grafikk/Røyk.svg" alt="" title=""></div></div>
+                    <div class="rakett" id="rakett" data-type="test2" data-speed="1.1"><img src="img/grafikk/Rakett.svg" alt="" title=""></div>
                 </div>
               </div>
             </div>
@@ -440,10 +442,10 @@ $error = "";
                   </div>
                   <div class="col-lg-4 vcenter col-lg-pull-7 hidden bottom" id="protoAni2" >
                     <div class="proimg">
-                      <img src="img/grafikk/prototype1.png" id="cards" >
-                      <img src="img/grafikk/prototype2.png" id="cards" >
-                      <img src="img/grafikk/prototype3.png" id="cards" >
-                      <img src="img/grafikk/prototype4.png" id="cards" >
+                      <img src="img/grafikk/prototype1.png" id="cards" alt="" title="">
+                      <img src="img/grafikk/prototype2.png" id="cards" alt="" title="">
+                      <img src="img/grafikk/prototype3.png" id="cards" alt="" title="">
+                      <img src="img/grafikk/prototype4.png" id="cards" alt="" title="">
                     </div>
                   </div>
                 </div>
@@ -461,7 +463,7 @@ $error = "";
                     <div class="row">
                       <div class="col-md-8" style="padding-left:15px;">
                         <div class="atitle">
-                          <h1>Webhotell </h1><div id="mob"><img src="img/grafikk/Plante.svg"></div>
+                          <h1>Webhotell </h1><div id="mob"><img src="img/grafikk/Plante.svg" alt="" title=""></div>
                         </div>
                       </div>
                     </div>
@@ -504,16 +506,16 @@ $error = "";
                 </div>
                 <div class="col-lg-6 vcenter col-lg-pull-5 hidden top" id="driftAni2">
                   <div class="row">
-                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Oppdateringer.svg"></div>
-                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Overvåking.svg"></div>
+                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Oppdateringer.svg" alt="" title=""></div>
+                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Overvåking.svg" alt="" title=""></div>
                   </div>
                   <div class="row">
-                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Patching.svg"></div>
-                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/SSL.svg"></div>
+                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Patching.svg" alt="" title=""></div>
+                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/SSL.svg" alt="" title=""></div>
                   </div>
                   <div class="row">
-                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/MSSQL.svg"></div>
-                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Backup.svg"></div>
+                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/MSSQL.svg" alt="" title=""></div>
+                    <div class="col-xs-6 no-padding"><img src="img/produkter/drift/Backup.svg" alt="" title=""></div>
                   </div>
                 </div>
               </div>  
@@ -544,8 +546,8 @@ $error = "";
                 </div>
                 <div class="col-lg-5 vcenter hidden right" id="seoAni2">
                   <div class="images">
-                    <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" >
-                    <img src="img/grafikk/paralax/SynsprovePlakat.png" id="sp">
+                    <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" alt="" title="">
+                    <img src="img/grafikk/paralax/SynsprovePlakat.png" id="sp" alt="" title="">
                   </div>
                 </div>
               </div>
