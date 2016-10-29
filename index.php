@@ -281,7 +281,7 @@ $error = "";
                 <img src="img/Kode.jpg" alt="Skreddersydd webdesign og app utvikling" title="Skreddersydd webdesign og app utvikling" class="curve" id="skredderAni2"  >
                 <div class="para">
                   <h1>Skreddersøm</h1>
-                  <p>Våre designløsninger vil kunne skreddersys helt ned til den minste detalj for å etterkomme kunders ønsker, og vi er svært fleksible når det kommer til å håndtere endringsønsker som måtte oppstå underveis.</p>
+                  <p>Våre webdesign- og app utviklingstjenester kan skreddersys helt ned til den minste detalj for å etterkomme spesifikke behov. Vi foretrekker å ha en unik tilnærming til alle prosjekter vi påtar oss.</p>
                 </div>
               </div>
             </div>
@@ -291,7 +291,7 @@ $error = "";
                  <div class="para" id="responsAni2">
                   <h1>Responsive nettsider</h1>
                   <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
-                  <p>Goodies vektlegger å utvikle funksjonelle og responsive nettsider som tilpasser seg størrelsen på skjermen.</p>
+                  <p>Goodies vektlegger å utvikle funksjonelle og responsive nettsider som tilpasser seg størrelsen på skjermen, slik at brukeropplevelsen føles kjent ut på tvers av alle plattformer.</p>
                 </div>
               </div>
             </div>
@@ -301,7 +301,7 @@ $error = "";
                 <div class="para">
                   <h1>Vektor grafikk</h1>
                   <p>Vi skaper mesteparten av  grafikken til våre web design og app utviklingsprosjekter i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
-                  <p>Derfor vil grafikken vi skaper holde seg like sylskarp uavhengig av hvor stor skjerm den vises på.</p>
+                  <p>Derfor vil grafikken vi skaper holde seg  sylskarp uavhengig av hvor stor skjerm den vises på, samtidig som den skalerer ned til en fornuftig størrelse på mindre skjermer.</p>
                 </div>
               </div>
             </div>
