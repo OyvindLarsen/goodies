@@ -36,7 +36,7 @@ $bgobj.css({ top: coords });
 });
 });
 });
-/*
+
 //Parallax funskjon for bevegelse i skjermen
 $('#scene').parallax({
   calibrateX: true,
@@ -56,7 +56,6 @@ $('#scene').parallax({
 var $scene = $('#scene').parallax();
 $scene.parallax('enable');
 
-*/
 
 
 // rakettanimasjon markedsføring

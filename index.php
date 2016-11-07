@@ -154,11 +154,29 @@ $error = "";
 
       <div id="logo1">
         <ul id="scene" >
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.05"><div class="backgroundh"><img src="img/grafikk/paralax/HimmelHeader.svg" alt="Webdesign og app utvilking" title=""></div></li>
-          <li class="layer" data-type="background" data-speed="0.1" data-depth="0.30"><div class="bakerst"><img src="img/grafikk/paralax/Fjell.svg" alt="Webdesign og app utvilking" title=""></div></li>
-          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.40"><div class="opera"><img src="img/grafikk/paralax/Barcode.png" alt="Webdesign og app utvilking" title=""></div></li>
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0.60"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg" alt="Webdesign og app utvilking" title=""></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="fire"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.10"><div class="circle-b"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.20"><div class="circle-c"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.30"><div class="circle-d"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.40"><div class="circle-a"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.50"><div class="circle-e"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.60"><div class="circle-f"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.70"><div class="circle-g"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.80"><div class="circle-h"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.90"><div class="circle-i"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="1"><div class="circle-j"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="1.10"><div class="circle-k"></div></li>
           
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
+
+          <li class="layer" data-type="background" data-speed="0.1" data-depth="2"><div class="to"><img  src="img/grafikk/iMacBlog.png" alt="Webdesign" title="Webdesign"></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="tre"><img src="img/grafikk/iPhoneHvitMotHoyre.png" alt="App utvikling, iOs app, Android app" title="App utvikling"></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="seks"><img src="img/grafikk/prototype2.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="sju"><img src="img/grafikk/prototype3.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="atte"><img src="img/grafikk/prototype4.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
+
+
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg" alt="Webdesign og app utvilking" title=""></div></li>
         </ul>
       </div>
     </article>
