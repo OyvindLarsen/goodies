@@ -400,7 +400,7 @@ $error = "";
                       </div>
                     </div>
                     <h3>Applikasjoner og prototyper utviklet med de nyeste metodene.</h3>
-                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. <a></p>
+                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. <a></p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
