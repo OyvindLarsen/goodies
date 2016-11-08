@@ -673,7 +673,7 @@ a {
   position:absolute;
   width:100%;
   left:50%;
-  top:15%;
+  top:25%;
   
 }
   .logo1 img {
@@ -1518,19 +1518,28 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
     }
 
     .en img{
-      width: 200%;
+      width: 70%;
     }
 
-  
+  .to {
+    position: absolute;
+    left:38%;
+    top:8%;
+
+  }
+  .to img{
+    width: 45%;
+
+  }
 
     .tre {
       position: absolute;
       top:70%;
-      left:50%;
+      left:30%;
     }
 
     .tre img {
-    width: 95%;
+    width: 55%;
 
     }
 

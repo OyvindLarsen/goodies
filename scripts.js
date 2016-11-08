@@ -19,7 +19,7 @@ $('body').imagesLoaded( function() {
   });
 
 });
-
+/*
 //parallax Ycors
 $(document).ready(function(){
 
@@ -36,7 +36,7 @@ $bgobj.css({ top: coords });
 });
 });
 });
-
+*//*
 //Parallax funskjon for bevegelse i skjermen
 $('#scene').parallax({
   calibrateX: true,
@@ -57,7 +57,7 @@ var $scene = $('#scene').parallax();
 $scene.parallax('enable');
 
 
-
+*/
 // rakettanimasjon markedsføring
 
 
