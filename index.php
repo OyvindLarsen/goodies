@@ -147,7 +147,7 @@ $error = "";
 
 
 
-
+  
 
   <div id="home" onclick="lukkMeny()" data-type="" data-speed="0" class="pages">     
     <article>
@@ -169,7 +169,7 @@ $error = "";
           
           <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
 
-          <li class="layer" data-type="background" data-speed="0.1" data-depth="2"><div class="to"><img  src="img/grafikk/iMacBlog.png" alt="Webdesign" title="Webdesign"></div></li>
+          <li class="layer" data-type="background" data-speed="0.1" data-depth="2"><div class="to"><img src="img/grafikk/VektorGrafikk.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" ></div></li>
           <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="tre"><img src="img/grafikk/iPhoneHvitMotHoyre.png" alt="App utvikling, iOs app, Android app" title="App utvikling"></div></li>
           <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="seks"><img src="img/grafikk/prototype2.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
           <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="sju"><img src="img/grafikk/prototype3.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
@@ -440,8 +440,8 @@ $error = "";
               </div>
             </div>
           </div>
-
-          <div class="products" id ="proto">
+          
+          <div class="products matte2" id ="proto">
             <div class="container">
               <div class="font" id="fading-i">
                 <div class="row hey">

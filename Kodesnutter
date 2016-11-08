@@ -457,3 +457,22 @@ $("#meny2").click(function() {
 
   display:none;
 }
+
+
+src="img/grafikk/VektorGrafikk.png"
+
+   
+   
+
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.10"><div class="circle-b"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.20"><div class="circle-c"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.30"><div class="circle-d"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.40"><div class="circle-a"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.50"><div class="circle-e"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.60"><div class="circle-f"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.70"><div class="circle-g"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.80"><div class="circle-h"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.90"><div class="circle-i"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="1"><div class="circle-j"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="1.10"><div class="circle-k"></div></li>
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0.80"><div class="front1"></div></li>
