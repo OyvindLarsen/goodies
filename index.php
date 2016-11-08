@@ -395,12 +395,12 @@ $error = "";
                      <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
-                          <h1>App utvikling</h1>
+                          <h1>App utvikling og app prototyper</h1>
                         </div>
                       </div>
                     </div>
-                    <h3>Vi elsker å leke med digitale byggeklosser.</h3>
-                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.<a href="app_utvikling/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. <a></p>
+                    <h3>Applikasjoner og prototyper utviklet med de nyeste metodene.</h3>
+                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. <a></p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
@@ -422,14 +422,14 @@ $error = "";
                   <div class="graf"><img src="img/grafikk/SocialGraf.svg" alt="Markedsføring, digital markerdsføring" title="Markedsføring"></div>
                   <div class="col-md-4 hidden left" id="markedAni">
                     <div class="atitle">
-                      <h1>Markedsføring</h1>
+                      <h1>Markedsføring og SEO</h1>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-lg-7 vcenter hidden left z-index" id="markedAni2">
                     <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. <a></p>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p><p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. <a></p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
                 </div>
