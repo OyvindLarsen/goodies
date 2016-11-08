@@ -27,7 +27,7 @@ body{margin:0;padding:0;width:100%;height:100%;}
 
 @font-face {
  font-family: "MyCustomFont";
- src: url("myriad-set-pro_medium.eot") /* EOT file for IE */
+ src: url("/fonts/myriad-set-pro_medium.eot") /* EOT file for IE */
 }
 /*@font-face {
  font-family: "MyCustomFont";
@@ -35,16 +35,16 @@ body{margin:0;padding:0;width:100%;height:100%;}
 }*/
 @font-face {
    font-family: "Beirut";
- src: url("Beirut.ttf") /* TTF file for CSS3 browsers */
+ src: url("/fonts/Beirut.ttf") /* TTF file for CSS3 browsers */
 }
 @font-face {
 font-family: "Lucida Grande";
- src: url("LucidaGrande.ttf") /* TTF file for CSS3 browsers */
+ src: url("/fonts/LucidaGrande.ttf") /* TTF file for CSS3 browsers */
 }
 
 @font-face {
 font-family: "MyCustomFont";
- src: url("Avenir-Light.ttf") /* TTF file for CSS3 browsers */
+ src: url("/fonts/Avenir-Light.ttf") /* TTF file for CSS3 browsers */
 }
 
 

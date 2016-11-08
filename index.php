@@ -69,7 +69,7 @@ $error = "";
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
  
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   <link rel="shortcut icon" href="">
@@ -176,7 +176,7 @@ $error = "";
           <li class="layer" data-type="background" data-speed="0.2" data-depth="2"><div class="atte"><img src="img/grafikk/prototype4.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
 
 
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="LogoHvitUtenBakgrunn.svg" alt="Webdesign og app utvilking" title=""></div></li>
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="/img/LogoHvitUtenBakgrunn.svg" alt="Webdesign og app utvilking" title=""></div></li>
         </ul>
       </div>
     </article>
@@ -344,7 +344,7 @@ $error = "";
                       </div>
                       <h3>Pakkeløsninger tilpasset ethvert behov</h3>
                       <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
-                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.</p>
+                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  <a href="/webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. <a> </p>
                     </div>
                   </div>
                 </div>
@@ -400,7 +400,7 @@ $error = "";
                       </div>
                     </div>
                     <h3>Vi elsker å leke med digitale byggeklosser.</h3>
-                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.</p>
+                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Her i Goodies er vi lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr på en fornuftig måte. Vi finner de rette rammeverk og designtilnærminger til dine prosjekter og bistår deg med arkitekturavgjørelser underveis for å sørge for at du får alle ønskede funksjoner utviklet på en robust måte. </p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om hvordan vi kan bistå deg med å utvikle mobile applikasjoner.<a href="app_utvikling/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. <a></p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
@@ -429,7 +429,7 @@ $error = "";
                 <div class="row">
                   <div class="col-lg-7 vcenter hidden left z-index" id="markedAni2">
                     <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser.</p>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Vi har god erfaring med de største annonseplattformer og vil hjelpe deg hvert steg på veien i en markedsføringskampanje for å sikre at du oppnår best mulig resultat.</p><p> Kontakt oss for en uforpliktende prat hvor vi kan fortelle deg om våre markedsføringstjenester og priser. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. <a></p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
                 </div>
@@ -488,7 +488,7 @@ $error = "";
                     <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h3>
                     <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.</p>
+                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. <a></p>
                   </div>
                   <div class="col-lg-5 vcenter hidden right" id="hotellAni2">
                     <div class="box5 display2" >
