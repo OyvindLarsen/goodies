@@ -160,14 +160,19 @@ $error = "";
           <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
 
           <li class="layer" data-type="background" data-speed="0.1" data-depth="2"><div class="to"><img src="img/grafikk/header/apple_watch__gold_goodies_logo.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" ></div></li>
-        
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="0.5"><div class="tre"><img src="img/grafikk/header/ipad_barcode_header.png"  alt="App utvikling, iOs app, Android app" title="App utvikling"></div></li>
+          
+          <li class="layer" data-type="background" data-speed="0.2" data-depth="1"><div class="seks"><img src="img/grafikk/header/markedsforing_s7_silver.png"   alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
+
+
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="img/grafikk/Logo.svg" alt="Webdesign og app utvilking" title=""></div></li>
         </ul>
       </div>
     </article>
   </div>   
 
 
-  <div id="about" data-type="background" data-speed="1" class="pages">
+  <div id="about"  class="pages">
     <article>
     
       <div class="fixedbackground menu-slide" >
@@ -278,7 +283,7 @@ $error = "";
             </div>
 
 
-            <div class="row forside hidden" id="skredder" data-type="test2" data-speed="0">
+            <div class="row forside hidden" id="skredder">
               <div id="circle-shape-example"  >
                 <img src="img/Kode.jpg" alt="Skreddersydd webdesign og app utvikling" title="Skreddersydd webdesign og app utvikling" class="curve" id="skredderAni2"  >
                 <div class="para">
@@ -287,7 +292,7 @@ $error = "";
                 </div>
               </div>
             </div>
-            <div class="row forside hidden" id="respons" data-type="test2" data-speed="0">
+            <div class="row forside hidden" id="respons">
               <div id="circle-shape-example">
               <img src="img/grafikk/Responsiv.png" alt="Responsive nettsider" title="Responsive nettsider" class="curve1" id="speiletsirkel">
                  <div class="para" id="responsAni2">
@@ -297,7 +302,7 @@ $error = "";
                 </div>
               </div>
             </div>
-            <div class="row forside hidden" id="vektor" data-type="test2" data-speed="0">
+            <div class="row forside hidden" id="vektor">
               <div id="circle-shape-example"  >
                 <img src="img/grafikk/VektorGrafikk.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" >
                 <div class="para">
@@ -328,7 +333,7 @@ $error = "";
                       </div>
                       <h3>Pakkeløsninger tilpasset ethvert behov</h3>
                       <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
-                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  <a href="/webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. <a> </p>
+                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  <a href="/webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a> </p>
                     </div>
                   </div>
                 </div>
@@ -384,7 +389,7 @@ $error = "";
                       </div>
                     </div>
                     <h3>Applikasjoner og prototyper utviklet med de nyeste metodene.</h3>
-                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. <a></p>
+                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. </a></p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
@@ -413,7 +418,7 @@ $error = "";
                 <div class="row">
                   <div class="col-lg-7 vcenter hidden left z-index" id="markedAni2">
                     <h3>Ta din merkevare til nye høyder.</h3>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p><p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. <a></p>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p><p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a></p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
                 </div>
@@ -472,7 +477,7 @@ $error = "";
                     <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h3>
                     <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. <a></p>
+                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
                   </div>
                   <div class="col-lg-5 vcenter hidden right" id="hotellAni2">
                     <div class="box5 display2" >
