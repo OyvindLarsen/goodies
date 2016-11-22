@@ -60,7 +60,7 @@ $error = "";
 <html lang="en">
 
 <head>
-<title>Goodies Kode og Design. Webdesign, app utvikling, webhotell, SEO og markedsføring</title>
+<title>Goodies   &middot;  Norsk webdesign og app design</title>
 
   <!-- Required meta tags always come first -->
   <meta charset="utf-8">
@@ -76,7 +76,7 @@ $error = "";
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <meta name="description" content="Webdesign og mobil applikasjons utvikling for iPhone iOs og android. Design av nettsider, webhotell, søkemotoroptimalisering og SEO og markedsføring via Google AdWords, Facebook, Snapchat, Instagram og Twitter. Design av app prototyper.">
+  <meta name="description" content="Goodies leverer webdesign og app utvikling for store og små prosjekter. Vi har base i Oslo men dekker hele Norge. Spør oss også om SEO og Markedsføring">
 <meta name="keywords" content="webdesign, design av nettsider, app utvikling, app programmering, iphone app utvikling, android utvikling, markedsføring, seo, søkemotoroptimalisering, webhotell, hosting, SSL sertifikater, VPS servere, rimelig utvikling, rimelig web design, vektor grafikk">
 <meta name="robots" content="index, follow">
 <meta name="web_author" content="Goodies AS, Goodies Kode og Design">
