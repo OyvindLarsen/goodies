@@ -93,7 +93,7 @@ $error = "";
     <button  class="navbar-toggler hidden-xl-up pull-right" type="button" onclick="myFunction()">
       &#9776;
     </button>
-    <a class="navbar-brand pull-xs-left" href="#" id="logo"><h1>Goodies</h1></a>
+    <a class="navbar-brand pull-xs-left" href="#" id="logo"><h2>Goodies</h2></a>
 
 
 
@@ -114,7 +114,7 @@ $error = "";
               <div class="row">
                 <div class="col-md-4" style="padding-left:25px;">
                   <div class="atitle">
-                    <h1>Ta kontakt!</h1>
+                    <h2>Ta kontakt!</h2>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@ $error = "";
               <div class="col-md-4">
                 <div class="center" id="wa1">
                   <div class="atitle">
-                    <h1>Kode &#38 design</h1>
+                    <h2>Kode &#38 design</h2>
                   </div>
                 </div>
               </div>
@@ -287,7 +287,7 @@ $error = "";
               <div id="circle-shape-example"  >
                 <img src="img/Kode.jpg" alt="Skreddersydd webdesign og app utvikling" title="Skreddersydd webdesign og app utvikling" class="curve" id="skredderAni2"  >
                 <div class="para">
-                  <h1>Skreddersøm</h1>
+                  <h2>Skreddersøm</h2>
                   <p>Våre webdesign- og app utviklingstjenester kan skreddersys helt ned til den minste detalj for å etterkomme spesifikke behov. Vi foretrekker å ha en unik tilnærming til alle prosjekter vi påtar oss.</p>
                 </div>
               </div>
@@ -296,7 +296,7 @@ $error = "";
               <div id="circle-shape-example">
               <img src="img/grafikk/Responsiv.png" alt="Responsive nettsider" title="Responsive nettsider" class="curve1" id="speiletsirkel">
                  <div class="para" id="responsAni2">
-                  <h1>Responsive nettsider</h1>
+                  <h2>Responsive nettsider</h2>
                   <p>At en nettside tar seg bra ut, uavhengig av om den åpnes på mobil, nettbrett eller PC er avgjørende for hvordan den enkelte besøkende oppfatter opplevelsen.</p>
                   <p>Goodies vektlegger å utvikle funksjonelle og responsive nettsider som tilpasser seg størrelsen på skjermen, slik at brukeropplevelsen føles kjent ut på tvers av alle plattformer.</p>
                 </div>
@@ -306,7 +306,7 @@ $error = "";
               <div id="circle-shape-example"  >
                 <img src="img/grafikk/VektorGrafikk.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" >
                 <div class="para">
-                  <h1>Vektor grafikk</h1>
+                  <h2>Vektor grafikk</h2>
                   <p>Vi skaper mesteparten av  grafikken til våre web design og app utviklingsprosjekter i et vektorbasert format.  Dette betyr at man kan zoome inn til det uendelige uten å støte på pikseleringen man ofte gjør ved bruk av filformater som er best egnet til fotografier.</p>
                   <p>Derfor vil grafikken vi skaper holde seg  sylskarp uavhengig av hvor stor skjerm den vises på, samtidig som den skalerer ned til en fornuftig størrelse på mindre skjermer.</p>
                 </div>
@@ -327,11 +327,11 @@ $error = "";
                       <div class="row">
                         <div class="col-md-4" style="padding-left:15px;">
                           <div class="atitle">
-                            <h1>Webdesign</h1>
+                            <h2>Webdesign</h2>
                           </div>
                         </div>
                       </div>
-                      <h3>Pakkeløsninger tilpasset ethvert behov</h3>
+                      <h2>Pakkeløsninger tilpasset ethvert behov</h2>
                       <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
                       <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  <a href="/webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a> </p>
                     </div>
@@ -384,11 +384,11 @@ $error = "";
                      <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
-                          <h1>App utvikling og app prototyper</h1>
+                          <h2>App utvikling og app prototyper</h2>
                         </div>
                       </div>
                     </div>
-                    <h3>Applikasjoner og prototyper utviklet med de nyeste metodene.</h3>
+                    <h2>Applikasjoner og prototyper utviklet med de nyeste metodene.</h2>
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. </a></p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
@@ -411,13 +411,13 @@ $error = "";
                   <div class="graf"><img src="img/grafikk/SocialGraf.svg" alt="Markedsføring, digital markerdsføring" title="Markedsføring"></div>
                   <div class="col-md-4 hidden left" id="markedAni">
                     <div class="atitle">
-                      <h1>Markedsføring og SEO</h1>
+                      <h2>Markedsføring og SEO</h2>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-lg-7 vcenter hidden left z-index" id="markedAni2">
-                    <h3>Ta din merkevare til nye høyder.</h3>
+                    <h2>Ta din merkevare til nye høyder.</h2>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p><p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a></p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
@@ -438,11 +438,11 @@ $error = "";
                     <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
-                          <h1>App prototyper</h1>
+                          <h2>App prototyper</h2>
                         </div>
                       </div>
                    </div>
-                    <h3>Få kunder og investorer på din side.</h3>
+                    <h2>Få kunder og investorer på din side.</h2>
                     <p>Om du har en spennende idé til en mobilapplikasjon så er det  viktig å starte produksjon så fort som mulig. Men å legge mye penger i et utviklingsløp uten investorer på laget medfører høy risiko.</p>
                     <p>En pent designet prototype som virker på Android og iPhone telefoner vil ta dager å utvikle. Dette kan gi deg store fordeler når konseptet skal presenteres videre.</p>
                     <p>Ta kontakt for mer informasjon om denne hvordan vi kan lage protyper av dine ideer, og våre priser knyttet til dette.</p>
@@ -470,11 +470,11 @@ $error = "";
                     <div class="row">
                       <div class="col-md-8" style="padding-left:15px;">
                         <div class="atitle">
-                          <h1>Webhotell </h1><div id="mob"><img src="img/grafikk/Plante.svg" alt="Webhotell, Hosting, hostingpakker" title="Webhotell"></div>
+                          <h2>Webhotell </h2><div id="mob"><img src="img/grafikk/Plante.svg" alt="Webhotell, Hosting, hostingpakker" title="Webhotell"></div>
                         </div>
                       </div>
                     </div>
-                    <h3>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h3>
+                    <h2>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h2>
                     <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
                     <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
@@ -482,7 +482,7 @@ $error = "";
                   <div class="col-lg-5 vcenter hidden right" id="hotellAni2">
                     <div class="box5 display2" >
 
-                      <h3 style="color:black"> <span id="lines" style="padding-left: 25px; font-size: 2em; color:black">0</span></h3>
+                      <h2 style="color:black"> <span id="lines" style="padding-left: 25px; font-size: 2em; color:black">0</span></h2>
                       <div id="startpic">
                       </div>
                     </div>
@@ -503,11 +503,11 @@ $error = "";
                     <div class="row">
                       <div class="col-md-8">
                         <div class="atitle">
-                          <h1>Drift</h1>
+                          <h2>Drift</h2>
                         </div>
                       </div>
                     </div>
-                    <h3>Automatiske oppdateringer, så du kan fokusere på innhold</h3>
+                    <h2>Automatiske oppdateringer, så du kan fokusere på innhold</h2>
                     <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma eller drive nettbutikk.</p>
                   </div>
                 </div>
@@ -544,11 +544,11 @@ $error = "";
                   <div class="row">
                     <div class="col-md-8">
                       <div class="atitle">
-                        <h1 id="change">Søkemotoroptimalisering / SEO</h1>
+                        <h2 id="change">Søkemotoroptimalisering / SEO</h2>
                       </div>
                     </div>
                   </div>
-                  <h3>Bli det naturlige førstevalget.</h3>
+                  <h2>Bli det naturlige førstevalget.</h2>
                    <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
                 </div>
                 <div class="col-lg-5 vcenter hidden right" id="seoAni2">
@@ -594,7 +594,7 @@ $error = "";
                   <div class="row">
                     <div class="col-md-4" style="padding-left:15px;">
                       <div class="atitle">
-                        <h1>Om oss</h1>
+                        <h2>Om oss</h2>
                       </div>
                     </div>
                   </div>
