@@ -691,3 +691,63 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+          var waypoint = new Waypoint({
+            element: document.getElementById('hotell'),
+            handler: function() {
+              pictures();
+              numbers();
+              this.destroy();
+            }, offset: '100%'
+          })
+
+  function pictures() {
+    var x=0;
+    var planteArray = new Array();
+    var number = 29;//$("#lines")
+      for (i = 0; i < 4 ; i++) { 
+        $("#startpic").append( '<div class="row" id="hmmm'+i+'"><div class="col-xs-1 no-padding usynlig"></div>');
+          for (y = 0; y < 10 ; y++) {
+              $("#hmmm"+i).append( '<div class="col-xs-1 no-padding usynlig" id="plantefade'+x+'"><img src="img/grafikk/Plante.svg"></div>');
+              planteArray.push(x);
+              
+            x++;
+            if (x > number)  {
+              
+              $("#startpic").append( '</div>');
+              var z = 0;
+              shuffle(planteArray);
+              i++;
+              var display = function() {
+                  e = $("#plantefade"+planteArray[z++]);
+                  e.animate({ opacity: 1 }, 700 );
+                  if (z < number+1) {
+                      
+                      setTimeout(display, 50);
+                  }
+              };
+
+              display();
+             break;
+            }
+
+                     }
+
+        $("#startpic").append( '</div>');
+      }
+    
+     
+  
+ } 
+
+
+//Array shuffler
+
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
+    }
+}

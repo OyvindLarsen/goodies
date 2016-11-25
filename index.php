@@ -230,7 +230,7 @@ $error = "";
         <div class="wrapper">
           <div class="field-wrap" id="wayWeb">
             <div class="checkbox"></div>
-            <p>Nettside
+            <p>Webdesign
             </p>
             <div class=verticaLine></div>
           </div>
@@ -246,30 +246,15 @@ $error = "";
             </p>
             <div class=verticaLine></div>
           </div>
-          <div class="field-wrap" id="wayWeb6">
-            <div class="checkbox"></div>
-            <p>Prototype
-            </p>
-            <div class=verticaLine></div>
-          </div>
-          <div class="field-wrap" id="wayWeb2">
+   
+         
+          <div class="field-wrap" id="wayWeb3">
             <div class="checkbox"></div>
             <p>Webhotell
             </p>
             <div class=verticaLine></div>
           </div>
-          <div class="field-wrap" id="wayWeb3">
-            <div class="checkbox"></div>
-            <p>Drift
-            </p>
-            <div class=verticaLine></div>
-          </div>
-           <div class="field-wrap" id="wayWeb7">
-            <div class="checkbox"></div>
-            <p>SEO
-            </p>
-            <div class=verticaLine></div>
-          </div>
+       
           <div class="field-wrap" id="wayWeb8">
             <div class="checkbox"></div>
             <p>Om oss
@@ -381,7 +366,7 @@ $error = "";
                               <img src="img/grafikk/OnePager.svg" alt="Webdesign Landingsside">
                             </div>
                             <div class="carousel-item">
-                              <img src="img/grafikk/BlogNy.svg" alt="Webdesign Nettbutikk">
+                              <img src="img/grafikk/webshop.svg" alt="Webdesign Nettbutikk">
                             </div>
                           </div>
                           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -454,68 +439,11 @@ $error = "";
               </div>
             </div>
           </div>
-          
-          <div class="products matte2" id ="proto">
-            <div class="container">
-              <div class="font" id="fading-i">
-                <div class="row hey">
-                  <div class="col-lg-7 vcenter col-lg-push-4 hidden top" id="protoAni">
-                    <div class="row">
-                      <div class="col-md-7">
-                        <div class="atitle">
-                          <h2>App prototyper</h2>
-                        </div>
-                      </div>
-                   </div>
-                    <h2>Få kunder og investorer på din side.</h2>
-                    <p>Om du har en spennende idé til en mobilapplikasjon så er det  viktig å starte produksjon så fort som mulig. Men å legge mye penger i et utviklingsløp uten investorer på laget medfører høy risiko.</p>
-                    <p>En pent designet prototype som virker på Android og iPhone telefoner vil ta dager å utvikle. Dette kan gi deg store fordeler når konseptet skal presenteres videre.</p>
-                    <p>Ta kontakt for mer informasjon om denne hvordan vi kan lage protyper av dine ideer, og våre priser knyttet til dette.</p>
-                  </div>
-                  <div class="col-lg-4 vcenter col-lg-pull-7 hidden bottom" id="protoAni2" >
-                    <div class="proimg">
-                      <img src="img/grafikk/prototype1.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper">
-                      <img src="img/grafikk/prototype2.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper">
-                      <img src="img/grafikk/prototype3.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper">
-                      <img src="img/grafikk/prototype4.png" id="cards" alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         
 
 
-          <div class="products way" id ="hotell" >
-            <div class="container">
-              <div class="font">
-                <div class="row">
-                  <div class="col-lg-6 vcenter hidden left" id="hotellAni">
-                    <div class="row">
-                      <div class="col-md-8" style="padding-left:15px;">
-                        <div class="atitle">
-                          <h2>Webhotell </h2><div id="mob"><img src="img/grafikk/Plante.svg" alt="Webhotell, Hosting, hostingpakker" title="Webhotell"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <h2>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h2>
-                    <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
-                    <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
-                  </div>
-                  <div class="col-lg-5 vcenter hidden right" id="hotellAni2">
-                    <div class="box5 display2" >
-
-                      <h2 style="color:black"> <span id="lines" style="padding-left: 25px; font-size: 2em; color:black">0</span></h2>
-                      <div id="startpic">
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+     
 
 
 
@@ -528,12 +456,14 @@ $error = "";
                     <div class="row">
                       <div class="col-md-8">
                         <div class="atitle">
-                          <h2>Drift</h2>
+                          <h2>Webhotell</h2>
                         </div>
                       </div>
                     </div>
-                    <h2>Automatiske oppdateringer, så du kan fokusere på innhold</h2>
-                    <p>Våre driftstjenester sparer deg for tid, og gir deg tryggheten av å ha solide mekanismer som overvåker, sikrer, oppdaterer og tar backup av dine nettsider i henhold til beste praksis. <br><br>På denne måten vil du kunne bruke all din oppmerksomhet på sidens innhold for å oppnå best mulig resultat enten du vil promotere et firma eller drive nettbutikk.</p>
+                     <h2>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h2>
+                    <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
+                    <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
+                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
                   </div>
                 </div>
                 <div class="col-lg-6 vcenter col-lg-pull-5 hidden top" id="driftAni2">
@@ -559,57 +489,7 @@ $error = "";
             <span class="sr-only">Saving. Hang tight!</span>
          </div>
 
-         
-         <div class="products" id ="seo">
-          <div class="container">
-            <div class="font" id="fading-i">
-
-              <div class="row">
-                <div class="col-lg-6 vcenter hidden left" id="seoAni">
-                  <div class="row">
-                    <div class="col-md-8">
-                      <div class="atitle">
-                        <h2 id="change">Søkemotoroptimalisering / SEO</h2>
-                      </div>
-                    </div>
-                  </div>
-                  <h2>Bli det naturlige førstevalget.</h2>
-                   <p>Å optimalisere egne nettsider for optimal synlighet hos de store søkemotorene kan være en utfordring, samtidig vil nettsideeiere fort merke at antall besøkende daler hvis man ikke prioriterer dette.</p><p> De som derimot investerer litt i å sørge for at sidene ikke bare ser pene ut men også er lette å finne, at de fremstilles korrekt i søkeresultater og at siden havner blant de øverste resultatene vil kunne hente ut stor gevinst i form av økt volum.</p><p> Vi ønsker å hjelpe deg med å oppnå best mulig profilering og flest mulig besøkende til din nettside, kontakt oss for en uforpliktende prat om våre SEO tjenester og priser.</p>
-                </div>
-                <div class="col-lg-5 vcenter hidden right" id="seoAni2">
-                  <div class="images">
-                    <img src="img/grafikk/ForstorrelsesGlass.svg" id="fg" alt="SEO, Søkemotoroptimalisering" title="SEO">
-                    <img src="img/grafikk/paralax/SynsprovePlakat.png" id="sp" alt="SEO, Søkemotoroptimalisering" title="SEO">
-                  </div>
-                </div>
-              </div>
-                <div class="row display">
-                  <div class="col-md-11">
-                   <div class="box8">
-                      <div class="row">
-                        <div class="col-md-4">
-                          <p>Første treff på google får:</p>
-                        </div>
-                        <div class="col-md-4">
-                         <p>Andre treff på google får:</p>
-                        </div>
-                        <div class="col-md-4">
-                          <p>De ti første treffene på google får i gjennomsnitt:</p>
-                        </div>
-                      </div>
-                      <canvas id="canvas" width="1000" height="300"></canvas>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <p style="text-align: center;">Av all gjennomklikking trafikk</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-
+       
        
 
           <div class="products way" id ="omoss">

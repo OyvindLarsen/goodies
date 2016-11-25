@@ -215,26 +215,9 @@ window.addEventListener("scroll", function(){
       
     }, offset: '100px'
   })
-  var waypoint = new Waypoint({
-            element: document.getElementById('proto'),
-            handler: function() {
-              $('#wayWeb6').children('.verticaLine').toggleClass('checked');
-              $('#wayWeb6').children('.checkbox').toggleClass('checked');
-              //$('#proto').animate({ backgroundColor: "#C0392B", }, 1000 );
-              
-      }, offset: '100px'
- })
 
-  var waypoint = new Waypoint({
-    element: document.getElementById('hotell'),
-    handler: function() {
-      $('#wayWeb2').children('.verticaLine').toggleClass('checked');
-      $('#wayWeb2').children('.checkbox').toggleClass('checked');
-      //$('#hotell').animate({ backgroundColor: "#446CB3", }, 1000 );
-      
-      
-    }, offset: '100px'
-  })
+
+
 
   var waypoint = new Waypoint({
     element: document.getElementById('drift'),
@@ -246,14 +229,7 @@ window.addEventListener("scroll", function(){
   })
 
 
-  var waypoint = new Waypoint({
-    element: document.getElementById('seo'),
-    handler: function() {
-    $('#wayWeb7').children('.verticaLine').toggleClass('checked');
-      $('#wayWeb7').children('.checkbox').toggleClass('checked');
-    
-      }, offset: '100px'
-  })
+
 
    var waypoint = new Waypoint({
     element: document.getElementById('omoss'),
@@ -292,21 +268,13 @@ $("#wayWeb6").click(function() {
         scrollTop: $("#proto").offset().top    }, 2000);
     return false;
 });
-$("#wayWeb2").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#hotell").offset().top   }, 2000);
-    return false;
-});
+
 $("#wayWeb3").click(function() {
     $('html, body').animate({
         scrollTop: $("#drift").offset().top    }, 2000);
     return false;
 });
-$("#wayWeb7").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#seo").offset().top    }, 2000);
-    return false;
-});
+
 
 $("#wayWeb8").click(function() {
     $('html, body').animate({
@@ -395,31 +363,9 @@ function WidthChange(mq) {
 
             }, offset: '80%'
           })
-          //PROTOTYPING
-          var waypoint = new Waypoint({
-            element: document.getElementById('proto'),
-            handler: function() {
-
-              $('#protoAni').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#protoAni').animate({ top: 0, },{ duration: 1000,  queue: false });
-              $('#protoAni2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#protoAni2').animate({ top: 0,},{ duration: 1000,  queue: false });
-
-            }, offset: '80%'
-          })
-          //WEBHOTELL
-          var waypoint = new Waypoint({
-            element: document.getElementById('hotell'),
-            handler: function() {
-              $('#hotellAni').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#hotellAni').animate({ left: 0, },{ duration: 1000,  queue: false });
-              $('#hotellAni2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#hotellAni2').animate({ left: 0, },{ duration: 1000,  queue: false });
-              
-            }, offset: '80%'
-          })
           
-          //DRIFT
+          
+          //Webhotell
            var waypoint = new Waypoint({
             element: document.getElementById('drift'),
             handler: function() {
@@ -431,18 +377,7 @@ function WidthChange(mq) {
           })
 
           //SØKEMOTOROPTIMALISERING
-           var waypoint = new Waypoint({
-            element: document.getElementById('seo'),
-            handler: function() {
-       
-              
-              $('#seoAni').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#seoAni').animate({ left: 0, },{ duration: 1000,  queue: false });
-              $('#seoAni2').animate({ opacity: 1, },{ duration: 1000,  queue: false });
-              $('#seoAni2').animate({ left: 0,},{ duration: 1000,  queue: false });
 
-            }, offset: '80%'
-          })
            /*
            var waypoint = new Waypoint({
           element: document.getElementById('seo'),
@@ -473,7 +408,7 @@ function WidthChange(mq) {
             });
       });
 
-      $("#change").html("SEO")
+     
 
   }
 
@@ -563,14 +498,6 @@ $("form").submit(function (e) {
       });
 
 //Planteanimasjon
-          var waypoint = new Waypoint({
-            element: document.getElementById('hotell'),
-            handler: function() {
-              pictures();
-              numbers();
-              this.destroy();
-            }, offset: '100%'
-          })
 
 
 //breakdown the labels into single character spans
@@ -643,57 +570,7 @@ $('#lines').animateNumber(
 
 }
 //trær plantet animasjon bilde
-  function pictures() {
-    var x=0;
-    var planteArray = new Array();
-    var number = 29;//$("#lines")
-      for (i = 0; i < 4 ; i++) { 
-        $("#startpic").append( '<div class="row" id="hmmm'+i+'"><div class="col-xs-1 no-padding usynlig"></div>');
-          for (y = 0; y < 10 ; y++) {
-              $("#hmmm"+i).append( '<div class="col-xs-1 no-padding usynlig" id="plantefade'+x+'"><img src="img/grafikk/Plante.svg"></div>');
-              planteArray.push(x);
-              
-            x++;
-            if (x > number)  {
-              
-              $("#startpic").append( '</div>');
-              var z = 0;
-              shuffle(planteArray);
-              i++;
-              var display = function() {
-                  e = $("#plantefade"+planteArray[z++]);
-                  e.animate({ opacity: 1 }, 700 );
-                  if (z < number+1) {
-                      
-                      setTimeout(display, 50);
-                  }
-              };
 
-              display();
-             break;
-            }
-
-                     }
-
-        $("#startpic").append( '</div>');
-      }
-    
-     
-  
- } 
-
-
-//Array shuffler
-
-function shuffle(a) {
-    var j, x, i;
-    for (i = a.length; i; i--) {
-        j = Math.floor(Math.random() * i);
-        x = a[i - 1];
-        a[i - 1] = a[j];
-        a[j] = x;
-    }
-}
 /*
 //Canvas animasjon SEO
 function canvas () {
