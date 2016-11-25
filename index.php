@@ -350,7 +350,7 @@ $error = "";
                 <div class="row">
                   <div class="">
                     <div class="col-md-12 hidden right image no-padding" id="nettAni2">
-                    <img  src="img/grafikk/iMacBlog.png" alt="Webdesign" title="Webdesign">
+                    <img  src="img/grafikk/iMac.svg" alt="Webdesign" title="Webdesign">
                     <div class="carouselle">
                       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                           <ol class="carousel-indicators">
@@ -360,7 +360,7 @@ $error = "";
                           </ol>
                           <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                              <img src="img/grafikk/BlogNy.svg" alt="Webdesign Blog">
+                              <iframe src="http://www.autofixmoss.no"></iframe>
                             </div>
                             <div class="carousel-item">
                               <img src="img/grafikk/OnePager.svg" alt="Webdesign Landingsside">
