@@ -23,7 +23,7 @@
   /*############### Notifications ###############*/
   /*############### scrollbar ###############*/
 /*############### Body/fonter ###############*/
-body{margin:0;padding:0;width:100%;height:100%;}
+body{margin:0;padding:0;width:100%;height:100%;overflow-x: hidden;}
 
 @font-face {
  font-family: "MyCustomFont";
@@ -234,26 +234,36 @@ font-weight: 100;
   font-size: 0.5em;
   letter-spacing: 2px;
 }
+ /*############### Jumbotron ###############*/
 
+.jumbo {
+  display:block;
+  position: relative;
+  top:90%;
+  z-index: 2;
+}
 
+.jumbo .font {
+  color:black;
+}
 
+.jumbo .font p {
+  color:black;
+  font-size: 1.5em;
+}
 
 
  /*############### kode & design ###############*/
 #kodedesign {
  
   background-color: #404040;
-  
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 
 .center {
   text-align: center;
 }
-
-
-
 
 /*############### Nettside ###############*/
 
@@ -616,7 +626,8 @@ a {
 
 @media (min-width: 770px) {
   .logo1 {
-  position:absolute;
+
+      position:absolute;
   width:100%;
   left:50%;
   top:25%;
