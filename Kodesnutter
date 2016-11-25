@@ -691,6 +691,3 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-.display {
-  display: none;
-}
