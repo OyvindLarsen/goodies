@@ -172,12 +172,13 @@ $error = "";
             <div class="container">
           
              <div class="jumbotron font">
-                <br><br><br><br><br><br><br><br><br>
-                <h2 class="display-3">Kode &#38 design</h2>
+                <br><br><br><br>
+                <h1 class="display-3">Kode &#38 design</h1>
                 <br>
-                <p >This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p >Goodies er et selskap som leverer et bredt spekter av tjenester. Vi har klart flest kunder på webdesign og app utvikling for alle plattformer men vi har også en økende kundemasse når det kommer til våre webhotell, SEO og markedsføringstjenester.</p>
                 <hr class="my-2">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>Under finner du mer informasjon om våre arbeidsverktøy og lenger ned på siden vil du få all info du måtte trenge om hvordan vi utvikler våre websider og apper, samt kostnadene knyttet til våre SEO og Markedsføringstjenester.<br></p>
+                <p class="small">Vi  håper at du får svar på alt du lurer på når du leser deg igjennom våre sider, men dersom du skulle lure på noe så må du for all del ikke nøle med å ta kontakt med oss enten via post@goodies.no eller via vårt kontaktskjema som du alltid finner tilgjengelig som en knapp helt til venstre på vår nettside.</p>
                 
              </div>
              </div>

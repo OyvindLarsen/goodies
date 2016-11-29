@@ -250,8 +250,24 @@ font-weight: 100;
 
 .jumbo .font p {
   color:#CFE4D7;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
+
+.jumbo .font .small {
+  color:#CFE4D7;
+  font-size: 1em!important;
+}
+
+.jumbo .font h1 {
+  color:#CFE4D7;
+  font-size: 2em;
+}
+.jumbo .font h2 {
+  color:#CFE4D7;
+  font-size: 1.0em;
+}
+
+
 
 .jumbotron {
   background-color: #3D4C42;
