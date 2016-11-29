@@ -59,9 +59,9 @@ font-family: "MyCustomFont";
   
   position:relative;
   width:100%;
-  height:auto;
+  height:100%;
   margin: 0 auto; 
-  z-index:3;
+  z-index:20;
   
    
 }
@@ -69,6 +69,7 @@ font-family: "MyCustomFont";
 #home ul {
   padding:0;
   margin:0;
+  z-index:5;
 
 }
 #home ul li {
@@ -174,11 +175,12 @@ background-size:100% auto;
   font-size: 1.5em;
   padding-top: 200px;
   padding-bottom: 200px;
+   z-index:3;
   
 }
 
 .forside {
-  padding-top: 250px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -190,7 +192,7 @@ background-size:100% auto;
     
 
 }
-.vcenter {<
+.vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
@@ -890,7 +892,7 @@ margin-right:10rem;
       }
 */
     .products{
-   
+    z-index:3;
     padding-top:200px;
     
     padding-left: 10px;
@@ -1029,7 +1031,7 @@ margin-right:10rem;
     }
 
     .products{
-   
+     z-index:3;
     padding-top:50px;
     padding-bottom:50px;
     
