@@ -286,15 +286,6 @@ $error = "";
         <div class="products font" id= "kodedesign">
           <div class="container">
        
-            <div class="row forside">
-              <div class="col-md-4">
-                <div class="center" id="wa1">
-                  <div class="atitle">
-                    <h2>Kode &#38 design</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
 
 
             <div class="row forside hidden" id="skredder">
