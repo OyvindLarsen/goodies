@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="441" height="154" viewBox="0 0 441 154" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="35" height="12" rx="2"/>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.282352941 0 0 0 0 0 0 0 0 0 0.988235294 0 0 0 0.4 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 2)">
+    <g fill="#615C6A" fill-opacity=".2" transform="translate(48 26)" opacity=".2">
+      <rect width="29.325" height="114"/>
+      <rect width="29.325" height="114" x="60"/>
+      <rect width="29.325" height="114" x="120"/>
+      <rect width="29.325" height="114" x="179"/>
+      <rect width="29.325" height="114" x="239"/>
+      <rect width="29.325" height="114" x="299"/>
+    </g>
+    <g stroke="#615C6B" stroke-opacity=".2" transform="translate(30 48)" stroke-linecap="square" opacity=".3">
+      <path stroke-width=".5" d="M.498759305.5L360 2M3.49875931 22.5L364 22.5M3.49875931 44.5L363 44.5M3.49875931 69.5L363 69.5"/>
+      <path d="M3.49875931,91.5 L401.5,91.5"/>
+    </g>
+    <g transform="translate(13 20)">
+      <g fill="#FFFFFF" font-family=".AppleSystemUIFont" opacity=".7">
+        <text font-size="7">
+          <tspan x="0" y="7">NOK</tspan>
+        </text>
+        <text font-size="4">
+          <tspan x="3" y="12">(mm)</tspan>
+        </text>
+        <text font-size="7">
+          <tspan x="8" y="120">0</tspan>
+        </text>
+        <text font-size="7">
+          <tspan x="5" y="94">50</tspan>
+        </text>
+        <text font-size="7">
+          <tspan x="1" y="72">100</tspan>
+        </text>
+        <text font-size="7">
+          <tspan x="1" y="50">150</tspan>
+        </text>
+        <text font-size="7">
+          <tspan x="1" y="28">200</tspan>
+        </text>
+      </g>
+      <rect width="39" height="57" x="377" y="63" fill="#F26C4F" opacity=".5"/>
+      <text fill="#FFFFFF" opacity=".7" font-family=".AppleSystemUIFont" font-size="7">
+        <tspan x="386" y="76">99.999</tspan> <tspan x="386" y="84">(+0.02)</tspan>
+      </text>
+      <rect width="39" height="57" x="377" y="6" fill="#913BAF" opacity=".5"/>
+      <text fill="#FFFFFF" opacity=".7" font-family=".AppleSystemUIFont" font-size="7">
+        <tspan x="386" y="25">99.999</tspan> <tspan x="386" y="33">(+0.02)</tspan>
+      </text>
+      <g fill="#FFFFFF" transform="translate(20 123)" font-size="7" font-family=".AppleSystemUIFont" opacity=".7">
+        <text>
+          <tspan x="0" y="7">Oct</tspan>
+        </text>
+        <text>
+          <tspan x="27" y="7">Nov</tspan>
+        </text>
+        <text>
+          <tspan x="57" y="7">Dec</tspan>
+        </text>
+        <text>
+          <tspan x="86" y="7">Jan`15</tspan>
+        </text>
+        <text>
+          <tspan x="122" y="7">Feb</tspan>
+        </text>
+        <text>
+          <tspan x="151" y="7">Mar</tspan>
+        </text>
+        <text>
+          <tspan x="179" y="7">Apr</tspan>
+        </text>
+        <text>
+          <tspan x="206" y="7">May</tspan>
+        </text>
+        <text>
+          <tspan x="236" y="7">Jun</tspan>
+        </text>
+        <text>
+          <tspan x="264" y="7">Jul</tspan>
+        </text>
+        <text>
+          <tspan x="289" y="7">Aug</tspan>
+        </text>
+        <text>
+          <tspan x="319" y="7">Sep</tspan>
+        </text>
+        <text>
+          <tspan x="348" y="7">Oct</tspan>
+        </text>
+      </g>
+    </g>
+    <use fill="black" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#4E5FD3" xlink:href="#b"/>
+    <text fill="#FFFFFF" font-family=".AppleSystemUIFont" font-size="6">
+      <tspan x="6" y="8">Salg</tspan>
+    </text>
+    <g transform="translate(309 6)">
+      <text fill="#ADA5BE" font-family=".AppleSystemUIFont" font-size="6">
+        <tspan x="12" y="7">Facebook</tspan>
+      </text>
+      <circle cx="4" cy="4.5" r="4" fill="#913BAF"/>
+      <text fill="#ADA5BE" font-family=".AppleSystemUIFont" font-size="6">
+        <tspan x="59" y="7">Twitter</tspan>
+      </text>
+      <circle cx="51" cy="4.5" r="4" fill="#D52D88"/>
+      <text fill="#ADA5BE" font-family=".AppleSystemUIFont" font-size="7">
+        <tspan x="103" y="7">Google</tspan>
+      </text>
+      <circle cx="95" cy="4.5" r="4" fill="#F26D4F"/>
+    </g>
+  </g>
+</svg>
