@@ -47,8 +47,8 @@ $('#scene').parallax({
   limitY: false,
   scalarX: 5,
   scalarY: 5,
-  frictionX: .5,
-  frictionY: .5,
+  frictionX: 1,
+  frictionY: 1,
   originX: 0.0,
   originY: 0.0
 });

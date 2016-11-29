@@ -157,9 +157,9 @@ $error = "";
           <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="fire"></div></li>
    
           
-          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
+          
 
-          <li class="layer" data-type="background" data-speed="0.1" data-depth="2"><div class="to"><img src="img/grafikk/header/apple_watch__gold_goodies_logo.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" ></div></li>
+          <li class="layer" data-type="background" data-speed="0.1" data-depth="1.7"><div class="to"><img src="img/grafikk/header/apple_watch__gold_goodies_logo.png" alt="Vektor grafikk" title="Vektor Grafikk" class="curve2" id="vektorAni2" ></div></li>
             <li class="layer" data-type="background" data-speed="0" data-depth="0">        
             <div class="jumbo">
             <div class="container">
@@ -179,7 +179,7 @@ $error = "";
           <li class="layer" data-type="background" data-speed="0.2" data-depth="0.5"><div class="tre"><img src="img/grafikk/header/ipad_barcode_header.png"  alt="App utvikling, iOs app, Android app" title="App utvikling"></div></li>
           
           <li class="layer" data-type="background" data-speed="0.2" data-depth="1"><div class="seks"><img src="img/grafikk/header/markedsforing_s7_silver.png"   alt="App prototyper, ios app prototype, android app prototype, iphone app prototype" title="App prototyper"></div></li>
-
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
 
           <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="img/grafikk/Logo.svg" alt="Webdesign og app utvilking" title=""></div></li>
 

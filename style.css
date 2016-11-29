@@ -1413,12 +1413,12 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
 
   .to {
     position: absolute;
-    left:7%;
-    top:9%;
+    left:25%;
+    top:17%;
 
   }
   .to img{
-    width: 35%;
+    width: 23%;
 
   }
 
@@ -1436,8 +1436,8 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
 
     .seks {
       position: absolute;
-      top:-10%;
-      left:75%;
+      top:7%;
+      left:68%;
     }
     .seks img {
       width:45%;
