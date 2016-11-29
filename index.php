@@ -503,15 +503,15 @@ $error = "";
                   <div class="row">
                     <div class="col-md-4" style="padding-left:15px;">
                       <div class="atitle">
-                        <h2>Om oss</h2>
+                        <h2>Om Goodies AS</h2>
                       </div>
                     </div>
                   </div>
-                  <p>Goodies er et firma med hovedfokus på Web Design samt web- og mobilapplikasjonsutvikling. 
-                  Vårt mål er å levere kosteffektive, elegante og funksjonelle løsninger.</p>
-                  <p>Vi er et lite og nyopprettet firma, og det gjør vi til vår styrke ved å tilby et høyt nivå av fleksibilitet.
-                  Kapasitetsmessig er vi i stand til å håndtere både små oppdrag - som gjerne er unnagjort på en uke, eller to, - så vel som større oppdrag som går over flere uker og måneder. </p>
-                  <p>Ved å benytte vårt kontaktnett av erfarne frilansere kan vi lett øke kapasitet ved behov, uten at det påvirker kvaliteten i våre leveranser. Kundetilfredshet er avgjørende for oss og vi vil strekke oss langt for å sørge for at våre kunder sitter igjen med en følelse av å ha fått mer enn hva man har betalt for.</p>
+                  <p>Vi er et lite og entusiastisk webdesign og apputviklingsbyrå.  Vi er svært allsidige og kan levere alt i fra enkle nettsider og nettbutikker til større web applikasjoner samt native applikasjoner til iOS og Android. Vi kan også lage flotte app-prototyper for deg om du har en idé som du vil demonstrere med en stilig prototype.</p>
+
+                  <p>I tillegg til app utvikling og webdesign så leverer vi alle typer tjenester og rådgivning i forbindelse med digital markedsføring og SEO (søkemotor optimalisering) så om du trenger bistand til å øke antall besøkende til nettsiden din eller omsetning for bedriften din så har vi mange gode tips å bistå deg med.</p>
+
+                  <p>Vi tilbyr også rimelige og stabile webhotell løsninger for alle som måtte ønske det, så enten du trenger å drifte en liten wordpress nettside eller trenger å leie dedikerte servere til tyngre applikasjoner så vil vi kunne tilby svært gunstige priser i et datasenter som drives av 100% «grønn» energi.</p>
                 </div>
               </div>
             </div>
