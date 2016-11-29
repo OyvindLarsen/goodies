@@ -254,13 +254,13 @@ font-weight: 100;
 }
 
 .jumbotron {
-  background-color: white;
+  background-color: #3D4C42;
 }
 
  /*############### kode & design ###############*/
 #kodedesign {
  
-  background-color: black;
+  background-color: #2d2d2d;
    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
