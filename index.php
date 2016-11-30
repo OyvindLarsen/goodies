@@ -199,7 +199,7 @@ $error = "";
               <form method="post" class="flp">
                 <fieldset class="form-group">
                   <input type="email" id="email" name="email" class="form-control">
-                  <label for="email">E-post adresse</label>
+                  <label for="email">Epostadresse</label>
                   <small class="text-muted">Vi deler ingen epostadresser.</small>
                 </fieldset>
 
