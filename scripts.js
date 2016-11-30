@@ -134,8 +134,7 @@ window.addEventListener("scroll", function(){
 //meny-slide animasjon
     function myFunction2() {
     var e = $(".menu-slide");
-    
-    
+        
     var m = $("#nothing")
 
     

@@ -525,9 +525,9 @@ $error = "";
     </article>
   </div>
 
-<div id="footer" data-type="background" data-speed="0.9" class="pages" onclick="lukkMeny()"> 
+<div id="footer" data-type="background" data-speed="0.9" class="pages menu-slide" onclick="lukkMeny()"> 
   <article>
-    <div class="container menu-slide"> 
+    <div class="container"> 
 
       <div class="col-xl-5">
         <div class="frame font">
