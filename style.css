@@ -800,7 +800,7 @@ margin-right:10rem;
 
 
   .tre img {
-    width:600px;
+    width:80%;
   }
     .para p {
       width:100%!important;
@@ -957,9 +957,7 @@ margin-right:10rem;
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
  
-  .tre img {
-    width:300px;
-  }
+ 
   #kodedesign {
       padding-top: 1150px;
       padding-bottom: 50px;
@@ -1537,4 +1535,8 @@ background: radial-gradient(ellipse at center, rgba(13,13,13,0.06) 0%, rgba(16,1
 
 
 
+  }
+
+  .z-index {
+    z-index:5;
   }
