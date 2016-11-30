@@ -134,7 +134,8 @@ window.addEventListener("scroll", function(){
 //meny-slide animasjon
     function myFunction2() {
     var e = $(".menu-slide");
-    var p = $("#page-content-wrapper");
+    
+    
     var m = $("#nothing")
 
     
@@ -174,9 +175,11 @@ window.addEventListener("scroll", function(){
     var e = $(".fixedbackground");
     if(e.is(':visible')) {
       e.hide();
+      $(".navbar").addClass("navbar1");
     } else {
       e.show();
-      $(".logo").hide()
+      $(".logo").hide();
+      $(".navbar").removeClass("navbar1");
       
 
     }

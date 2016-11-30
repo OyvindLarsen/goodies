@@ -88,9 +88,9 @@ $error = "";
 
 <body   data-spy="scroll" data-target="#navbar-example" data-offset="50">
 
-  <nav class="navbar navbar-light bg-faded navbar-fixed-top navbar-right nav-down" id="navbar-example">
+  <nav class="navbar navbar1 navbar-light bg-faded navbar-fixed-top navbar-right nav-down" id="navbar-example">
 
-    <button  class="navbar-toggler hidden-xl-up pull-right" type="button" onclick="myFunction()">
+    <button  class="navbar-toggler hidden-xl-up pull-left btncolor" type="button" onclick="myFunction()">
       &#9776;
     </button>
     <a class="navbar-brand pull-xs-left" href="#" id="logo"><h2>Goodies</h2></a>
@@ -98,111 +98,7 @@ $error = "";
 
 
   </nav>
-   <div id="loader-wrapper" class="loader-wrapper">
-       <div id="loader" class="loader"></div>
-       <div class="loader-section section-left"></div>
-       <div class="loader-section section-right"></div>
-  </div>
-
-
-  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="row">
-                <div class="col-md-4" style="padding-left:25px;">
-                  <div class="atitle">
-                    <h2>Ta kontakt!</h2>
-                  </div>
-                </div>
-              </div>
-              <div id="error"><? echo $outputMessage; ?></div>   
-              <form method="post" class="flp">
-                <fieldset class="form-group">
-                  <input type="email" id="email" name="email" class="form-control">
-                  <label for="email">E-post adresse</label>
-                  <small class="text-muted">Vi deler ingen epostadresser.</small>
-                </fieldset>
-
-                <fieldset class="form-group">
-                  <input type="text" id="subject" name="subject" class="form-control">
-                  <label for="subject">Emne</label>
-                </fieldset>
-                
-                <fieldset class="form-group">
-                  <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
-                  <label for="content">Hva lurer du på?</label>
-                </fieldset>
-
-                <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
-              </form>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-  
-
-  <div id="home" onclick="lukkMeny()" data-type="" data-speed="0" class="pages">     
-    <article>
-
-      <div id="logo1">
-        <ul id="scene" >
-          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="fire"></div></li>
-   
-          
-          
-
-         
-      
-          
-          
-         
-          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
-
-
-                <li class="layer" data-type="background" data-speed="0" data-depth="0">        
-            <div class="jumbo">
-            <div class="container">
-          
-             <div class="jumbotron font">
-                <br><br><br><br>
-                <div class="atitle" style="width:280px;">
-                            <h1 class="display-3">Kode &#38 design</h1>
-                          </div>
-                
-                <br>
-                <p >Goodies er et digitalt byrå som leverer et bredt spekter av tjenester. 
-                 Tjenestekatalogen vår er plukket ut basert på lang erfaring innen design- og merkevarebygging , samt netthandel. Vi tilby et tjenestespekter som komplementeres på med en logisk tilnærming. Vi har flest kunder på webdesign og app utvikling, men vi har også en økende kundemasse når det kommer til våre webhotell, SEO og markedsføringstjenester. <p>Slike tjenester baker vi nå inn fra starten av på et prosjekt, så lenge det er avklart på forhånd - naturligvis :), men nettopp dette har mye å si på hvor stor retur du får på investeringen du gjør innen digital markedsføring og SEO. Det lønner seg alltid å fokusere på SEO investeringer og markedsføringsbudsjetter fra første dag.</p>
-                <hr class="my-2">
-                <p>Under finner du mer informasjon om våre arbeidsverktøy og lenger ned på siden vil du få all info du måtte trenge om hvordan vi utvikler våre websider og apper, samt kostnadene knyttet til våre SEO og Markedsføringstjenester.<br></p>
-                <p class="small">Vi  håper at du får svar på alt du lurer på når du leser deg igjennom våre sider, men dersom du skulle lure på noe så må du for all del ikke nøle med å ta kontakt med oss enten via post@goodies.no eller via vårt kontaktskjema som du alltid finner tilgjengelig som en knapp helt til venstre på vår nettside.</p>
-                
-             </div>
-             </div>
-            </div>
-          </li>
-           <li class="layer" data-type="background" data-speed="0.2" data-depth="0.5"><div class="tre"><img src="img/grafikk/header/ipad_barcode_header.png"  alt="App utvikling, iOs app, Android app" title="App utvikling"></div></li>
-          <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="img/grafikk/Logo.svg" alt="Webdesign og app utvilking" title=""></div></li>
-
-        
-        </ul>
-
-</div>
-    </article>
-  </div>   
-
-
-  <div id="about" class="pages">
-    <article>
-    
-      <div class="fixedbackground menu-slide" >
+  <div class="fixedbackground menu-slide" >
         <div id="nothing"></div>
         <div class="cog2"  onclick="myFunction2()">
           <div class="vertical" ><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -279,6 +175,104 @@ $error = "";
         </div>
       </div>
     </div>
+   <div id="loader-wrapper" class="loader-wrapper">
+       <div id="loader" class="loader"></div>
+       <div class="loader-section section-left"></div>
+       <div class="loader-section section-right"></div>
+  </div>
+
+
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-4" style="padding-left:25px;">
+                  <div class="atitle">
+                    <h2>Ta kontakt!</h2>
+                  </div>
+                </div>
+              </div>
+              <div id="error"><? echo $outputMessage; ?></div>   
+              <form method="post" class="flp">
+                <fieldset class="form-group">
+                  <input type="email" id="email" name="email" class="form-control">
+                  <label for="email">E-post adresse</label>
+                  <small class="text-muted">Vi deler ingen epostadresser.</small>
+                </fieldset>
+
+                <fieldset class="form-group">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject">Emne</label>
+                </fieldset>
+                
+                <fieldset class="form-group">
+                  <textarea class="form-control" type="text" id="content" name="content" rows="3"></textarea>
+                  <label for="content">Hva lurer du på?</label>
+                </fieldset>
+
+                <button type="submit" id ="submitButton" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="home" onclick="lukkMeny()" data-type="" data-speed="0" class="pages menu-slide">     
+    <article>
+
+      <div id="logo1">
+        <ul id="scene" >
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="fire"></div></li>
+
+         
+          <li class="layer" data-type="background" data-speed="-0.4" data-depth="0"><div class="front1"></div></li>
+
+
+                <li class="layer" data-type="background" data-speed="0" data-depth="0">        
+            <div class="jumbo">
+            <div class="container">
+          
+             <div class="jumbotron font">
+                <br><br><br><br>
+                <div class="atitle" style="width:280px;">
+                            <h1 class="display-3">Kode &#38 design</h1>
+                          </div>
+                
+                <br>
+                <p >Goodies er et digitalt byrå som leverer et bredt spekter av tjenester. 
+                 Tjenestekatalogen vår er plukket ut basert på lang erfaring innen design- og merkevarebygging , samt netthandel. Vi tilby et tjenestespekter som komplementeres på med en logisk tilnærming. Vi har flest kunder på webdesign og app utvikling, men vi har også en økende kundemasse når det kommer til våre webhotell, SEO og markedsføringstjenester. <p>Slike tjenester baker vi nå inn fra starten av på et prosjekt, så lenge det er avklart på forhånd - naturligvis :), men nettopp dette har mye å si på hvor stor retur du får på investeringen du gjør innen digital markedsføring og SEO. Det lønner seg alltid å fokusere på SEO investeringer og markedsføringsbudsjetter fra første dag.</p>
+                <hr class="my-2">
+                <p>Under finner du mer informasjon om våre arbeidsverktøy og lenger ned på siden vil du få all info du måtte trenge om hvordan vi utvikler våre websider og apper, samt kostnadene knyttet til våre SEO og Markedsføringstjenester.<br></p>
+                <p class="small">Vi  håper at du får svar på alt du lurer på når du leser deg igjennom våre sider, men dersom du skulle lure på noe så må du for all del ikke nøle med å ta kontakt med oss enten via post@goodies.no eller via vårt kontaktskjema som du alltid finner tilgjengelig som en knapp helt til venstre på vår nettside.</p>
+                
+             </div>
+             </div>
+            </div>
+          </li>
+           <li class="layer" data-type="background" data-speed="0.2" data-depth="0.5"><div class="tre"><img src="img/grafikk/header/ipad_barcode_header.png"  alt="App utvikling, iOs app, Android app" title="App utvikling"></div></li>
+          <li class="layer" data-type="background" data-speed="0.7" data-depth="0"><div class="logo1"><img id="logo5" src="img/grafikk/Logo.svg" alt="Webdesign og app utvilking" title=""></div></li>
+
+        
+        </ul>
+
+</div>
+    </article>
+  </div>   
+
+
+  <div id="about" class="pages">
+    <article>
+    
+      
     
 
       
