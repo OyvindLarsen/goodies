@@ -155,11 +155,11 @@ background-size:100% auto;
 .hidden{
   opacity:0;
 }
-.right {
+.rightAni {
   left:50px;
 }
 
-.left {
+.leftAni {
   left:-50px;
 }
 
@@ -277,7 +277,7 @@ font-weight: 100;
 
  /*############### kode & design ###############*/
 #kodedesign {
- padding-top: 550px;
+ padding-top: 800px;
   background-color: #4C3D3D;
    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
@@ -589,6 +589,18 @@ a {
 /*############### Media/responsivitet fullskjerm ###############*/
 
 @media (min-width: 770px) {
+      .tre {
+      position: relative;
+      top:75%;
+      left:50%;
+      
+    }
+
+    .tre img {
+    width: 50%;
+     -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+    }
   .logo1 {
 
       position:absolute;
@@ -802,15 +814,13 @@ margin-right:10rem;
 
 @media only screen and (max-width: 770px) {
   #kodedesign {
-     padding-top: 850px;
+     padding-top: 1200px;
       padding-bottom: 50px;
   }
 
 
 
-  .tre img {
-    width:80%;
-  }
+
     .para p {
       width:100%!important;
     }
@@ -958,17 +968,41 @@ margin-right:10rem;
   left:60%;
   display: none;
 }
-
+   .tre {
+      position: relative;
+      top:45%;
+      left:50%;
+     }
+     
+     .tre img {
+      width: 80%;
+       -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+     }
 
 
 
 }
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
- 
+   .tre {
+      position: relative;
+      top:45%;
+      left:50%;
+     }
+
+     .tre img {
+      width: 80%;
+       -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+     }
+
+     #home{
+      height:50%;
+     }
  
   #kodedesign {
-      padding-top: 1150px;
+      padding-top: 1400px;
       padding-bottom: 50px;
     }
   .display2 {
@@ -979,7 +1013,7 @@ margin-right:10rem;
     opacity: 1;
   }
 
-  .left {
+  .leftAni {
     left:0;
   }
 
@@ -1465,18 +1499,7 @@ section.page:not(.focus):not(:hover)::-webkit-scrollbar {
 
   }
 
-    .tre {
-      position: relative;
-      top:75%;
-      left:50%;
-      
-    }
 
-    .tre img {
-    width: 800px;
-     -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-    }
 
 
     .seks {

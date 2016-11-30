@@ -696,3 +696,9 @@ function canvas () {
 }
 
 */
+height();
+function height() {
+  var divHeight = $(".jumbo").height();
+  $('#kodedesign').css("padding-top", divHeight);
+
+}

@@ -328,7 +328,7 @@ $error = "";
           <div class="products way" id="nettside">
             <div class="container">   
                <div class="row" >
-                  <div class="col-md-12 hidden left" id="nettAni">
+                  <div class="col-md-12 hidden leftAni" id="nettAni">
                     <div class="font" >
                       <div class="row">
                         <div class="col-md-4" style="padding-left:15px;">
@@ -345,7 +345,7 @@ $error = "";
                 </div>
                 <div class="row">
                   <div class="">
-                    <div class="col-md-12 hidden right image no-padding" id="nettAni2">
+                    <div class="col-md-12 hidden rightAni image no-padding" id="nettAni2">
                     <img  src="img/grafikk/iMac.svg" alt="Webdesign" title="Webdesign">
                     <div class="carouselle font">
                       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -423,14 +423,14 @@ $error = "";
               <div class="font" id="fading-i">
                 <div class="row">
                   <div class="graf"><img src="img/grafikk/SocialGraf.svg" alt="Markedsføring, digital markerdsføring" title="Markedsføring"></div>
-                  <div class="col-md-4 hidden left" id="markedAni">
+                  <div class="col-md-4 hidden leftAni" id="markedAni">
                     <div class="atitle">
                       <h2>Markedsføring og SEO</h2>
                     </div>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-lg-7 vcenter hidden left z-index" id="markedAni2">
+                  <div class="col-lg-7 vcenter hidden leftAni z-index" id="markedAni2">
                     <h2>Ta din merkevare til nye høyder.</h2>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p><p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a></p>
                   </div>
