@@ -359,7 +359,7 @@ $error = "";
                               <iframe src="http://www.autofixmoss.no"></iframe>
                             </div>
                             <div class="carousel-item">
-                              <img src="img/grafikk/OnePager.svg" alt="Webdesign Landingsside">
+                              <iframe src="http://www.michelberg.dk"></iframe>
                             </div>
                             <div class="carousel-item">
                               <img src="img/grafikk/webshop.svg" alt="Webdesign Nettbutikk">
