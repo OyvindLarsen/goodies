@@ -292,6 +292,7 @@ WidthChange(mq);
 
 // media query change
 function WidthChange(mq) {
+  height();
   if (mq2.matches) {
         //KUN FULLBREDDE ANIMASJONER OVER 770px. Alle andre enheter enn telefoner.
 
@@ -696,7 +697,7 @@ function canvas () {
 }
 
 */
-height();
+
 function height() {
   var divHeight = $(".jumbo").height();
   $('#kodedesign').css("padding-top", divHeight);

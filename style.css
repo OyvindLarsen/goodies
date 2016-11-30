@@ -597,7 +597,7 @@ a {
     }
 
     .tre img {
-    width: 50%;
+    width: 800px;
      -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
     }
@@ -970,7 +970,7 @@ margin-right:10rem;
 }
    .tre {
       position: relative;
-      top:45%;
+      top:65%;
       left:50%;
      }
      
@@ -979,12 +979,16 @@ margin-right:10rem;
        -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
      }
-
+       #home {
+    height:75%;
+   }
 
 
 }
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
+
+
    .tre {
       position: relative;
       top:45%;

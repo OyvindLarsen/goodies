@@ -173,7 +173,10 @@ $error = "";
           
              <div class="jumbotron font">
                 <br><br><br><br>
-                <h1 class="display-3">Kode &#38 design</h1>
+                <div class="atitle" style="width:280px;">
+                            <h1 class="display-3">Kode &#38 design</h1>
+                          </div>
+                
                 <br>
                 <p >Goodies er et digitalt byrå som leverer et bredt spekter av tjenester. 
                  Tjenestekatalogen vår er plukket ut basert på lang erfaring innen design- og merkevarebygging , samt netthandel. Vi tilby et tjenestespekter som komplementeres på med en logisk tilnærming. Vi har flest kunder på webdesign og app utvikling, men vi har også en økende kundemasse når det kommer til våre webhotell, SEO og markedsføringstjenester. <p>Slike tjenester baker vi nå inn fra starten av på et prosjekt, så lenge det er avklart på forhånd - naturligvis :), men nettopp dette har mye å si på hvor stor retur du får på investeringen du gjør innen digital markedsføring og SEO. Det lønner seg alltid å fokusere på SEO investeringer og markedsføringsbudsjetter fra første dag.</p>
