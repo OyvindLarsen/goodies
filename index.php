@@ -347,7 +347,7 @@ $error = "";
                   <div class="">
                     <div class="col-md-12 hidden right image no-padding" id="nettAni2">
                     <img  src="img/grafikk/iMac.svg" alt="Webdesign" title="Webdesign">
-                    <div class="carouselle">
+                    <div class="carouselle font">
                       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                           <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -355,12 +355,20 @@ $error = "";
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                           </ol>
                           <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                              <iframe src="http://www.autofixmoss.no"></iframe>
-                            </div>
-                            <div class="carousel-item">
+                               <div class="carousel-item active">
+                            <div class="holder">
                               <iframe src="http://www.michelberg.dk"></iframe>
+                              <h2>Nettpakke</h2>
+                              </div>
                             </div>
+
+                            <div class="carousel-item">
+                            <div class="holder">
+                              <iframe src="http://www.autofixmoss.no"></iframe>
+                              <h2>Utvidet nettpakke</h2>
+                              </div>
+                            </div>
+                         
                             <div class="carousel-item">
                               <img src="img/grafikk/webshop.svg" alt="Webdesign Nettbutikk">
                             </div>

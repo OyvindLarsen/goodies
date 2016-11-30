@@ -320,6 +320,15 @@ font-weight: 100;
   width: 100%;
   height: 100%;
 }
+
+.holder h2 {
+  position: absolute;
+  top: 0;
+  left:10px;
+
+}
+
+
 /*############### App ###############*/
 
 .appimg img {
