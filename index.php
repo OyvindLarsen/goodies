@@ -336,7 +336,7 @@ $error = "";
                       </div>
                       <h2>Pakkeløsninger tilpasset ethvert behov</h2>
                       <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
-                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  <a href="/webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a> </p>
+                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  </p>
                     </div>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ $error = "";
                       </div>
                     </div>
                     <h2>Applikasjoner og prototyper utviklet med de nyeste metodene.</h2>
-                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p><p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. </a></p>
+                    <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
@@ -438,7 +438,7 @@ $error = "";
                 <div class="row">
                   <div class="col-lg-7 vcenter hidden leftAni z-index" id="markedAni2">
                     <h2>Ta din merkevare til nye høyder.</h2>
-                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p><p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a></p>
+                    <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
                 </div>
@@ -473,7 +473,7 @@ $error = "";
                      <h2>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h2>
                     <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. <a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
+                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. </p>
                   </div>
                 </div>
                 <div class="col-lg-6 vcenter col-lg-pull-5 hidden top" id="driftAni2">
