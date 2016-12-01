@@ -345,7 +345,8 @@ display:none;
 /*############### App ###############*/
 
 .appimg img {
-width:300px;
+  padding-top: 250px;
+width:700px;
 }
 
 
