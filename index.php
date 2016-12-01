@@ -355,7 +355,7 @@ $error = "";
                                <div class="carousel-item active">
                             <div class="holder">
                               <div id="web">
-                              <iframe src="http://www.michelberg.dk"></iframe>
+                              <iframe src="https://www.google.com/search?q=%http://www.michelberg.dk&btnI=Im+Feeling+Lucky"></iframe>
                               <h2>Nettpakke</h2>
                               </div>
                               <img id="mobil" src="img/produkter/websider/Webdesignbasic.jpg" alt="Webdesign Nettbutikk">
@@ -366,7 +366,7 @@ $error = "";
                             <div class="carousel-item">
                             <div class="holder">
                               <div id="web2">
-                              <iframe src="http://www.autofixmoss.no"></iframe>
+                              <iframe src="https://www.google.com/search?q=%http://www.autofixmoss.no&btnI=Im+Feeling+Lucky"></iframe>
                               <h2>Utvidet nettpakke</h2>
                               </div>
 
