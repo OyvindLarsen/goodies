@@ -152,9 +152,7 @@ background-size:100% auto;
 }
 
 
-.hidden{
-  opacity:0;
-}
+
 .rightAni {
   left:50px;
 }
@@ -610,7 +608,9 @@ a {
       
       
     }
-
+    .hidden{
+  opacity:0;
+}
     .tre img {
     width: 800px;
     display:block;
@@ -831,7 +831,9 @@ margin-right:10rem;
      padding-top: 1200px;
       padding-bottom: 50px;
   }
-
+    .hidden{
+  opacity:0;
+}
 
     .para p {
       width:100%!important;
@@ -1001,6 +1003,14 @@ margin-right:10rem;
 
 
 }
+@media only screen and (max-width: 700px) {
+.hidden {
+  opacity: 1;
+}
+.rightAni {
+    left:0;
+  }
+}
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
 
@@ -1030,9 +1040,7 @@ margin-right:10rem;
   display: none;
 }
 
-  .hidden {
-    opacity: 1;
-  }
+ 
 
   .leftAni {
     left:0;
