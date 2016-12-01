@@ -272,6 +272,9 @@ font-weight: 100;
 .jumbotron {
   background-color: #3D4C42;
 }
+.jumbotron .atitle {
+      width:280px;
+    }
 
  /*############### kode & design ###############*/
 #kodedesign {
@@ -1017,7 +1020,10 @@ margin-right:10rem;
 }
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
-
+    .jumbotron .atitle {
+      width:250px;
+      margin-bottom: 0px;
+    }
 
    .tre {
       position: relative;
@@ -1038,7 +1044,7 @@ margin-right:10rem;
  
   #kodedesign {
       padding-top: 1400px;
-      padding-bottom: 50px;
+      padding-bottom: 450px;
     }
 
   .display2 {

@@ -242,8 +242,8 @@ $error = "";
             <div class="container">
           
              <div class="jumbotron font">
-                <br><br><br><br>
-                <div class="atitle" style="width:280px;">
+                <br><br>
+                <div class="atitle" >
                             <h1 class="display-3">Kode &#38 design</h1>
                           </div>
                 
