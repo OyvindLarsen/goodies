@@ -295,7 +295,7 @@ WidthChange(mq);
 // media query change
 function WidthChange(mq) {
   height();
-  if (mq2.matches) {
+  if (mq.matches) {
         //KUN FULLBREDDE ANIMASJONER OVER 770px. Alle andre enheter enn telefoner.
           $('#mobil').hide();
            $('#mobil2').hide();
