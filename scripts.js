@@ -297,7 +297,10 @@ function WidthChange(mq) {
   height();
   if (mq2.matches) {
         //KUN FULLBREDDE ANIMASJONER OVER 770px. Alle andre enheter enn telefoner.
-
+          $('#mobil').hide();
+           $('#mobil2').hide();
+          $('#web').show();
+          $('#web2').show();
 
           //SKREDDERSØM
           var waypoint = new Waypoint({
@@ -397,7 +400,10 @@ function WidthChange(mq) {
          
   } else {
     //Animasjonerkun til telefon
-
+     $('#mobil').show();
+      $('#mobil2').show();
+      $('#web').hide();
+      $('#web2').hide();
     //menyanimasjon
       $(document).ready(function(){
         // hide .navbar first

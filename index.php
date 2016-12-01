@@ -354,15 +354,24 @@ $error = "";
                           <div class="carousel-inner" role="listbox">
                                <div class="carousel-item active">
                             <div class="holder">
-                              <iframe src="http://www.michelberg.dk"></iframe>
+                              <div id="web">
+                              <iframe id="web" src="http://www.michelberg.dk"></iframe>
                               <h2>Nettpakke</h2>
+                              </div>
+                              <img id="mobil" src="img/produkter/websider/Webdesignbasic.jpg" alt="Webdesign Nettbutikk">
+                              
                               </div>
                             </div>
 
                             <div class="carousel-item">
                             <div class="holder">
+                              <div id="web2">
                               <iframe src="http://www.autofixmoss.no"></iframe>
                               <h2>Utvidet nettpakke</h2>
+                              </div>
+
+                              <img id="mobil2" src="img/produkter/websider/Webdesignplus.jpg" alt="Webdesign Nettbutikk">
+                              
                               </div>
                             </div>
                          

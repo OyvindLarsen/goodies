@@ -289,6 +289,21 @@ font-weight: 100;
 
 /*############### Nettside ###############*/
 
+#web {
+display:none;
+}
+
+#web2 {
+  display:none;
+}
+
+#mobil {
+  display:none;
+}
+
+#mobil2 {
+  display:none;
+}
 
 .image {
   position:relative;
@@ -591,30 +606,31 @@ a {
 @media (min-width: 770px) {
       .tre {
       position: relative;
-      top:75%;
-      left:50%;
+      top:45%;
+      
       
     }
 
     .tre img {
     width: 800px;
-     -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+    display:block;
+    margin:0 auto;
     }
   .logo1 {
 
-      position:absolute;
+   position:relative;
   width:100%;
-  left:50%;
-  top:15%;
+   top:15%;
   
 }
   .logo1 img {
 
     width:25%;
     min-width: 280px;
+    margin-left:37.5%;
+    margin-right:37.5%;
     
-    transform: translate(-50%, 0);
+    
   }
 
  #speiletsirkel {
@@ -968,14 +984,16 @@ margin-right:10rem;
 }
    .tre {
       position: relative;
-      top:65%;
-      left:50%;
+      top:40%;
+      
      }
      
      .tre img {
       width: 80%;
-       -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+      display:block;
+    margin-left:10%;
+    margin-right: 10%;
+     
      }
        #home {
     height:75%;
@@ -989,14 +1007,15 @@ margin-right:10rem;
 
    .tre {
       position: relative;
-      top:75%;
-      left:50%;
+      top:50%;
+      
      }
 
      .tre img {
       width: 80%;
-       -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+          display:block;
+    margin-left:10%;
+    margin-right: 10%;
      }
 
      #home{
