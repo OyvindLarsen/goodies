@@ -1004,14 +1004,6 @@ margin-right:10rem;
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
 
-    .image {
-      position: relative;
-    }
-
-    .image img {
-     margin:0 auto;
-     display:block;
-    }
 
    .tre {
       position: relative;
@@ -1046,7 +1038,7 @@ margin-right:10rem;
     left:0;
   }
 
-  .rightAni {
+  .right {
     left:0;
   }
 
