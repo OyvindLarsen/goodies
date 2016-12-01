@@ -375,10 +375,9 @@ $error = "";
                             </div>
                           </div>
                          
-                            <div class="carousel-item">
-                              <img src="img/grafikk/webshop.svg" alt="Webdesign Nettbutikk">
-                            </div>
-                          </div>
+                    
+
+
                           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                             <span class="icon-prev" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
