@@ -80,7 +80,7 @@ $error = "";
 <meta name="keywords" content="webdesign, design av nettsider, app utvikling, app programmering, iphone app utvikling, android utvikling, markedsføring, seo, søkemotoroptimalisering, webhotell, hosting, SSL sertifikater, VPS servere, rimelig utvikling, rimelig web design, vektor grafikk">
 <meta name="robots" content="index, follow">
 <meta name="web_author" content="Goodies AS, Goodies Kode og Design">
-<meta name="language" content="Norwegian">
+<meta name="language" content="nb-no">
 
 
 
