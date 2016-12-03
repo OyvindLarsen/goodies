@@ -41,10 +41,11 @@ $error = "";
       if(mail($to,$subject,$txt,$headers)) {
       
         $outputMessage ='<div class="alert alert-success alert-dismissible fade in" id="success" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="successMessage"><strong>Sent!</strong> We\'ll get back to you ASAP!<p></div>';
+        header('location: success.php');
       } else {
         
         $outputMessage = '<div class="alert alert-danger alert-dismissible fade in" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="errorMessage"><strong>There was an error.</strong> Please try again<p></div>';
-        
+        header('location: fail.php');
         
         
       }
