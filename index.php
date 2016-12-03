@@ -356,23 +356,25 @@ $error = "";
                                
                             <div class="carousel-item active">
                             <div class="holder">
-                          
-                              <img class="ing2" src="img/produkter/websider/Webdesignbasic.jpg" alt="Webdesign Nettbutikk">
-                              
+                              <a href="http://www.michelberg.dk">
+                              <img class="ing2" src="img/produkter/websider/Webdesignbasic.jpg" alt="Webdesign nettside">
+                              </a>
                               </div>
                             </div>
 
                             <div class="carousel-item">
                             <div class="holder">
                              
-
+                            <a href="http://www.autofixmoss.no">
                               <img class="ing2" src="img/produkter/websider/Webdesignplus.jpg" alt="Webdesign Nettbutikk">
-                              
+                            </a>  
                               </div>
                             </div>
                          
                             <div class="carousel-item">
-                              <img src="img/grafikk/webshop.svg" alt="Webdesign Nettbutikk">
+                            <a href="http://www.vistadent.no">
+                              <img class="ing2" src="img/produkter/websider/landingside.jpg" alt="Webdesign Nettbutikk">
+                            </a>
                             </div>
                           </div>
                          
@@ -402,7 +404,7 @@ $error = "";
                 <div class="row">
                   <div class="col-lg-7 vcenter col-lg-push-4 hidden bottom" id="appAni">
                      <div class="row">
-                      <div class="col-md-7">
+                      <div class="col-md-7 z-index">
                         <div class="atitle">
                           <h2>App utvikling og app prototyper</h2>
                         </div>
