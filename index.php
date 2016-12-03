@@ -402,9 +402,9 @@ $error = "";
             <div class="container">
               <div class="font">
                 <div class="row">
-                  <div class="col-lg-7 vcenter col-lg-push-4 hidden bottom" id="appAni">
+                  <div class="col-lg-7 vcenter col-lg-push-4 hidden bottom z-index" id="appAni">
                      <div class="row">
-                      <div class="col-md-7 z-index">
+                      <div class="col-md-7">
                         <div class="atitle">
                           <h2>App utvikling og app prototyper</h2>
                         </div>
