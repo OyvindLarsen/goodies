@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
 $output="";
 $error = "";
@@ -77,11 +79,14 @@ $error = "";
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <meta property="og:title" content="Goodies   &middot;  Norsk webdesign og app design">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="www.goodies.no">
   <meta name="description" content="Goodies leverer webdesign og app utvikling for store og små prosjekter. Vi har base i Oslo men dekker hele Norge. Spør oss også om SEO og Markedsføring">
-<meta name="keywords" content="webdesign, design av nettsider, app utvikling, app programmering, iphone app utvikling, android utvikling, markedsføring, seo, søkemotoroptimalisering, webhotell, hosting, SSL sertifikater, VPS servere, rimelig utvikling, rimelig web design, vektor grafikk">
-<meta name="robots" content="index, follow">
-<meta name="web_author" content="Goodies AS, Goodies Kode og Design">
-<meta name="language" content="nb-no">
+  <meta name="keywords" content="webdesign, design av nettsider, app utvikling, app programmering, iphone app utvikling, android utvikling, markedsføring, seo, søkemotoroptimalisering, webhotell, hosting, SSL sertifikater, VPS servere, rimelig utvikling, rimelig web design, vektor grafikk, bygge nettside, seo priser, nettbutikk pris, pris på nettbutikk, hvordan lage nettbutikk, ios applikasjon utvikling,">
+  <meta name="robots" content="index, follow">
+  <meta name="web_author" content="Goodies AS, Goodies Kode og Design">
+  <meta name="language" content="nb-no">
 
 
 
