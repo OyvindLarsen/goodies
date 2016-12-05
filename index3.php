@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
 $output="";
 $error = "";
@@ -43,11 +41,10 @@ $error = "";
       if(mail($to,$subject,$txt,$headers)) {
       
         $outputMessage ='<div class="alert alert-success alert-dismissible fade in" id="success" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="successMessage"><strong>Sent!</strong> We\'ll get back to you ASAP!<p></div>';
-        header('location: success.php');
       } else {
         
         $outputMessage = '<div class="alert alert-danger alert-dismissible fade in" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p id="errorMessage"><strong>There was an error.</strong> Please try again<p></div>';
-        header('location: fail.php');
+        
         
         
       }
@@ -79,14 +76,11 @@ $error = "";
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <meta property="og:title" content="Goodies   &middot;  Norsk webdesign og app design">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="www.goodies.no">
   <meta name="description" content="Goodies leverer webdesign og app utvikling for store og små prosjekter. Vi har base i Oslo men dekker hele Norge. Spør oss også om SEO og Markedsføring">
-  <meta name="keywords" content="webdesign, design av nettsider, app utvikling, app programmering, iphone app utvikling, android utvikling, markedsføring, seo, søkemotoroptimalisering, webhotell, hosting, SSL sertifikater, VPS servere, rimelig utvikling, rimelig web design, vektor grafikk, bygge nettside, seo priser, nettbutikk pris, pris på nettbutikk, hvordan lage nettbutikk, ios applikasjon utvikling,">
-  <meta name="robots" content="index, follow">
-  <meta name="web_author" content="Goodies AS, Goodies Kode og Design">
-  <meta name="language" content="nb-no">
+<meta name="keywords" content="webdesign, design av nettsider, app utvikling, app programmering, iphone app utvikling, android utvikling, markedsføring, seo, søkemotoroptimalisering, webhotell, hosting, SSL sertifikater, VPS servere, rimelig utvikling, rimelig web design, vektor grafikk">
+<meta name="robots" content="index, follow">
+<meta name="web_author" content="Goodies AS, Goodies Kode og Design">
+<meta name="language" content="Norwegian">
 
 
 
@@ -248,8 +242,8 @@ $error = "";
             <div class="container">
           
              <div class="jumbotron font">
-                <br><br>
-                <div class="atitle" >
+                <br><br><br><br>
+                <div class="atitle" style="width:280px;">
                             <h1 class="display-3">Kode &#38 design</h1>
                           </div>
                 
@@ -342,7 +336,7 @@ $error = "";
                       </div>
                       <h2>Pakkeløsninger tilpasset ethvert behov</h2>
                       <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
-                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov. <a href="webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a> </p>
+                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov.  <a href="webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a></p>
                     </div>
                   </div>
                 </div>
@@ -358,34 +352,27 @@ $error = "";
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                           </ol>
                           <div class="carousel-inner" role="listbox">
-                               
-                            <div class="carousel-item active">
+                               <div class="carousel-item active">
                             <div class="holder">
-                              <a href="http://www.michelberg.dk">
-                              <img class="ing2" src="img/produkter/websider/Webdesignbasic.jpg" alt="Webdesign nettside">
-                              </a>
+                          
+                              <img class="ing2" src="img/produkter/websider/Webdesignbasic.jpg" alt="Webdesign Nettbutikk">
+                              
                               </div>
                             </div>
 
                             <div class="carousel-item">
                             <div class="holder">
                              
-                            <a href="http://www.autofixmoss.no">
+
                               <img class="ing2" src="img/produkter/websider/Webdesignplus.jpg" alt="Webdesign Nettbutikk">
-                            </a>  
+                              
                               </div>
                             </div>
                          
                             <div class="carousel-item">
-                            <a href="http://www.vistadent.no">
-                              <img class="ing2" src="img/produkter/websider/landingside.jpg" alt="Webdesign Nettbutikk">
-                            </a>
+                              <img src="img/grafikk/webshop.svg" alt="Webdesign Nettbutikk">
                             </div>
                           </div>
-                         
-                    
-
-
                           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                             <span class="icon-prev" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
@@ -407,7 +394,7 @@ $error = "";
             <div class="container">
               <div class="font">
                 <div class="row">
-                  <div class="col-lg-7 vcenter col-lg-push-4 hidden bottom z-index" id="appAni">
+                  <div class="col-lg-7 vcenter col-lg-push-4 hidden bottom" id="appAni">
                      <div class="row">
                       <div class="col-md-7">
                         <div class="atitle">
@@ -417,7 +404,6 @@ $error = "";
                     </div>
                     <h2>Applikasjoner og prototyper utviklet med de nyeste metodene.</h2>
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p>
-                    <p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. </a></p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
@@ -447,7 +433,6 @@ $error = "";
                   <div class="col-lg-7 vcenter hidden leftAni z-index" id="markedAni2">
                     <h2>Ta din merkevare til nye høyder.</h2>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p>
-                    <p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a></p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
                 </div>
@@ -482,7 +467,7 @@ $error = "";
                      <h2>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h2>
                     <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.<a href="webhotell_og_drift/webhotell_og_drift.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
+                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer. </p>
                   </div>
                 </div>
                 <div class="col-lg-6 vcenter col-lg-pull-5 hidden top" id="driftAni2">

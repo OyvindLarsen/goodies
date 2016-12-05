@@ -1010,6 +1010,8 @@ margin-right:10rem;
 
 
 }
+
+/*Media iphone*/
 @media only screen and (max-width: 700px) {
 .hidden {
   opacity: 1;
@@ -1017,6 +1019,14 @@ margin-right:10rem;
 .rightAni {
     left:0;
   }
+
+ .leftAni {
+    left:0;
+  }
+
+
+
+
 }
 /*############### Media/responsivitet mobil ###############*/
 @media only screen and (max-width: 544px) {
