@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <?php
 $output="";
@@ -59,6 +58,7 @@ $error = "";
 
 
 
+<!DOCTYPE html>
 
 <html lang="en">
 
