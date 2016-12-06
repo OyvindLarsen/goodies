@@ -90,11 +90,6 @@ font-family: "MyCustomFont";
 
 
 
-
-
-
-
-
 .layer {
   position: absolute;
   height:100%;
@@ -116,7 +111,7 @@ font-family: "MyCustomFont";
   top:0%;
   width: 100%;
   display:block;
-  
+  height:100vh;
   z-index: 20;
   
 }
@@ -150,7 +145,6 @@ background-size:100% auto;
  
  
 }
-
 
 
 .rightAni {
@@ -385,8 +379,6 @@ width:700px;
 
 
 /*############### Webhotell ###############*/
-
-
 
 
 
@@ -1004,8 +996,8 @@ margin-right:10rem;
     margin-right: 10%;
      
      }
-       #home {
-    height:75%;
+       #logo1 {
+    height:75vh;
    }
 
 
@@ -1048,8 +1040,8 @@ margin-right:10rem;
     margin-right: 10%;
      }
 
-     #home{
-      height:70%;
+     #logo1{
+      height:70vh;
      }
  
   #kodedesign {
