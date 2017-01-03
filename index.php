@@ -292,11 +292,12 @@ $error = "";
                           </div>
             
                 <br>
-                <p >Goodies er et digitalt byrå som leverer et bredt spekter av tjenester. 
-                 Tjenestekatalogen vår er plukket ut basert på lang erfaring innen design- og merkevarebygging , samt netthandel. Vi tilby et tjenestespekter som komplementeres på med en logisk tilnærming. Vi har flest kunder på webdesign og app utvikling, men vi har også en økende kundemasse når det kommer til våre webhotell, SEO og markedsføringstjenester. <p>Slike tjenester baker vi nå inn fra starten av på et prosjekt, så lenge det er avklart på forhånd - naturligvis :), men nettopp dette har mye å si på hvor stor retur du får på investeringen du gjør innen digital markedsføring og SEO. Det lønner seg alltid å fokusere på SEO investeringer og markedsføringsbudsjetter fra første dag.</p>
+                <p>Goodies er et digitalt byrå som leverer et bredt spekter av tjenester. 
+                 Tjenestekatalogen vår er plukket ut basert på lang erfaring innen webdesign, apputvikling og markedsføring.<br>
+                 I tillegg til rene utviklere som skaper flotte og funksjonelle apper og websider så har vi også profesjonelle tekstforfattere og fotografer med på laget noe som gjør Goodies til et svært allsidig kreativt byrå.<p>
                 <hr class="my-2">
-                <p>Under finner du mer informasjon om våre arbeidsverktøy og lenger ned på siden vil du få all info du måtte trenge om hvordan vi utvikler våre websider og apper, samt kostnadene knyttet til våre SEO og Markedsføringstjenester.<br></p>
-                <p class="small">Vi  håper at du får svar på alt du lurer på når du leser deg igjennom våre sider, men dersom du skulle lure på noe så må du for all del ikke nøle med å ta kontakt med oss enten via post@goodies.no eller via vårt kontaktskjema som du alltid finner tilgjengelig som en knapp helt til venstre på vår nettside.</p>
+                
+                <p class="small">Ettersom denne nettsiden fortsatt er under utvikling så kan det hende at du ikke får svar på alt du lurer på, i det tilfellet så kan du enten ta kontakt med oss via kontaktskjemaet som du finner som en knapp på venstre del av nettsiden, eller sende oss en e-post på post@goodies.no.</p>
                 
              </div>
              </div>
@@ -369,7 +370,10 @@ $error = "";
                       </div>
                       <h2>Pakkeløsninger tilpasset ethvert behov</h2>
                       <p>Vi tilbyr en hel rekke webdesign løsninger. <br>Er du på jakt etter en rask og rimelig måte å fronte din nye virksomhet eller produktkonsept? Har du et ønske om å lansere en nettbutikk eller blogg?</p>
-                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov. <a href="webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a> </p>
+                      <p>Vi tilbyr løsninger som dekker de fleste behov, men vi tar også gjerne i mot spesialbestillinger for å tilpasse våre webdesign tjenester nøyaktig til dine behov. 
+                      <!-- <a href="webdesign/webdesign.html"> Les mer om våre tjenester for webdesign ved å klikke på denne lenken. </a>
+                      -->
+                       </p>
                     </div>
                   </div>
                 </div>
@@ -444,7 +448,10 @@ $error = "";
                     </div>
                     <h2>Applikasjoner og prototyper utviklet med de nyeste metodene.</h2>
                     <p>Å utvikle mobilapplikasjoner betyr at man må holde seg oppdatert på alle endringer og nye trender innen fagfeltet. Heldigvis er det noe vi er svært glade i å gjøre.</p><p>Vi er lidenskapelig opptatt av å kunne utnytte de nyeste funksjoner som iOS og Android tilbyr, men på en fornuftig måte. Er du ikke helt klar for å få en idé produsert men trenger en god prototype du kan sende ut til mulige investorer vil vi kunne bistå med profesjonelt utformede prototyper som garantert vil vekke oppsikt.</p>
-                    <p> <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. </a></p>
+                    <p> <!-- <a href="app_utvikling/minimal/app_utvikling.html"> Les mer om våre tjenester for utvikling av Android og iOS applikasjoner ved å klikke på denne lenken. </a>
+                    -->
+                      
+                    </p>
                   </div>
                    <div class="col-lg-4 vcenter col-lg-pull-7 hidden top" id="appAni2">
                    <div class="appimg">
@@ -474,7 +481,11 @@ $error = "";
                   <div class="col-lg-7 vcenter hidden leftAni z-index" id="markedAni2">
                     <h2>Ta din merkevare til nye høyder.</h2>
                     <p>Digital markedsføring er i dag et omfattende fag, å vite hvilke kanaler som er best og mest lønnsomt å markedsføre dine nettsider via er avgjørende for å nå et bredest mulig publikum.</p><p>Søkemotor optimalisering (SEO) er et like viktig verktøy for å sikre at dine nettsider er synliggjort på best mulig måte. </p>
-                    <p><a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a></p>
+                    <p>
+                    <!--<a href="markedsforing_og_seo/markedsforing_og_seo.html"> Les mer om våre markedsføring- og søkemotoroptimaliseringstjenester ved å klikke på denne lenken. </a>
+                    -->
+                      
+                    </p>
                   </div>
                   <div class="col-lg-4 vcenter"></div>
                 </div>
@@ -509,7 +520,10 @@ $error = "";
                      <h2>Markedsledende priser, et stabilt hostingmiljø og karbonnøytral serverdrift.</h2>
                     <p>IT bransjen har i dag et karbonavtrykk som tilsvarer utslippene for hele flybransjen, og måten bedrifter utnytter IT systemer har stor betydning for hvor mye energi de konsumerer.</p>
                     <p>Goodies, og våre samarbeidspartnere og underleverandører, har som mål å minimere vårt karbonavtrykk ved å bruke energibesparende tiltak for våre servere og datahaller.</p>
-                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.<a href="webhotell_og_drift/webhotell_og_drift.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a></p>
+                    <p>Dette, i kombinasjon med å bidra til planting av trær som absorberer karbon, betyr at vår virksomhet bidrar til å redusere mer enn tre ganger så mye karbon som energiproduksjonen for å drive vår virksomhet genererer.
+                    <!--<a href="webhotell_og_drift/webhotell_og_drift.html"> Les mer om webhotellet vårt og driftstjenestene vår ved å klikke på denne lenken. </a>
+                    -->
+                    </p>
                   </div>
                 </div>
                 <div class="col-lg-6 vcenter col-lg-pull-5 hidden top" id="driftAni2">
@@ -553,7 +567,7 @@ $error = "";
 
                   <p>I tillegg til app utvikling og webdesign så leverer vi alle typer tjenester og rådgivning i forbindelse med digital markedsføring og SEO (søkemotor optimalisering) så om du trenger bistand til å øke antall besøkende til nettsiden din eller omsetning for bedriften din så har vi mange gode tips å bistå deg med.</p>
 
-                  <p>Vi tilbyr også rimelige og stabile webhotell løsninger for alle som måtte ønske det, så enten du trenger å drifte en liten wordpress nettside eller trenger å leie dedikerte servere til tyngre applikasjoner så vil vi kunne tilby svært gunstige priser i et datasenter som drives av 100% «grønn» energi.</p>
+                  <p>Vi tilbyr også rimelige og stabile webhotell løsninger for alle som måtte ønske det, så enten du trenger å drifte en liten wordpress nettside eller trenger å leie dedikerte servere til tyngre applikasjoner så vil vi kunne tilby svært gunstige priser i et datasenter som drives av 100% «grønn» energi. For de som er interessert i å få satt opp et driftsmiljø hos Amazon AWS så vil våre dyktige konsulenter også være  stand til å bistå med dette.</p>
                 </div>
               </div>
             </div>
